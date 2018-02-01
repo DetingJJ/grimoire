@@ -69,6 +69,7 @@
   * [造轮子](gong-ju-xiang/zao-lun-zi.md)
   * [PHP常用表单验证类](gong-ju-xiang/phpchang-yong-biao-dan-yan-zheng-lei.md)
   * [PHP类库PHPqrCode生成二维码](gong-ju-xiang/shi-yong-php-lei-ku-phpqrcode-sheng-cheng-er-wei-ma.md)
+  * [php练习笔试题（系列）](phplian-xi-bi-shi-ti/phplian-xi-bi-shi-ti-ff08-yi-ff09.md)
 
 ## HTTP
 
@@ -130,10 +131,6 @@
   * [vim](vim.md)
     * [将VIM打造成强大的IDE](jiang-vim-da-zao-cheng-qiang-da-de-ide.md)
     * [VIM编译器搭建](vimbian-yi-qi-da-jian.md)
-
-## php练习笔试题
-
-* [php练习笔试题（系列）](phplian-xi-bi-shi-ti/phplian-xi-bi-shi-ti-ff08-yi-ff09.md)
 
 ## C++程序设计
 
