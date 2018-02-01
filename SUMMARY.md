@@ -131,6 +131,8 @@
   * [vim](vim.md)
     * [将VIM打造成强大的IDE](jiang-vim-da-zao-cheng-qiang-da-de-ide.md)
     * [VIM编译器搭建](vimbian-yi-qi-da-jian.md)
+* [系统架构](xi-tong-jia-gou.md)
+  * [承受每天百万级访问量的网站需要多少台服务器？](xi-tong-jia-gou/cheng-shou-mei-tian-bai-wan-ji-fang-wen-liang-de-wang-zhan-xu-yao-duo-shao-tai-fu-wu-qi-ff1f.md)
 
 ## C++程序设计
 
@@ -147,4 +149,6 @@
 * [前言](qian-yan.md)
 * [文件系统](wen-jian-xi-tong.md)
   * [Python读写Excel文件的实例](wen-jian-xi-tong/pythondu-xieexcel-wen-jian-de-shi-li.md)
+
+## 娱乐时空
 
