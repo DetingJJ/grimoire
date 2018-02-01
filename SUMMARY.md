@@ -1,3 +1,153 @@
 # Summary
 
-* [First Chapter](chapter1.md)
+## 简介
+
+* [Introduction](README.md)
+
+## PHP
+
+* [常用网络资源](chang-yong-wang-luo-zi-yuan.md)
+* [PHP环境搭建和开发工具](phphuan-jing-da-jian-he-kai-fa-gong-ju.md)
+  * [Mac下搭建开发环境](da-jian-kai-fa-huan-jing/ji-chu-huan-jing.md)
+    * [Mac搭建nginx+mysql+php-fpm环境](da-jian-kai-fa-huan-jing/da-jian-kai-fa-huan-jing.md)
+    * [Mac下安装LNMP\(Nginx+PHP5.6\)环境](da-jian-kai-fa-huan-jing/macxia-an-zhuang-lnmp-nginx-+-php5-6-huan-jing.md)
+  * [Ubuntu下搭建lnmp](da-jian-kai-fa-huan-jing/ubuntuxia-da-jian-lnmp.md)
+    * [1.安装Nginx](da-jian-kai-fa-huan-jing/ubuntuxia-da-jian-lnmp/1an-zhuang-nginx.md)
+    * [2.安装PHP](da-jian-kai-fa-huan-jing/ubuntuxia-da-jian-lnmp/3an-zhuang-php.md)
+    * [3.安装MySQL](da-jian-kai-fa-huan-jing/ubuntuxia-da-jian-lnmp/2an-zhuang-mysql.md)
+    * [4.主要配置和常用命令](da-jian-kai-fa-huan-jing/ubuntuxia-da-jian-lnmp/4zhu-yao-pei-zhi-he-chang-yong-ming-ling.md)
+  * [PHPstorm](da-jian-kai-fa-huan-jing/phpstorm.md)
+    * [安装PHPstorm](da-jian-kai-fa-huan-jing/phpstorm/an-zhuang-phpstorm.md)
+    * [配置PHPstorm开发环境](da-jian-kai-fa-huan-jing/phpstorm/pei-zhi-phpstorm-kai-fa-huan-jing.md)
+* [PHP基础](phpji-chu.md)
+  * [PHP基础知识](phpji-chu/phpji-chu-zhi-shi.md)
+  * [基本数据类型](phpji-chu/ji-ben-shu-ju-lei-xing.md)
+    * [Boolean布尔类型](phpji-chu/ji-ben-shu-ju-lei-xing/booleanbu-er-lei-xing.md)
+    * [Integer 整型](phpji-chu/ji-ben-shu-ju-lei-xing/integer-zheng-xing.md)
+    * [Float 浮点型](phpji-chu/ji-ben-shu-ju-lei-xing/float-fu-dian-xing.md)
+    * [String 字符串](phpji-chu/ji-ben-shu-ju-lei-xing/string-zi-fu-chuan.md)
+    * [Array 数组](phpji-chu/ji-ben-shu-ju-lei-xing/array-shu-zu.md)
+  * [数组](phpji-chu/shu-zu.md)
+    * [合并数组](phpji-chu/shu-zu/he-bing-shu-zu.md)
+    * [连接数组](phpji-chu/shu-zu/lian-jie-shu-zu.md)
+    * [拆分数组](phpji-chu/shu-zu/chai-fen-shu-zu.md)
+  * [字符串操作](phpji-chu/zi-fu-chuan-cao-zuo.md)
+    * [url处理函数，得到URL各部分](phpji-chu/urlchu-li-han-shu-ff0c-de-dao-url-ge-bu-fen.md)
+  * [流程控制语句](phpji-chu/liu-cheng-kong-zhi-yu-ju.md)
+  * [日期和时间](phpji-chu/ri-qi-he-shi-jian.md)
+  * [php中echo,print,print\_r,var\_export,var\_dump 的用法与区别](phpji-chu/phpzhong-echo-print-print-r-var-export-var-dump-de-yong-fa-yu-qu-bie.md)
+  * [常量](phpji-chu/chang-liang.md)
+    * [语法](phpji-chu/chang-liang/yu-fa.md)
+    * [魔术常量](phpji-chu/chang-liang/mo-zhu-chang-liang.md)
+* 文件系统
+  * [文件处理](wen-jian-xi-tong/wen-jian-chu-li.md)
+    * [打开关闭文件](wen-jian-xi-tong/wen-jian-chu-li/da-kai-guan-bi-wen-jian.md)
+    * [读写文件](wen-jian-xi-tong/wen-jian-chu-li/du-xie-wen-jian.md)
+    * [获取目录下文件列表](wen-jian-xi-tong/huo-qu-mu-lu-xia-suo-you-wen-jian.md)
+  * [文件上传](wen-jian-xi-tong/wen-jian-shang-chuan.md)
+* [PHP框架](phpkuang-jia.md)
+  * [Laravel](php-kuang-jia/laravel.md)
+  * [ThinkPHP](php-kuang-jia/thinkphp.md)
+  * [BetePHP](php-kuang-jia/betephp.md)
+    * [BetePHP](php-kuang-jia/betephp/betephp.md)
+* phpMyAdmin图形化管理工具
+  * phpMyAdmin介绍
+* 工具箱
+  * [PHPExcel](gong-ju-xiang/phpexcel.md)
+    * [PHP操作Excel](gong-ju-xiang/phpexcel/phpcao-zuo-excel.md)
+  * [XML操作](gong-ju-xiang/xmlcao-zuo.md)
+    * [什么是 XML](gong-ju-xiang/xmlcao-zuo/shi-yao-shi-xml.md)
+    * [使用 DOM 库读取 XML](gong-ju-xiang/xmlcao-zuo/du-qu-xml-wen-jian.md)
+    * [用 SAX 解析器读取 XML](gong-ju-xiang/xmlcao-zuo/yong-sax-jie-xi-qi-du-qu-xml.md)
+    * [simplexml处理xml数据](gong-ju-xiang/xmlcao-zuo/simplexmlchu-li-xml-shu-ju.md)
+  * [正则表达式](gong-ju-xiang/zheng-ze-biao-da-shi.md)
+    * [正则表达式语法](gong-ju-xiang/zheng-ze-biao-da-shi/zheng-ze-biao-da-shi-yu-fa.md)
+    * [常用正则表达式（造轮子走起）](gong-ju-xiang/zheng-ze-biao-da-shi/chang-yong-zheng-ze-biao-da-shi-ff08-zao-lun-zi-zou-qi-ff09.md)
+  * [页面抓取](gong-ju-xiang/ye-mian-zhua-qu.md)
+  * [邮件服务](gong-ju-xiang/you-jian-fu-wu.md)
+  * [php在线运行测试平台](phpzai-xian-yun-xing-ce-shi-ping-tai.md)
+  * [造轮子](gong-ju-xiang/zao-lun-zi.md)
+  * [PHP常用表单验证类](gong-ju-xiang/phpchang-yong-biao-dan-yan-zheng-lei.md)
+  * [PHP类库PHPqrCode生成二维码](gong-ju-xiang/shi-yong-php-lei-ku-phpqrcode-sheng-cheng-er-wei-ma.md)
+
+## HTTP
+
+* [HTTP状态码](httpji-chu/httpzhuang-tai-ma.md)
+
+## Vue
+
+* [Vue介绍](vueji-chu/vuejie-shao.md)
+* [基础](vueji-chu/ji-chu.md)
+  * [Vue.js——60分钟快速入门](vueji-chu/ji-chu/vuejs60fen-zhong-kuai-su-ru-men.md)
+  * [Vue资源](vueji-chu/ji-chu/vuezi-yuan.md)
+  * [Vue学习demo](vueji-chu/ji-chu/vuexue-xi-demo.md)
+
+## Nginx
+
+* [Nginx简介](nginxji-chu/nginxjian-jie.md)
+* [Nginx基本功能](nginxji-chu/nginx-ji-ben-gong-neng.md)
+* [Nginx扩展功能](nginxji-chu/nginxkuo-zhan-gong-neng.md)
+* [Nginx实践机制和实践](nginxji-chu/nginxshi-jian-ji-zhi-he-shi-jian.md)
+* [Nginx基本架构](nginxji-chu/nginx-ji-ben-jia-gou.md)
+* [Nginx模块类型](nginxji-chu/nginxmo-kuai-lei-xing.md)
+* [Nginx源码安装](nginxji-chu/yuan-ma-an-zhuang.md)
+* [Nginx配置文件](nginxji-chu/pei-zhi-wen-jian-jie-shao.md)
+* [Nginx作为 web 服务器时使用的配置](nginxji-chu/nginxzuo-wei-web-fu-wu-qi-shi-shi-yong-de-pei-zhi.md)
+
+## MySQL
+
+* [MySQL数据库基础](mysql/mysqlshu-ju-ku-ji-chu.md)
+  * [MySQL概述](mysqlshu-ju-ku-ji-chu/mysqlgai-shu.md)
+  * [MySQL索引的创建、删除和查看](mysqlshu-ju-ku-ji-chu/mysqlsuo-yin-de-chuang-jian-3001-shan-chu-he-cha-kan.md)
+  * [MySQL格式化时间戳](mysqlshu-ju-ku-ji-chu/mysqlge-shi-hua-shi-jian-chuo.md)
+  * [常用语句](mysqlshu-ju-ku-ji-chu/chang-yong-yu-ju.md)
+    * [查询数据库表规模](mysqlshu-ju-ku-ji-chu/chang-yong-yu-ju/cha-xun-shu-ju-ku-biao-gui-mo.md)
+    * [导出数据库结构](mysqlshu-ju-ku-ji-chu/chang-yong-yu-ju/dao-chu-shu-ju-ku-jie-gou.md)
+
+## Linux
+
+* [安装linux](di-yi-bu-fen-an-zhuang-linux.md)
+  * [安装ubuntu](an-zhuang-linux.md)
+* [linux基础](linuxji-chu.md)
+  * [cat](cat.md)
+  * [shell](shell.md)
+  * [find](find.md)
+  * [文件压缩](wen-jian-ya-suo.md)
+    * [浅谈Linux下各种压缩 解压命令和压缩比率对比](wen-jian-ya-suo/qian-tan-linux-xia-ge-zhong-ya-suo-jie-ya-ming-ling-he-ya-suo-bi-lv-dui-bi.md)
+  * [scp用法（不需要输入密码）](scpyong-fa.md)
+  * [Ubuntu修改主机名](ubuntuxiu-gai-zhu-ji-ming.md)
+  * [Ubuntu 重启后亮度变成最大，亮瞎眼？](ubuntu-zhong-qi-hou-liang-du-bian-cheng-zui-da-ff0c-liang-xia-yan-ff1f.md)
+  * [crontab](crontab.md)
+* [Shell 与 Shell scripts](shell-yu-shell-scripts.md)
+  * [gdb环境搭建](di-san-zhang-shell-yu-shell-scripts/gdbhuan-jing-da-jian.md)
+  * [gcc/g++](di-san-zhang-shell-yu-shell-scripts/gccg++.md)
+  * [常用命令](di-san-zhang-shell-yu-shell-scripts/chang-yong-ming-ling.md)
+  * [shell中''、""和\`\`的区别](di-san-zhang-shell-yu-shell-scripts/shell4e2d2727-30012222-548c6060-de-qu-bie.md)
+  * [IFS用法](di-san-zhang-shell-yu-shell-scripts/ifsyong-fa.md)
+* [常用工具](chang-yong-gong-ju.md)
+  * [git](di-si-zhang-chang-yong-gong-ju.md)
+    * [创建git分支](di-si-zhang-chang-yong-gong-ju/chuang-jian-git-fen-zhi.md)
+  * [vim](vim.md)
+    * [将VIM打造成强大的IDE](jiang-vim-da-zao-cheng-qiang-da-de-ide.md)
+    * [VIM编译器搭建](vimbian-yi-qi-da-jian.md)
+
+## php练习笔试题
+
+* [php练习笔试题（系列）](phplian-xi-bi-shi-ti/phplian-xi-bi-shi-ti-ff08-yi-ff09.md)
+
+## C++程序设计
+
+* [C++基础](cji-chu.md)
+  * [指针执行delete分析](cji-chu/zhi-zhen-zhi-xing-delete-fen-xi.md)
+
+## 算法设计与分析
+
+* [海量数据处理](suan-fa-she-ji-yu-fen-xi/hai-liang-shu-ju-chu-li.md)
+  * [迅速秒杀99%的海量数据处理面试题](suan-fa-she-ji-yu-fen-xi/hai-liang-shu-ju-chu-li/xun-su-miao-sha-99-de-hai-liang-shu-ju-chu-li-mian-shi-ti.md)
+
+## 面试宝典
+
+## Python
+
+* [前言](qian-yan.md)
+
