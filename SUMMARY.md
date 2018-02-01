@@ -94,6 +94,7 @@
 * [Nginx源码安装](nginxji-chu/yuan-ma-an-zhuang.md)
 * [Nginx配置文件](nginxji-chu/pei-zhi-wen-jian-jie-shao.md)
 * [Nginx作为 web 服务器时使用的配置](nginxji-chu/nginxzuo-wei-web-fu-wu-qi-shi-shi-yong-de-pei-zhi.md)
+* [防盗链](nginxji-chu/fang-dao-lian.md)
 
 ## MySQL
 
