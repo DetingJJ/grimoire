@@ -2,7 +2,7 @@
 
 Host is blocked because of many connection errors; unblock with 'mysqladmin flush-hosts'
 
-解决方案：
+**解决方案：**
 
 Host is blocked because of many connection errors; unblock with 'mysqladmin flush-hosts'
 
