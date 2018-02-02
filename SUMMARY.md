@@ -157,5 +157,3 @@
 
 * [收藏](shou-cang.md)
 
-* [段子手](duan-zi-shou.md)
-
