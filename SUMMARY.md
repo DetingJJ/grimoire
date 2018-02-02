@@ -45,6 +45,8 @@
     * [读写文件](wen-jian-xi-tong/wen-jian-chu-li/du-xie-wen-jian.md)
     * [获取目录下文件列表](wen-jian-xi-tong/huo-qu-mu-lu-xia-suo-you-wen-jian.md)
   * [文件上传](wen-jian-xi-tong/wen-jian-shang-chuan.md)
+* HTTP基础
+  * [HTTP状态码](httpji-chu/httpzhuang-tai-ma.md)
 * [PHP框架](phpkuang-jia.md)
   * [Laravel](php-kuang-jia/laravel.md)
   * [ThinkPHP](php-kuang-jia/thinkphp.md)
@@ -71,10 +73,6 @@
   * [PHP类库PHPqrCode生成二维码](gong-ju-xiang/shi-yong-php-lei-ku-phpqrcode-sheng-cheng-er-wei-ma.md)
   * [php练习笔试题（系列）](phplian-xi-bi-shi-ti/phplian-xi-bi-shi-ti-ff08-yi-ff09.md)
 
-## HTTP
-
-* [HTTP状态码](httpji-chu/httpzhuang-tai-ma.md)
-
 ## Vue
 
 * [Vue介绍](vueji-chu/vuejie-shao.md)
@@ -84,7 +82,7 @@
   * [Vue学习demo](vueji-chu/ji-chu/vuexue-xi-demo.md)
 
 ## Nginx
-
+* Nginx基础
 * [Nginx简介](nginxji-chu/nginxjian-jie.md)
 * [Nginx基本功能](nginxji-chu/nginx-ji-ben-gong-neng.md)
 * [Nginx扩展功能](nginxji-chu/nginxkuo-zhan-gong-neng.md)
