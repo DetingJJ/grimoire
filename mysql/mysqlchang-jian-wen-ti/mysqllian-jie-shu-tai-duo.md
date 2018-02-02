@@ -18,10 +18,6 @@ root帐号登录数据库（navicat），执行语句\[**flush hosts**\]即可�
 
 > 备注：其中端口号，用户名，密码都可以根据需要来添加和修改；
 
-
-
-> 引用
->
 > [http://blog.csdn.net/wangjunjun2008/article/details/50698262](http://blog.csdn.net/wangjunjun2008/article/details/50698262)
 
 
