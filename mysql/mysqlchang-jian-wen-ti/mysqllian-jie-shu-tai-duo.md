@@ -6,11 +6,7 @@ Host is blocked because of many connection errors; unblock with 'mysqladmin flus
 
 方法一：
 
-使用命令\`**mysqladmin flush-hosts**\`
-
-
-
-
+使用命令\`mysqladmin flush-hosts\`
 
 > [http://blog.csdn.net/wangjunjun2008/article/details/50698262](http://blog.csdn.net/wangjunjun2008/article/details/50698262)
 
