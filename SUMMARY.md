@@ -131,8 +131,6 @@
   * [vim](vim.md)
     * [将VIM打造成强大的IDE](jiang-vim-da-zao-cheng-qiang-da-de-ide.md)
     * [VIM编译器搭建](vimbian-yi-qi-da-jian.md)
-* [系统架构](xi-tong-jia-gou.md)
-  * [承受每天百万级访问量的网站需要多少台服务器？](xi-tong-jia-gou/cheng-shou-mei-tian-bai-wan-ji-fang-wen-liang-de-wang-zhan-xu-yao-duo-shao-tai-fu-wu-qi-ff1f.md)
 
 ## 算法设计与分析
 
@@ -155,6 +153,8 @@
       * [Vue.js——60分钟快速入门](vueji-chu/ji-chu/vuejs60fen-zhong-kuai-su-ru-men.md)
       * [Vue资源](vueji-chu/ji-chu/vuezi-yuan.md)
       * [Vue学习demo](vueji-chu/ji-chu/vuexue-xi-demo.md)
-
+      
+  * [系统架构](xi-tong-jia-gou.md)
+  * [承受每天百万级访问量的网站需要多少台服务器？](xi-tong-jia-gou/cheng-shou-mei-tian-bai-wan-ji-fang-wen-liang-de-wang-zhan-xu-yao-duo-shao-tai-fu-wu-qi-ff1f.md)
 
 
