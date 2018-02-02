@@ -16,3 +16,5 @@ JSON API免费接口:[http://www.bejson.com/knownjson/webInterface/](http://www.
 
 
 
+[PHP程序员技术精粹](https://www.kancloud.cn/digest/phpjingcui)：https://www.kancloud.cn/digest/phpjingcui/137559
+
