@@ -18,3 +18,7 @@
 
 [http://itindex.net/detail/54493-完美-nginx-图片](http://itindex.net/detail/54493-完美-nginx-图片)
 
+> https://baike.baidu.com/item/%E7%9B%97%E9%93%BE
+
+
+
