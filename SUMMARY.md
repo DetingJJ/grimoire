@@ -73,25 +73,24 @@
   * [PHP类库PHPqrCode生成二维码](gong-ju-xiang/shi-yong-php-lei-ku-phpqrcode-sheng-cheng-er-wei-ma.md)
   * [php练习笔试题（系列）](phplian-xi-bi-shi-ti/phplian-xi-bi-shi-ti-ff08-yi-ff09.md)
 
-## Vue
+## Python
 
-* [Vue介绍](vueji-chu/vuejie-shao.md)
-* [基础](vueji-chu/ji-chu.md)
-  * [Vue.js——60分钟快速入门](vueji-chu/ji-chu/vuejs60fen-zhong-kuai-su-ru-men.md)
-  * [Vue资源](vueji-chu/ji-chu/vuezi-yuan.md)
-  * [Vue学习demo](vueji-chu/ji-chu/vuexue-xi-demo.md)
+* [前言](qian-yan.md)
+* [文件系统](wen-jian-xi-tong.md)
+  * [Python读写Excel文件的实例](wen-jian-xi-tong/pythondu-xieexcel-wen-jian-de-shi-li.md)
+
 
 ## Nginx
 * Nginx基础
-* [Nginx简介](nginxji-chu/nginxjian-jie.md)
-* [Nginx基本功能](nginxji-chu/nginx-ji-ben-gong-neng.md)
-* [Nginx扩展功能](nginxji-chu/nginxkuo-zhan-gong-neng.md)
-* [Nginx实践机制和实践](nginxji-chu/nginxshi-jian-ji-zhi-he-shi-jian.md)
-* [Nginx基本架构](nginxji-chu/nginx-ji-ben-jia-gou.md)
-* [Nginx模块类型](nginxji-chu/nginxmo-kuai-lei-xing.md)
-* [Nginx源码安装](nginxji-chu/yuan-ma-an-zhuang.md)
-* [Nginx配置文件](nginxji-chu/pei-zhi-wen-jian-jie-shao.md)
-* [Nginx作为 web 服务器时使用的配置](nginxji-chu/nginxzuo-wei-web-fu-wu-qi-shi-shi-yong-de-pei-zhi.md)
+  * [Nginx简介](nginxji-chu/nginxjian-jie.md)
+  * [Nginx基本功能](nginxji-chu/nginx-ji-ben-gong-neng.md)
+  * [Nginx扩展功能](nginxji-chu/nginxkuo-zhan-gong-neng.md)
+  * [Nginx实践机制和实践](nginxji-chu/nginxshi-jian-ji-zhi-he-shi-jian.md)
+  * [Nginx基本架构](nginxji-chu/nginx-ji-ben-jia-gou.md)
+  * [Nginx模块类型](nginxji-chu/nginxmo-kuai-lei-xing.md)
+  * [Nginx源码安装](nginxji-chu/yuan-ma-an-zhuang.md)
+  * [Nginx配置文件](nginxji-chu/pei-zhi-wen-jian-jie-shao.md)
+  * [Nginx作为 web 服务器时使用的配置](nginxji-chu/nginxzuo-wei-web-fu-wu-qi-shi-shi-yong-de-pei-zhi.md)
 * [防盗链](nginxji-chu/fang-dao-lian.md)
   * [盗链](nginxji-chu/fang-dao-lian/dao-lian.md)
 
@@ -137,27 +136,25 @@
 * [系统架构](xi-tong-jia-gou.md)
   * [承受每天百万级访问量的网站需要多少台服务器？](xi-tong-jia-gou/cheng-shou-mei-tian-bai-wan-ji-fang-wen-liang-de-wang-zhan-xu-yao-duo-shao-tai-fu-wu-qi-ff1f.md)
 
-## C++程序设计
-
-* [C++基础](cji-chu.md)
-  * [指针执行delete分析](cji-chu/zhi-zhen-zhi-xing-delete-fen-xi.md)
-
 ## 算法设计与分析
 
 * [海量数据处理](suan-fa-she-ji-yu-fen-xi/hai-liang-shu-ju-chu-li.md)
   * [迅速秒杀99%的海量数据处理面试题](suan-fa-she-ji-yu-fen-xi/hai-liang-shu-ju-chu-li/xun-su-miao-sha-99-de-hai-liang-shu-ju-chu-li-mian-shi-ti.md)
 
-## Python
+## 其他
+  * [收藏](shou-cang.md)
+  * C++程序设计
+    * [C++基础](cji-chu.md)
+      * [指针执行delete分析](cji-chu/zhi-zhen-zhi-xing-delete-fen-xi.md)
 
-* [前言](qian-yan.md)
-* [文件系统](wen-jian-xi-tong.md)
-  * [Python读写Excel文件的实例](wen-jian-xi-tong/pythondu-xieexcel-wen-jian-de-shi-li.md)
+  * [微服务Microservice文摘](wei-fu-wu-microservice-wen-zhai.md)
+  ## Vue
 
-## 娱乐时空
+  * [Vue介绍](vueji-chu/vuejie-shao.md)
+  * [基础](vueji-chu/ji-chu.md)
+    * [Vue.js——60分钟快速入门](vueji-chu/ji-chu/vuejs60fen-zhong-kuai-su-ru-men.md)
+    * [Vue资源](vueji-chu/ji-chu/vuezi-yuan.md)
+    * [Vue学习demo](vueji-chu/ji-chu/vuexue-xi-demo.md)
 
-* [收藏](shou-cang.md)
 
-## 微服务
-
-* [微服务Microservice文摘](wei-fu-wu-microservice-wen-zhai.md)
 
