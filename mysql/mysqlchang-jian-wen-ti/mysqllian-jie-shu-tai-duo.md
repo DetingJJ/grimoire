@@ -1,8 +1,8 @@
-# **错误描述（MySQL无法连接\[MySql Host is blocked because of many connection errors\]）**
+**错误描述（MySQL无法连接\[MySql Host is blocked because of many connection errors\]）**
 
 Host is blocked because of many connection errors; unblock with 'mysqladmin flush-hosts'
 
-# **解决方案：**
+**解决方案：**
 
 1、提高允许的max\_connection\_errors数量（治标不治本）：  
  ① 进入Mysql数据库查看max\_connection\_errors： show variables like '%max\_connection\_errors%';  
@@ -17,8 +17,6 @@ Host is blocked because of many connection errors; unblock with 'mysqladmin flus
 root帐号登录数据库（navicat），执行语句\[**flush hosts**\]即可。
 
 备注：其中端口号，用户名，密码都可以根据需要来添加和修改；
-
-
 
 > 原为摘自：[http://blog.csdn.net/wangjunjun2008/article/details/50698262](http://blog.csdn.net/wangjunjun2008/article/details/50698262)
 
