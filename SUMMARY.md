@@ -130,6 +130,7 @@
 * [常用工具](chang-yong-gong-ju.md)
   * [git](di-si-zhang-chang-yong-gong-ju.md)
     * [创建git分支](di-si-zhang-chang-yong-gong-ju/chuang-jian-git-fen-zhi.md)
+    * [撤销修改](di-si-zhang-chang-yong-gong-ju/che-xiao-xiu-gai.md)
   * [vim](vim.md)
     * [将VIM打造成强大的IDE](jiang-vim-da-zao-cheng-qiang-da-de-ide.md)
     * [VIM编译器搭建](vimbian-yi-qi-da-jian.md)
