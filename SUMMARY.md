@@ -91,8 +91,6 @@
   * [Nginx源码安装](nginxji-chu/yuan-ma-an-zhuang.md)
   * [Nginx配置文件](nginxji-chu/pei-zhi-wen-jian-jie-shao.md)
   * [Nginx作为 web 服务器时使用的配置](nginxji-chu/nginxzuo-wei-web-fu-wu-qi-shi-shi-yong-de-pei-zhi.md)
-* [防盗链](nginxji-chu/fang-dao-lian.md)
-  * [盗链](nginxji-chu/fang-dao-lian/dao-lian.md)
 
 ## MySQL
 
@@ -143,18 +141,20 @@
 
 ## 其他
   * [收藏](shou-cang.md)
+  * [防盗链](nginxji-chu/fang-dao-lian.md)
+    * [盗链](nginxji-chu/fang-dao-lian/dao-lian.md)
+
+  * [微服务Microservice文摘](wei-fu-wu-microservice-wen-zhai.md)
+
   * C++程序设计
     * [C++基础](cji-chu.md)
       * [指针执行delete分析](cji-chu/zhi-zhen-zhi-xing-delete-fen-xi.md)
 
-  * [微服务Microservice文摘](wei-fu-wu-microservice-wen-zhai.md)
-  ## Vue
-
   * [Vue介绍](vueji-chu/vuejie-shao.md)
-  * [基础](vueji-chu/ji-chu.md)
-    * [Vue.js——60分钟快速入门](vueji-chu/ji-chu/vuejs60fen-zhong-kuai-su-ru-men.md)
-    * [Vue资源](vueji-chu/ji-chu/vuezi-yuan.md)
-    * [Vue学习demo](vueji-chu/ji-chu/vuexue-xi-demo.md)
+    * [基础](vueji-chu/ji-chu.md)
+      * [Vue.js——60分钟快速入门](vueji-chu/ji-chu/vuejs60fen-zhong-kuai-su-ru-men.md)
+      * [Vue资源](vueji-chu/ji-chu/vuezi-yuan.md)
+      * [Vue学习demo](vueji-chu/ji-chu/vuexue-xi-demo.md)
 
 
 
