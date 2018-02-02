@@ -2,7 +2,7 @@
 
 ## 简介
 
-* [写在前面](README.md)
+* [魔法书](README.md)
 
 ## PHP
 
