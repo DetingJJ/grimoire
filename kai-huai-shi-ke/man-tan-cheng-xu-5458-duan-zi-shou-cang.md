@@ -4,5 +4,22 @@
 
 这个笑话告诉我们，程序员呆萌的外表下隐藏着一颗敏感的心，对技术有一种近乎偏执的敝帚自珍，技术是他的立身之本，是其栓尊严的马桩，不容别人践踏。
 
+其实说实话，我和媳妇没生娃之前生气的过程，基本上可以用下面这段代码表述：
+
+```cpp
+do 
+{
+    if(girl.accept(boy.guess()))
+    {
+        boy.saySomeHoneyedWords();
+        if(girl.smileThroughTears())
+        {
+            break;
+        }
+    }
+    
+}while(girl.eye.hasTears() && !girl.heart.isTired())
+```
+
 
 
