@@ -6,7 +6,7 @@ Docker使用的是 C-S架构。Docker的客户端同Docker Daemon进行交互，
 
 ![](/assets/import-Docker Client-Daemon.png)
 
-> [https://yq.aliyun.com/articles/130?spm=a2c4e.11153940.blogcont131.9.134df62fyGh45e](https://yq.aliyun.com/articles/130?spm=a2c4e.11153940.blogcont131.9.134df62fyGh45e)
+> 原文：[https://yq.aliyun.com/articles/130?spm=a2c4e.11153940.blogcont131.9.134df62fyGh45e](https://yq.aliyun.com/articles/130?spm=a2c4e.11153940.blogcont131.9.134df62fyGh45e)
 
 
 
