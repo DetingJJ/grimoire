@@ -163,4 +163,6 @@
   * [想加薪的时候……](kai-huai-shi-ke/xiang-jia-xin-de-shi-hou-2026-2026.md)
   * [爆笑程序员的微段子](kai-huai-shi-ke/bao-xiao-cheng-xu-yuan-de-wei-duan-zi.md)
   * [程序员笑话：只有程序猿才看得懂](kai-huai-shi-ke/cheng-xu-yuan-xiao-hua-ff1a-zhi-you-cheng-xu-yuan-cai-kan-de-dong.md)
+  * [程序员专用经典语录—看完笑一阵可以，千万不要死循环哦！](kai-huai-shi-ke/cheng-xu-yuan-zhuan-yong-jing-dian-yu-lu-2014-kan-wan-xiao-yi-zhen-ke-yi-ff0c-qian-wan-bu-yao-si-xun-huan-e-ff01.md)
+  * [程序员的是个层次](kai-huai-shi-ke/cheng-xu-yuan-de-shi-ge-ceng-ci.md)
 
