@@ -142,9 +142,8 @@
 * [收藏](shou-cang.md)
 * [防盗链](nginxji-chu/fang-dao-lian.md)
   * [盗链](nginxji-chu/fang-dao-lian/dao-lian.md)
-* [微服务](wei-fu-wu.md)
-  * [微服务Microservice文摘](wei-fu-wu/wei-fu-wu-microservice-wen-zhai.md)
-* [C++程序设计](ccheng-xu-she-ji.md)
+* [微服务Microservice文摘](wei-fu-wu-microservice-wen-zhai.md)
+* C++程序设计
   * [C++基础](cji-chu.md)
     * [指针执行delete分析](cji-chu/zhi-zhen-zhi-xing-delete-fen-xi.md)
 * [Vue介绍](vueji-chu/vuejie-shao.md)
@@ -154,4 +153,9 @@
     * [Vue学习demo](vueji-chu/ji-chu/vuexue-xi-demo.md)
 * [系统架构](xi-tong-jia-gou.md)
   * [承受每天百万级访问量的网站需要多少台服务器？](xi-tong-jia-gou/cheng-shou-mei-tian-bai-wan-ji-fang-wen-liang-de-wang-zhan-xu-yao-duo-shao-tai-fu-wu-qi-ff1f.md)
+* [开怀时刻](kai-huai-shi-ke.md)
+  * [程序员某方面很迟钝](kai-huai-shi-ke/man-tan-cheng-xu-5458-duan-zi-shou-cang.md)
+  * [读书历程折射出来的生活状态](kai-huai-shi-ke/du-shu-li-cheng-zhe-she-chu-lai-de-sheng-huo-zhuang-tai.md)
+  * [别人对软件开发从业人员的印象](kai-huai-shi-ke/bie-ren-dui-ruan-jian-kai-fa-cong-ye-ren-yuan-de-yin-xiang.md)
+  * [加班生涯不是梦……](kai-huai-shi-ke/jia-ban-sheng-ya-bu-shi-meng-2026-2026.md)
 
