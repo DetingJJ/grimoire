@@ -157,4 +157,5 @@
   * [程序员某方面很迟钝](kai-huai-shi-ke/man-tan-cheng-xu-5458-duan-zi-shou-cang.md)
   * [读书历程折射出来的生活状态](kai-huai-shi-ke/du-shu-li-cheng-zhe-she-chu-lai-de-sheng-huo-zhuang-tai.md)
   * [别人对软件开发从业人员的印象](kai-huai-shi-ke/bie-ren-dui-ruan-jian-kai-fa-cong-ye-ren-yuan-de-yin-xiang.md)
+  * [加班生涯不是梦……](kai-huai-shi-ke/jia-ban-sheng-ya-bu-shi-meng-2026-2026.md)
 
