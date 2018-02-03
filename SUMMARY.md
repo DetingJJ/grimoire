@@ -162,4 +162,5 @@
   * [明天新版本上线](kai-huai-shi-ke/ming-tian-xin-ban-ben-shang-xian.md)
   * [想加薪的时候……](kai-huai-shi-ke/xiang-jia-xin-de-shi-hou-2026-2026.md)
   * [爆笑程序员的微段子](kai-huai-shi-ke/bao-xiao-cheng-xu-yuan-de-wei-duan-zi.md)
+  * [程序员笑话：只有程序猿才看得懂](kai-huai-shi-ke/cheng-xu-yuan-xiao-hua-ff1a-zhi-you-cheng-xu-yuan-cai-kan-de-dong.md)
 
