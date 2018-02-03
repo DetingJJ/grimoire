@@ -159,4 +159,5 @@
   * [别人对软件开发从业人员的印象](kai-huai-shi-ke/bie-ren-dui-ruan-jian-kai-fa-cong-ye-ren-yuan-de-yin-xiang.md)
   * [加班生涯不是梦……](kai-huai-shi-ke/jia-ban-sheng-ya-bu-shi-meng-2026-2026.md)
   * [领导说没看见你干啥](kai-huai-shi-ke/ling-dao-shuo-mei-kan-jian-ni-gan-sha.md)
+  * [明天新版本上线](kai-huai-shi-ke/ming-tian-xin-ban-ben-shang-xian.md)
 
