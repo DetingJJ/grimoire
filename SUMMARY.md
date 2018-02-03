@@ -154,5 +154,6 @@
 * [系统架构](xi-tong-jia-gou.md)
   * [承受每天百万级访问量的网站需要多少台服务器？](xi-tong-jia-gou/cheng-shou-mei-tian-bai-wan-ji-fang-wen-liang-de-wang-zhan-xu-yao-duo-shao-tai-fu-wu-qi-ff1f.md)
 * [开怀时刻](kai-huai-shi-ke.md)
-  * [漫谈程序员-段子收藏](kai-huai-shi-ke/man-tan-cheng-xu-5458-duan-zi-shou-cang.md)
+  * [程序员某方面很迟钝](kai-huai-shi-ke/man-tan-cheng-xu-5458-duan-zi-shou-cang.md)
+  * [读书历程折射出来的生活状态](kai-huai-shi-ke/du-shu-li-cheng-zhe-she-chu-lai-de-sheng-huo-zhuang-tai.md)
 
