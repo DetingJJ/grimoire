@@ -166,5 +166,4 @@
   * [程序员专用经典语录—看完笑一阵可以，千万不要死循环哦！](kai-huai-shi-ke/cheng-xu-yuan-zhuan-yong-jing-dian-yu-lu-2014-kan-wan-xiao-yi-zhen-ke-yi-ff0c-qian-wan-bu-yao-si-xun-huan-e-ff01.md)
 * [经典文摘](jing-dian-wen-zhai.md)
   * [程序员的十个层次](jing-dian-wen-zhai/cheng-xu-yuan-de-shi-ge-ceng-ci.md)
-* [程序员的十个层次](kai-huai-shi-ke/cheng-xu-yuan-de-shi-ge-ceng-ci.md)
 
