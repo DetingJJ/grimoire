@@ -17,9 +17,13 @@ do
             break;
         }
     }
-    
+
 }while(girl.eye.hasTears() && !girl.heart.isTired())
 ```
 
+硬币有两面，程序员其实也有两极，可能在某些方面迟钝，但在工作中可能瞬间化身犀利哥哦。看图：
 
+![](/assets/import-2018年02月03日10:37:39-程序员修复bug.png)
+
+原图：http://img.blog.csdn.net/20141018231744171?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvZm9ydW9r/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast
 
