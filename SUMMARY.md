@@ -6,6 +6,7 @@
 * [PHP](php.md)
 * [Python](python.md)
 * [Nginx](nginx.md)
+* [Linux](linux.md)
 
 ## PHP
 
