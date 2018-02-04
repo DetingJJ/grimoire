@@ -5,6 +5,7 @@
 * [魔法书](README.md)
 * [PHP](php.md)
 * [Python](python.md)
+* [Nginx](nginx.md)
 
 ## PHP
 
