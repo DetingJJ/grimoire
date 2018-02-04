@@ -5,6 +5,7 @@
 * [魔法书](README.md)
 * [PHP](php.md)
   * [前言](php/qian-yan.md)
+  * [常用网络资源](php/chang-yong-wang-luo-zi-yuan.md)
 * [Python](python.md)
 * [Nginx](nginx.md)
 * [Linux](linux.md)
@@ -12,7 +13,6 @@
 
 ## PHP
 
-* [常用网络资源](chang-yong-wang-luo-zi-yuan.md)
 * [PHP环境搭建和开发工具](phphuan-jing-da-jian-he-kai-fa-gong-ju.md)
   * [Mac下搭建开发环境](da-jian-kai-fa-huan-jing/ji-chu-huan-jing.md)
     * [Mac搭建nginx+mysql+php-fpm环境](da-jian-kai-fa-huan-jing/da-jian-kai-fa-huan-jing.md)
