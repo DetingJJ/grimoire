@@ -3,6 +3,7 @@
 ## 简介
 
 * [魔法书](README.md)
+* [PHP](php.md)
 
 ## PHP
 
@@ -39,13 +40,13 @@
   * [常量](phpji-chu/chang-liang.md)
     * [语法](phpji-chu/chang-liang/yu-fa.md)
     * [魔术常量](phpji-chu/chang-liang/mo-zhu-chang-liang.md)
-* 文件系统
+* [文件系统](wen-jian-xi-tong.md)
   * [文件处理](wen-jian-xi-tong/wen-jian-chu-li.md)
     * [打开关闭文件](wen-jian-xi-tong/wen-jian-chu-li/da-kai-guan-bi-wen-jian.md)
     * [读写文件](wen-jian-xi-tong/wen-jian-chu-li/du-xie-wen-jian.md)
     * [获取目录下文件列表](wen-jian-xi-tong/huo-qu-mu-lu-xia-suo-you-wen-jian.md)
   * [文件上传](wen-jian-xi-tong/wen-jian-shang-chuan.md)
-* HTTP基础
+* [HTTP基础](httpji-chu.md)
   * [HTTP状态码](httpji-chu/httpzhuang-tai-ma.md)
 * [PHP框架](phpkuang-jia.md)
   * [Laravel](php-kuang-jia/laravel.md)
