@@ -50,8 +50,6 @@
     * [ThinkPHP](php/php-kuang-jia/thinkphp.md)
     * [BetePHP](php/php-kuang-jia/betephp.md)
       * [BetePHP](php/php-kuang-jia/betephp/betephp.md)
-  * phpMyAdmin图形化管理工具
-    * phpMyAdmin介绍
   * [工具箱](php/gong-ju-xiang.md)
     * [PHPExcel](php/gong-ju-xiang/phpexcel.md)
       * [PHP操作Excel](php/gong-ju-xiang/phpexcel/phpcao-zuo-excel.md)
