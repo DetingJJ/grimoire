@@ -70,16 +70,14 @@
     * [PHP类库PHPqrCode生成二维码](php/gong-ju-xiang//shi-yong-php-lei-ku-phpqrcode-sheng-cheng-er-wei-ma.md)
     * [php练习笔试题（系列）](php/gong-ju-xiang/phplian-xi-bi-shi-ti/phplian-xi-bi-shi-ti-ff08-yi-ff09.md)
 * [Python](python.md)
+  * [前言](Python-qian-yan.md)
+  * [文件系统](wen-jian-xi-tong.md)
+    * [Python读写Excel文件的实例](wen-jian-xi-tong/pythondu-xieexcel-wen-jian-de-shi-li.md)
+
 * [Nginx](nginx.md)
 * [Linux](linux.md)
 * [算法设计与分析](suan-fa-she-ji-yu-fen-xi.md)
 
-
-## Python
-
-* [前言](Python-qian-yan.md)
-* [文件系统](wen-jian-xi-tong.md)
-  * [Python读写Excel文件的实例](wen-jian-xi-tong/pythondu-xieexcel-wen-jian-de-shi-li.md)
 
 ## Nginx
 
