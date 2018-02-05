@@ -73,7 +73,6 @@
   * [前言](Python-qian-yan.md)
   * [文件系统](wen-jian-xi-tong.md)
     * [Python读写Excel文件的实例](wen-jian-xi-tong/pythondu-xieexcel-wen-jian-de-shi-li.md)
-  * [sssssadfsadaweee](sssssadfsadaweee.md)
 * [Nginx](nginx.md)
   * Nginx基础
   * [Nginx简介](nginxji-chu/nginxjian-jie.md)
