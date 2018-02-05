@@ -127,9 +127,6 @@
 * [算法设计与分析](suan-fa-she-ji-yu-fen-xi.md)
   * [海量数据处理](suan-fa-she-ji-yu-fen-xi/hai-liang-shu-ju-chu-li.md)
     * [迅速秒杀99%的海量数据处理面试题](suan-fa-she-ji-yu-fen-xi/hai-liang-shu-ju-chu-li/xun-su-miao-sha-99-de-hai-liang-shu-ju-chu-li-mian-shi-ti.md)
-
-## 其他
-
 * [收藏](shou-cang.md)
 * [防盗链](nginxji-chu/fang-dao-lian.md)
   * [盗链](nginxji-chu/fang-dao-lian/dao-lian.md)
