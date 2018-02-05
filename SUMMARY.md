@@ -1,8 +1,7 @@
 # Summary
-
 ## 简介
-
 * [魔法书](README.md)
+* [收藏](shou-cang.md)
 * [PHP](php/php.md)
   * [前言](php/qian-yan.md)
   * [常用网络资源](php/chang-yong-wang-luo-zi-yuan.md)
@@ -87,7 +86,6 @@
   * [Nginx源码安装](nginxji-chu/yuan-ma-an-zhuang.md)
   * [Nginx配置文件](nginxji-chu/pei-zhi-wen-jian-jie-shao.md)
   * [Nginx作为 web 服务器时使用的配置](nginxji-chu/nginxzuo-wei-web-fu-wu-qi-shi-shi-yong-de-pei-zhi.md)
-
 * [Linux](linux.md)
   * [安装linux](di-yi-bu-fen-an-zhuang-linux.md)
     * [安装ubuntu](an-zhuang-linux.md)
@@ -127,7 +125,6 @@
 * [算法设计与分析](suan-fa-she-ji-yu-fen-xi.md)
   * [海量数据处理](suan-fa-she-ji-yu-fen-xi/hai-liang-shu-ju-chu-li.md)
     * [迅速秒杀99%的海量数据处理面试题](suan-fa-she-ji-yu-fen-xi/hai-liang-shu-ju-chu-li/xun-su-miao-sha-99-de-hai-liang-shu-ju-chu-li-mian-shi-ti.md)
-* [收藏](shou-cang.md)
 * [防盗链](nginxji-chu/fang-dao-lian.md)
   * [盗链](nginxji-chu/fang-dao-lian/dao-lian.md)
 * [微服务](wei-fu-wu.md)
@@ -158,4 +155,3 @@
   * [史上最伟大的20位程序员](jing-dian-wen-zhai/shi-shang-zui-wei-da-de-20-wei-cheng-xu-yuan.md)
 * [docker基础](dockerji-chu.md)
   * [docker架构](dockerji-chu/dockerjia-gou.md)
-
