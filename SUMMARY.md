@@ -114,8 +114,6 @@
     * [vim](vim.md)
       * [将VIM打造成强大的IDE](jiang-vim-da-zao-cheng-qiang-da-de-ide.md)
       * [VIM编译器搭建](vimbian-yi-qi-da-jian.md)
-
-
 * MySQL
   * [MySQL数据库基础](mysql/mysqlshu-ju-ku-ji-chu.md)
     * [MySQL概述](mysqlshu-ju-ku-ji-chu/mysqlgai-shu.md)
@@ -126,17 +124,9 @@
       * [导出数据库结构](mysqlshu-ju-ku-ji-chu/chang-yong-yu-ju/dao-chu-shu-ju-ku-jie-gou.md)
   * [MySQL常见问题](mysql/mysqlchang-jian-wen-ti.md)
     * [MySQL连接数太多](mysql/mysqlchang-jian-wen-ti/mysqllian-jie-shu-tai-duo.md)
-
 * [算法设计与分析](suan-fa-she-ji-yu-fen-xi.md)
-
-
-
-
-
-## 算法设计与分析
-
-* [海量数据处理](suan-fa-she-ji-yu-fen-xi/hai-liang-shu-ju-chu-li.md)
-  * [迅速秒杀99%的海量数据处理面试题](suan-fa-she-ji-yu-fen-xi/hai-liang-shu-ju-chu-li/xun-su-miao-sha-99-de-hai-liang-shu-ju-chu-li-mian-shi-ti.md)
+  * [海量数据处理](suan-fa-she-ji-yu-fen-xi/hai-liang-shu-ju-chu-li.md)
+    * [迅速秒杀99%的海量数据处理面试题](suan-fa-she-ji-yu-fen-xi/hai-liang-shu-ju-chu-li/xun-su-miao-sha-99-de-hai-liang-shu-ju-chu-li-mian-shi-ti.md)
 
 ## 其他
 
