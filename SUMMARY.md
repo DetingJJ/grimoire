@@ -89,50 +89,49 @@
   * [Nginx作为 web 服务器时使用的配置](nginxji-chu/nginxzuo-wei-web-fu-wu-qi-shi-shi-yong-de-pei-zhi.md)
 
 * [Linux](linux.md)
+  * [安装linux](di-yi-bu-fen-an-zhuang-linux.md)
+    * [安装ubuntu](an-zhuang-linux.md)
+  * [linux基础](linuxji-chu.md)
+    * [cat](cat.md)
+    * [shell](shell.md)
+    * [find](find.md)
+    * [文件压缩](wen-jian-ya-suo.md)
+      * [浅谈Linux下各种压缩 解压命令和压缩比率对比](wen-jian-ya-suo/qian-tan-linux-xia-ge-zhong-ya-suo-jie-ya-ming-ling-he-ya-suo-bi-lv-dui-bi.md)
+    * [scp用法（不需要输入密码）](scpyong-fa.md)
+    * [Ubuntu修改主机名](ubuntuxiu-gai-zhu-ji-ming.md)
+    * [Ubuntu 重启后亮度变成最大，亮瞎眼？](ubuntu-zhong-qi-hou-liang-du-bian-cheng-zui-da-ff0c-liang-xia-yan-ff1f.md)
+    * [crontab](crontab.md)
+  * [Shell 与 Shell scripts](shell-yu-shell-scripts.md)
+    * [gdb环境搭建](di-san-zhang-shell-yu-shell-scripts/gdbhuan-jing-da-jian.md)
+    * [gcc/g++](di-san-zhang-shell-yu-shell-scripts/gccg++.md)
+    * [常用命令](di-san-zhang-shell-yu-shell-scripts/chang-yong-ming-ling.md)
+    * [shell中''、""和\`\`的区别](di-san-zhang-shell-yu-shell-scripts/shell4e2d2727-30012222-548c6060-de-qu-bie.md)
+    * [IFS用法](di-san-zhang-shell-yu-shell-scripts/ifsyong-fa.md)
+  * [常用工具](chang-yong-gong-ju.md)
+    * [git](di-si-zhang-chang-yong-gong-ju.md)
+      * [创建git分支](di-si-zhang-chang-yong-gong-ju/chuang-jian-git-fen-zhi.md)
+      * [撤销修改](di-si-zhang-chang-yong-gong-ju/che-xiao-xiu-gai.md)
+    * [vim](vim.md)
+      * [将VIM打造成强大的IDE](jiang-vim-da-zao-cheng-qiang-da-de-ide.md)
+      * [VIM编译器搭建](vimbian-yi-qi-da-jian.md)
+
+
+* MySQL
+  * [MySQL数据库基础](mysql/mysqlshu-ju-ku-ji-chu.md)
+    * [MySQL概述](mysqlshu-ju-ku-ji-chu/mysqlgai-shu.md)
+    * [MySQL索引的创建、删除和查看](mysqlshu-ju-ku-ji-chu/mysqlsuo-yin-de-chuang-jian-3001-shan-chu-he-cha-kan.md)
+    * [MySQL格式化时间戳](mysqlshu-ju-ku-ji-chu/mysqlge-shi-hua-shi-jian-chuo.md)
+    * [常用语句](mysqlshu-ju-ku-ji-chu/chang-yong-yu-ju.md)
+      * [查询数据库表规模](mysqlshu-ju-ku-ji-chu/chang-yong-yu-ju/cha-xun-shu-ju-ku-biao-gui-mo.md)
+      * [导出数据库结构](mysqlshu-ju-ku-ji-chu/chang-yong-yu-ju/dao-chu-shu-ju-ku-jie-gou.md)
+  * [MySQL常见问题](mysql/mysqlchang-jian-wen-ti.md)
+    * [MySQL连接数太多](mysql/mysqlchang-jian-wen-ti/mysqllian-jie-shu-tai-duo.md)
+
 * [算法设计与分析](suan-fa-she-ji-yu-fen-xi.md)
 
-## Nginx
 
 
-## MySQL
 
-* [MySQL数据库基础](mysql/mysqlshu-ju-ku-ji-chu.md)
-  * [MySQL概述](mysqlshu-ju-ku-ji-chu/mysqlgai-shu.md)
-  * [MySQL索引的创建、删除和查看](mysqlshu-ju-ku-ji-chu/mysqlsuo-yin-de-chuang-jian-3001-shan-chu-he-cha-kan.md)
-  * [MySQL格式化时间戳](mysqlshu-ju-ku-ji-chu/mysqlge-shi-hua-shi-jian-chuo.md)
-  * [常用语句](mysqlshu-ju-ku-ji-chu/chang-yong-yu-ju.md)
-    * [查询数据库表规模](mysqlshu-ju-ku-ji-chu/chang-yong-yu-ju/cha-xun-shu-ju-ku-biao-gui-mo.md)
-    * [导出数据库结构](mysqlshu-ju-ku-ji-chu/chang-yong-yu-ju/dao-chu-shu-ju-ku-jie-gou.md)
-* [MySQL常见问题](mysql/mysqlchang-jian-wen-ti.md)
-  * [MySQL连接数太多](mysql/mysqlchang-jian-wen-ti/mysqllian-jie-shu-tai-duo.md)
-
-## Linux
-
-* [安装linux](di-yi-bu-fen-an-zhuang-linux.md)
-  * [安装ubuntu](an-zhuang-linux.md)
-* [linux基础](linuxji-chu.md)
-  * [cat](cat.md)
-  * [shell](shell.md)
-  * [find](find.md)
-  * [文件压缩](wen-jian-ya-suo.md)
-    * [浅谈Linux下各种压缩 解压命令和压缩比率对比](wen-jian-ya-suo/qian-tan-linux-xia-ge-zhong-ya-suo-jie-ya-ming-ling-he-ya-suo-bi-lv-dui-bi.md)
-  * [scp用法（不需要输入密码）](scpyong-fa.md)
-  * [Ubuntu修改主机名](ubuntuxiu-gai-zhu-ji-ming.md)
-  * [Ubuntu 重启后亮度变成最大，亮瞎眼？](ubuntu-zhong-qi-hou-liang-du-bian-cheng-zui-da-ff0c-liang-xia-yan-ff1f.md)
-  * [crontab](crontab.md)
-* [Shell 与 Shell scripts](shell-yu-shell-scripts.md)
-  * [gdb环境搭建](di-san-zhang-shell-yu-shell-scripts/gdbhuan-jing-da-jian.md)
-  * [gcc/g++](di-san-zhang-shell-yu-shell-scripts/gccg++.md)
-  * [常用命令](di-san-zhang-shell-yu-shell-scripts/chang-yong-ming-ling.md)
-  * [shell中''、""和\`\`的区别](di-san-zhang-shell-yu-shell-scripts/shell4e2d2727-30012222-548c6060-de-qu-bie.md)
-  * [IFS用法](di-san-zhang-shell-yu-shell-scripts/ifsyong-fa.md)
-* [常用工具](chang-yong-gong-ju.md)
-  * [git](di-si-zhang-chang-yong-gong-ju.md)
-    * [创建git分支](di-si-zhang-chang-yong-gong-ju/chuang-jian-git-fen-zhi.md)
-    * [撤销修改](di-si-zhang-chang-yong-gong-ju/che-xiao-xiu-gai.md)
-  * [vim](vim.md)
-    * [将VIM打造成强大的IDE](jiang-vim-da-zao-cheng-qiang-da-de-ide.md)
-    * [VIM编译器搭建](vimbian-yi-qi-da-jian.md)
 
 ## 算法设计与分析
 
