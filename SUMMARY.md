@@ -18,7 +18,6 @@
     * [PHPstorm](php/da-jian-kai-fa-huan-jing/phpstorm.md)
       * [安装PHPstorm](php/da-jian-kai-fa-huan-jing/phpstorm/an-zhuang-phpstorm.md)
       * [配置PHPstorm开发环境](php/da-jian-kai-fa-huan-jing/phpstorm/pei-zhi-phpstorm-kai-fa-huan-jing.md)
-    * [ssssssssssss](php/da-jian-kai-fa-huan-jing/ssssssssssss.md)
   * [PHP基础](php/phpji-chu.md)
     * [PHP基础知识](php/phpji-chu/phpji-chu-zhi-shi.md)
     * [基本数据类型](php/phpji-chu/ji-ben-shu-ju-lei-xing.md)
