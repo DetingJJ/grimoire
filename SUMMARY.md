@@ -74,7 +74,7 @@
   * [文件系统](wen-jian-xi-tong.md)
     * [Python读写Excel文件的实例](wen-jian-xi-tong/pythondu-xieexcel-wen-jian-de-shi-li.md)
 * [Nginx](nginx.md)
-  * Nginx基础
+  * [Nginx基础](nginxji-chu/nginxji-chu.md)
     * [Nginx简介](nginxji-chu/nginxjian-jie.md)
     * [Nginx基本功能](nginxji-chu/nginx-ji-ben-gong-neng.md)
     * [Nginx扩展功能](nginxji-chu/nginxkuo-zhan-gong-neng.md)
