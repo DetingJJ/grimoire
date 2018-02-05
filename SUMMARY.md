@@ -1,7 +1,5 @@
 # Summary
-
 ## 简介
-
 * [魔法书](README.md)
 * [PHP](php.md)
   * [前言](php/qian-yan.md)
@@ -18,7 +16,6 @@
     * [PHPstorm](php/da-jian-kai-fa-huan-jing/phpstorm.md)
       * [安装PHPstorm](php/da-jian-kai-fa-huan-jing/phpstorm/an-zhuang-phpstorm.md)
       * [配置PHPstorm开发环境](php/da-jian-kai-fa-huan-jing/phpstorm/pei-zhi-phpstorm-kai-fa-huan-jing.md)
-
   * [PHP基础](php/phpji-chu.md)
   * [PHP基础知识](php/phpji-chu/phpji-chu-zhi-shi.md)
   * [基本数据类型](php/phpji-chu/ji-ben-shu-ju-lei-xing.md)
@@ -39,23 +36,19 @@
   * [常量](php/phpji-chu/chang-liang.md)
     * [语法](php/phpji-chu/chang-liang/yu-fa.md)
     * [魔术常量](php/phpji-chu/chang-liang/mo-zhu-chang-liang.md)
-
   * [文件系统](php/wen-jian-xi-tong.md)
   * [文件处理](php/wen-jian-xi-tong/wen-jian-chu-li.md)
     * [打开关闭文件](php/wen-jian-xi-tong/wen-jian-chu-li/da-kai-guan-bi-wen-jian.md)
     * [读写文件](php/wen-jian-xi-tong/wen-jian-chu-li/du-xie-wen-jian.md)
     * [获取目录下文件列表](php/wen-jian-xi-tong/huo-qu-mu-lu-xia-suo-you-wen-jian.md)
   * [文件上传](php/wen-jian-xi-tong/wen-jian-shang-chuan.md)
-
   * [HTTP基础](php/httpji-chu.md)
   * [HTTP状态码](php/httpji-chu/httpzhuang-tai-ma.md)
-
   * [PHP框架](php/phpkuang-jia.md)
   * [Laravel](php/php-kuang-jia/laravel.md)
   * [ThinkPHP](php/php-kuang-jia/thinkphp.md)
   * [BetePHP](php/php-kuang-jia/betephp.md)
     * [BetePHP](php/php-kuang-jia/betephp/betephp.md)
-
   * phpMyAdmin图形化管理工具
   * phpMyAdmin介绍
   * [工具箱](php/gong-ju-xiang.md)
@@ -76,8 +69,6 @@
     * [PHP常用表单验证类](php/gong-ju-xiang/phpchang-yong-biao-dan-yan-zheng-lei.md)
     * [PHP类库PHPqrCode生成二维码](php/gong-ju-xiang//shi-yong-php-lei-ku-phpqrcode-sheng-cheng-er-wei-ma.md)
     * [php练习笔试题（系列）](php/gong-ju-xiang/phplian-xi-bi-shi-ti/phplian-xi-bi-shi-ti-ff08-yi-ff09.md)
-
-
 * [Python](python.md)
 * [Nginx](nginx.md)
 * [Linux](linux.md)
