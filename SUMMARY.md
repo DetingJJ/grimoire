@@ -3,7 +3,7 @@
 ## 简介
 
 * [魔法书](README.md)
-* [PHP](php.md)
+* [PHP](php/php.md)
   * [前言](php/qian-yan.md)
   * [常用网络资源](php/chang-yong-wang-luo-zi-yuan.md)
   * [PHP环境搭建和开发工具](php/phphuan-jing-da-jian-he-kai-fa-gong-ju.md)
@@ -77,12 +77,7 @@
     * [Python读写Excel文件的实例](wen-jian-xi-tong/pythondu-xieexcel-wen-jian-de-shi-li.md)
   * [pythoen](pythoen.md)
 * [Nginx](nginx.md)
-* [Linux](linux.md)
-* [算法设计与分析](suan-fa-she-ji-yu-fen-xi.md)
-
-## Nginx
-
-* Nginx基础
+  * Nginx基础
   * [Nginx简介](nginxji-chu/nginxjian-jie.md)
   * [Nginx基本功能](nginxji-chu/nginx-ji-ben-gong-neng.md)
   * [Nginx扩展功能](nginxji-chu/nginxkuo-zhan-gong-neng.md)
@@ -92,6 +87,12 @@
   * [Nginx源码安装](nginxji-chu/yuan-ma-an-zhuang.md)
   * [Nginx配置文件](nginxji-chu/pei-zhi-wen-jian-jie-shao.md)
   * [Nginx作为 web 服务器时使用的配置](nginxji-chu/nginxzuo-wei-web-fu-wu-qi-shi-shi-yong-de-pei-zhi.md)
+
+* [Linux](linux.md)
+* [算法设计与分析](suan-fa-she-ji-yu-fen-xi.md)
+
+## Nginx
+
 
 ## MySQL
 
