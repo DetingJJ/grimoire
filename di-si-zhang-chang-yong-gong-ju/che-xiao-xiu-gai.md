@@ -24,6 +24,23 @@
 >
 > **原理:**`git reset` 会把你的代码库历史返回到指定的 SHA 状态。 这样就像是这些提交从来没有发生过。缺省情况下， `git reset` 会保留工作目录。这样，提交是没有了，但是修改内容还在磁盘上。这是一种安全的选择，但通常我们会希望一步就“撤销”提交以及修改内容 — 这就是`--hard` 选项的功能。
 
+**在撤销“本地修改”之后再恢复**
+
+> **场景:** 你提交了几个 commit，然后用 `git reset --hard` 撤销了这些修改（见上一段），接着你又意识到：你希望还原这些修改！
+>
+> **方法:**`git reflog` 和 `git reset` 或 `git checkout`
+>
+> **原理:**`git reflog` 对于恢复项目历史是一个超棒的资源。你可以恢复_**几乎 **_任何东西 — 任何你 commit 过的东西 — 只要通过 reflog。
+>
+> 你可能已经熟悉了 `git log` 命令，它会显示 commit 的列表。 `git reflog` 也是类似的，不过它显示的是一个 `HEAD` 发生改变的时间列表.
+>
+> 一些注意事项：
+>
+> `它涉及的只是 HEAD`
+> *  的改变。在你切换分支、用 `git commit` 进行提交、以及用 `git reset` 撤销 commit 时，`HEAD` 会改变，但当你用  `git checkout -- <bad filename>` 撤销时（正如我们在前面讲到的情况），HEAD 并不会改变 — 如前所述，这些修改从来没有被提交过，因此 reflog 也无法帮助我们恢复它们。
+> * `git reflog` 不会永远保持。Git 会定期清理那些 “用不到的” 对象。不要指望几个月前的提交还一直躺在那里。
+> * 你的 `reflog` 就是你的，只是你的。你不能用 `git reflog` 来恢复另一个开发者没有 push 过的 commit。
+
 **修正最后一个 commit 消息**
 
 > **场景：**你在最后一条 commit 消息里有个笔误，已经执行了 `git commit -m "Fxies bug #42"，但在git push` 之前你意识到消息应该是 “Fixes bug \#42″。
@@ -31,8 +48,6 @@
 > **方法:**`git commit --amend` 或 `git commit --amend -m "Fixes bug #42"`
 >
 > **原理:**`git commit --amend` 会用一个新的 commit 更新并替换最近的 commit ，这个新的 commit 会把任何修改内容和上一个 commit 的内容结合起来。如果当前没有提出任何修改，这个操作就只会把上次的 commit 消息重写一遍。
-
-
 
 **二、push后**  
 **撤销一个“已公开”的改变**
