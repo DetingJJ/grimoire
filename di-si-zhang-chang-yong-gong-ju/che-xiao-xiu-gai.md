@@ -39,6 +39,11 @@
 > * 它涉及的只是 HEAD的改变。在你切换分支、用 `git commit` 进行提交、以及用 `git reset` 撤销 commit 时，`HEAD` 会改变，但当你用  `git checkout -- <bad filename>` 撤销时（正如我们在前面讲到的情况），HEAD 并不会改变 — 如前所述，这些修改从来没有被提交过，因此 reflog 也无法帮助我们恢复它们。
 > * `git reflog` 不会永远保持。Git 会定期清理那些 “用不到的” 对象。不要指望几个月前的提交还一直躺在那里。
 > * 你的 `reflog` 就是你的，只是你的。你不能用 `git reflog` 来恢复另一个开发者没有 push 过的 commit。![](/assets/import-git-reflog-2018年02月07日22:07:56.png)
+> * 那么…你怎么利用 reflog 来“恢复”之前“撤销”的 commit 呢？它取决于你想做到的到底是什么：
+>
+> * 如果你希望准确地恢复项目的历史到某个时间点，用 `git reset --hard <SHA>`
+> * 如果你希望重建工作目录里的一个或多个文件，让它们恢复到某个时间点的状态，用 `git checkout <SHA> -- <filename>`
+> * 如果你希望把这些 commit 里的某一个重新提交到你的代码库里，用 `git cherry-pick <SHA>`
 
 **修正最后一个 commit 消息**
 
