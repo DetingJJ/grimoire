@@ -1,6 +1,10 @@
+**如何在 Git 里撤销\(几乎\)任何操作**
+
+一、**编辑阶段**
+
+
+
 git撤销操作大全
-
-
 
 > [http://blog.jobbole.com/87700](http://blog.jobbole.com/87700)  
 > [https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001374831943254ee90db11b13d4ba9a73b9047f4fb968d000](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001374831943254ee90db11b13d4ba9a73b9047f4fb968d000)  
