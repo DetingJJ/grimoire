@@ -9,8 +9,12 @@
 **二、push后**
 
 > **场景：**你已经执行了 `git push`, 把你的修改发送到了 GitHub，现在你意识到这些 commit 的其中一个是有问题的，你需要撤销那一个 commit.
-
+>
 > **方法:**`git revert <SHA>`
+>
+> **原理:**`git revert`会产生一个新的 commit，它和指定 SHA 对应的 commit 是相反的（或者说是反转的）。如果原先的 commit 是“物质”，新的 commit 就是“反物质” — 任何从原先的 commit 里删除的内容会在新的 commit 里被加回去，任何在原先的 commit 里加入的内容会在新的 commit  里被删除。
+>
+> 这是 Git 最安全、最基本的撤销场景，因为它并不会_改变_历史 — 所以你现在可以  `git push `新的“反转” commit 来抵消你错误提交的 commit。
 
 git撤销操作大全
 
