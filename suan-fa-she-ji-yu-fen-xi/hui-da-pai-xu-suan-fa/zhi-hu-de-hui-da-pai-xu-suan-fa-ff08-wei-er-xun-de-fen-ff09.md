@@ -90,6 +90,7 @@
 
 > [Binomial proportion confidence interval](https://en.wikipedia.org/wiki/Binomial_proportion_confidence_interval#Wilson_score_interval)
 > [How Not To Sort By Average Rating](http://www.evanmiller.org/how-not-to-sort-by-average-rating.html)
+> [Reddit的评论排序新算法](http://jandan.net/2014/04/03/reddits-comment-sorting.html)
 
 
 
