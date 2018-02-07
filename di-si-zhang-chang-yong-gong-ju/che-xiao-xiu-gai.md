@@ -7,7 +7,7 @@
 **二、commit后**
 
 **二、push后**
-
+撤销一个“已公开”的改变
 > **场景：**你已经执行了 `git push`, 把你的修改发送到了 GitHub，现在你意识到这些 commit 的其中一个是有问题的，你需要撤销那一个 commit.
 >
 > **方法:**`git revert <SHA>`
