@@ -88,7 +88,7 @@
 
 威尔逊得分是一个简单强大，但是价值还没有被充分发掘的算法。至今，世界范围内应用了这个算法的著名网站仍然寥寥无几 \[5\]。近几年开始见到一些应用较广的开源库支持威尔逊得分，关于它的讨论似乎也在逐渐增加 \[6\]，还是很让人开心的。我也希望借此次知乎排序算法升级，把这个算法介绍给更多国内的团队，希望能对大家有所助益。
 
-> Binomial proportion confidence interval：https://en.wikipedia.org/wiki/Binomial\_proportion\_confidence\_interval\#Wilson\_score\_interval
+> Binomial proportion confidence interval：[https://en.wikipedia.org/wiki/Binomial\_proportion\_confidence\_interval\#Wilson\_score\_interval](https://en.wikipedia.org/wiki/Binomial_proportion_confidence_interval#Wilson_score_interval)
 
 
 
