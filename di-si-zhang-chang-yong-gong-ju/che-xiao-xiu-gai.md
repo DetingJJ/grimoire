@@ -6,7 +6,7 @@
 
 **二、commit后**
 修正最后一个 commit 消息
-> 场景: 你在最后一条 commit 消息里有个笔误，已经执行了 git commit -m "Fxies bug #42"，但在 git push 之前你意识到消息应该是 “Fixes bug #42″。
+> **场景**： 你在最后一条 commit 消息里有个笔误，已经执行了 git commit -m "Fxies bug #42"，但在 git push 之前你意识到消息应该是 “Fixes bug #42″。
 
 **二、push后**
 撤销一个“已公开”的改变
