@@ -4,3 +4,11 @@
 
 
 
+2. 位运算之——按位与（
+
+&
+
+）操作——（快速取模算法）
+
+http://blog.sina.com.cn/s/blog\_7b7cad23010163vy.html
+
