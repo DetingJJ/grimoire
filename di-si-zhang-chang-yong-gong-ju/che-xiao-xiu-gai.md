@@ -15,7 +15,7 @@
 **二、add后**
 
 **二、commit后**  
-修正最后一个 commit 消息
+**修正最后一个 commit 消息**
 
 > **场景：**你在最后一条 commit 消息里有个笔误，已经执行了 `git commit -m "Fxies bug #42"，但在git push` 之前你意识到消息应该是 “Fixes bug \#42″。
 >
@@ -23,10 +23,10 @@
 >
 > **原理:**`git commit --amend` 会用一个新的 commit 更新并替换最近的 commit ，这个新的 commit 会把任何修改内容和上一个 commit 的内容结合起来。如果当前没有提出任何修改，这个操作就只会把上次的 commit 消息重写一遍。
 >
-> # \#
+> # \
 
 **二、push后**  
-撤销一个“已公开”的改变
+**撤销一个“已公开”的改变**
 
 > **场景：**你已经执行了 `git push`, 把你的修改发送到了 GitHub，现在你意识到这些 commit 的其中一个是有问题的，你需要撤销那一个 commit.
 >
