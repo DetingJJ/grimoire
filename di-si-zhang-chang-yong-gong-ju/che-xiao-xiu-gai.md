@@ -14,7 +14,17 @@
 
 **二、add后**
 
-**二、commit后**  
+**二、commit后**
+
+**重置“本地的”修改**
+
+> **场景:** 你在本地提交了一些东西（还没有 push），但是所有这些东西都很糟糕，你希望撤销前面的三次提交 — 就像它们从来没有发生过一样。
+>
+> **方法:**`git reset <last good SHA>` 或 `git reset --hard <last good SHA>`
+>
+> **原理:**`git reset` 会把你的代码库历史返回到指定的 SHA 状态。 这样就像是这些提交从来没有发生过。缺省情况下， `git reset` 会保留工作目录。这样，提交是没有了，但是修改内容还在磁盘上。这是一种安全的选择，但通常我们会希望一步就“撤销”提交以及修改内容 — 这就是`--hard` 选项的功能。
+
+  
 **修正最后一个 commit 消息**
 
 > **场景：**你在最后一条 commit 消息里有个笔误，已经执行了 `git commit -m "Fxies bug #42"，但在git push` 之前你意识到消息应该是 “Fixes bug \#42″。
@@ -22,8 +32,6 @@
 > **方法:**`git commit --amend` 或 `git commit --amend -m "Fixes bug #42"`
 >
 > **原理:**`git commit --amend` 会用一个新的 commit 更新并替换最近的 commit ，这个新的 commit 会把任何修改内容和上一个 commit 的内容结合起来。如果当前没有提出任何修改，这个操作就只会把上次的 commit 消息重写一遍。
-
-
 
 **二、push后**  
 **撤销一个“已公开”的改变**
@@ -35,6 +43,16 @@
 > **原理:**`git revert`会产生一个新的 commit，它和指定 SHA 对应的 commit 是相反的（或者说是反转的）。如果原先的 commit 是“物质”，新的 commit 就是“反物质” — 任何从原先的 commit 里删除的内容会在新的 commit 里被加回去，任何在原先的 commit 里加入的内容会在新的 commit  里被删除。
 >
 > 这是 Git 最安全、最基本的撤销场景，因为它并不会_改变_历史 — 所以你现在可以  `git push`新的“反转” commit 来抵消你错误提交的 commit。
+
+**修正最后一个 commit 消息**
+
+> **场景:** 你在最后一条 commit 消息里有个笔误，已经执行了 `git commit -m "Fxies bug #42"，但在git push` 之前你意识到消息应该是 “Fixes bug \#42″。
+>
+> **方法:**`git commit --amend` 或 `git commit --amend -m "Fixes bug #42"`
+>
+> **原理:**`git commit --amend` 会用一个新的 commit 更新并替换最近的 commit ，这个新的 commit 会把任何修改内容和上一个 commit 的内容结合起来。如果当前没有提出任何修改，这个操作就只会把上次的 commit 消息重写一遍。
+
+
 
 git撤销操作大全
 
