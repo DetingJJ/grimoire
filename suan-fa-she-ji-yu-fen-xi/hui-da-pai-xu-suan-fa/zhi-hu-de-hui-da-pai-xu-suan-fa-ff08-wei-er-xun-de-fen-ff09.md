@@ -51,7 +51,7 @@
 
 知乎如何对回答进行排序？你的每一次投票都很重要。
 
-> [阅读原文](https://zhuanlan.zhihu.com/zhihu-product/19902495)
+> [查看原文](https://zhuanlan.zhihu.com/zhihu-product/19902495)
 
 # 文摘2
 
