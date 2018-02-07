@@ -49,9 +49,9 @@
 
 知乎如何对回答进行排序？你的每一次投票都很重要。
 
-**上文摘自知乎，原文如下：**
 
-> [https://zhuanlan.zhihu.com/zhihu-product/19902495](https://zhuanlan.zhihu.com/zhihu-product/19902495)
+
+> 摘自知乎：[https://zhuanlan.zhihu.com/zhihu-product/19902495](https://zhuanlan.zhihu.com/zhihu-product/19902495)
 
 
 
