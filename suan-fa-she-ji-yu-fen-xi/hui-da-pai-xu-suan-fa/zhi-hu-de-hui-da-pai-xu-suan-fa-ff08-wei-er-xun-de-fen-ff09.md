@@ -87,7 +87,6 @@
 另一个问题是，算法在 x = 0 时函数取值收敛为 0，无法对赞同为 0 但有不同反对票数的回答进行排序。我们的处理方式是默认所有回答者对自己的回答投了一票赞同。这样不仅解决了这个问题，还能让回答者的权重参与到排序的计算中。
 
 威尔逊得分是一个简单强大，但是价值还没有被充分发掘的算法。至今，世界范围内应用了这个算法的著名网站仍然寥寥无几 \[5\]。近几年开始见到一些应用较广的开源库支持威尔逊得分，关于它的讨论似乎也在逐渐增加 \[6\]，还是很让人开心的。我也希望借此次知乎排序算法升级，把这个算法介绍给更多国内的团队，希望能对大家有所助益。
-> [摘自](https://www.zhihu.com/question/26933554)
 
 > [Binomial proportion confidence interval](https://en.wikipedia.org/wiki/Binomial_proportion_confidence_interval#Wilson_score_interval)
 > [How Not To Sort By Average Rating](http://www.evanmiller.org/how-not-to-sort-by-average-rating.html)
