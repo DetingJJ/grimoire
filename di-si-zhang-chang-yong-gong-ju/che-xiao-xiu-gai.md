@@ -20,11 +20,11 @@ G**it操作时序图**
 
 **撤销“本地的”修改**
 
-
-
-> **场景:** z一只猫从键盘上走过，无意中保存了修改，然后破坏了编辑器。不过，你还没有 commit 这些修改。你想要恢复被修改文件里的所有内容 — 就像上次 commit 的时候一模一样。
+> **场景:** 一不小心敲了个`git add .`或`git add filename`，又想diff（又不想commit，子功能没有开发完成或者是你让log更加完美）。
 >
-> **方法:**`git checkout -- <bad filename>`
+> **方法:**`git reset -- <bad filename>`
+>
+> **原理:**`git reset` 会把工作目录里的文件修改到 Git 之前记录的某个状态。你可以提供一个你想返回的分支名或特定 SHA ，或者在缺省情况下，Git 会认为你希望 checkout 的是`HEAD`
 
 **二、commit后**
 
