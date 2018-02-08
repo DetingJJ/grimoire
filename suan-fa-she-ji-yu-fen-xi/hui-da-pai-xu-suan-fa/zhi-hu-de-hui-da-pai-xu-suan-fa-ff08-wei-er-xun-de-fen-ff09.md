@@ -85,10 +85,187 @@
 
 威尔逊得分是一个简单强大，但是价值还没有被充分发掘的算法。至今，世界范围内应用了这个算法的著名网站仍然寥寥无几 \[5\]。近几年开始见到一些应用较广的开源库支持威尔逊得分，关于它的讨论似乎也在逐渐增加 \[6\]，还是很让人开心的。我也希望借此次知乎排序算法升级，把这个算法介绍给更多国内的团队，希望能对大家有所助益。
 
-> [Binomial proportion confidence interval](https://en.wikipedia.org/wiki/Binomial_proportion_confidence_interval#Wilson_score_interval)
-> [How Not To Sort By Average Rating](http://www.evanmiller.org/how-not-to-sort-by-average-rating.html)
-> [Reddit的评论排序新算法](http://jandan.net/2014/04/03/reddits-comment-sorting.html)
-> [威尔逊得分 Wilson Score 排序算法-简书](https://www.jianshu.com/p/4d2b45918958)
+```php
+<?php
+
+define('STRATEGY_BASIC',  1);
+define('STRATEGY_WILSON_SCORE', 2);
+define('STRATEGY_SCORE_WEIGHT', 1000000);
+define('DEFAULT_ZA', 21);
+
+/**
+ * ${STATIC} calc_reply_or_comment_score
+ * @desc:
+ * @param $intU
+ * @param $intV
+ * @param $intID
+ * @param $intTime
+ * @param int $intSwc
+ * @param int $intZa
+ * @return int
+ */
+function calc_reply_or_comment_score($intU, $intV, $intID, $intTime, $intSwc = STRATEGY_BASIC, $intZa = DEFAULT_ZA) {
+    if (empty($intTime)) {
+        $intTime = time();
+    }
+
+    $intScore = 0;
+    switch($intSwc) {
+        case STRATEGY_BASIC: {
+            /// 公式一
+            /// 赞同率
+            $intN     = $intU + $intV;
+            $fScore   = ($intN > 0) ? ($intU / doubleval($intN)) : 0;
+            $intScore = intval(STRATEGY_SCORE_WEIGHT * $fScore);
+            break;
+        }
+        case STRATEGY_WILSON_SCORE: {
+            /// 公式一
+            /// 威尔逊得分
+            $intN     = $intU + $intV;
+            if ($intN > 0) {
+                $fP     = $intU / doubleval($intN);
+                $intZa2 = $intZa * $intZa;
+                $fScore = ($fP + $intZa2 / (2 * $intN) - $intZa / (2 * $intN) * sqrt(4 * $intN * (1 - $fP) * $fP + $intZa2)) / (1 + $intZa2 / $intN);
+                $intScore = intval(STRATEGY_SCORE_WEIGHT * $fScore);
+            }
+            break;
+        }
+
+    }
+
+    /// FF FF FF FF FF FF FF FF
+    /// 00 00 00 00 00 00 00 FF // reply id
+    /// 00 00 00 01 FF FF FF 00 // reply time
+    /// 00 FF FF FE 00 00 00 00 // thumb
+    /// FF 00 00 00 00 00 00 00 // 4 remain
+    $bitTime    = $intTime    & 0x1FFFFFF;
+    $bitThumb   = $intScore   & 0xEFFFFF;
+    $bitReplyId = $intID      & 0xFF;
+    $score      = $bitReplyId | ($bitTime << 8) | ($bitThumb << 33);
+
+    return $score;
+}
+
+
+$intID = 0;
+for ($intU = 0; $intU < 10; $intU++) {
+    for ($intV = 0; $intV < 10; $intV++) {
+        $intID++;
+        $score = calc_reply_or_comment_score($intU, $intV, $intID, time(), STRATEGY_WILSON_SCORE);
+        echo "U={$intU},V={$intV},score={$score}\n";
+
+    }
+}
+```
+数据：
+```
+U=0,V=0,score=2081798145
+U=0,V=1,score=2081798146
+U=0,V=2,score=2081798147
+U=0,V=3,score=2081798148
+U=0,V=4,score=2081798149
+U=0,V=5,score=2081798150
+U=0,V=6,score=2081798151
+U=0,V=7,score=2081798152
+U=0,V=8,score=2081798153
+U=0,V=9,score=2081798154
+U=1,V=0,score=19432513845259
+U=1,V=1,score=9700117952524
+U=1,V=2,score=6470302545933
+U=1,V=3,score=4846804908046
+U=1,V=4,score=3876142299151
+U=1,V=5,score=3231897204752
+U=1,V=6,score=2768040736785
+U=1,V=7,score=2424443353106
+U=1,V=8,score=2149565446163
+U=1,V=9,score=1934817081364
+U=2,V=0,score=38777046546453
+U=2,V=1,score=25814835247126
+U=2,V=2,score=19346614499351
+U=2,V=3,score=15472553998360
+U=2,V=4,score=12886983686169
+U=2,V=5,score=11040147748890
+U=2,V=6,score=9657168279579
+U=2,V=7,score=8583426455580
+U=2,V=8,score=7724432996381
+U=2,V=9,score=7020058359838
+U=3,V=0,score=58035679901727
+U=3,V=1,score=43458560899104
+U=3,V=2,score=34731187353633
+U=3,V=3,score=28924391569442
+U=3,V=4,score=24775453161507
+U=3,V=5,score=21674486773796
+U=3,V=6,score=19260715153445
+U=3,V=7,score=17327979870246
+U=3,V=8,score=15747431905319
+U=3,V=9,score=14433171912744
+U=4,V=0,score=77208413911081
+U=4,V=1,score=61660632299562
+U=4,V=2,score=51318351050795
+U=4,V=3,score=43948187170860
+U=4,V=4,score=38433449162797
+U=4,V=5,score=34147071801390
+U=4,V=6,score=30719687899183
+U=4,V=7,score=27919369222192
+U=4,V=8,score=25582907013169
+U=4,V=9,score=23607222057010
+U=5,V=0,score=96295248574515
+U=5,V=1,score=80094631934004
+U=5,V=2,score=68566939711541
+U=5,V=3,score=59934055446582
+U=5,V=4,score=53233906464823
+U=5,V=5,score=47882377214008
+U=5,V=6,score=43510100506681
+U=5,V=7,score=39859378305082
+U=5,V=8,score=36784181721147
+U=5,V=9,score=34147071801404
+U=6,V=0,score=115296183892029
+U=6,V=1,score=98640300718142
+U=6,V=2,score=86184895559743
+U=6,V=3,score=76521219143744
+U=6,V=4,score=68807457880129
+U=6,V=5,score=62511035824194
+U=6,V=6,score=57262585788483
+U=6,V=7,score=52838769473604
+U=6,V=8,score=49042018383941
+U=6,V=9,score=45752073435206
+U=7,V=0,score=134219809798215
+U=7,V=1,score=117211739306056
+U=7,V=2,score=104026189707337
+U=7,V=3,score=93512109766730
+U=7,V=4,score=84930765109323
+U=7,V=5,score=77792529463372
+U=7,V=6,score=71753805445197
+U=7,V=7,score=66591254755406
+U=7,V=8,score=62115898832975
+U=7,V=9,score=58207478593616
+U=8,V=0,score=153048946423889
+U=8,V=1,score=135774587959378
+U=8,V=2,score=122004922808403
+U=8,V=3,score=110769288362068
+U=8,V=4,score=101432029460565
+U=8,V=5,score=93546469505110
+U=8,V=6,score=86794780915799
+U=8,V=7,score=80953625393240
+U=8,V=8,score=75851204245593
+U=8,V=9,score=71358668453978
+U=9,V=0,score=171800773638235
+U=9,V=1,score=154311666808924
+U=9,V=2,score=140052375386205
+U=9,V=3,score=128206855583838
+U=9,V=4,score=118208171718751
+U=9,V=5,score=109661186799712
+U=9,V=6,score=102265253116001
+U=9,V=7,score=95805622302818
+U=9,V=8,score=90110495668323
+U=9,V=9,score=85051024193636
+```
+
+> [Binomial proportion confidence interval](https://en.wikipedia.org/wiki/Binomial_proportion_confidence_interval#Wilson_score_interval)  
+> [How Not To Sort By Average Rating](http://www.evanmiller.org/how-not-to-sort-by-average-rating.html)  
+> [Reddit的评论排序新算法](http://jandan.net/2014/04/03/reddits-comment-sorting.html)  
+> [威尔逊得分 Wilson Score 排序算法-简书](https://www.jianshu.com/p/4d2b45918958)  
 > [查看原文](https://www.zhihu.com/question/26933554)
 
 
