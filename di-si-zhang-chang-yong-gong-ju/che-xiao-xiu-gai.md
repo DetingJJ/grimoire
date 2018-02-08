@@ -45,6 +45,7 @@
 > * 如果你希望准确地恢复项目的历史到某个时间点，用 `git reset --hard <SHA>`
 >
 > * 如果你希望重建工作目录里的一个或多个文件，让它们恢复到某个时间点的状态，用 `git checkout <SHA> -- <filename>`
+>
 > * 如果你希望把这些 commit 里的某一个重新提交到你的代码库里，用 `git cherry-pick <SHA>`
 
 **修正最后一个 commit 消息**
