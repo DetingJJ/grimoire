@@ -1,7 +1,5 @@
 **如何在 Git 里撤销\(几乎\)任何操作**
 
-
-
 G**it操作时序图**![](/assets/import-git操作时序图.png)
 
 **一、modify后**
@@ -26,7 +24,7 @@ G**it操作时序图**![](/assets/import-git操作时序图.png)
 >
 > **原理:**`git reset` 会把工作目录里的文件修改到 Git 之前记录的某个状态。
 
-**二、commit后**
+**三、commit后**
 
 **重置“本地的”修改**
 
@@ -69,7 +67,7 @@ G**it操作时序图**![](/assets/import-git操作时序图.png)
 >
 > **原理:**`git commit --amend` 会用一个新的 commit 更新并替换最近的 commit ，这个新的 commit 会把任何修改内容和上一个 commit 的内容结合起来。如果当前没有提出任何修改，这个操作就只会把上次的 commit 消息重写一遍。
 
-**二、push后**  
+**四、push后**  
 **撤销一个“已公开”的改变**
 
 > **场景：**你已经执行了 `git push`, 把你的修改发送到了 GitHub，现在你意识到这些 commit 的其中一个是有问题的，你需要撤销那一个 commit.
@@ -87,6 +85,8 @@ G**it操作时序图**![](/assets/import-git操作时序图.png)
 > **方法:**`git commit --amend` 或 `git commit --amend -m "Fixes bug #42"`
 >
 > **原理:**`git commit --amend` 会用一个新的 commit 更新并替换最近的 commit ，这个新的 commit 会把任何修改内容和上一个 commit 的内容结合起来。如果当前没有提出任何修改，这个操作就只会把上次的 commit 消息重写一遍。
+
+
 
 git撤销操作大全
 
