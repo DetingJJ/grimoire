@@ -24,7 +24,7 @@ G**it操作时序图**
 >
 > **方法:**`git reset -- <bad filename>`
 >
-> **原理:**`git reset` 会把工作目录里的文件修改到 Git 之前记录的某个状态。你可以提供一个你想返回的分支名或特定 SHA ，或者在缺省情况下，Git 会认为你希望 checkout 的是`HEAD`
+> **原理:**`git reset` 会把工作目录里的文件修改到 Git 之前记录的某个状态。
 
 **二、commit后**
 
