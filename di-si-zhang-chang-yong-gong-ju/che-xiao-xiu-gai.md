@@ -1,8 +1,8 @@
 **如何在 Git 里撤销\(几乎\)任何操作**
 
-G**it操作时序图**
 
-![](/assets/import-git操作时序图.png)
+
+G**it操作时序图**![](/assets/import-git操作时序图.png)
 
 **一、modify后**
 
@@ -52,7 +52,7 @@ G**it操作时序图**
 > * `git reflog` 不会永远保持。Git 会定期清理那些 “用不到的” 对象。不要指望几个月前的提交还一直躺在那里。
 > * 你的 `reflog` 就是你的，只是你的。你不能用 `git reflog` 来恢复另一个开发者没有 push 过的 commit。
 >
-> ![](/assets/import-git-reflog-用法-2018年02月08日11:39:26.png)
+> ![](/assets/import-git-reflog-用法-2018年02月08日11:39:26.png)  
 > 那么…你怎么利用 reflog 来“恢复”之前“撤销”的 commit 呢？它取决于你想做到的到底是什么：
 >
 > * 如果你希望准确地恢复项目的历史到某个时间点，用 `git reset --hard <SHA>`
