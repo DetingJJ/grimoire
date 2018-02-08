@@ -85,6 +85,10 @@
 
 威尔逊得分是一个简单强大，但是价值还没有被充分发掘的算法。至今，世界范围内应用了这个算法的著名网站仍然寥寥无几 \[5\]。近几年开始见到一些应用较广的开源库支持威尔逊得分，关于它的讨论似乎也在逐渐增加 \[6\]，还是很让人开心的。我也希望借此次知乎排序算法升级，把这个算法介绍给更多国内的团队，希望能对大家有所助益。
 
+
+
+**下面是利用威尔逊得分是一个扩展：**
+
 ```php
 <?php
 
@@ -135,8 +139,8 @@ function calc_reply_or_comment_score($intU, $intV, $intID, $intTime, $intSwc = S
     }
 
     /// FF FF FF FF FF FF FF FF
-    /// 00 00 00 00 00 00 00 FF // reply id
-    /// 00 00 00 01 FF FF FF 00 // reply time
+    /// 00 00 00 00 00 00 00 FF // id
+    /// 00 00 00 01 FF FF FF 00 // time
     /// 00 FF FF FE 00 00 00 00 // thumb
     /// FF 00 00 00 00 00 00 00 // 4 remain
     $bitTime    = $intTime    & 0x1FFFFFF;
@@ -158,7 +162,9 @@ for ($intU = 0; $intU < 10; $intU++) {
     }
 }
 ```
+
 数据：
+
 ```
 U=0,V=0,score=2081798145
 U=0,V=1,score=2081798146
