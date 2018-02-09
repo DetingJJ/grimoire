@@ -14,5 +14,9 @@
 
 4.技术博客（RSA算法）
 
-http://blog.damonare.cn/
+[http://blog.damonare.cn/](http://blog.damonare.cn/)
+
+5.计算机书籍控
+
+http://bestcbooks.com/B00IJR2O9Q/
 
