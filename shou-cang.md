@@ -24,3 +24,7 @@
 
 [http://www.runoob.com/bootstrap/bootstrap-responsive-utilities.html](http://www.runoob.com/bootstrap/bootstrap-responsive-utilities.html)
 
+7.什么是集群？什么是分布式？什么又是SOA？
+
+http://server.51cto.com/News-565448.htm
+
