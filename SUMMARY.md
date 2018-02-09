@@ -1,8 +1,8 @@
 # Summary
 
-## 简介
+## 魔法书
 
-* [魔法书](README.md)
+* [前言](README.md)
 * [收藏](shou-cang.md)
 * [PHP](php/php.md)
   * [常用网络资源](php/chang-yong-wang-luo-zi-yuan.md)
