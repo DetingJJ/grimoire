@@ -12,7 +12,7 @@
 
 > 史上最全设计模式导学目录（完整版）：[http://blog.csdn.net/lovelion/article/details/17517213](http://blog.csdn.net/lovelion/article/details/17517213)
 >
-> PHP 设计模式系列 —— 概述及常用设计模式大全，http://laravelacademy.org/post/2465.html
+> PHP 设计模式系列 —— 概述及常用设计模式大全：[http://laravelacademy.org/post/2465.html](http://laravelacademy.org/post/2465.html)
 
 
 
