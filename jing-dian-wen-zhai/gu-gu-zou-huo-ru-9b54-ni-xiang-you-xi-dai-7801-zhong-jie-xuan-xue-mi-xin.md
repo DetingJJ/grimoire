@@ -10,68 +10,6 @@
 
 这里相当于动用了 **上帝视角** 来解答这些问题。
 
-
-
-## 我其实是美食博主
-
-这篇知乎首答获得了这么多关注，也让我这个知乎小透明受宠若惊。在这里感谢《旅かえる》的游戏开发者制作出了这么受欢迎的游戏、感谢他、感谢大家的关注，让我蹭了这波热度。
-
-不少知友私信问我是不是游戏行业的从业人员………………………呃…其实……我是美食博主啦：
-
-&lt;
-
-img src="[https://pic3.zhimg.com/50/v2-7f1e5fc34446c66edda3e2f0cad3c72e\_hd.jpg](https://pic3.zhimg.com/50/v2-7f1e5fc34446c66edda3e2f0cad3c72e_hd.jpg)" data-caption="" data-size="small" data-rawwidth="1920" data-rawheight="1371" class="origin\_image zh-lightbox-thumb" width="1920" data-original="[https://pic3.zhimg.com/v2-7f1e5fc34446c66edda3e2f0cad3c72e\_r.jpg](https://pic3.zhimg.com/v2-7f1e5fc34446c66edda3e2f0cad3c72e_r.jpg)"
-
-&gt;
-
-![](https://pic3.zhimg.com/80/v2-7f1e5fc34446c66edda3e2f0cad3c72e_hd.jpg)
-
-[黄小秋：我其实是美食博主 之【旅行青蛙葱蛋饼】zhuanlan.zhihu.com![](https://pic1.zhimg.com/v2-7afaa9fdf23dcae74bc91b3696eb2fe8_180x120.jpg "图标")](https://zhuanlan.zhihu.com/p/33556223)
-
-2018/1/31 更新5
-
-* 更正
-  **物品收集阻力的描述**
-
-2018/1/31 更新4
-
-* 更正
-  **区域、**
-  **目的地选择的逻辑**
-
-2018/1/30 更新3
-
-* 更正
-  **收藏品收集概率为 15%，并非 100%**
-
-2018/1/30 更新2
-
-* 增加
-  **4.**
-  ** 呱在每条路上的耗时是怎么计算的？**
-
-2018/1/30 更新
-
-* 增加 
-  **5. 呱离家出走了怎么办？**
-* 增加 
-  **8. 如何科学使用物品？**
-* 增加
-  **17.**
-  ** 有没有免费获得三叶草的方法？**
-
-2018/1/29 更新
-
-* 增加
-  **15.**
-  ** 抽奖球的概率是？**
-
-&lt;
-
-img src="[https://pic4.zhimg.com/50/v2-628114cabdc74e1ec79beaa96bae9ae7\_hd.gif](https://pic4.zhimg.com/50/v2-628114cabdc74e1ec79beaa96bae9ae7_hd.gif)" data-caption="" data-size="normal" data-rawwidth="306" data-rawheight="201" data-thumbnail="[https://pic4.zhimg.com/50/v2-628114cabdc74e1ec79beaa96bae9ae7\_hd.jpg](https://pic4.zhimg.com/50/v2-628114cabdc74e1ec79beaa96bae9ae7_hd.jpg)" class="content\_image" width="306"
-
-&gt;
-
 ![](https://pic4.zhimg.com/50/v2-628114cabdc74e1ec79beaa96bae9ae7_hd.jpg)
 
 ---
@@ -100,13 +38,9 @@ img src="[https://pic4.zhimg.com/50/v2-628114cabdc74e1ec79beaa96bae9ae7\_hd.gif]
 
 因为旅行的过程并不展示给用户，我原本以为逻辑会十分简单。发现这套旅行模拟系统的时候，我也有些惊讶，也促使我深入研究这款游戏的逻辑。
 
-&lt;
+![](/assets/import-精雕细琢-2018年02月09日14:08:33.png)
 
-img src="[https://pic2.zhimg.com/50/v2-41a48c87ffabb11f2b6621d0bcb414a1\_hd.gif](https://pic2.zhimg.com/50/v2-41a48c87ffabb11f2b6621d0bcb414a1_hd.gif)" data-caption="" data-size="normal" data-rawwidth="306" data-rawheight="213" data-thumbnail="[https://pic2.zhimg.com/50/v2-41a48c87ffabb11f2b6621d0bcb414a1\_hd.jpg](https://pic2.zhimg.com/50/v2-41a48c87ffabb11f2b6621d0bcb414a1_hd.jpg)" class="content\_image" width="306"
 
-&gt;
-
-![](https://pic2.zhimg.com/50/v2-41a48c87ffabb11f2b6621d0bcb414a1_hd.jpg)
 
 下面的解释中间会用到少量计算机图论 \(graph theory\) 的术语，但应该还是很直观。
 
@@ -118,45 +52,24 @@ img src="[https://pic2.zhimg.com/50/v2-41a48c87ffabb11f2b6621d0bcb414a1\_hd.gif]
 
 通过逆向手段，我提取出了程序中的信息，花了一些时间用 Graphviz 生成了每个地图的样子。
 
-&lt;
-
-img src="[https://pic4.zhimg.com/50/v2-6a5a8b9bfa56d8de53a27ac08136ab53\_hd.jpg](https://pic4.zhimg.com/50/v2-6a5a8b9bfa56d8de53a27ac08136ab53_hd.jpg)" data-size="small" data-rawwidth="2400" data-rawheight="1500" class="origin\_image zh-lightbox-thumb" width="2400" data-original="[https://pic4.zhimg.com/v2-6a5a8b9bfa56d8de53a27ac08136ab53\_r.jpg](https://pic4.zhimg.com/v2-6a5a8b9bfa56d8de53a27ac08136ab53_r.jpg)"
-
-&gt;
-
-![](https://pic4.zhimg.com/80/v2-6a5a8b9bfa56d8de53a27ac08136ab53_hd.jpg)
+![](/assets/import-旅行青蛙-东部地区2018年02月09日14:18:01.png)
 
 东部地区
 
-&lt;
-
-img src="[https://pic3.zhimg.com/50/v2-da085ee5e71afca9e68939257e1a8ccf\_hd.jpg](https://pic3.zhimg.com/50/v2-da085ee5e71afca9e68939257e1a8ccf_hd.jpg)" data-size="small" data-rawwidth="2400" data-rawheight="1500" class="origin\_image zh-lightbox-thumb" width="2400" data-original="[https://pic3.zhimg.com/v2-da085ee5e71afca9e68939257e1a8ccf\_r.jpg](https://pic3.zhimg.com/v2-da085ee5e71afca9e68939257e1a8ccf_r.jpg)"
-
-&gt;
-
-![](https://pic3.zhimg.com/80/v2-da085ee5e71afca9e68939257e1a8ccf_hd.jpg)
+![](/assets/import-旅行青蛙-西部地区地图-2018年02月09日14:20:31.png)
 
 西部地区
 
-&lt;
-
-img src="[https://pic1.zhimg.com/50/v2-e75acd4a0d94b67d62283135eb78f291\_hd.jpg](https://pic1.zhimg.com/50/v2-e75acd4a0d94b67d62283135eb78f291_hd.jpg)" data-size="small" data-rawwidth="2400" data-rawheight="1500" class="origin\_image zh-lightbox-thumb" width="2400" data-original="[https://pic1.zhimg.com/v2-e75acd4a0d94b67d62283135eb78f291\_r.jpg](https://pic1.zhimg.com/v2-e75acd4a0d94b67d62283135eb78f291_r.jpg)"
-
-&gt;
-
-![](https://pic1.zhimg.com/80/v2-e75acd4a0d94b67d62283135eb78f291_hd.jpg)
+![](/assets/import-旅行青蛙-南部地区-2018年02月09日14:21:03.png)
 
 南部地区
 
-&lt;
 
-img src="[https://pic3.zhimg.com/50/v2-13355d7e07ee35980bc2d41b219867b9\_hd.jpg](https://pic3.zhimg.com/50/v2-13355d7e07ee35980bc2d41b219867b9_hd.jpg)" data-size="small" data-rawwidth="2400" data-rawheight="1500" class="origin\_image zh-lightbox-thumb" width="2400" data-original="[https://pic3.zhimg.com/v2-13355d7e07ee35980bc2d41b219867b9\_r.jpg](https://pic3.zhimg.com/v2-13355d7e07ee35980bc2d41b219867b9_r.jpg)"
 
-&gt;
+![](/assets/import-旅行青蛙-北部地区2018年02月09日14:21:33.png)
 
-![](https://pic3.zhimg.com/80/v2-13355d7e07ee35980bc2d41b219867b9_hd.jpg)
+<center>北部地区</center>
 
-北部地区
 
 图上的每个**节点 \(vertex\)** 都代表了一个地点。每个地点都有可能被蛙经过，并触发一些事件。
 
@@ -171,22 +84,21 @@ img src="[https://pic3.zhimg.com/50/v2-13355d7e07ee35980bc2d41b219867b9\_hd.jpg]
 
 每次开始旅行的时候，根据老母亲（？）打包的物品，呱都会：
 
-1. **选择目的地**
-   ---
+1. ## **选择目的地**
 
-   携带特点食物或道具可以影响到地区的选择，有些物品可以增加特定地区的被选概率，甚至可以直接确定选择的地区。在一个区域内的目的地的选择同样取决于所携带的道具。
-   **具体每件物体效果会在后面提到**
+   携带特点食物或道具可以影响到地区的选择，有些物品可以增加特定地区的被选概率，甚至可以直接确定选择的地区。在一个区域内的目的地的选择同样取决于所携带的道具。  
+   **具体每件物体效果会在后面提到**  
    。
-2. **选择途径地**
-   ---
+
+2. ## **选择途径地**
 
    途径地由目的地决定，每个地点都有对应的途径地，代码中对此的描述是当地的县府/交通枢纽。
-3. **选择绕路地**
-   ---
+
+3. ## **选择绕路地**
 
    这个很有意思，我猜测作者的目的是为了让旅途更有多样性，每次路途会额外添加几个地区内绕路地点，携带物品对决定绕路地似乎没有影响。
-4. **生成经过所有地点的旅行路径**
-   ---
+
+4. ## **生成经过所有地点的旅行路径**
 
    运用了图论很经典的连通图找最短路径 Dijkstra 算法，配合途径地和绕路地的逻辑，最终计算出旅行路径。
 
@@ -222,7 +134,9 @@ img src="[https://pic2.zhimg.com/50/v2-95aa0110679d6c6be268b087fc3b5199\_hd.jpg]
    物品的具体属性参考下面的图鉴
 
 3. 经过图上的一条路（边）的时候，道路的地形属性和所携带的物品属性互相作用，会决定呱实际消耗的时间和体力。
+
 4. 路上可能会遇见小伙伴，会在之后的旅行中结伴而行，从而出现在明信片中。
+
 5. 根据路途属性，有一定概率会寄相关的明信片。
 6. 当体力不支的时候，蛙必须
    **停下来休息 3 小时**
@@ -248,8 +162,8 @@ img src="[https://pic4.zhimg.com/50/v2-8519071aa7d56558474ffef7e52ee958\_hd.gif]
 ## 呱在每条路上的耗时是怎么计算的？
 
 设：  
-![](https://www.zhihu.com/equation?tex=t_{\text{way}} "t\_{\text{way}}") 为当前道路 **耗时    
-**![](https://www.zhihu.com/equation?tex=t_{\text{plus}} "t\_{\text{plus}}") 为当前道路的 **地形增加耗时    
+![](https://www.zhihu.com/equation?tex=t_{\text{way}} "t\_{\text{way}}") 为当前道路 **耗时        
+**![](https://www.zhihu.com/equation?tex=t_{\text{plus}} "t\_{\text{plus}}") 为当前道路的 **地形增加耗时        
 **![](https://www.zhihu.com/equation?tex=w "w") 为当前道路的 **地形，**![](https://www.zhihu.com/equation?tex=w\in+\left\{+\text{Normal}%2C+\text{Mountain}%2C+\text{Sea}%2C+\text{Cave}+\right\} "w\in \left\{ \text{Normal}, \text{Mountain}, \text{Sea}, \text{Cave} \right\}")![](https://www.zhihu.com/equation?tex=n "n") 为携带物品数量  
 ![](https://www.zhihu.com/equation?tex=E_{\text{Normal}}%28x%29%2CE_{\text{Mountain}}%28x%29%2CE_{\text{Sea}}%28x%29%2CE_{\text{Cave}}%28x%29%2CE_{\text{All}}%28x%29 "E\_{\text{Normal}}\(x\),E\_{\text{Mountain}}\(x\),E\_{\text{Sea}}\(x\),E\_{\text{Cave}}\(x\),E\_{\text{All}}\(x\)") 依次为携带的第 ![](https://www.zhihu.com/equation?tex=x "x") 件物品中所有具有 普通、山地、大海、洞穴、任意地形**移动速度 的效果值。**
 
@@ -276,7 +190,7 @@ img src="[https://pic4.zhimg.com/50/v2-8519071aa7d56558474ffef7e52ee958\_hd.gif]
 
 * **地形**
 
-  四种地形分别是   
+  四种地形分别是  
   普通、大海、山地、洞穴
 
 * **耗时**
@@ -293,8 +207,7 @@ img src="[https://pic4.zhimg.com/50/v2-8519071aa7d56558474ffef7e52ee958\_hd.gif]
 
   据说所有的地图元素都有真实原型
 
-* **遇见伙伴**
-  ---
+* ## **遇见伙伴**
 
   遇见特定伙伴的概率
 
@@ -330,24 +243,23 @@ img src="[https://pic3.zhimg.com/50/v2-589b369c1564310488c541d7da42b992\_hd.jpg]
 
 有五类不同的物品
 
-* **便当**
-  ---
+* ## **便当**
 
   商店购买或者抽奖获得的食物
-* **幸运符**
-  ---
+
+* ## **幸运符**
 
   除了四叶草和可以购买的幸 \(tǔ\) 运 \(háo\) 铃之外，都要抽奖获得
-* **道具**
-  ---
+
+* ## **道具**
 
   商店购买
-* **特产**
-  ---
+
+* ## **特产**
 
   呱旅游时获得
-* **收藏品**
-  ---
+
+* ## **收藏品**
 
   特别的特产，通常在县府获得，无法使用
 
@@ -430,31 +342,29 @@ img src="[https://pic1.zhimg.com/50/v2-639c8d930850a0e2ccf3d73595707ffc\_hd.gif]
    想去北方，使用  
    **北国きっぷ。**
 
-2. **影响路途的距离和时间**
-   ---
+2. ## **影响路途的距离和时间**
 
-   带 
-   **最大时间**
-    值高的食物吃走得远，带 
-   **体力提升**
+   带  
+   **最大时间**  
+    值高的食物吃走得远，带  
+   **体力提升**  
     值高的食物吃走得快耗时少。
+
 3. **快速通过沿途路线的地形**
 
    ---
 
    带有地区速度加成的食物或者道具，可以增加特定地形的移动速度。
 
-   不同物品的   
+   不同物品的  
    **移动速度**  
     效果可以叠加，详情查看上面的解释。
 
-4. **匹配在道路上遇到的伙伴**
-   ---
+4. ## **匹配在道路上遇到的伙伴**
 
-   如果在途径会遭遇伙伴的道路，特定物品可以增加实际遭遇概率
-   ---
+   ## 如果在途径会遭遇伙伴的道路，特定物品可以增加实际遭遇概率
 
-   **例：**
+   **例：**  
    抽奖抽到的黄色ぼうろ（饼干）可以增加路途中遇到螃蟹的几率。
 
 ## 综合运用（敲黑板！！！）
