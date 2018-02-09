@@ -196,7 +196,7 @@ img src="[https://pic4.zhimg.com/50/v2-8519071aa7d56558474ffef7e52ee958\_hd.gif]
 
 具体如下，不能再详细了
 
-![](http://leunggeorge.github.io/20160910154700du-sh.png)
+![](http://leunggeorge.github.io/src_img/20160910154700du-sh.png)
 
 ## 每件物品都有什么效果？
 
