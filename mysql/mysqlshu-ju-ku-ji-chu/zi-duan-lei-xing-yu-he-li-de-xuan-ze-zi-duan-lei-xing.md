@@ -165,9 +165,9 @@ MySQL 认为 ENUM 类型集合中出现的值是合法输入，除此之外其�
 
   浮点数float在储存空间及运行效率上要优于精度数值类型decimal，但float与double会有舍入错误而decimal则可以提供更加准确的小数级精确运算不会有错误产生计算更精确，适用于金融类型数据的存储。
 
-> 原文：[https://www.kancloud.cn/thinkphp/mysql-design-optimalize/39325](https://www.kancloud.cn/thinkphp/mysql-design-optimalize/39325)
+> [原文：](https://www.kancloud.cn/thinkphp/mysql-design-optimalize/39325)  
 >
-> 菜鸟必知的 MySQL 知识（二）—— 数据类型优化：https://www.jianshu.com/p/8231db404bad
+> [菜鸟必知的 MySQL 知识（二）—— 数据类型优化](https://www.jianshu.com/p/8231db404bad)
 
 
 
