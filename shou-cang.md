@@ -8,7 +8,11 @@
 
 3.一个不错的博客
 
-http://tigerb.cn/
+[http://tigerb.cn/](http://tigerb.cn/)
 
-作者的一个PHP框架，http://php.tigerb.cn/index-cn.html
+作者的一个PHP框架，[http://php.tigerb.cn/index-cn.html](http://php.tigerb.cn/index-cn.html)
+
+4.技术博客（RSA算法）
+
+http://blog.damonare.cn/
 
