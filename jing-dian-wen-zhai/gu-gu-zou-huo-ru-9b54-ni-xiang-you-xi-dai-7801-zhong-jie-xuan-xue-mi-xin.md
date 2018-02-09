@@ -50,25 +50,13 @@
 
 通过逆向手段，我提取出了程序中的信息，花了一些时间用 Graphviz 生成了每个地图的样子。
 
-![](/assets/import-旅行青蛙-东部地区2018年02月09日14:18:01.png)
+![](/assets/import-旅行青蛙-东部地区2018年02月09日14:18:01.png)东部地区
 
-东部地区
+![](/assets/import-旅行青蛙-西部地区地图-2018年02月09日14:20:31.png)西部地区
 
-![](/assets/import-旅行青蛙-西部地区地图-2018年02月09日14:20:31.png)
+![](/assets/import-旅行青蛙-南部地区-2018年02月09日14:21:03.png)南部地区
 
-西部地区
-
-![](/assets/import-旅行青蛙-南部地区-2018年02月09日14:21:03.png)
-
-南部地区
-
-![](/assets/import-旅行青蛙-北部地区2018年02月09日14:21:33.png)
-
-北部地区
-
-
-
-
+![](/assets/import-旅行青蛙-北部地区2018年02月09日14:21:33.png)北部地区
 
 图上的每个**节点 \(vertex\)** 都代表了一个地点。每个地点都有可能被蛙经过，并触发一些事件。
 
@@ -103,13 +91,7 @@
 
 ## 目的地是怎么选择的？
 
-&lt;
-
-img src="[https://pic2.zhimg.com/50/v2-95aa0110679d6c6be268b087fc3b5199\_hd.jpg](https://pic2.zhimg.com/50/v2-95aa0110679d6c6be268b087fc3b5199_hd.jpg)" data-size="normal" data-rawwidth="2136" data-rawheight="682" class="origin\_image zh-lightbox-thumb" width="2136" data-original="[https://pic2.zhimg.com/v2-95aa0110679d6c6be268b087fc3b5199\_r.jpg](https://pic2.zhimg.com/v2-95aa0110679d6c6be268b087fc3b5199_r.jpg)"
-
-&gt;
-
-![](https://pic2.zhimg.com/80/v2-95aa0110679d6c6be268b087fc3b5199_hd.jpg)
+![](/assets/import-物品叠加目的地优先级.png)
 
 这里的数值不是绝对概率而是相对的优先级
 
@@ -138,9 +120,10 @@ img src="[https://pic2.zhimg.com/50/v2-95aa0110679d6c6be268b087fc3b5199\_hd.jpg]
 
 5. 根据路途属性，有一定概率会寄相关的明信片。
 
-6. 当体力不支的时候，蛙必须
-   **停下来休息 3 小时**
+6. 当体力不支的时候，蛙必须  
+   **停下来休息 3 小时**  
    ，休息完之后体力会恢复到 100。休息时间也算作旅行时间。
+
 7. 当到达目的
    **或者**
    旅行时间耗尽的时候，蛙就会回家。
@@ -162,8 +145,8 @@ img src="[https://pic4.zhimg.com/50/v2-8519071aa7d56558474ffef7e52ee958\_hd.gif]
 ## 呱在每条路上的耗时是怎么计算的？
 
 设：  
-![](https://www.zhihu.com/equation?tex=t_{\text{way}} "t\_{\text{way}}") 为当前道路 **耗时          
-**![](https://www.zhihu.com/equation?tex=t_{\text{plus}} "t\_{\text{plus}}") 为当前道路的 **地形增加耗时          
+![](https://www.zhihu.com/equation?tex=t_{\text{way}} "t\_{\text{way}}") 为当前道路 **耗时            
+**![](https://www.zhihu.com/equation?tex=t_{\text{plus}} "t\_{\text{plus}}") 为当前道路的 **地形增加耗时            
 **![](https://www.zhihu.com/equation?tex=w "w") 为当前道路的 **地形，**![](https://www.zhihu.com/equation?tex=w\in+\left\{+\text{Normal}%2C+\text{Mountain}%2C+\text{Sea}%2C+\text{Cave}+\right\} "w\in \left\{ \text{Normal}, \text{Mountain}, \text{Sea}, \text{Cave} \right\}")![](https://www.zhihu.com/equation?tex=n "n") 为携带物品数量  
 ![](https://www.zhihu.com/equation?tex=E_{\text{Normal}}%28x%29%2CE_{\text{Mountain}}%28x%29%2CE_{\text{Sea}}%28x%29%2CE_{\text{Cave}}%28x%29%2CE_{\text{All}}%28x%29 "E\_{\text{Normal}}\(x\),E\_{\text{Mountain}}\(x\),E\_{\text{Sea}}\(x\),E\_{\text{Cave}}\(x\),E\_{\text{All}}\(x\)") 依次为携带的第 ![](https://www.zhihu.com/equation?tex=x "x") 件物品中所有具有 普通、山地、大海、洞穴、任意地形**移动速度 的效果值。**
 
