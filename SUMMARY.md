@@ -120,6 +120,7 @@
     * [常用语句](mysql/mysqlshu-ju-ku-ji-chu/chang-yong-yu-ju.md)
       * [查询数据库表规模](mysql/mysqlshu-ju-ku-ji-chu/chang-yong-yu-ju/cha-xun-shu-ju-ku-biao-gui-mo.md)
       * [导出数据库结构](mysql/mysqlshu-ju-ku-ji-chu/chang-yong-yu-ju/dao-chu-shu-ju-ku-jie-gou.md)
+    * [字段类型与合理的选择字段类型](mysql/mysqlshu-ju-ku-ji-chu/zi-duan-lei-xing-yu-he-li-de-xuan-ze-zi-duan-lei-xing.md)
   * [MySQL常见问题](mysql/mysqlchang-jian-wen-ti.md)
     * [MySQL连接数太多](mysql/mysqlchang-jian-wen-ti/mysqllian-jie-shu-tai-duo.md)
 * [算法设计与分析](suan-fa-she-ji-yu-fen-xi.md)
