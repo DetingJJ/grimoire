@@ -124,9 +124,10 @@
    **停下来休息 3 小时**  
    ，休息完之后体力会恢复到 100。休息时间也算作旅行时间。
 
-7. 当到达目的
-   **或者**
+7. 当到达目的  
+   **或者**  
    旅行时间耗尽的时候，蛙就会回家。
+
 8. 1. 回家时会携带三叶草和抽奖券。
    2. 如果在时间耗尽前到达了
       **目的地**
@@ -134,19 +135,13 @@
 
 所以如果你的蛙很久都没回家，回家了也没有带土特产，可能是路途上多次体力不支，晕倒在路边。
 
-&lt;
-
-img src="[https://pic4.zhimg.com/50/v2-8519071aa7d56558474ffef7e52ee958\_hd.gif](https://pic4.zhimg.com/50/v2-8519071aa7d56558474ffef7e52ee958_hd.gif)" data-caption="" data-size="normal" data-rawwidth="306" data-rawheight="210" data-thumbnail="[https://pic4.zhimg.com/50/v2-8519071aa7d56558474ffef7e52ee958\_hd.jpg](https://pic4.zhimg.com/50/v2-8519071aa7d56558474ffef7e52ee958_hd.jpg)" class="content\_image" width="306"
-
-&gt;
-
-![](https://pic4.zhimg.com/50/v2-8519071aa7d56558474ffef7e52ee958_hd.jpg)
+![](/assets/import-旅行青蛙-吃饭要紧-2018年02月09日14:52:31.png)
 
 ## 呱在每条路上的耗时是怎么计算的？
 
 设：  
-![](https://www.zhihu.com/equation?tex=t_{\text{way}} "t\_{\text{way}}") 为当前道路 **耗时            
-**![](https://www.zhihu.com/equation?tex=t_{\text{plus}} "t\_{\text{plus}}") 为当前道路的 **地形增加耗时            
+![](https://www.zhihu.com/equation?tex=t_{\text{way}} "t\_{\text{way}}") 为当前道路 **耗时              
+**![](https://www.zhihu.com/equation?tex=t_{\text{plus}} "t\_{\text{plus}}") 为当前道路的 **地形增加耗时              
 **![](https://www.zhihu.com/equation?tex=w "w") 为当前道路的 **地形，**![](https://www.zhihu.com/equation?tex=w\in+\left\{+\text{Normal}%2C+\text{Mountain}%2C+\text{Sea}%2C+\text{Cave}+\right\} "w\in \left\{ \text{Normal}, \text{Mountain}, \text{Sea}, \text{Cave} \right\}")![](https://www.zhihu.com/equation?tex=n "n") 为携带物品数量  
 ![](https://www.zhihu.com/equation?tex=E_{\text{Normal}}%28x%29%2CE_{\text{Mountain}}%28x%29%2CE_{\text{Sea}}%28x%29%2CE_{\text{Cave}}%28x%29%2CE_{\text{All}}%28x%29 "E\_{\text{Normal}}\(x\),E\_{\text{Mountain}}\(x\),E\_{\text{Sea}}\(x\),E\_{\text{Cave}}\(x\),E\_{\text{All}}\(x\)") 依次为携带的第 ![](https://www.zhihu.com/equation?tex=x "x") 件物品中所有具有 普通、山地、大海、洞穴、任意地形**移动速度 的效果值。**
 
@@ -184,8 +179,6 @@ img src="[https://pic4.zhimg.com/50/v2-8519071aa7d56558474ffef7e52ee958\_hd.gif]
 
 * **明信片概率**
 
-  ---
-
   明信片上不同元素出现的概率
 
   据说所有的地图元素都有真实原型
@@ -202,22 +195,10 @@ img src="[https://pic4.zhimg.com/50/v2-8519071aa7d56558474ffef7e52ee958\_hd.gif]
 
 奉上这张吐血整理的物品效果图鉴：
 
-![](http://leunggeorge.github.io/src_img/gitbook/物品效果图鉴-v2-ac9de692ddf463e7838b1c007ab578dc_r.jpg)
-&lt;
+![](http://leunggeorge.github.io/src_img/gitbook/物品效果图鉴-v2-ac9de692ddf463e7838b1c007ab578dc_r.jpg)  
 
-img src="[https://pic1.zhimg.com/50/v2-ac9de692ddf463e7838b1c007ab578dc\_hd.jpg](https://pic1.zhimg.com/50/v2-ac9de692ddf463e7838b1c007ab578dc_hd.jpg)" data-caption="" data-size="normal" data-rawwidth="3826" data-rawheight="3581" class="origin\_image zh-lightbox-thumb" width="3826" data-original="[https://pic1.zhimg.com/v2-ac9de692ddf463e7838b1c007ab578dc\_r.jpg](https://pic1.zhimg.com/v2-ac9de692ddf463e7838b1c007ab578dc_r.jpg)"
 
-&gt;
-
-![](https://pic1.zhimg.com/80/v2-ac9de692ddf463e7838b1c007ab578dc_hd.jpg)
-
-&lt;
-
-img src="[https://pic3.zhimg.com/50/v2-589b369c1564310488c541d7da42b992\_hd.jpg](https://pic3.zhimg.com/50/v2-589b369c1564310488c541d7da42b992_hd.jpg)" data-caption="" data-size="small" data-rawwidth="1145" data-rawheight="682" class="origin\_image zh-lightbox-thumb" width="1145" data-original="[https://pic3.zhimg.com/v2-589b369c1564310488c541d7da42b992\_r.jpg](https://pic3.zhimg.com/v2-589b369c1564310488c541d7da42b992_r.jpg)"
-
-&gt;
-
-![](https://pic3.zhimg.com/80/v2-589b369c1564310488c541d7da42b992_hd.jpg)
+![](/assets/import-旅行青蛙-收藏品-2018年02月09日14:49:00.png)
 
 有五类不同的物品
 
@@ -244,8 +225,7 @@ img src="[https://pic3.zhimg.com/50/v2-589b369c1564310488c541d7da42b992\_hd.jpg]
 属性分类
 
 * **HP**
-* * **最大时间（小时**  
-    ）
+* * **最大时间（小时**）
 
     决定蛙的旅行时间
 
@@ -298,19 +278,13 @@ img src="[https://pic3.zhimg.com/50/v2-589b369c1564310488c541d7da42b992\_hd.jpg]
 
 ## 如何科学使用物品？
 
-&lt;
+![](/assets/import-旅行青蛙-选择困难-2018年02月09日14:51:01.png)
 
-img src="[https://pic1.zhimg.com/50/v2-639c8d930850a0e2ccf3d73595707ffc\_hd.gif](https://pic1.zhimg.com/50/v2-639c8d930850a0e2ccf3d73595707ffc_hd.gif)" data-caption="" data-size="normal" data-rawwidth="306" data-rawheight="222" data-thumbnail="[https://pic1.zhimg.com/50/v2-639c8d930850a0e2ccf3d73595707ffc\_hd.jpg](https://pic1.zhimg.com/50/v2-639c8d930850a0e2ccf3d73595707ffc_hd.jpg)" class="content\_image" width="306"
 
-&gt;
-
-![](https://pic1.zhimg.com/50/v2-639c8d930850a0e2ccf3d73595707ffc_hd.jpg)
 
 这里用几个例子来展示物品和路线结合的效果
 
 1. **决定想去的地区**
-
-   ---
 
    携带的便当和抽奖获得的护身符（お守り）可以提升选择特定地区的概率。 抽奖获得的车票（きっぷ）可以  
    **直接决定**  
@@ -330,8 +304,6 @@ img src="[https://pic1.zhimg.com/50/v2-639c8d930850a0e2ccf3d73595707ffc\_hd.gif]
 
 3. **快速通过沿途路线的地形**
 
-   ---
-
    带有地区速度加成的食物或者道具，可以增加特定地形的移动速度。
 
    不同物品的  
@@ -350,31 +322,15 @@ img src="[https://pic1.zhimg.com/50/v2-639c8d930850a0e2ccf3d73595707ffc\_hd.gif]
 **呱想去秋田県男鹿市看灯塔**
 
 1. 在地图上找到 秋田県（3022） 在北方。
-2. 便当选择 
-   **あさつきのピロシキ （葱饼？）**
-   可以提升去北方的概率。
-3. 携带 
-   **青色のお守り （蓝色护身符）**
-   可以提升去北方的概率。
-4. 如果有 
-   **北国きっぷ（北方车票？）**
-   可以直接决定去北方，上面的便当和护身符可以换别的。
+2. 便当选择 **あさつきのピロシキ （葱饼？）**可以提升去北方的概率。
+3. 携带 **青色のお守り （蓝色护身符）**可以提升去北方的概率。
+4. 如果有 **北国きっぷ（北方车票？）**可以直接决定去北方，上面的便当和护身符可以换别的。
 5. 通过目的地概率表发现携带各类帐篷前往 3022 目的地的概率更高。
 6. 查看可能的路线发现从起始点 3000 到 3022 之间会途径很多山路。
-7. 携带 
-   **ハイテクテント （高级帐篷？）**
-   增加山地移动速度更显著。
-8. 如果还有空余，可以带上 
-   **よつ葉（四叶草）**
-   或者 
-   **幸運の鈴**
-   ，提升带回物品的概率。
+7. 携带 **ハイテクテント （高级帐篷？）**增加山地移动速度更显著。
+8. 如果还有空余，可以带上 **よつ葉（四叶草）**或者 **幸運の鈴**，提升带回物品的概率。
 
-&lt;
 
-img src="[https://pic1.zhimg.com/50/v2-24d00a5015507fd212aa77504813b9de\_hd.jpg](https://pic1.zhimg.com/50/v2-24d00a5015507fd212aa77504813b9de_hd.jpg)" data-caption="" data-size="normal" data-rawwidth="500" data-rawheight="350" class="origin\_image zh-lightbox-thumb" width="500" data-original="[https://pic1.zhimg.com/v2-24d00a5015507fd212aa77504813b9de\_r.jpg](https://pic1.zhimg.com/v2-24d00a5015507fd212aa77504813b9de_r.jpg)"
-
-&gt;
 
 ![](https://pic1.zhimg.com/80/v2-24d00a5015507fd212aa77504813b9de_hd.jpg)
 
@@ -384,33 +340,23 @@ img src="[https://pic1.zhimg.com/50/v2-24d00a5015507fd212aa77504813b9de\_hd.jpg]
 
 普通的明信片是自动合成的。根据道路元素、所携带道具、遇到的同行小伙伴，程序会选择合适的背景、前景和呱和小伙伴的 pose，合成完整的明信片。粗略计算，有 120 种左右的组合。
 
-&lt;
+![](/assets/import-旅行青蛙-小伙伴-2018年02月09日14:54:46.png)
 
-img src="[https://pic3.zhimg.com/50/v2-f693541dcd6ff01bf573029bdd84229a\_hd.jpg](https://pic3.zhimg.com/50/v2-f693541dcd6ff01bf573029bdd84229a_hd.jpg)" data-size="normal" data-rawwidth="1350" data-rawheight="600" class="origin\_image zh-lightbox-thumb" width="1350" data-original="[https://pic3.zhimg.com/v2-f693541dcd6ff01bf573029bdd84229a\_r.jpg](https://pic3.zhimg.com/v2-f693541dcd6ff01bf573029bdd84229a_r.jpg)"
 
-&gt;
 
-![](https://pic3.zhimg.com/80/v2-f693541dcd6ff01bf573029bdd84229a_hd.jpg)
+
 
 几种不同的 pose
 
 有一些带有特定的故事情节明信片是单张绘制的，这里也可以看出游戏制作者的用心：迷路和小伙伴看地图通常出现在地图的边缘，冷清下水道一般出现在四通八达的城市交通枢纽。
 
-&lt;
+![](/assets/import-旅行青蛙-小伙伴-2018年02月09日14:55:25.png)
 
-img src="[https://pic1.zhimg.com/50/v2-e94a712c25d9bf6cd637a4a2c444e1b8\_hd.jpg](https://pic1.zhimg.com/50/v2-e94a712c25d9bf6cd637a4a2c444e1b8_hd.jpg)" data-size="normal" data-rawwidth="500" data-rawheight="350" class="origin\_image zh-lightbox-thumb" width="500" data-original="[https://pic1.zhimg.com/v2-e94a712c25d9bf6cd637a4a2c444e1b8\_r.jpg](https://pic1.zhimg.com/v2-e94a712c25d9bf6cd637a4a2c444e1b8_r.jpg)"
 
-&gt;
-
-![](https://pic1.zhimg.com/80/v2-e94a712c25d9bf6cd637a4a2c444e1b8_hd.jpg)
 
 迷路的呱呱
 
-&lt;
 
-img src="[https://pic4.zhimg.com/50/v2-67f15a21eceffc257c625238749e2ff9\_hd.jpg](https://pic4.zhimg.com/50/v2-67f15a21eceffc257c625238749e2ff9_hd.jpg)" data-size="normal" data-rawwidth="500" data-rawheight="350" class="origin\_image zh-lightbox-thumb" width="500" data-original="[https://pic4.zhimg.com/v2-67f15a21eceffc257c625238749e2ff9\_r.jpg](https://pic4.zhimg.com/v2-67f15a21eceffc257c625238749e2ff9_r.jpg)"
-
-&gt;
 
 ![](https://pic4.zhimg.com/80/v2-67f15a21eceffc257c625238749e2ff9_hd.jpg)
 
@@ -420,13 +366,9 @@ img src="[https://pic4.zhimg.com/50/v2-67f15a21eceffc257c625238749e2ff9\_hd.jpg]
 
 上面提到了，成功到达**目的地（GOAL）**的时候才会获得特产，收藏品的获得的基础概率是 15%，使用 **四叶草** 或者 **幸运铃铛** 可以减少收集收藏品的阻力，增加获得概率。其他物品的概率如下：
 
-&lt;
 
-img src="[https://pic1.zhimg.com/50/v2-5d933b42fae69f6802ffaba864d42fc8\_hd.jpg](https://pic1.zhimg.com/50/v2-5d933b42fae69f6802ffaba864d42fc8_hd.jpg)" data-caption="" data-size="small" data-rawwidth="1195" data-rawheight="5881" class="origin\_image zh-lightbox-thumb" width="1195" data-original="[https://pic1.zhimg.com/v2-5d933b42fae69f6802ffaba864d42fc8\_r.jpg](https://pic1.zhimg.com/v2-5d933b42fae69f6802ffaba864d42fc8_r.jpg)"
+![](http://leunggeorge.github.io/src_img/gitbook/地区物品获得概率-v2-5d933b42fae69f6802ffaba864d42fc8\_r.jpg)
 
-&gt;
-
-![](https://pic1.zhimg.com/80/v2-5d933b42fae69f6802ffaba864d42fc8_hd.jpg)
 
 游戏代码中有收藏品收集三次必定成功的设定，但是实际上并未启用，可能在之后的版本中会引入
 
@@ -440,11 +382,7 @@ img src="[https://pic1.zhimg.com/50/v2-5d933b42fae69f6802ffaba864d42fc8\_hd.jpg]
 
 给来访的朋友投喂会获得三叶草和抽奖券的回礼：
 
-&lt;
 
-img src="[https://pic4.zhimg.com/50/v2-42ca38c99c94b36574c7fa7c02124490\_hd.jpg](https://pic4.zhimg.com/50/v2-42ca38c99c94b36574c7fa7c02124490_hd.jpg)" data-caption="" data-size="small" data-rawwidth="676" data-rawheight="328" class="origin\_image zh-lightbox-thumb" width="676" data-original="[https://pic4.zhimg.com/v2-42ca38c99c94b36574c7fa7c02124490\_r.jpg](https://pic4.zhimg.com/v2-42ca38c99c94b36574c7fa7c02124490_r.jpg)"
-
-&gt;
 
 ![](https://pic4.zhimg.com/80/v2-42ca38c99c94b36574c7fa7c02124490_hd.jpg)
 
@@ -454,12 +392,6 @@ img src="[https://pic4.zhimg.com/50/v2-42ca38c99c94b36574c7fa7c02124490\_hd.jpg]
 
 **为了达到最好效果，最好换四种不同的礼物轮流投喂**，具体可以参照下面的喜好表格：
 
-&lt;
-
-img src="[https://pic4.zhimg.com/50/v2-61ec1f27a581a73c7deb30474ffb1c17\_hd.jpg](https://pic4.zhimg.com/50/v2-61ec1f27a581a73c7deb30474ffb1c17_hd.jpg)" data-caption="" data-size="small" data-rawwidth="800" data-rawheight="2081" class="origin\_image zh-lightbox-thumb" width="800" data-original="[https://pic4.zhimg.com/v2-61ec1f27a581a73c7deb30474ffb1c17\_r.jpg](https://pic4.zhimg.com/v2-61ec1f27a581a73c7deb30474ffb1c17_r.jpg)"
-
-&gt;
-
 ![](https://pic4.zhimg.com/80/v2-61ec1f27a581a73c7deb30474ffb1c17_hd.jpg)
 
 ## 三叶草多久会长好？
@@ -467,12 +399,6 @@ img src="[https://pic4.zhimg.com/50/v2-61ec1f27a581a73c7deb30474ffb1c17\_hd.jpg]
 花坛中总共有 20 根三叶草。
 
 三叶草割完之后重生的时间是遵循 ![](https://www.zhihu.com/equation?tex=\mu%3D7200，\sigma%3D1800 "\mu=7200，\sigma=1800") 的正态分布在 ![](https://www.zhihu.com/equation?tex=[300%2C+14400] "\[300, 14400\]") 的区间：
-
-&lt;
-
-img src="[https://pic3.zhimg.com/50/v2-d455a65b3b15866e5a8f8717ef0a7406\_hd.jpg](https://pic3.zhimg.com/50/v2-d455a65b3b15866e5a8f8717ef0a7406_hd.jpg)" data-caption="" data-size="normal" data-rawwidth="576" data-rawheight="333" class="origin\_image zh-lightbox-thumb" width="576" data-original="[https://pic3.zhimg.com/v2-d455a65b3b15866e5a8f8717ef0a7406\_r.jpg](https://pic3.zhimg.com/v2-d455a65b3b15866e5a8f8717ef0a7406_r.jpg)"
-
-&gt;
 
 ![](https://pic3.zhimg.com/80/v2-d455a65b3b15866e5a8f8717ef0a7406_hd.jpg)
 
@@ -494,12 +420,6 @@ img src="[https://pic3.zhimg.com/50/v2-d455a65b3b15866e5a8f8717ef0a7406\_hd.jpg]
 
 蛙旅行的时候会立一些 Flag，我从代码中整理了一下触发的条件：
 
-&lt;
-
-img src="[https://pic1.zhimg.com/50/v2-d7e606bc6c49621bf8861d4c70b03c95\_hd.jpg](https://pic1.zhimg.com/50/v2-d7e606bc6c49621bf8861d4c70b03c95_hd.jpg)" data-caption="" data-size="small" data-rawwidth="641" data-rawheight="732" class="origin\_image zh-lightbox-thumb" width="641" data-original="[https://pic1.zhimg.com/v2-d7e606bc6c49621bf8861d4c70b03c95\_r.jpg](https://pic1.zhimg.com/v2-d7e606bc6c49621bf8861d4c70b03c95_r.jpg)"
-
-&gt;
-
 ![](https://pic1.zhimg.com/80/v2-d7e606bc6c49621bf8861d4c70b03c95_hd.jpg)
 
 这也是玄学错误迷信的一个地方。使用称呼对游戏其他部分没有任何影响，不会改变获得物品和明信片获得概率，也不会影响出门时长。
@@ -507,12 +427,6 @@ img src="[https://pic1.zhimg.com/50/v2-d7e606bc6c49621bf8861d4c70b03c95\_hd.jpg]
 ## 有没有免费获得三叶草的方法？
 
 你猜？
-
-&lt;
-
-img src="[https://pic2.zhimg.com/50/v2-4d9e1a01ff1ddc43e9b82d0a676cc36c\_hd.gif](https://pic2.zhimg.com/50/v2-4d9e1a01ff1ddc43e9b82d0a676cc36c_hd.gif)" data-caption="" data-size="normal" data-rawwidth="306" data-rawheight="217" data-thumbnail="[https://pic2.zhimg.com/50/v2-4d9e1a01ff1ddc43e9b82d0a676cc36c\_hd.jpg](https://pic2.zhimg.com/50/v2-4d9e1a01ff1ddc43e9b82d0a676cc36c_hd.jpg)" class="content\_image" width="306"
-
-&gt;
 
 ![](https://pic2.zhimg.com/50/v2-4d9e1a01ff1ddc43e9b82d0a676cc36c_hd.jpg)
 
