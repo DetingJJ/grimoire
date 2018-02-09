@@ -196,12 +196,13 @@ img src="[https://pic4.zhimg.com/50/v2-8519071aa7d56558474ffef7e52ee958\_hd.gif]
 
 具体如下，不能再详细了
 
-![](http://leunggeorge.github.io/src_img/gitbook/20160910154700du-sh.png)
+![](http://leunggeorge.github.io/src_img/gitbook/import-道路路径属性-v2-7415bade0ede80076d3ca63a7d2a4c35_r.jpg)
 
 ## 每件物品都有什么效果？
 
 奉上这张吐血整理的物品效果图鉴：
 
+![](http://leunggeorge.github.io/src_img/gitbook/物品效果图鉴-v2-ac9de692ddf463e7838b1c007ab578dc_r.jpg)
 &lt;
 
 img src="[https://pic1.zhimg.com/50/v2-ac9de692ddf463e7838b1c007ab578dc\_hd.jpg](https://pic1.zhimg.com/50/v2-ac9de692ddf463e7838b1c007ab578dc_hd.jpg)" data-caption="" data-size="normal" data-rawwidth="3826" data-rawheight="3581" class="origin\_image zh-lightbox-thumb" width="3826" data-original="[https://pic1.zhimg.com/v2-ac9de692ddf463e7838b1c007ab578dc\_r.jpg](https://pic1.zhimg.com/v2-ac9de692ddf463e7838b1c007ab578dc_r.jpg)"
