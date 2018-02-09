@@ -196,13 +196,7 @@ img src="[https://pic4.zhimg.com/50/v2-8519071aa7d56558474ffef7e52ee958\_hd.gif]
 
 具体如下，不能再详细了
 
-&lt;
-
-img src="[https://pic1.zhimg.com/50/v2-7415bade0ede80076d3ca63a7d2a4c35\_hd.jpg](https://pic1.zhimg.com/50/v2-7415bade0ede80076d3ca63a7d2a4c35_hd.jpg)" data-caption="" data-size="small" data-rawwidth="1445" data-rawheight="8646" class="origin\_image zh-lightbox-thumb" width="1445" data-original="[https://pic1.zhimg.com/v2-7415bade0ede80076d3ca63a7d2a4c35\_r.jpg](https://pic1.zhimg.com/v2-7415bade0ede80076d3ca63a7d2a4c35_r.jpg)"
-
-&gt;
-
-![](https://pic1.zhimg.com/80/v2-7415bade0ede80076d3ca63a7d2a4c35_hd.jpg)
+![](http://leunggeorge.github.io/2018/02/09/import-道路路径属性-v2-7415bade0ede80076d3ca63a7d2a4c35_r.jpg)
 
 ## 每件物品都有什么效果？
 
