@@ -130,6 +130,8 @@
     * [迅速秒杀99%的海量数据处理面试题](suan-fa-she-ji-yu-fen-xi/hai-liang-shu-ju-chu-li/xun-su-miao-sha-99-de-hai-liang-shu-ju-chu-li-mian-shi-ti.md)
   * [回答排序算法](suan-fa-she-ji-yu-fen-xi/hui-da-pai-xu-suan-fa.md)
     * [知乎的回答排序算法（威尔逊得分）](suan-fa-she-ji-yu-fen-xi/hui-da-pai-xu-suan-fa/zhi-hu-de-hui-da-pai-xu-suan-fa-ff08-wei-er-xun-de-fen-ff09.md)
+  * [RSA算法](suan-fa-she-ji-yu-fen-xi/rsasuan-fa-xiang-jie.md)
+    * [RSA算法详解](suan-fa-she-ji-yu-fen-xi/rsasuan-fa-xiang-jie/rsasuan-fa-xiang-jie.md)
 * [微服务](wei-fu-wu.md)
   * [微服务Microservice文摘](wei-fu-wu/wei-fu-wu-microservice-wen-zhai.md)
 * [C++程序设计](ccheng-xu-she-ji.md)
