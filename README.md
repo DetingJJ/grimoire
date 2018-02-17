@@ -4,7 +4,6 @@
 
 ## 赞助
 感谢赞助^_^
-
 ![](https://leunggeorge.github.io/src_img/donate.png)  
 
 <img src="https://leunggeorge.github.io/src_img/donate.png" width="30%" height="30%">  
