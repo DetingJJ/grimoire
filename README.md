@@ -2,8 +2,5 @@
 
 
 
-## 赞助
-感谢赞助^_^
-![](https://leunggeorge.github.io/src_img/donate.png)  
-
+## 感谢支持
 <img src="https://leunggeorge.github.io/src_img/donate.png" width="30%" height="30%">  
