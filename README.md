@@ -5,4 +5,4 @@
 
 
 ## 感谢支持
-<img src="https://leunggeorge.github.io/src_img/donate.png" width="30%" height="30%">  
+<img src="https://leunggeorge.github.io/src_img/donate.png">  
