@@ -163,5 +163,5 @@
 * [docker基础](dockerji-chu.md)
   * [docker架构](dockerji-chu/dockerjia-gou.md)
 * [设计模式](she-ji-mo-shi.md)
-  * [临时文章](she-ji-mo-shi/lin-shi-wen-zhang.md)
+  * [什么是设计模式？](she-ji-mo-shi/shi-yao-shi-she-ji-mo-shi-ff1f.md)
 
