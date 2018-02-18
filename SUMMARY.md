@@ -164,4 +164,7 @@
   * [docker架构](dockerji-chu/dockerjia-gou.md)
 * [设计模式](she-ji-mo-shi.md)
   * [什么是设计模式？](she-ji-mo-shi/shi-yao-shi-she-ji-mo-shi-ff1f.md)
+  * [创建型模式](she-ji-mo-shi/chuang-jian-xing-mo-shi.md)
+  * 结构型模式
+  * [行为型模式](she-ji-mo-shi/xing-wei-xing-mo-shi.md)
 
