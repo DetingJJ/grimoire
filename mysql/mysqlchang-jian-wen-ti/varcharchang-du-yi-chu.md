@@ -28,6 +28,6 @@ CREATE TABLE `tbl_test` (
 按行最大值65535，计算字段的最大长度。
 
 方法二：
-修改字段类型为text，
+修改字段类型为text等超级类型（吼吼）
 
 > [mysql 字段长度限制](http://blog.csdn.net/qq_31678877/article/details/52936625)
