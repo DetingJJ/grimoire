@@ -134,6 +134,8 @@
     * [知乎的回答排序算法（威尔逊得分）](suan-fa-she-ji-yu-fen-xi/hui-da-pai-xu-suan-fa/zhi-hu-de-hui-da-pai-xu-suan-fa-ff08-wei-er-xun-de-fen-ff09.md)
   * [RSA算法](suan-fa-she-ji-yu-fen-xi/rsasuan-fa-xiang-jie.md)
     * [RSA算法详解](suan-fa-she-ji-yu-fen-xi/rsasuan-fa-xiang-jie/rsasuan-fa-xiang-jie.md)
+  * [基础算法](suan-fa-she-ji-yu-fen-xi/ji-chu-suan-fa.md)
+    * [求二进制数中1的个数](suan-fa-she-ji-yu-fen-xi/ji-chu-suan-fa/qiu-er-jin-zhi-shu-zhong-1-de-ge-shu.md)
 * [微服务](wei-fu-wu.md)
   * [微服务Microservice文摘](wei-fu-wu/wei-fu-wu-microservice-wen-zhai.md)
 * [C++程序设计](ccheng-xu-she-ji.md)
