@@ -165,6 +165,7 @@
   * [史上最伟大的20位程序员](jing-dian-wen-zhai/shi-shang-zui-wei-da-de-20-wei-cheng-xu-yuan.md)
   * [PHP程序员的技术成长规划](jing-dian-wen-zhai/phpcheng-xu-yuan-de-ji-zhu-cheng-chang-gui-hua.md)
   * [呱呱走火入魔](jing-dian-wen-zhai/gu-gu-zou-huo-ru-mo.md)
+  * [没有银弹](jing-dian-wen-zhai/mei-you-yin-dan.md)
 * [docker基础](dockerji-chu.md)
   * [docker架构](dockerji-chu/dockerjia-gou.md)
 * [设计模式](she-ji-mo-shi.md)
