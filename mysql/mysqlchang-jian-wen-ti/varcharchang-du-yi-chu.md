@@ -19,6 +19,7 @@ CREATE TABLE `tbl_test` (
   UNIQUE KEY `name_UNIQUE` (`name`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 ```
+> 注意21742这个长度，加起来整行长度为65535.
 
 ## 解决方法
 
