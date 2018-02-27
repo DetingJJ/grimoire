@@ -8,6 +8,7 @@ SQL Statement:
 ALTER TABLE `my_project`.`tbl_test` 
 ADD COLUMN `ext` VARCHAR(30000) NULL AFTER `name`
 
+
 ## 表结构
 
 ```
