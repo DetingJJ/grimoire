@@ -24,3 +24,4 @@ CREATE TABLE `tbl_test` (
 ## 解决方法
 
 
+> [mysql 字段长度限制](http://blog.csdn.net/qq_31678877/article/details/52936625)
