@@ -123,6 +123,7 @@
   * [MySQL常见问题](mysql/mysqlchang-jian-wen-ti.md)
     * [MySQL连接数太多](mysql/mysqlchang-jian-wen-ti/mysqllian-jie-shu-tai-duo.md)
     * [服务启动失败](mysql/mysqlchang-jian-wen-ti/fu-wu-qi-dong-shi-bai.md)
+    * [varchar长度溢出](mysql/mysqlchang-jian-wen-ti/varcharchang-du-yi-chu.md)
   * [数据库优化](mysql/shu-ju-ku-you-hua.md)
     * [表的垂直拆分和水平拆分](mysql/shu-ju-ku-you-hua/biao-de-chui-zhi-chai-fen-he-shui-ping-chai-fen.md)
     * [字段类型与合理的选择字段类型](mysql/mysqlshu-ju-ku-ji-chu/zi-duan-lei-xing-yu-he-li-de-xuan-ze-zi-duan-lei-xing.md)
