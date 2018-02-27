@@ -9,3 +9,5 @@ ALTER TABLE `my_project`.`tbl_test`
 ADD COLUMN `ext` VARCHAR(30000) NULL AFTER `name`
 
 ## 解决方法
+
+
