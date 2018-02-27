@@ -138,6 +138,7 @@
     * [求二进制数中1的个数](suan-fa-she-ji-yu-fen-xi/ji-chu-suan-fa/qiu-er-jin-zhi-shu-zhong-1-de-ge-shu.md)
 * [微服务](wei-fu-wu.md)
   * [微服务Microservice文摘](wei-fu-wu/wei-fu-wu-microservice-wen-zhai.md)
+  * [微服务、SOA 和 API：是敌是友？](wei-fu-wu/wei-fu-wu-3001-soa-he-api-ff1a-shi-di-shi-you-ff1f.md)
 * [C++程序设计](ccheng-xu-she-ji.md)
   * [C++基础](cji-chu.md)
     * [指针执行delete分析](cji-chu/zhi-zhen-zhi-xing-delete-fen-xi.md)
