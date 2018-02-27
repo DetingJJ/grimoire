@@ -24,7 +24,8 @@ CREATE TABLE `tbl_test` (
 
 
 ## 解决方法
-
+方法一：
+按行最大值65535，计算字段的最大长度。
 
 
 > [mysql 字段长度限制](http://blog.csdn.net/qq_31678877/article/details/52936625)
