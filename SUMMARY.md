@@ -155,6 +155,7 @@
     * [Thrift的TBinaryProtocol二进制协议分析](xi-tong-jia-gou/xie-yi/thriftde-tbinaryprotocol-er-jin-zhi-xie-yi-fen-xi.md)
     * [AMQP和RabbitMQ](xi-tong-jia-gou/xie-yi/amqphe-rabbitmq.md)
     * [WebSocket](xi-tong-jia-gou/xie-yi/websocket.md)
+    * [ZeroMQ](xi-tong-jia-gou/xie-yi/zeromq.md)
 * [开怀时刻](kai-huai-shi-ke.md)
   * [程序员某方面很迟钝](kai-huai-shi-ke/man-tan-cheng-xu-5458-duan-zi-shou-cang.md)
   * [读书历程折射出来的生活状态](kai-huai-shi-ke/du-shu-li-cheng-zhe-she-chu-lai-de-sheng-huo-zhuang-tai.md)
