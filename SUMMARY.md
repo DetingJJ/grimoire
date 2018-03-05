@@ -48,6 +48,8 @@
     * [HTTP状态码](php/httpji-chu/httpzhuang-tai-ma.md)
   * [PHP框架](php/phpkuang-jia.md)
     * [Laravel](php/php-kuang-jia/laravel.md)
+      * [问题收集](php/php-kuang-jia/laravel/wen-ti-shou-ji.md)
+        * [Eloquent model 为什么数据表一定要是s结尾](php/php-kuang-jia/laravel/wen-ti-shou-ji/eloquent-model-wei-shi-yao-shu-ju-biao-yi-ding-yao-shi-s-jie-wei.md)
     * [ThinkPHP](php/php-kuang-jia/thinkphp.md)
     * [BetePHP](php/php-kuang-jia/betephp.md)
       * [BetePHP](php/php-kuang-jia/betephp/betephp.md)
