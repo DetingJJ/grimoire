@@ -5,23 +5,13 @@
 确保系统已经安装xcode，然后使用一行命令安装依赖管理工具[Homebrew](http://brew.sh/)
 
 ```
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/
-install
-/
-master
-/
-install
-)
-"
-
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 之后就可以使用
 
 ```
-brew
- install FORMULA
-
+brew install FORMULA
 ```
 
 来安装所需要的依赖了。
@@ -90,15 +80,12 @@ export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 ```
 brew
  search php56
-
 ```
 
 看到，下面是我自己所需要的扩展，可以支持[Phalcon框架](http://phalconphp.com/)：
 
 ```
-brew
- install php56-gearman php56-msgpack php56-memcache php56-memcached php56-mongo  php56-phalcon php56-redis php56-xdebug
-
+brew install php56-gearman php56-msgpack php56-memcache php56-memcached php56-mongo  php56-phalcon php56-redis php56-xdebug
 ```
 
 ### PHP-FPM的加载与启动
@@ -108,7 +95,6 @@ brew
 ```
 php-fpm -D
 killall php-fpm
-
 ```
 
 同时可以讲php-fpm加入开机启动
@@ -120,7 +106,6 @@ local
 launchctl 
 load
  ~/Library/LaunchAgents/homebrew.mxcl.php56.plist
-
 ```
 
 ## 安装Nginx
@@ -128,7 +113,6 @@ load
 ```
 brew
  install nginx
-
 ```
 
 安装完毕后可以通过
@@ -137,14 +121,12 @@ brew
 nginx
 
 nginx -s quit
-
 ```
 
 启动和关闭，同时也支持重载配置文件等操作
 
 ```
 nginx -s reload|reopen|stop|quit
-
 ```
 
 nginx安装后默认监听8080端口，可以访问`http://localhost:8080`查看状态。如果要想监听80端口需要root权限，运行
@@ -166,7 +148,6 @@ local
 nginx
 /1.6.2/
 bin/nginx
-
 ```
 
 并使用root权限启动
@@ -174,7 +155,6 @@ bin/nginx
 ```
 sudo
  nginx
-
 ```
 
 开机启动
@@ -186,7 +166,6 @@ local
 launchctl 
 load
  ~/Library/LaunchAgents/homebrew.mxcl.nginx.plist
-
 ```
 
 ### Nginx + PHP-FPM配置
@@ -219,7 +198,6 @@ mkdir -p
 local
 /etc/
 nginx/ssl
-
 ```
 
 编辑Nginx全局配置
@@ -244,11 +222,11 @@ debug
 ;
 
 pid
-		/usr/local/var/run/nginx.pid;
+        /usr/local/var/run/nginx.pid;
 
 events
  {
-	
+
 worker_connections
 256
 ;
@@ -256,13 +234,13 @@ worker_connections
 
 http
  {
-	
+
 include
-	   mime.types;
-	
+       mime.types;
+
 default_type
   application/octet-stream;
-	
+
 log_format
  main 
 '
@@ -295,26 +273,25 @@ $scheme
 $cookie_evalogin
 '
 ;
-	
+
 access_log
   /usr/local/var/logs/access.log  main;
-	
+
 sendfile
 on
 ;
-	
+
 keepalive_timeout
 65
 ;
-	
+
 port_in_redirect
 off
 ;
-	
+
 include
  /usr/local/etc/nginx/sites-enabled/*;
 }
-
 ```
 
 这样一来首先可以把一些可复用配置独立出来放在`/usr/local/etc/nginx/conf.d`下，比如fastcgi的设置就可以独立出来
@@ -327,7 +304,6 @@ local
 nginx
 /conf.d/
 php-fpm
-
 ```
 
 内容为
@@ -336,28 +312,27 @@ php-fpm
 location
 ~ \.php$
  {
-	
+
 try_files
 $uri
  = 
 404
 ;
-	
+
 fastcgi_pass
 127.0.0.1:9000
 ;
-	
+
 fastcgi_index
-			   index.php;
-	
+               index.php;
+
 fastcgi_intercept_errors
 on
 ;
-	
+
 include
  /usr/local/etc/nginx/fastcgi.conf;
 }
-
 ```
 
 然后`/usr/local/etc/nginx/sites-enabled`目录下可以一个文件对应一个域名的配置，比如web服务器目录是`/opt/htdocs`
@@ -375,28 +350,27 @@ default
 ```
 server
  {
-	
+
 listen
 80
 ;
-	
+
 server_name
   localhost;
-	
+
 root
-		 /opt/htdocs/;
-	
+         /opt/htdocs/;
+
 location
  / {
-		
+
 index
   index.html index.htm index.php;
-		
-include
-	 /usr/local/etc/nginx/conf.d/php-fpm;
-	}
-}
 
+include
+     /usr/local/etc/nginx/conf.d/php-fpm;
+    }
+}
 ```
 
 此时启动了php-fpm并且启动了Nginx后，就可以通过`http://localhost`来运行php程序了
@@ -406,7 +380,6 @@ include
 ```
 brew
  install mysql
-
 ```
 
 可以通过
@@ -447,7 +420,6 @@ User
 mysql
 >
  FLUSH PRIVILEGES;
-
 ```
 
 最后将MySQL加入开机启动
@@ -462,7 +434,6 @@ mysql
 homebrew.mxcl.mysql.plist 
 ~/Library/
 LaunchAgents/
-
 ```
 
 ## Memcache
@@ -470,7 +441,6 @@ LaunchAgents/
 ```
 brew
  install memcached
-
 ```
 
 启动/停止指令
@@ -479,7 +449,6 @@ brew
 memcached
  -d
 killall memcached
-
 ```
 
 加入开机启动
@@ -494,7 +463,6 @@ memcached
 homebrew.mxcl.memcached.plist 
 ~/Library/
 LaunchAgents/
-
 ```
 
 ## Redis
@@ -502,7 +470,6 @@ LaunchAgents/
 ```
 brew
  install redis
-
 ```
 
 Redis默认配置文件不允许以Deamon方式运行，因此需要先修改配置文件
@@ -513,7 +480,6 @@ vim
 local
 /etc/
 redis.conf
-
 ```
 
 将daemonize修改为yes，然后载入配置文件即可实现后台进程启动
@@ -524,7 +490,6 @@ redis-server
 local
 /etc/
 redis.conf
-
 ```
 
 加入开机启动
@@ -538,8 +503,7 @@ redis
 /2.8.19/
 homebrew.mxcl.redis.plist 
 ~/Library/
-LaunchAgents/ 
-
+LaunchAgents/
 ```
 
 ## 设置别名
@@ -549,7 +513,6 @@ LaunchAgents/
 ```
 vim
  ~/.bash_profile
-
 ```
 
 加入
@@ -632,16 +595,11 @@ alias
 ```
 brew
  install composer node
-
 ```
 
 ## 参考
 
 * [全新安装Mac OSX 开发者环境](http://segmentfault.com/blog/fish/1190000000606752)
 
-
-
-引用地址：http://www.tuicool.com/articles/2yM7Z3
-
-
+引用地址：[http://www.tuicool.com/articles/2yM7Z3](http://www.tuicool.com/articles/2yM7Z3)
 
