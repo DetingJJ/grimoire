@@ -9,9 +9,11 @@ Laravel 框架中的 Blade 模板引擎，很好用，但是在官方文档中�
 >
 > Blade 模板中有关 section 的那些事：[https://ofcss.com/2014/12/16/blade-keywords-yield-section-show-stop-override-append.html](https://ofcss.com/2014/12/16/blade-keywords-yield-section-show-stop-override-append.html)
 >
+>
+>
 > 官方文档介绍：
 >
-> 参考：@section与@yield 介绍：https://www.kancloud.cn/baidu/laravel5/30671
+> 参考：@section与@yield 介绍：[https://www.kancloud.cn/baidu/laravel5/30671](https://www.kancloud.cn/baidu/laravel5/30671)
 
 
 
