@@ -52,7 +52,8 @@
     * [Laravel](php/php-kuang-jia/laravel.md)
       * [问题收集](php/php-kuang-jia/laravel/wen-ti-shou-ji.md)
         * [Eloquent model 为什么数据表一定要是s结尾](php/php-kuang-jia/laravel/wen-ti-shou-ji/eloquent-model-wei-shi-yao-shu-ju-biao-yi-ding-yao-shi-s-jie-wei.md)
-        * Blade 模板中有关 section 的那些事
+        * [Blade 模板中有关 section 的那些事](php/php-kuang-jia/laravel/wen-ti-shou-ji/blade-mo-ban-zhong-you-guan-section-de-na-xie-shi.md)
+        * [composer安装指定版本的laravel](php/php-kuang-jia/laravel/wen-ti-shou-ji/composeran-zhuang-zhi-ding-ban-ben-de-laravel.md)
     * [ThinkPHP](php/php-kuang-jia/thinkphp.md)
     * [BetePHP](php/php-kuang-jia/betephp.md)
       * [BetePHP](php/php-kuang-jia/betephp/betephp.md)
