@@ -38,6 +38,7 @@
     * [常量](php/phpji-chu/chang-liang.md)
       * [语法](php/phpji-chu/chang-liang/yu-fa.md)
       * [魔术常量](php/phpji-chu/chang-liang/mo-zhu-chang-liang.md)
+    * [知识点集锦](php/phpji-chu/zhi-shi-dian-ji-jin.md)
   * [文件系统](php/wen-jian-xi-tong.md)
     * [文件处理](php/wen-jian-xi-tong/wen-jian-chu-li.md)
       * [打开关闭文件](php/wen-jian-xi-tong/wen-jian-chu-li/da-kai-guan-bi-wen-jian.md)
