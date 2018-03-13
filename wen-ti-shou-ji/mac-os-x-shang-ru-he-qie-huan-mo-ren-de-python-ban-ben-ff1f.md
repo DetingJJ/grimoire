@@ -14,4 +14,4 @@ curl -L https://raw.githubusercontent.com/yyuu/pyenv-installer/master/bin/pyenv-
 ```
 
 
-是是是
+安装成功后修改bash配置，在 .bashrc 或者 .bash_profile 中添加三行来开启自动补全。
