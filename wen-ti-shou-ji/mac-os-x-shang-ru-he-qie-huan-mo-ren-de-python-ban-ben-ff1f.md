@@ -15,3 +15,12 @@ curl -L https://raw.githubusercontent.com/yyuu/pyenv-installer/master/bin/pyenv-
 
 
 安装成功后修改bash配置，需要在 `~/.zshrc`、`~/.bashrc` 或者 `~/.bash_profile` 中添加三行以启用。
+
+
+
+```
+export PATH="$HOME/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+```
+
