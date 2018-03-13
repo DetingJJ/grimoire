@@ -188,6 +188,7 @@
 * [docker基础](dockerji-chu.md)
   * [docker架构](dockerji-chu/dockerjia-gou.md)
   * [从零开始学习 Docker](dockerji-chu/cong-ling-kai-shi-xue-xi-docker.md)
+  * [paddlepaddle](dockerji-chu/paddlepaddle.md)
 * [设计模式](she-ji-mo-shi.md)
   * [什么是设计模式？](she-ji-mo-shi/shi-yao-shi-she-ji-mo-shi-ff1f.md)
   * [创建型模式](she-ji-mo-shi/chuang-jian-xing-mo-shi.md)
