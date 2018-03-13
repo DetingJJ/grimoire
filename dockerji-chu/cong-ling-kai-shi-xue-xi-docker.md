@@ -4,6 +4,16 @@ docker 官网下载地址：[http://download.virtualbox.org/virtualbox/](http://
 
 我安装的是4.3.30（[VirtualBox-4.3.30-101610-OSX.dmg](http://download.virtualbox.org/virtualbox/4.3.30/VirtualBox-4.3.30-101610-OSX.dmg)）
 
+**开始安装：**
+
+![](/assets/import-visualBox-安装界面-2018年03月13日13:57:22.png)
+
+
+
+**安装完成：**
+
+![](/assets/import-visualBox安装完成-2018年03月13日14:00:04.png)
+
 ## 备注
 
 龙哥推荐，docker基础入门必读。给力。。。
