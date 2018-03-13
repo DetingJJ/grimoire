@@ -47,7 +47,7 @@ pyenv uninstall 2.7.3 # 卸载python
 
 ### Python版本切换
 
-```py
+```
 pyenv global 2.7.3  # 设置全局的 Python 版本，通过将版本号写入 ~/.pyenv/version 文件的方式。
 pyenv local 2.7.3 # 设置 Python 本地版本，通过将版本号写入当前目录下的 .python-version 文件的方式。通过这种方式设置的 Python 版本优先级较 global 高。
 ```
