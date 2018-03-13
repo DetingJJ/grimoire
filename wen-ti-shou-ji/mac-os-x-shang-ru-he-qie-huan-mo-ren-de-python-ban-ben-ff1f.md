@@ -35,7 +35,13 @@ pyenv versions
 pyenv install -l
 ```
 
-### python 安装与卸载
+### Python 安装与卸载
+```
+pyenv install 2.7.3   # 安装python
+pyenv uninstall 2.7.3 # 卸载python
+```
+
+### Python版本切换
 ```
 pyenv install 2.7.3   # 安装python
 pyenv uninstall 2.7.3 # 卸载python
