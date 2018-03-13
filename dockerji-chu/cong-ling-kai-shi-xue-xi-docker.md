@@ -2,7 +2,7 @@
 
 docker 官网下载地址：[http://download.virtualbox.org/virtualbox/](http://download.virtualbox.org/virtualbox/)
 
-
+我安装的是4.3.30（[VirtualBox-4.3.30-101610-OSX.dmg](http://download.virtualbox.org/virtualbox/4.3.30/VirtualBox-4.3.30-101610-OSX.dmg)）
 
 ## 备注
 
