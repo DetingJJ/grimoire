@@ -25,7 +25,28 @@ eval "$(pyenv virtualenv-init -)"
 ## pyenv 常用命令 {#pyenv-常用命令}
 使用 `pyenv commands` 显示所有可用命令
 
-### 
+### 查看本机Python版本
+```
+pyenv versions
+```
+
+### 查看可安装的Python版本
+```
+pyenv install -l
+```
+
+### python 安装与卸载
+```
+pyenv install 2.7.3   # 安装python
+pyenv uninstall 2.7.3 # 卸载python
+```
+
+
+
+
+
+
+
 
 
 
