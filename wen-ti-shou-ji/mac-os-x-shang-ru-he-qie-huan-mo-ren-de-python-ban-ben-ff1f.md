@@ -7,15 +7,11 @@
 
 ## pyenv 安装
 pyenv 提供了自动安装的工具，执行命令安装即可：
-
-
 ```
 curl -L https://raw.githubusercontent.com/yyuu/pyenv-installer/master/bin/pyenv-installer | bash
 ```
 
 安装成功后修改bash配置，需要在 `~/.zshrc`、`~/.bashrc` 或者 `~/.bash_profile` 中添加三行以启用。
-
-
 ```
 export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
