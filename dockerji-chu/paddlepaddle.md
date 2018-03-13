@@ -2,3 +2,7 @@
 
 
 
+[深度学习101](http://www.paddlepaddle.org/docs/develop/book/01.fit_a_line/index.cn.html)文档：http://www.paddlepaddle.org/docs/develop/book/01.fit\_a\_line/index.cn.html
+
+
+
