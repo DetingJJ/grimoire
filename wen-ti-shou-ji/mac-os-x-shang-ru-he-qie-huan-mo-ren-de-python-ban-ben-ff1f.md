@@ -6,3 +6,10 @@
 上面的方法如此的简单（麻烦的是还需要多写一行代码）？图样图森破。。。万能的互联网人又造了个伟大的轮子`pyenv`,
 
 ## pyenv 安装
+pyenv 提供了自动安装的工具，执行命令安装即可：
+
+
+```
+curl -L https://raw.githubusercontent.com/yyuu/pyenv-installer/master/bin/pyenv-installer | bash
+```
+
