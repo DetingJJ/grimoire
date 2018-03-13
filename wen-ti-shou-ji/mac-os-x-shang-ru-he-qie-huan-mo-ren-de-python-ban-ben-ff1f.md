@@ -5,6 +5,6 @@
 
 > [https://www.zhihu.com/question/30941329](https://www.zhihu.com/question/30941329)
 
-上面的方法如此的简单？图样图森破。。。万能的互联网人又造了个伟大的轮子`pyenv`,
+上面的方法如此的简单（麻烦的是还需要多写一行代码）？图样图森破。。。万能的互联网人又造了个伟大的轮子`pyenv`,
 
 ## pyenv 安装
