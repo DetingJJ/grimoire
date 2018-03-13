@@ -23,6 +23,9 @@ eval "$(pyenv virtualenv-init -)"
 ```
 
 ## pyenv 常用命令 {#pyenv-常用命令}
+使用 `pyenv commands` 显示所有可用命令
+
+### 
 
 
 
