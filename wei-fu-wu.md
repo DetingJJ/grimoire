@@ -1,6 +1,4 @@
-微服务学习
+单体应用程序中，组件可通过语言级方法或者函数相互调用，基于微服务的应用程序是一个运行在多台机器上的分布式系统。
 
-
-
-经典文摘：https://www.jianshu.com/p/546ef242b6a3
+经典文摘：[https://www.jianshu.com/p/546ef242b6a3](https://www.jianshu.com/p/546ef242b6a3)
 
