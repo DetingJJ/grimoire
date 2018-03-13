@@ -13,3 +13,5 @@ pyenv 提供了自动安装的工具，执行命令安装即可：
 curl -L https://raw.githubusercontent.com/yyuu/pyenv-installer/master/bin/pyenv-installer | bash
 ```
 
+
+是是是
