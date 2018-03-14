@@ -2,7 +2,7 @@
 
 2.总结他们的区别
 
-[php中 echo,print,print\_r,var\_export,var\_dump 这些语句或者函数的作用可以笼统的概括为他们都是输出变量内容的。](http://www.phpernote.com/php/)中 echo,print,print\_r,var\_export,var\_dump 这些语句或者
+php中 echo,print,print\_r,var\_export,var\_dump 这些语句或者函数的作用可以笼统的概括为他们都是输出变量内容的。中 echo,print,print\_r,var\_export,var\_dump 这些语句或者
 
 [函数](http://www.phpernote.com/php-function/)
 
