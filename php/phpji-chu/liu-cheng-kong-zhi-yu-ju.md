@@ -23,17 +23,18 @@ if($a){
 ```
 
 + switch语句
+switch 语句与elseif语句类似,属于多向分支语句. 使用elseif语句进行多重选择时十分繁琐,为了避免if语句过于冗长,提高可读性,在必要时使用switch语句是最好不过的了,switch语法格式如下:
 ```
-<?php
-$i=2;    //定义整型变量$i作为switch结构的条件值
-switch ($i) {
-   case 1:
-echo "我是数值为1的语句";
-break;
-   case 2:
-echo "我是数值为2的语句";
-break;
-  default
-echo "没有找到相等的数值";
+switch(条件值){
+    case  数值1:
+        表达式语句1;
+        break;
+    case  数值2:
+        表达式语句2;
+        break;
+    ....
+    default:
+        表达式语句n;
+
 }
 ```
