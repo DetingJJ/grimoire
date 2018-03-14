@@ -13,4 +13,13 @@ if语句,也可以理解为单分支控制语句,语法格式:
     }
 ```
 + if...else语句
+```<?php
+$a = true;     //声明布尔类型变量$a
+if($a){
+    echo "条件为true";
+}else{
+    echo "条件为false";
+}
+```
+
 + switch语句
