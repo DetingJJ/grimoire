@@ -23,3 +23,17 @@ if($a){
 ```
 
 + switch语句
+```
+<?php
+$i=2;    //定义整型变量$i作为switch结构的条件值
+switch ($i) {
+   case 1:
+echo "我是数值为1的语句";
+break;
+   case 2:
+echo "我是数值为2的语句";
+break;
+  default
+echo "没有找到相等的数值";
+}
+```
