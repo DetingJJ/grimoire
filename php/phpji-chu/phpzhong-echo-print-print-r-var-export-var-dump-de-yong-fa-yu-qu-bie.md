@@ -3,11 +3,7 @@
 2.总结他们的区别
 
 php中可以输出变量内容的语句或者函数有：
-echo,print,print\_r,var\_export,var\_dump ， echo,print,print\_r,var\_export,var\_dump 这些语句或者
-
-[函数](http://www.phpernote.com/php-function/)
-
-的作用可以笼统的概括为他们都是输出变量内容的。
+echo,print,print\_r,var\_export,var\_dump 
 
 echo 输出一个或者多个字符串或变量值，他是php语句，不是函数。因为他不是函数，所以他也是没有返回值的。
 
