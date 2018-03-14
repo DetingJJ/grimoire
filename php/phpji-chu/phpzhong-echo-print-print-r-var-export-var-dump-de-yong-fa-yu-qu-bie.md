@@ -4,11 +4,17 @@
 
 php中可以输出变量内容的语句或者函数有：
 
-echo,print,print\_r,var\_export,var\_dump 
+,print,print\_r,var\_export,var\_dump 
 
 |key|类型|备注|
 |--|--|
 |x|x|
+|x|x|
+|x|x|
+|x|x|
+|x|x|
+
+
 
 echo 输出一个或者多个字符串或变量值，他是php语句，不是函数。因为他不是函数，所以他也是没有返回值的。
 

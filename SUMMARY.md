@@ -41,6 +41,7 @@
     * [知识点集锦](php/phpji-chu/zhi-shi-dian-ji-jin.md)
       * [PHP中pack、unpack的用法](php/phpji-chu/zhi-shi-dian-ji-jin/phpzhong-pack-unpack-de-yong-fa.md)
       * [xss漏洞原理及防御](php/phpji-chu/zhi-shi-dian-ji-jin/xsslou-dong-yuan-li-ji-fang-yu.md)
+      * [生成唯一id的几种解决方法](php/phpji-chu/zhi-shi-dian-ji-jin/sheng-cheng-wei-yi-id-de-ji-zhong-jie-jue-fang-fa.md)
   * [文件系统](php/wen-jian-xi-tong.md)
     * [文件处理](php/wen-jian-xi-tong/wen-jian-chu-li.md)
       * [打开关闭文件](php/wen-jian-xi-tong/wen-jian-chu-li/da-kai-guan-bi-wen-jian.md)
