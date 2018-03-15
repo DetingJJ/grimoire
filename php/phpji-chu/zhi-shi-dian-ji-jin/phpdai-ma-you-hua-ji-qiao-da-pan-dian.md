@@ -2,6 +2,7 @@ PHP优化的目的是花最少的代价换来最快的运行速度与最容易�
 
 1、**echo比print快**。
 <font color=red size=72>color=gray</font>
+
 2、使用echo的多重参数代替字符串连接。
 
 3、在执行for循环之前确定最大循环数，不要每循环一次都计算最大值，最好运用foreach代替。
