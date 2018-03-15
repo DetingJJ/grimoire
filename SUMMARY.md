@@ -42,6 +42,7 @@
       * [xss漏洞原理及防御](php/phpji-chu/zhi-shi-dian-ji-jin/xsslou-dong-yuan-li-ji-fang-yu.md)
       * [生成唯一id的几种解决方法](php/phpji-chu/zhi-shi-dian-ji-jin/sheng-cheng-wei-yi-id-de-ji-zhong-jie-jue-fang-fa.md)
       * [php中echo,print,print\_r,var\_export,var\_dump 的用法与区别](php/phpji-chu/phpzhong-echo-print-print-r-var-export-var-dump-de-yong-fa-yu-qu-bie.md)
+      * [echo、print、print\_r、var\_dump用法区别](php/phpji-chu/zhi-shi-dian-ji-jin/echoprintprintr-vardump-yong-fa-qu-bie.md)
   * [文件系统](php/wen-jian-xi-tong.md)
     * [文件处理](php/wen-jian-xi-tong/wen-jian-chu-li.md)
       * [打开关闭文件](php/wen-jian-xi-tong/wen-jian-chu-li/da-kai-guan-bi-wen-jian.md)
