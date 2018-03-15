@@ -1,6 +1,6 @@
 ## 生成唯一id的集中方法
 
-##  1.md5 这种方法有一定的概率会出现重复
+1.md5 这种方法有一定的概率会出现重复
 
 ```
 md5(time() . mt_rand(1,1000000));
@@ -51,7 +51,7 @@ public function create\_guid\($namespace = ''\) {
   $data .= $\_SERVER\['REMOTE\_PORT'\];  
   $hash = strtoupper\(hash\('ripemd128', $uid . $guid . md5\($data\)\)\);  
   $guid = '{' .  
-      substr\($hash, 0, 8\) .   
+      substr\($hash, 0, 8\) .  
       '-' .  
       substr\($hash, 8, 4\) .  
       '-' .  
