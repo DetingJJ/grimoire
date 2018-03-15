@@ -111,7 +111,7 @@ float(3.1)
 bool(true)
 ```
 
-> 引文：[http://www.phpernote.com/php-function/689.html](http://www.phpernote.com/php-function/689.html)
+> 文章摘自：[http://www.phpernote.com/php-function/689.html](http://www.phpernote.com/php-function/689.html)
 
 
 
