@@ -125,19 +125,11 @@ echo $host;
 
 ```
 $text = "Sample sentence from AnsonCheung.tk, regular expression has become popular in web programming. Now we learn regex. According to wikipedia, Regular expressions (abbreviated as regex or regexp, with plural forms regexes, regexps, or regexen) are written in a formal language that can be interpreted by a regular expression processor";
-$text = preg_replace("/\b(regex)\b/i", '
-<
-span style="background:#5fc9f6"
->
-\1
-<
-/span
->
-', $text);
+$text = preg_replace("/\b(regex)\b/i", '<span style="background:#5fc9f6">\1</span>', $text);
 echo $text;
 ```
 
-> 文章摘自：https://www.oudahe.com/p/153/
+> 文章摘自：[https://www.oudahe.com/p/153/](https://www.oudahe.com/p/153/)
 >
 > 英文来源：[10-useful-php-regular-expression](http://www.ansoncheung.tk/articles/10-useful-php-regular-expression)
 
