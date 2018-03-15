@@ -24,7 +24,10 @@ echo $str,'world','hello！';
 echo $str;
 ```
 
+### print
+print print()用于输出一个或多个字符串或变量值的信息。它只能打印出简单类型变量的值(如int,string)，不能打印数组和对象。他本质上也是一个语言结构而非函数，因此它无法被“变量函数”调用。print有返回值并且总是1。
 
+> 注释：print() 稍慢于 echo()。
 
 例如：
 
