@@ -8,11 +8,11 @@ php中可以输出变量内容的语句或者函数有：
 
 |key|类型|备注|
 |--|--|
-|x|x|
-|x|x|
-|x|x|
-|x|x|
-|x|x|
+|echo|x|
+|print|x|
+|print_r|x|
+|var_export|x|
+|var_dump|x|
 
 
 
