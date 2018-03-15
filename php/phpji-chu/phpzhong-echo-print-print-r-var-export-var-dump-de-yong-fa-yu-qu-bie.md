@@ -10,9 +10,9 @@ php中可以输出变量内容的语句或者函数有：
 |--|--|--|
 |echo|PHP语句|echo 输出一个或者多个字符串或变量值|
 |print|PHP语句|用于输出一个或多个字符串或变量值的信息|
-|print_r|x|x|
-|var_export|x|x|
-|var_dump|x|x|
+|print_r|函数|x|
+|var_export|函数|x|
+|var_dump|函数|x|
 
 
 echo 输出一个或者多个字符串或变量值，他是php语句，不是函数。因为他不是函数，所以他也是没有返回值的。
