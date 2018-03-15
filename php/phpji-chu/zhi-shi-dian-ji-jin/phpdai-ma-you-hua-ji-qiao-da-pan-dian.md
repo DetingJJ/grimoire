@@ -1,7 +1,6 @@
 PHP优化的目的是花最少的代价换来最快的运行速度与最容易维护的代码。本文给大家提供全面的优化技巧。
 
 1、**echo比print快**。
-<font color=red size=72>color=gray</font>
 
 2、使用echo的多重参数代替字符串连接。
 
