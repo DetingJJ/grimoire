@@ -1,11 +1,3 @@
-1.分析各个语句/函数的功能，概要一下各个的类型
-
-2.总结他们的区别
-
-php中可以输出变量内容的语句或者函数有：
-
-,print,print\_r,var\_export,var\_dump
-
 ## 功能/区别【概要】
 
 | key | 类型 | 功能 |
@@ -84,8 +76,6 @@ echo $v;
 */
 ```
 
-
-
 ### var\_dump
 
 var\_dump var\_dump\(\)函数用于显示关于一个或多个表达式的结构信息，包括表达式的类型与值。数组将递归展开值，通过缩进显示其结构。它是直接将结果输出到浏览器的，如果需要将结果保存到一个string变量中，可使用输出控制函数来捕获当前函数的输出。使用如：
@@ -99,7 +89,7 @@ $c = true;
 var_dump($b, $c);
 ```
 
-输出结果将为：
+**输出结果将为：**
 
 ```
 array(3) {
@@ -121,5 +111,7 @@ float(3.1)
 bool(true)
 ```
 
-引文：[http://www.phpernote.com/php-function/689.html](http://www.phpernote.com/php-function/689.html)
+> 引文：[http://www.phpernote.com/php-function/689.html](http://www.phpernote.com/php-function/689.html)
+
+
 
