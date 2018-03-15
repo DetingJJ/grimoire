@@ -6,7 +6,7 @@ php中可以输出变量内容的语句或者函数有：
 
 ,print,print\_r,var\_export,var\_dump 
 
-## 功能/区别概要
+## 功能/区别【概要】
 |key|类型|功能|
 |--|--|--|
 |echo|PHP语句|echo 输出一个或者多个字符串或变量值|
