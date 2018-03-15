@@ -51,10 +51,12 @@ $b = array ('m' => 'monkey', 'foo' => 'bar', 'x' => array ('x', 'y', 'z'));
 $results = print_r ($b, true); //$results 包含了 print_r 的输出结果
 ```
 
-### var_export
-var_export var_export()函数用于输出或返回一个变量的字符串表示。
-var_export 函数原型：`mixed var_export ( mixed $expression [, bool $return ] )`
-此函数返回关于传递给该函数的变量的结构信息，它和 var_dump() 类似，不同的是其返回的表示是合法的 PHP 代码。你可以通过将函数的第二个参数设置为 TRUE，从而返回变量的表示。例如：
+### var\_export
+
+var\_export var\_export\(\)函数用于输出或返回一个变量的字符串表示。  
+var\_export 函数原型：`mixed var_export ( mixed $expression [, bool $return ] )`  
+此函数返回关于传递给该函数的变量的结构信息，它和 var\_dump\(\) 类似，不同的是其返回的表示是合法的 PHP 代码。你可以通过将函数的第二个参数设置为 TRUE，从而返回变量的表示。例如：
+
 ```php
 <?php
 $a = array (1, 2, array ("a", "b", "c"));
@@ -83,10 +85,9 @@ echo $v;
 ?>
 ```
 
-### var_dump
-var_dump var_dump()函数用于显示关于一个或多个表达式的结构信息，包括表达式的类型与值。数组将递归展开值，通过缩进显示其结构。它是直接将结果输出到浏览器的，如果需要将结果保存到一个string变量中，可使用输出控制函数来捕获当前函数的输出。使用如：
+### var\_dump
 
-
+var\_dump var\_dump\(\)函数用于显示关于一个或多个表达式的结构信息，包括表达式的类型与值。数组将递归展开值，通过缩进显示其结构。它是直接将结果输出到浏览器的，如果需要将结果保存到一个string变量中，可使用输出控制函数来捕获当前函数的输出。使用如：
 
 ```php
 <?php
@@ -95,10 +96,9 @@ var_dump($a);
 $b = 3.1;
 $c = true;
 var_dump($b, $c);
-?> 
 ```
-输出结果将为：
 
+输出结果将为：
 
 ```
 array(3) {
@@ -119,10 +119,6 @@ array(3) {
 float(3.1)
 bool(true)
 ```
-
-
-
-
 
 引文：[http://www.phpernote.com/php-function/689.html](http://www.phpernote.com/php-function/689.html)
 
