@@ -56,8 +56,31 @@ var_export var_export()函数用于输出或返回一个变量的字符串表示
 var_export 函数原型：`mixed var_export ( mixed $expression [, bool $return ] )`
 此函数返回关于传递给该函数的变量的结构信息，它和 var_dump() 类似，不同的是其返回的表示是合法的 PHP 代码。你可以通过将函数的第二个参数设置为 TRUE，从而返回变量的表示。例如：
 ```php
-echo $str,'world','hello！';
-echo $str;
+<?php
+$a = array (1, 2, array ("a", "b", "c"));
+var_export ($a);
+
+/* 结果将输出：
+array (
+  0 => 1,
+  1 => 2,
+  2 => 
+  array (
+    0 => 'a',
+    1 => 'b',
+    2 => 'c',
+  ),
+)
+*/
+
+$b = 3.1;
+$v = var_export($b, TRUE);
+echo $v;
+
+/* 结果将输出：
+3.1
+*/
+?>
 ```
 
 引文：[http://www.phpernote.com/php-function/689.html](http://www.phpernote.com/php-function/689.html)
