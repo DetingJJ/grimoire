@@ -51,7 +51,9 @@ $b = array ('m' => 'monkey', 'foo' => 'bar', 'x' => array ('x', 'y', 'z'));
 $results = print_r ($b, true); //$results 包含了 print_r 的输出结果
 ```
 
-例如：
+### var_export
+var_export var_export()函数用于输出或返回一个变量的字符串表示。
+var_export 函数原型：`mixed var_export ( mixed $expression [, bool $return ] )`
 
 ```php
 echo $str,'world','hello！';
