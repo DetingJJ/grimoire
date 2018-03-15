@@ -34,6 +34,13 @@ print_r print_r()是函数，用于打印关于变量的易于理解的信息。
 
 print_r 函数原型：bool print_r ( mixed expression [, bool return] )
 
+由上可见print_r返回值是布尔型的,参数是mix类型的,可以是字符串,整形,数组,对象类print_r() 显示关于一个变量的易于理解的信息。如果给出的是 string、integer 或 float，将打印变量值本身。如果给出的是 array，将会按照一定格式显示键和元素。object 与数组类似。
+
+注释: 参数 return 是在 PHP 4.3.0 的时候加上的。记住，print_r() 对数组作用后将把数组的指针移到最后边。使用 reset() 可让指针回到开始处。
+
+如果想捕捉 print_r() 的输出，可使用 return 参数。若此参数设为 TRUE， print_r() 将不打印结果（此为默认动作），而是返回其输出。例如：
+
+
 例如：
 
 ```
