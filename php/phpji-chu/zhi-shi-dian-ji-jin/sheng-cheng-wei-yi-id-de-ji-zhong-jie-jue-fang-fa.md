@@ -13,6 +13,30 @@ uniqid\(\) 函数基于以微秒计的当前时间，生成一个唯一的 ID。
 
 > w3school参考手册有一句话:"由于基于系统时间，通过该函数生成的 ID 不是最佳的。如需生成绝对唯一的 ID，请使用 md5\(\) 函数"。
 
+```php
+/**
+ * ${STATIC} uuid
+ * @desc: 生产一个格式化的MD5
+ * @return string [229E2799-C381-E833-26A7-C072D3565B54]
+ */
+function uuid() {
+    if (function_exists('com_create_guid')) {
+        return com_create_guid();
+    } else {
+        mt_srand((double)microtime() * 10000); //optional for php 4.2.0 and up.随便数播种，4.2.0以后不需要了。
+        $charID = strtoupper(md5(uniqid(rand(), true))); //根据当前时间（微秒计）生成唯一id.
+        $hyphen = chr(45); // "-"
+        $uuid   = ''
+            . substr($charID, 0, 8 )
+            . $hyphen . substr($charID, 8, 4 )
+            . $hyphen . substr( $charID, 12, 4 )
+            . $hyphen . substr( $charID, 16, 4 )
+            . $hyphen . substr( $charID, 20, 12 );
+        return $uuid;
+    }
+}
+```
+
 网上查了下，有很多的方法
 
 1、md5\(time\(\) . mt\_rand\(1,1000000\)\);
