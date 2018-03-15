@@ -46,8 +46,7 @@ function uuid() {
 
 官方uniqid\(\)参考手册有用户提供的方法，结果类似：{AE2A87D6-26AD-BD92-35C5-FF8130BE8381}
 
-```
-
+```php
 /**
  * ${STATIC} create_guid
  * @desc: 生成一个格式化的MD5
