@@ -104,7 +104,7 @@ if (preg_match('/^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|6011[0-9]{12}|3(?:0
 **　　8. 验证域名**
 
 ```
-$url = "http://ansoncheung.tk/";
+ $url = "http://ansoncheung.tk/";
  if (preg_match('/^(http|https|ftp):\/\/([A-Z0-9][A-Z0-9_-]*(?:\.[A-Z0-9][A-Z0-9_-]*)+):?(\d+)?\/?/i', $url)) {
  echo "Your url is ok.";
  } else {
@@ -115,10 +115,10 @@ $url = "http://ansoncheung.tk/";
 **　　9. 从特定URL中提取域名**
 
 ```
-$url = "http://ansoncheung.tk/articles";
+ $url = "http://ansoncheung.tk/articles";
  preg_match('@^(?:http://)?([^/]+)@i', $url, $matches);
  $host = $matches[1];
-echo $host;
+ echo $host;
 ```
 
 **　　10. 将文中关键词高亮显示**
