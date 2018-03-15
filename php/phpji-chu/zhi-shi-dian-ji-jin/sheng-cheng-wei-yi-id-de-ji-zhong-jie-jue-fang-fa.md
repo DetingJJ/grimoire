@@ -37,6 +37,8 @@ function uuid() {
 }
 ```
 
+> com\_create\_guid\(\)是php自带的生成唯一id方法，php5之后貌似已经没有了。
+
 网上查了下，有很多的方法
 
 1、md5\(time\(\) . mt\_rand\(1,1000000\)\);
