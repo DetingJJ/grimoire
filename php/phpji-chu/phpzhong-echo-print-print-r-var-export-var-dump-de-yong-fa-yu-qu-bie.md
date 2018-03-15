@@ -8,7 +8,7 @@ php中可以输出变量内容的语句或者函数有：
 
 |key|类型|备注|
 |--|--|--|
-|echo|x|php语句|
+|echo|php语句|echo 输出一个或者多个字符串或变量值|
 |print|x|x|
 |print_r|x|x|
 |var_export|x|x|
