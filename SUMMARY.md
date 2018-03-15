@@ -178,7 +178,7 @@
   * [呱呱走火入魔](jing-dian-wen-zhai/gu-gu-zou-huo-ru-mo.md)
   * [没有银弹](jing-dian-wen-zhai/mei-you-yin-dan.md)
   * [CAP原则\(CAP定理\)、BASE理论](jing-dian-wen-zhai/capyuan-521928-cap-ding-740629-3001-base-li-lun.md)
-* [docker基础](dockerji-chu.md)
+* [docker](dockerji-chu.md)
   * [docker架构](dockerji-chu/dockerjia-gou.md)
   * [从零开始学习 Docker](dockerji-chu/cong-ling-kai-shi-xue-xi-docker.md)
   * [paddlepaddle](dockerji-chu/paddlepaddle.md)
