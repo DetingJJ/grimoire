@@ -55,7 +55,6 @@ $results = print_r ($b, true); //$results 包含了 print_r 的输出结果
 
 ```php
 echo $str,'world','hello！';
-
 echo $str;
 ```
 
