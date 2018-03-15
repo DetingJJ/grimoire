@@ -41,6 +41,15 @@ print_r 函数原型：bool print_r ( mixed expression [, bool return] )
 如果想捕捉 print_r() 的输出，可使用 return 参数。若此参数设为 TRUE， print_r() 将不打印结果（此为默认动作），而是返回其输出。例如：
 
 
+
+```
+<?php
+$b = array ('m' => 'monkey', 'foo' => 'bar', 'x' => array ('x', 'y', 'z'));
+$results = print_r ($b, true); //$results 包含了 print_r 的输出结果
+```
+
+
+
 例如：
 
 ```
