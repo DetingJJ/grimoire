@@ -52,7 +52,11 @@ PHP优化的目的是花最少的代价换来最快的运行速度与最容易�
 
 26、$row\[’id’\] 的速度是$row\[id\]的7倍。
 
-> 文章摘自：[https://www.oudahe.com/p/154/](https://www.oudahe.com/p/154/)
+> 文章摘自：
+>
+> [https://www.oudahe.com/p/154/](https://www.oudahe.com/p/154/)
+>
+> https://www.oudahe.com/p/95/
 
 
 
