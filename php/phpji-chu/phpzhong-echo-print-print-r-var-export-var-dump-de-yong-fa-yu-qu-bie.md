@@ -32,7 +32,7 @@ print print()用于输出一个或多个字符串或变量值的信息。它只�
 ### print_r
 print_r print_r()是函数，用于打印关于变量的易于理解的信息。
 
-print_r 函数原型：bool print_r ( mixed expression [, bool return] )
+print_r 函数原型：`bool print_r ( mixed expression [, bool return] )`
 
 由上可见print_r返回值是布尔型的,参数是mix类型的,可以是字符串,整形,数组,对象类print_r() 显示关于一个变量的易于理解的信息。如果给出的是 string、integer 或 float，将打印变量值本身。如果给出的是 array，将会按照一定格式显示键和元素。object 与数组类似。
 
