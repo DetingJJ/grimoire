@@ -10,8 +10,8 @@
 
 吉尔伯特和林奇证明的CAP定理比布鲁尔设想的某种程度上更加狭义。定理讨论了在两个互相矛盾的请求到达彼此连接不通的两个不同的分布式节点的时候的处理方案。
 
-> 写的很好，值得一读（此处不再复制原文了）：[CAP原则\(CAP定理\)、BASE理论](http://www.cnblogs.com/duanxz/p/5229352.html)
-
+> 写的很好，值得一读：[CAP原则\(CAP定理\)、BASE理论](http://www.cnblogs.com/duanxz/p/5229352.html)
+>
 > 维基百科简介，CAP定理：[https://zh.wikipedia.org/wiki/CAP定理](https://zh.wikipedia.org/wiki/CAP定理)
 
 
