@@ -4,6 +4,13 @@
 ### docker Hello world
 
 
+```
+➜  ~ docker run ubuntu:14.04 /bin/echo "hello world"
+hello world
+```
+
+
+
 ## 备注
 
 龙哥推荐，docker基础入门必读。给力。。。
