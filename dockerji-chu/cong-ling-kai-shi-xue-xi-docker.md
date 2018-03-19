@@ -1,6 +1,6 @@
 ## 安装docker
 
-直接上安装教程：[https://yeasy.gitbooks.io/docker\_practice/content/install/mac.html](https://yeasy.gitbooks.io/docker_practice/content/install/mac.html)
+安装教程：[https://yeasy.gitbooks.io/docker\_practice/content/install/mac.html](https://yeasy.gitbooks.io/docker_practice/content/install/mac.html)
 
 ## docker使用
 
@@ -17,7 +17,7 @@ hello world
 
 * **run:**与前面的 docker 组合来运行一个容器。
 
-* **ubuntu:14.04**指定要运行的镜像，Docker首先从本地主机上查找镜像是否存在，如果不存在，Docker 就会从镜像仓库 Docker Hub 下载公共镜像。
+* **ubuntu:14.04**指定要运行的镜像，Docker首先从本地主机上查找镜像是否存在，如果不存在，Docker 就会从镜像仓库 Docker Hub 下载公共镜像。
 
 * **/bin/echo "Hello world":**在启动的容器里执行的命令
 
