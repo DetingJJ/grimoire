@@ -49,5 +49,7 @@ root@aaae9436d4af:/#
 
 我的镜像列表：[https://cr.console.aliyun.com/?spm=5176.1971733.2.28.6b9f5aaa30Cwoi\#/myFav](https://cr.console.aliyun.com/?spm=5176.1971733.2.28.6b9f5aaa30Cwoi#/myFav)
 
-国内镜像：https://hub.daocloud.io/
+> 国内镜像（这个方法很赞）：[https://hub.daocloud.io/](https://hub.daocloud.io/)，顺便贴上文摘地址：http://www.updateweb.cn/zwfec/item-115.html
+
+
 
