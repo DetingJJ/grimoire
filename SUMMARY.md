@@ -100,6 +100,7 @@
     * [Nginx作为 web 服务器时使用的配置](nginxji-chu/nginxzuo-wei-web-fu-wu-qi-shi-shi-yong-de-pei-zhi.md)
   * [防盗链](nginxji-chu/fang-dao-lian.md)
     * [盗链](nginxji-chu/fang-dao-lian/dao-lian.md)
+  * [Nginx配置](nginxji-chu/nginxpei-zhi.md)
 * [Linux](linux.md)
   * [安装linux](linux/di-yi-bu-fen-an-zhuang-linux.md)
     * [安装ubuntu](linux/an-zhuang-linux.md)
