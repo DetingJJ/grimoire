@@ -4,5 +4,5 @@
 
 /usr/local/etc/nginx/conf.d
 
-/usr/local/nginx/conf
+/usr/local/nginx/conf/nginx.conf
 
