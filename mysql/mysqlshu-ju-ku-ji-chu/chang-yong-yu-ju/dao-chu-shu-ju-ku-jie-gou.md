@@ -61,7 +61,7 @@ mysqldump -h127.0.0.1 -uroot -p -d  my_project --skip-lock-tables >sql_nodata.tx
 
     -- Dump completed on 2017-10-08 20:56:24
 
-## 导出数据库结构+数据
+## 导出数据库结构+数据（不锁表）
 
 **命令：**
 
