@@ -66,7 +66,7 @@ mysqldump -h127.0.0.1 -uroot -p -d  my_project --skip-lock-tables >sql_nodata.tx
 **命令：**
 
 ```
-mysqldump -h127.0.0.1 -uroot -p my_project  >sql.txt
+mysqldump -h127.0.0.1 -uroot -p my_project --skip-lock-tables >sql.txt
 ```
 
 **导出内容：**
