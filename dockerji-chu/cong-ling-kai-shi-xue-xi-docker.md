@@ -39,6 +39,24 @@ root@aaae9436d4af:/#
 3dbf10561e8d409918819b98bffc765e12fbe25964fd2a97ac4d9aaf7683d173
 ```
 
+**启动Nginx**
+
+假定当前目录：/usr/local/var
+
+```
+docker run -p 80:80 --name mynginx -v  /usr/local/var/www:/www -v  /usr/local/nginx/conf/nginx.conf:/etc/nginx/nginx.conf -v /usr/local/nginx/logs:/www/logs -d nginx 1e61af26e4ffb87bda27e23bbd060927d0cd62fce9e484cf61e582b3076f19c1
+
+
+
+w3cschool@w3cschool:~/nginx$
+
+w3cschool@w3cschool:~/nginx$ docker run -p 80:80 --name mynginx -v $PWD/www:/www -v $PWD/conf/nginx.conf:/etc/nginx/nginx.conf -v $PWD/logs:/wwwlogs  -d nginx  
+45c89fab0bf9ad643bc7ab571f3ccd65379b844498f54a7c8a4e7ca1dc3a2c1e
+w3cschool@w3cschool:~/nginx$
+```
+
+## 
+
 ## 备注
 
 龙哥推荐，docker基础入门必读。给力。。。
@@ -49,7 +67,7 @@ root@aaae9436d4af:/#
 
 我的镜像列表：[https://cr.console.aliyun.com/?spm=5176.1971733.2.28.6b9f5aaa30Cwoi\#/myFav](https://cr.console.aliyun.com/?spm=5176.1971733.2.28.6b9f5aaa30Cwoi#/myFav)
 
-> 国内镜像（这个方法很赞）：[https://hub.daocloud.io/](https://hub.daocloud.io/)，顺便贴上文摘地址：http://www.updateweb.cn/zwfec/item-115.html
+> 国内镜像（这个方法很赞）：[https://hub.daocloud.io/](https://hub.daocloud.io/)，顺便贴上文摘地址：[http://www.updateweb.cn/zwfec/item-115.html](http://www.updateweb.cn/zwfec/item-115.html)
 
 
 
