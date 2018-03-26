@@ -99,7 +99,7 @@ SELECT * FROM tableName WHERE MATCH(fields) AGAINST ('search term')
 
 按照上面的思路，第三行数据含有this，因此应该可以匹配出第三行数据的，但事实却奇怪得很，返回结果为空，为什么呢？
 
-原来是mysql指定了最小字符长度，默认是4，必须要匹配大于4的才会有返回结果，可以用 `SHOW VARIABLES LIKE 'ft\_min\_word\_len'` 来查看指定的字符长度，也可以在mysql配置文件my.ini 更改最小字符长度，方法是在my.ini 增加一行 比如：ft\_min\_word\_len = 2，改完后重启mysql即可。
+原来是mysql指定了最小字符长度，默认是4，必须要匹配大于4的才会有返回结果，可以用 `SHOW VARIABLES LIKE 'ft_min_word_len'` 来查看指定的字符长度，也可以在mysql配置文件my.ini 更改最小字符长度，方法是在my.ini 增加一行 比如：ft\_min\_word\_len = 2，改完后重启mysql即可。
 
 操作三：
 
