@@ -16,30 +16,16 @@ MySQL有多种存储引擎，每种存储引擎有各自的优缺点，可以择
 
 **两种存储引擎的大致区别表现在**：
 
-* **InnoDB支持事务，MyISAM不支持**
-  ，这一点是非常之重要。事务是一种高级的处理方式，如在一些列增删改中只要哪个出错还可以回滚还原，而MyISAM就不可以了。
-* **MyISAM适合查询以及插入为主的应用**
-  。
-* **InnoDB适合频繁修改以及涉及到安全性较高的应用**
-  。
+* **InnoDB支持事务，MyISAM不支持**，这一点是非常之重要。事务是一种高级的处理方式，如在一些列增删改中只要哪个出错还可以回滚还原，而MyISAM就不可以了。
+* **MyISAM适合查询以及插入为主的应用**。
+* **InnoDB适合频繁修改以及涉及到安全性较高的应用**。
 * InnoDB支持外键，MyISAM不支持。
-* **从MySQL5.5.5以后，InnoDB是默认引擎**
-  。
+* **从MySQL5.5.5以后，InnoDB是默认引擎**。
 * InnoDB不支持FULLTEXT类型的索引。
-* **InnoDB中不保存表的行数**
-  ，如
-  `select count(*) from table`
-  时，InnoDB需要扫描一遍整个表来计算有多少行，但是MyISAM只要简单的读出保存好的行数即可。注意的是，当count\(\*\)语句包含where条件时MyISAM也需要扫描整个表。
+* **InnoDB中不保存表的行数**，如`select count(*) from table`时，InnoDB需要扫描一遍整个表来计算有多少行，但是MyISAM只要简单的读出保存好的行数即可。注意的是，当count\(\*\)语句包含where条件时MyISAM也需要扫描整个表。
 * 对于自增长的字段，InnoDB中必须包含只有该字段的索引，但是在MyISAM表中可以和其他字段一起建立联合索引。
-* `DELETE FROM table`
-  时，
-  **InnoDB不会重新建立表，而是一行一行的 删除，效率非常慢**
-  。
-  **MyISAM则会重建表**
-  。
-* InnoDB支持行锁（某些情况下还是锁整表，如 
-  `update table set a=1 where user like '%lee%'`
-  。
+* `DELETE FROM table`时，**InnoDB不会重新建立表，而是一行一行的 删除，效率非常慢**。**MyISAM则会重建表**。
+* InnoDB支持行锁（某些情况下还是锁整表，如 `update table set a=1 where user like '%lee%'`。
 
 ### 关于MySQL数据库提供的两种存储引擎，MyISAM与InnoDB选择使用：
 
