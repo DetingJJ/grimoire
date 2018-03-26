@@ -35,7 +35,6 @@
 **MySQL默认的事务隔离级别为repeatable-read**
 
 * **MySQL 支持 4 中事务隔离级别**
-  .
 * 事务的隔离级别要得到底层数据库引擎的支持, 而不是应用程序或者框架的支持.
 * Oracle 支持的 2 种事务隔离级别：READ\_COMMITED , SERIALIZABLE
 
