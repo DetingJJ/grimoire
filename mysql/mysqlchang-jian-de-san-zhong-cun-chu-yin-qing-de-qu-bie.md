@@ -1,4 +1,4 @@
-# MySQL常见的三种存储引擎（InnoDB、MyISAM、MEMORY）的区别？
+## MySQL常见的三种存储引擎（InnoDB、MyISAM、MEMORY）的区别？
 
 MySQL存储引擎中的MyISAM和InnoDB区别详解
 
@@ -74,23 +74,11 @@ MEMORY默认使用哈希索引。速度比使用B型树索引快。当然如果�
 
 注意，**MEMORY用到的很少，因为它是把数据存到内存中，如果内存出现异常就会影响数据。如果重启或者关机，所有数据都会消失**。因此，基于**MEMORY的表的生命周期很短，一般是一次性的**。
 
-  
-
-
 作者：关注公众号每天更新文章
 
-  
-
-
-链接：https://juejin.im/post/5ab50d9b6fb9a028c812cc78
-
-  
-
+链接：[https://juejin.im/post/5ab50d9b6fb9a028c812cc78](https://juejin.im/post/5ab50d9b6fb9a028c812cc78)
 
 来源：掘金
-
-  
-
 
 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
