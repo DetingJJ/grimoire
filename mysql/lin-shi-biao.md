@@ -1,6 +1,6 @@
 ## 什么是临时表，临时表什么时候删除？
 
-时表可以手动删除：
+临时表可以手动删除：
 
 ```
 DROP TEMPORARY TABLE IF EXISTS temp_tb;
@@ -12,8 +12,8 @@ DROP TEMPORARY TABLE IF EXISTS temp_tb;
 
 ```
 CREATE TEMPORARY TABLE tmp_table (
-	NAME VARCHAR (10) NOT NULL,
-	time date NOT NULL
+    NAME VARCHAR (10) NOT NULL,
+    time date NOT NULL
 );
 
 select * from tmp_table;
