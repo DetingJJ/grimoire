@@ -19,7 +19,7 @@ CREATE TEMPORARY TABLE tmp_table (
 select * from tmp_table;
 ```
 
-# 
+
 
 
 
