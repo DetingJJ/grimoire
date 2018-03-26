@@ -81,7 +81,7 @@ SELECT * FROM tableName WHERE MATCH(fields) AGAINST ('search term')
 
 在具体实例之前，我们分析下msyql全文检索的语法：函数 MATCH\(\) 对照一个文本集\(包含在一个 FULLTEXT 索引中的一个或多个列的列集\)执行一个自然语言搜索一个字符串。搜索字符串做为 AGAINST\(\) 的参数被给定。搜索以忽略字母大小写的方式执行。说白了就是MATCH给定匹配的列（fulltext类型索引），AGAINST给定要匹配的字符串，多 个用空格、标点分开，mysql会自动分隔。
 
-操作一：
+**操作一：**
 
     SELECT * FROM `category` WHERE MATCH(catname) AGAINST('phpjs')    
 
@@ -93,7 +93,7 @@ SELECT * FROM tableName WHERE MATCH(fields) AGAINST ('search term')
 
 匹配出了含有phpjs关键字的行数据。
 
-操作二：
+**操作二：**
 
     SELECT * FROM `category` WHERE MATCH (catname) AGAINST ('this')  
 
@@ -101,7 +101,7 @@ SELECT * FROM tableName WHERE MATCH(fields) AGAINST ('search term')
 
 原来是mysql指定了最小字符长度，默认是4，必须要匹配大于4的才会有返回结果，可以用 `SHOW VARIABLES LIKE 'ft_min_word_len'` 来查看指定的字符长度，也可以在mysql配置文件my.ini 更改最小字符长度，方法是在my.ini 增加一行 比如：ft\_min\_word\_len = 2，改完后重启mysql即可。
 
-操作三：
+**操作三：**
 
 这里我们要确定把最小字符改为2了，因为3行记录都有‘you’，因此心想，匹配‘you’就可以返回所有结果了
 
@@ -111,7 +111,7 @@ SELECT * FROM tableName WHERE MATCH(fields) AGAINST ('search term')
 
 原来mysql在集和查询中的对每个合适的词都会先计算它们的权重，一个出现在多个文档中的词将有较低的权重\(可能甚至有一个零权重\)，因为在这个 特定的集中，它有较低的语义值。否则，如果词是较少的，它将得到一个较高的权重，mysql默认的阀值是50%，上面‘you’在每个文档都出现，因此是 100%，只有低于50%的才会出现在结果集中。
 
-操作四：
+**操作四：**
 
 有人会想，我不去管权重大小，只要有匹配的就给我返回结果集中，那么该如何做呢？
 
