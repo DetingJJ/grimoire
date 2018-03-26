@@ -144,6 +144,8 @@
     * [字段类型与合理的选择字段类型](mysql/mysqlshu-ju-ku-ji-chu/zi-duan-lei-xing-yu-he-li-de-xuan-ze-zi-duan-lei-xing.md)
   * [文摘收藏](mysql/wen-zhai-shou-cang.md)
     * [游标、事务并发和锁三者之间的那点事](mysql/wen-zhai-shou-cang/you-biao-3001-shi-wu-bing-fa-he-suo-san-zhe-zhi-jian-de-na-dian-shi.md)
+  * [事务](mysql/shi-wu.md)
+    * [事务的四大特性（ACID）](mysql/shi-wu/shi-wu-de-si-da-te-xing-ff08-acid.md)
 * [算法设计与分析](suan-fa-she-ji-yu-fen-xi.md)
   * [海量数据处理](suan-fa-she-ji-yu-fen-xi/hai-liang-shu-ju-chu-li.md)
     * [迅速秒杀99%的海量数据处理面试题](suan-fa-she-ji-yu-fen-xi/hai-liang-shu-ju-chu-li/xun-su-miao-sha-99-de-hai-liang-shu-ju-chu-li-mian-shi-ti.md)
