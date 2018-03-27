@@ -153,6 +153,7 @@
   * [临时表](mysql/lin-shi-biao.md)
   * [索引](mysql/suo-yin.md)
     * [全文索引fulltext](mysql/suo-yin/quan-wen-suo-yin-fulltext.md)
+    * [sql查询语句确定创建哪种类型的索引，优化查询](mysql/suo-yin/sqlcha-xun-yu-ju-que-ding-chuang-jian-na-zhong-lei-xing-de-suo-yin-ff0c-you-hua-cha-xun.md)
 * [算法设计与分析](suan-fa-she-ji-yu-fen-xi.md)
   * [海量数据处理](suan-fa-she-ji-yu-fen-xi/hai-liang-shu-ju-chu-li.md)
     * [迅速秒杀99%的海量数据处理面试题](suan-fa-she-ji-yu-fen-xi/hai-liang-shu-ju-chu-li/xun-su-miao-sha-99-de-hai-liang-shu-ju-chu-li-mian-shi-ti.md)
