@@ -79,7 +79,7 @@ SELECT * FROM tableName WHERE MATCH(fields) AGAINST ('search term')
     INSERT INTO `category` (`id`, `fid`, `catname`, `addtime`) VALUES     
     (1, 0, 'welcome to you!', '1263363380'),      
     (2, 0, 'hello phpjs,you are welcome', '1263363416'),      
-    (3, 0, 'this is the fan site of you', '1263363673');
+    (3, 0, 'this is the fan site of you, xp', '1263363673');
 
 在具体实例之前，我们分析下msyql全文检索的语法：函数 MATCH\(\) 对照一个文本集\(包含在一个 FULLTEXT 索引中的一个或多个列的列集\)执行一个自然语言搜索一个字符串。搜索字符串做为 AGAINST\(\) 的参数被给定。搜索以忽略字母大小写的方式执行。说白了就是MATCH给定匹配的列（fulltext类型索引），AGAINST给定要匹配的字符串，多 个用空格、标点分开，mysql会自动分隔。
 
