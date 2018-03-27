@@ -73,9 +73,8 @@ SELECT * FROM tableName WHERE MATCH(fields) AGAINST ('search term')
       `addtime` char(10) NOT NULL,      
       PRIMARY KEY  (`id`),      
       FULLTEXT KEY `catname` (`catname`)      
-    ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=5 ;      
-
-    /*  http://www.manongjc.com/article/1443.html */    
+    ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=5 ;  
+   
     INSERT INTO `category` (`id`, `fid`, `catname`, `addtime`) VALUES     
     (1, 0, 'welcome to you!', '1263363380'),      
     (2, 0, 'hello phpjs,you are welcome', '1263363416'),      
