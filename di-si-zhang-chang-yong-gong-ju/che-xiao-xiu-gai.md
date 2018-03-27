@@ -86,11 +86,11 @@ G**it操作时序图**![](/assets/import-git操作时序图.png)
 >
 > **原理:**`git commit --amend` 会用一个新的 commit 更新并替换最近的 commit ，这个新的 commit 会把任何修改内容和上一个 commit 的内容结合起来。如果当前没有提出任何修改，这个操作就只会把上次的 commit 消息重写一遍。
 
-
-
 git撤销操作大全
 
-> 原文：[如何在 Git 里撤销\(几乎\)任何操作](http://blog.jobbole.com/87700)  
+> 参考资料：
+>
+> [如何在 Git 里撤销\(几乎\)任何操作](http://blog.jobbole.com/87700)  
 > [撤销修改](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001374831943254ee90db11b13d4ba9a73b9047f4fb968d000)  
 > [git add ， git commit 添加错文件 撤销](http://blog.csdn.net/kongbaidepao/article/details/52253774)  
 > [Git 的 4 个阶段的撤销更改：](https://mp.weixin.qq.com/s/LBOO0e30LZvY7BHP-TIVog)
