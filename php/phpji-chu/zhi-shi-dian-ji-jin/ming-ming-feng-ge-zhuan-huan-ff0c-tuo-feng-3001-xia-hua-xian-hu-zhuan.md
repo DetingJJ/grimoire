@@ -2,13 +2,7 @@
 
 ```php
 <?php
-/**
- * Created by PhpStorm.
- * User: liangyuanzheng
- * Date: 3/28/17
- * Time: 20:24
- * Desc: 命名风格转换，驼峰&下划线互相转换，支持递归层次
- */
+
 
 class CNamingStyleConvert
 {
