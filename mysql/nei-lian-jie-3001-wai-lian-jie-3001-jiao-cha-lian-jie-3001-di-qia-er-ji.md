@@ -24,7 +24,7 @@ SELECT * FROM authors AS a INNER JOIN publishers AS p ON a.city=p.city
 SELECT a.*,p.pub_id,p.pub_name,p.country FROM authors AS a INNER JOIN publishers AS p ON a.city=p.city
 ```
 
-> 等值连接和自然连接：https://blog.csdn.net/jiakw\_1981/article/details/3050917
+> 等值连接和自然连接：[https://blog.csdn.net/jiakw\_1981/article/details/3050917](https://blog.csdn.net/jiakw_1981/article/details/3050917)
 
 ### 外连接
 
@@ -64,6 +64,10 @@ SELECT type,pub_name FROM titles CROSS JOIN publishers  ORDER BY type
 笛卡尔积是两个表每一个字段相互匹配，去掉`where` 或者`inner join`的等值 得出的结果就是笛卡尔积。**笛卡尔积也等同于交叉连接**。
 
 ### 总结
+
+
+
+
 
 * 内连接: 只连接匹配的行。
 * 左外连接: 包含左边表的全部行（不管右边的表中是否存在与它们匹配的行），以及右边表中全部匹配的行。
