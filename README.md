@@ -5,4 +5,4 @@
 
 
 ## 感谢支持
-<img src="https://leunggeorge.github.io/src_img/donate-shou-kuan.png" width="100" height="100">
+<img src="https://leunggeorge.github.io/src_img/donate-shou-kuan.png" width="214" height="292">
