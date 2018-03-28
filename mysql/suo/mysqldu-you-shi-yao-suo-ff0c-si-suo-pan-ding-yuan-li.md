@@ -25,7 +25,6 @@ MySQL有三种锁的级别：**页级、表级、行级**。
 
 ```
 SELECT trx_MySQL_thread_id FROM information_schema.INNODB_TRX;
-
 ```
 
 * 设置锁的超时时间
@@ -38,13 +37,7 @@ Innodb 行锁的等待时间，单位秒。可在会话级别设置，RDS 实例
 
 ```
 set innodb_lock_wait_timeout=1000; —设置当前会话 Innodb 行锁等待超时时间，单位秒。
-
 ```
-
-# 
-
-  
-
 
 
 
