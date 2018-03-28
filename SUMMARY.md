@@ -155,6 +155,7 @@
     * [全文索引fulltext](mysql/suo-yin/quan-wen-suo-yin-fulltext.md)
     * [sql查询语句确定创建哪种类型的索引，优化查询](mysql/suo-yin/sqlcha-xun-yu-ju-que-ding-chuang-jian-na-zhong-lei-xing-de-suo-yin-ff0c-you-hua-cha-xun.md)
     * [聚集索引和非聚集索引区别](mysql/suo-yin/ju-ji-suo-yin-he-fei-ju-ji-suo-yin-qu-bie.md)
+    * [使用explain优化sql和索引](mysql/suo-yin/shi-yong-explain-you-hua-sql-he-suo-yin.md)
   * [锁](mysql/suo.md)
     * [乐观锁、悲观锁](mysql/suo/le-guan-suo-3001-bei-guan-suo.md)
   * [非关系型数据库与关系型数据库](mysql/fei-guan-xi-xing-shu-ju-ku-yu-guan-xi-xing-shu-ju-ku.md)
