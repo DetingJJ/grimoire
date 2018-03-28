@@ -20,18 +20,11 @@
 1. SELECT data AS old_data, version AS old_version FROM …;
 2. 根据获取的数据进行业务操作，得到new_data和new_version
 3. UPDATE SET data = new_data, version = new_version WHERE version = old_version
-
-if
- (updated row 
->
- 0) {
+if (updated row > 0) {
     // 乐观锁获取成功，操作完成
-} 
-else
- {
+} else {
     // 乐观锁获取失败，回滚并重试
 }
-
 ```
 
 **乐观锁在不发生取锁失败的情况下开销比悲观锁小**，但是一旦发生失败回滚开销则比较大，因此适合用在取锁失败概率比较小的场景，可以提升系统并发性能
@@ -48,6 +41,5 @@ else
 
 * **重试代价**：如果重试代价大，建议采用悲观锁。
 
-  
 
 
