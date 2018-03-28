@@ -24,6 +24,8 @@ SELECT * FROM authors AS a INNER JOIN publishers AS p ON a.city=p.city
 SELECT a.*,p.pub_id,p.pub_name,p.country FROM authors AS a INNER JOIN publishers AS p ON a.city=p.city
 ```
 
+> 等值连接和自然连接：https://blog.csdn.net/jiakw\_1981/article/details/3050917
+
 ### 外连接
 
 外连接，返回到查询结果集合中的不仅包含符合连接条件的行，**而且还包括左表**\(**左外连接或左连接**\)、右表\(**右外连接或右连接**\)或两个边接表\(全外连接\)中的所有数据行。
