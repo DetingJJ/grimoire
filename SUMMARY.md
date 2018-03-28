@@ -143,6 +143,7 @@
     * [表的垂直拆分和水平拆分](mysql/shu-ju-ku-you-hua/biao-de-chui-zhi-chai-fen-he-shui-ping-chai-fen.md)
     * [字段类型与合理的选择字段类型](mysql/mysqlshu-ju-ku-ji-chu/zi-duan-lei-xing-yu-he-li-de-xuan-ze-zi-duan-lei-xing.md)
     * [MySql常用优化](mysql/shu-ju-ku-you-hua/mysqlchang-yong-you-hua.md)
+    * [MySQL慢查询怎么解决](mysql/shu-ju-ku-you-hua/mysqlman-cha-xun-zen-yao-jie-jue.md)
   * [文摘收藏](mysql/wen-zhai-shou-cang.md)
     * [游标、事务并发和锁三者之间的那点事](mysql/wen-zhai-shou-cang/you-biao-3001-shi-wu-bing-fa-he-suo-san-zhe-zhi-jian-de-na-dian-shi.md)
   * [事务](mysql/shi-wu.md)
