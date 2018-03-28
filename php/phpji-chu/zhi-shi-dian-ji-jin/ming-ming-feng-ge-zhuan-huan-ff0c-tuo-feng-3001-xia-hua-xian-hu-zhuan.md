@@ -121,6 +121,7 @@ class CNamingStyleConvert
 
 }
 
+/**
 $objNamConv = new CNamingStyleConvert();
 
 $arr = array(
@@ -130,11 +131,9 @@ $arr = array(
     ),
 );
 
-/**
 $arrCamel = CNamingStyleConvert::superCamel($arr, false);
 
 print_r($arrCamel);
-
 */
 ```
 
