@@ -51,6 +51,7 @@
     * [文件上传](php/wen-jian-xi-tong/wen-jian-shang-chuan.md)
   * [HTTP基础](php/httpji-chu.md)
     * [HTTP状态码](php/httpji-chu/httpzhuang-tai-ma.md)
+    * [HTTP缓存](php/httpji-chu/httphuan-cun.md)
   * [HTML基础](php/htmlji-chu.md)
     * [常用标签](php/htmlji-chu/chang-yong-biao-qian.md)
   * [PHP框架](php/phpkuang-jia.md)
