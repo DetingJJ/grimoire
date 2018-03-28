@@ -3,7 +3,6 @@
 ```php
 <?php
 
-
 class CNamingStyleConvert
 {
     static $arrExceptKeyList = array(
