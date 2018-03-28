@@ -135,6 +135,11 @@ $arrCamel = CNamingStyleConvert::superCamel($arr, false);
 
 print_r($arrCamel);
 
+*/
+```
+
+转换后输出：
+
 ```
 Array
 (
@@ -145,8 +150,6 @@ Array
         )
 
 )
-```
-*/
 ```
 
 
