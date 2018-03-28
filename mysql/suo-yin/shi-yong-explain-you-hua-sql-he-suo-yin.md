@@ -3,7 +3,7 @@
 对于复杂、效率低的sql语句，我们通常是使用explain sql 来分析sql语句，这个语句可以打印出，语句的执行。这样方便我们分析，进行优化。
 
 * **table**：显示这一行的数据是关于哪张表的
-* **type**：这是重要的列，显示连接使用了何种类型。从最好到最差的连接类型为`const、eq_reg、ref、range、index`和`ALL`
+* **type**：**这是重要的列，显示连接使用了何种类型**。从最好到最差的连接类型为**`const、eq_reg、ref、range、index`和`ALL`**
 * **all**: full table scan ;MySQL将遍历全表以找到匹配的行；
 * **index** ： index scan; index 和 all的区别在于index类型只遍历索引；
 * **range**：索引范围扫描，对索引的扫描开始于某一点，返回匹配值的行，常见与`between ，<,>`等查询；
