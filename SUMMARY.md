@@ -162,6 +162,7 @@
   * [非关系型数据库与关系型数据库](mysql/fei-guan-xi-xing-shu-ju-ku-yu-guan-xi-xing-shu-ju-ku.md)
   * [数据库三范式](mysql/shu-ju-ku-san-fan-shi.md)
   * [数据库的读写分离、主从复制，主从复制分析](mysql/shu-ju-ku-de-du-xie-fen-li-3001-zhu-cong-fu-zhi-ff0c-zhu-cong-fu-zhi-fen-xi.md)
+  * [内连接、外连接、交叉连接、笛卡尔积](mysql/nei-lian-jie-3001-wai-lian-jie-3001-jiao-cha-lian-jie-3001-di-qia-er-ji.md)
 * [算法设计与分析](suan-fa-she-ji-yu-fen-xi.md)
   * [海量数据处理](suan-fa-she-ji-yu-fen-xi/hai-liang-shu-ju-chu-li.md)
     * [迅速秒杀99%的海量数据处理面试题](suan-fa-she-ji-yu-fen-xi/hai-liang-shu-ju-chu-li/xun-su-miao-sha-99-de-hai-liang-shu-ju-chu-li-mian-shi-ti.md)
