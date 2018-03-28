@@ -1,8 +1,6 @@
-# 数据库崩溃时事务的恢复机制（REDO日志和UNDO日志）？
+## 数据库崩溃时事务的恢复机制（REDO日志和UNDO日志）？
 
-\[转\]MySQL REDO日志和UNDO日志
 
-[www.cnblogs.com/Bozh/archiv…](https://link.juejin.im?target=https%3A%2F%2Fwww.cnblogs.com%2FBozh%2Farchive%2F2013%2F03%2F18%2F2966494.html)
 
 ### Undo Log
 
@@ -27,8 +25,7 @@
 
 * **原理和Undo Log相反**，**Redo Log记录的是新数据的备份**。**在事务提交前，只要将Redo Log持久化即可，不需要将数据持久化。当系统崩溃时，虽然数据没有持久化，但是Redo Log已经持久化。系统可以根据Redo Log的内容，将所有数据恢复到最新的状态**。
 
-  
-
+> [\[转\]MySQL日志——Undo \| Redo](http://www.cnblogs.com/Bozh/archive/2013/03/18/2966494.html)
 
 
 
