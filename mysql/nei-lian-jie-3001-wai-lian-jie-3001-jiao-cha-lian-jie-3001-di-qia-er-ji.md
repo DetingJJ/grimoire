@@ -14,7 +14,7 @@
 例，下面使用等值连接列出authors和publishers表中位于同一城市的作者和出版社：
 
 ```
-SELECT * FROM authors AS a INNER JOIN publishers AS p ON a.city=p.city 
+SELECT * FROM authors AS a INNER JOIN publishers AS p ON a.city=p.city
 ```
 
 1. **不等连接**： 在连接条件使用除等于运算符以外的其它比较运算符比较被连接的 列的列值。这些运算符包括`>、>=、<=、<、!>、!<`和`<>`。
@@ -25,12 +25,11 @@ SELECT * FROM authors AS a INNER JOIN publishers AS p ON a.city=p.city
 
 ```
 SELECT a.*,p.pub_id,p.pub_name,p.country FROM authors AS a INNER JOIN publishers AS p ON a.city=p.city
-
 ```
 
 ### 外连接
 
-外连接，返回到查询结果集合中的不仅包含符合连接条件的行，**而且还包括左表**\(**左外连接或左连接**\)、右表\(**右外连接或右连接**\)或两个边接表\(全外连接\)中的所有数据行。   
+外连接，返回到查询结果集合中的不仅包含符合连接条件的行，**而且还包括左表**\(**左外连接或左连接**\)、右表\(**右外连接或右连接**\)或两个边接表\(全外连接\)中的所有数据行。
 
 * **left join**
   \(左联接\) 返回包括左表中的所有记录和右表中联结字段相等的记录。
@@ -40,60 +39,25 @@ SELECT a.*,p.pub_id,p.pub_name,p.country FROM authors AS a INNER JOIN publishers
 **例如1**：
 
 ```
-SELECT
- a.*,b.* 
-FROM
- luntan 
-LEFT
-JOIN
- usertable 
-as
- b 
-ON
- a.username=b.username
-
+SELECT a.*,b.* FROM luntan LEFT JOIN usertable as b ON a.username=b.username
 ```
 
 **例如2**：
 
 ```
-SELECT
- a.*,b.* 
-FROM
- city 
-as
- a 
-FULL
-OUTER
-JOIN
-user
-as
- b 
-ON
- a.username=b.username
-
+SELECT a.*,b.* FROM city as a FULL OUTER JOIN user as b ON a.username=b.username
 ```
 
 ### 交叉连接
 
-**交叉连接不带 `WHERE` 子句**，**它返回被连接的两个表所有数据行的“笛卡尔积”**，返回到结果集合中的数据行数等于第一个表中符合查询条件的数据行数乘以第二个表中符合查询条件的数据行数。
+**交叉连接不带 **`WHERE`** 子句**，**它返回被连接的两个表所有数据行的“笛卡尔积”**，返回到结果集合中的数据行数等于第一个表中符合查询条件的数据行数乘以第二个表中符合查询条件的数据行数。
 
-例，titles表中有6类图书，而publishers表中有8家出版社，则下 列交叉连接检索到的记录数将等于6\*8=48行。   
+例，titles表中有6类图书，而publishers表中有8家出版社，则下 列交叉连接检索到的记录数将等于6\*8=48行。
 
 例如：
 
 ```
-SELECT
-type
-,pub_name 
-FROM
- titles 
-CROSS
-JOIN
- publishers  
-ORDER
-BY
-type
+SELECT type,pub_name FROM titles CROSS JOIN publishers  ORDER BY type
 ```
 
 ### 笛卡尔积
@@ -107,9 +71,6 @@ type
 * 右外连接: 包含右边表的全部行（不管左边的表中是否存在与它们匹配的行），以及左边表中全部匹配的行。
 * 全外连接: 包含左、右两个表的全部行，不管另外一边的表中是否存在与它们匹配的行。
 * 交叉连接 生成笛卡尔积－它不使用任何匹配或者选取条件，而是直接将一个数据源中的每个行与另一个数据源的每个行都一一匹配。
-
-  
-
 
 
 
