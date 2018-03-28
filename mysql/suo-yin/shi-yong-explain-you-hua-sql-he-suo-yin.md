@@ -15,7 +15,7 @@
 * **key\_len**：**使用的索引的长度。在不损失精确性的情况下，长度越短越好；**
 * **ref**：显示索引的哪一列被使用了，如果可能的话，是一个常数；
 * **rows**：MySQL认为必须检查的用来返回请求数据的行数；
-* **Extra**：关于MySQL如何解析查询的额外信息。（坏的例子是Using temporary和Using filesort，意思MySQL根本不能使用索引，结果是检索会很慢）
+* **Extra**：关于MySQL如何解析查询的额外信息（坏的例子是Using temporary和Using filesort，意思MySQL根本不能使用索引，结果是检索会很慢）。
 
 
 
