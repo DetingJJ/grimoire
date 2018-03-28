@@ -28,8 +28,8 @@ SELECT a.*,p.pub_id,p.pub_name,p.country FROM authors AS a INNER JOIN publishers
 > **等值连接中不要求相等属性值的属性名相同**，而**自然连接要求相等属性值的属性名必须相同**，即两关系只有在同名属性才能进行自然连接。如表R中的C列和表S中的D列可进行等值连接，但因为属性名不同，不能进行自然连接。
 >
 > **等值连接不将重复属性去掉，而自然连接去掉重复属性**，也可以说，自然连接是去掉重复列的等值连接。如表R中的B列和表S中的B列进行等值连接时，结果有两个重复的属性列B,而进行自然连接时，结果只有一个属性列B。
-
-> 等值连接和自然连接：[https://blog.csdn.net/jiakw\_1981/article/details/3050917](https://blog.csdn.net/jiakw_1981/article/details/3050917)
+>
+> 【等值连接和自然连接】：[https://blog.csdn.net/jiakw\_1981/article/details/3050917](https://blog.csdn.net/jiakw_1981/article/details/3050917)
 
 ### 外连接
 
