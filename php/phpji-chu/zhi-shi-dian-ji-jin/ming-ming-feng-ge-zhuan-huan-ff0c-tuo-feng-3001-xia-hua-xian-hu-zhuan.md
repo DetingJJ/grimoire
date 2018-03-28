@@ -134,7 +134,7 @@ $arr = array(
 $arrCamel = CNamingStyleConvert::superCamel($arr, false);
 
 print_r($arrCamel);
-*/
+**/
 ```
 
 转换后输出：
