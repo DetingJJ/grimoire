@@ -152,6 +152,7 @@
   * [事务](mysql/shi-wu.md)
     * [事务的四大特性（ACID）](mysql/shi-wu/shi-wu-de-si-da-te-xing-ff08-acid.md)
     * [事务的并发、隔离级别](mysql/shi-wu/shi-wu-de-bing-fa-3001-ge-li-ji-bie.md)
+    * [数据库崩溃时事务的恢复机制](mysql/shi-wu/shu-ju-ku-beng-kui-shi-shi-wu-de-hui-fu-ji-zhi.md)
   * [MySQL常见的三种存储引擎的区别](mysql/mysqlchang-jian-de-san-zhong-cun-chu-yin-qing-de-qu-bie.md)
   * [查询语句不同元素执行先后顺序？](mysql/cha-xun-yu-ju-bu-tong-yuan-su-zhi-xing-xian-hou-shun-xu-ff1f.md)
   * [临时表](mysql/lin-shi-biao.md)
