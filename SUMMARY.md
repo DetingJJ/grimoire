@@ -145,6 +145,7 @@
     * [MySql常用优化](mysql/shu-ju-ku-you-hua/mysqlchang-yong-you-hua.md)
     * [MySQL慢查询怎么解决](mysql/shu-ju-ku-you-hua/mysqlman-cha-xun-zen-yao-jie-jue.md)
     * [使用explain优化sql和索引](mysql/shu-ju-ku-you-hua/shi-yong-explain-you-hua-sql-he-suo-yin.md)
+    * [varchar和char的使用场景](mysql/shu-ju-ku-you-hua/varcharhe-char-de-shi-yong-chang-jing.md)
   * [文摘收藏](mysql/wen-zhai-shou-cang.md)
     * [游标、事务并发和锁三者之间的那点事](mysql/wen-zhai-shou-cang/you-biao-3001-shi-wu-bing-fa-he-suo-san-zhe-zhi-jian-de-na-dian-shi.md)
   * [事务](mysql/shi-wu.md)
