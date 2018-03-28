@@ -159,6 +159,7 @@
     * [聚集索引和非聚集索引区别](mysql/suo-yin/ju-ji-suo-yin-he-fei-ju-ji-suo-yin-qu-bie.md)
   * [锁](mysql/suo.md)
     * [乐观锁、悲观锁](mysql/suo/le-guan-suo-3001-bei-guan-suo.md)
+    * [MySQL都有什么锁，死锁判定原理](mysql/suo/mysqldu-you-shi-yao-suo-ff0c-si-suo-pan-ding-yuan-li.md)
   * [非关系型数据库与关系型数据库](mysql/fei-guan-xi-xing-shu-ju-ku-yu-guan-xi-xing-shu-ju-ku.md)
   * [数据库三范式](mysql/shu-ju-ku-san-fan-shi.md)
   * [数据库的读写分离、主从复制，主从复制分析](mysql/shu-ju-ku-de-du-xie-fen-li-3001-zhu-cong-fu-zhi-ff0c-zhu-cong-fu-zhi-fen-xi.md)
