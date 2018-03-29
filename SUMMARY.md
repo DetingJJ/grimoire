@@ -181,6 +181,7 @@
     * [RSA算法详解](suan-fa-she-ji-yu-fen-xi/rsasuan-fa-xiang-jie/rsasuan-fa-xiang-jie.md)
   * [基础算法](suan-fa-she-ji-yu-fen-xi/ji-chu-suan-fa.md)
     * [求二进制数中1的个数](suan-fa-she-ji-yu-fen-xi/ji-chu-suan-fa/qiu-er-jin-zhi-shu-zhong-1-de-ge-shu.md)
+  * [基础排序](suan-fa-she-ji-yu-fen-xi/ji-chu-pai-xu.md)
 * [微服务](wei-fu-wu.md)
   * [微服务Microservice文摘](wei-fu-wu/wei-fu-wu-microservice-wen-zhai.md)
   * [微服务、SOA 和 API：是敌是友？](wei-fu-wu/wei-fu-wu-3001-soa-he-api-ff1a-shi-di-shi-you-ff1f.md)
