@@ -631,7 +631,9 @@ PHP 在其20年的历史中，已经发生了显著的变化。花时间去熟�
 > 更多现代化 PHP 知识，请前往  
 > [Laravel / PHP 知识社区](https://link.juejin.im/?target=https%3A%2F%2Flaravel-china.org)
 
-* [PHP](https://juejin.im/tag/PHP)
+
+
+文章摘自：
 
 > [https://juejin.im/entry/5ac202605188255cb32e4daf?utm\_source=gold\_browser\_extension](https://juejin.im/entry/5ac202605188255cb32e4daf?utm_source=gold_browser_extension)
 
