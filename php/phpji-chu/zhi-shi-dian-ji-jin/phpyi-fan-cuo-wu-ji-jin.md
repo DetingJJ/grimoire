@@ -53,14 +53,11 @@ foreach ($arr as &$value) {
     $value = $value * 2;
 }
 unset($value);   // $value 不再引用 $arr[3]
-
 ```
 
+## 常见错误 \#2： 误解 `isset()` 的行为
 
-
-## 常见错误 \#2： 误解 `isset()` 的行为
-
-尽管名字叫_isset_，但是[`isset()`](https://link.juejin.im/?target=http%3A%2F%2Fwww.php.net%2Fmanual%2Fen%2Ffunction.isset.php) 不仅会在变量不存在的时候返回`false`，在变量值为`null`的时候也会返回`false`。
+尽管名字叫_isset_，但是[`isset()`](https://link.juejin.im/?target=http%3A%2F%2Fwww.php.net%2Fmanual%2Fen%2Ffunction.isset.php) 不仅会在变量不存在的时候返回`false`，在变量值为`null`的时候也会返回`false`。
 
 这种行为比最初出现的问题更为棘手，同时也是一种常见的错误源。
 
@@ -71,10 +68,9 @@ $data = fetchRecordFromStorage($storage, $identifier);
 if (!isset($data['keyShouldBeSet']) {
     // do something here if 'keyShouldBeSet' is not set
 }
-
 ```
 
-开发者想必是想确认 `keyShouldBeSet` 是否存在于 `$data`中。然而，正如上面说的，如果 `$data['keyShouldBeSet']`存在并且值为`null`的时候， `isset($data['keyShouldBeSet'])` 也会返回`false`。所以上面的逻辑是不严谨的。
+开发者想必是想确认 `keyShouldBeSet` 是否存在于 `$data`中。然而，正如上面说的，如果 `$data['keyShouldBeSet']`存在并且值为`null`的时候， `isset($data['keyShouldBeSet'])` 也会返回`false`。所以上面的逻辑是不严谨的。
 
 我们来看另外一个例子：
 
@@ -88,16 +84,15 @@ if ($_POST['active']) {
 if (!isset($postData)) {
     echo 'post not active';
 }
-
 ```
 
-上述代码，通常认为，假如 `$_POST['active']` 返回 `true`，那么 `postData` 必将存在，因此 `isset($postData)` 也将返回 `true`。反之， `isset($postData)`返回 `false` 的唯一可能是 `$_POST['active']` 也返回 `false`。
+上述代码，通常认为，假如 `$_POST['active']` 返回 `true`，那么 `postData` 必将存在，因此 `isset($postData)` 也将返回 `true`。反之， `isset($postData)`返回 `false` 的唯一可能是 `$_POST['active']` 也返回 `false`。
 
 然而事实并非如此！
 
-如我所言，如果`$postData` 存在且被设置为 `null`，`isset($postData)` 也会返回 `false` 。 也就是说，即使 `$_POST['active']` 返回 `true`， `isset($postData)` 也可能会返回 `false` 。 再一次说明上面的逻辑不严谨。
+如我所言，如果`$postData` 存在且被设置为 `null`，`isset($postData)` 也会返回 `false` 。 也就是说，即使 `$_POST['active']` 返回 `true`， `isset($postData)` 也可能会返回 `false` 。 再一次说明上面的逻辑不严谨。
 
-顺便一提，如果上面代码的意图真的是再次确认 `$_POST['active']`是否返回`true`，依赖 `isset()` 来做，不管对于哪种场景来说都是一种糟糕的决定。更好的做法是再次检查`$_POST['active']`，即：
+顺便一提，如果上面代码的意图真的是再次确认 `$_POST['active']`是否返回`true`，依赖 `isset()` 来做，不管对于哪种场景来说都是一种糟糕的决定。更好的做法是再次检查`$_POST['active']`，即：
 
 ```php
 if ($_POST['active']) {
@@ -109,10 +104,9 @@ if ($_POST['active']) {
 if ($_POST['active']) {
     echo 'post not active';
 }
-
 ```
 
-对于这种情况，虽然检查一个变量是否真的存在很重要（即：区分一个变量是未被设置还是被设置为 `null`）；但是使用[`array_key_exists()`](https://link.juejin.im/?target=http%3A%2F%2Fwww.php.net%2Fmanual%2Fen%2Ffunction.array-key-exists.php) 这个函数却是个更健壮的解决途径。
+对于这种情况，虽然检查一个变量是否真的存在很重要（即：区分一个变量是未被设置还是被设置为 `null`）；但是使用[`array_key_exists()`](https://link.juejin.im/?target=http%3A%2F%2Fwww.php.net%2Fmanual%2Fen%2Ffunction.array-key-exists.php) 这个函数却是个更健壮的解决途径。
 
 比如，我们可以像下面这样重写上面第一个例子：
 
@@ -121,19 +115,15 @@ $data = fetchRecordFromStorage($storage, $identifier);
 if (! array_key_exists('keyShouldBeSet', $data)) {
     // do this if 'keyShouldBeSet' isn't set
 }
-
 ```
 
-另外，通过结合`array_key_exists()`和 [`get_defined_vars()`](https://link.juejin.im/?target=http%3A%2F%2Fwww.php.net%2Fmanual%2Fen%2Ffunction.get-defined-vars.php)， 我们能更加可靠的判断一个变量在当前作用域中是否存在：
+另外，通过结合`array_key_exists()`和 [`get_defined_vars()`](https://link.juejin.im/?target=http%3A%2F%2Fwww.php.net%2Fmanual%2Fen%2Ffunction.get-defined-vars.php)， 我们能更加可靠的判断一个变量在当前作用域中是否存在：
 
 ```php
 if (array_key_exists('varShouldBeSet', get_defined_vars())) {
     // variable $varShouldBeSet exists in current scope
 }
-
 ```
-
-
 
 ## 常见错误 \#3：关于通过引用返回与通过值返回的困惑
 
@@ -153,14 +143,12 @@ $config = new Config();
 
 $config->getValues()['test'] = 'test';
 echo $config->getValues()['test'];
-
 ```
 
 如果你运行上面的代码，将得到下面的输出：
 
 ```
 PHP Notice:  Undefined index: test in /path/to/my/script.php on line 21
-
 ```
 
 出了什么问题？
@@ -182,8 +170,6 @@ PHP Notice:  Undefined index: test in /path/to/my/script.php on line 21
     >
     getValues()['test'];
 
-
-
 一个可能的修改方法是存储第一次通过`getValues()`返回的`$values`数组拷贝，然后后续操作都在那份拷贝上进行；例如：
 
 ```
@@ -192,7 +178,6 @@ $vals = $config-
 getValues();
 $vals['test'] = 'test';
 echo $vals['test'];
-
 ```
 
 这段代码将会正常工作（例如，它将会输出`test`而不会产生任何「未定义索引」消息），但是这个方法可能并不能满足你的需求。特别是上面的代码并不会修改原始的`$values`数组。如果你想要修改原始的数组（例如添加一个`test`元素），就需要修改`getValues()`函数，让它返回一个`$values`数组自身的引用。通过在函数名前面添加一个`&`来说明这个函数将返回一个引用；例如：
@@ -220,7 +205,6 @@ getValues()['test'] = 'test';
 echo $config-
 >
 getValues()['test'];
-
 ```
 
 这会输出期待的`test`。
@@ -254,7 +238,6 @@ getValues()['test'] = 'test';
 echo $config-
 >
 getValues()['test'];
-
 ```
 
 如果你认为这段代码会导致与之前的`数组`例子一样的「未定义索引」错误，那就错了。实际上，这段代码将会正常运行。原因是，与数组不同，**PHP 永远会将对象按引用传递**。（`ArrayObject`是一个 SPL 对象，它完全模仿数组的用法，但是却是以对象来工作。）
@@ -289,16 +272,9 @@ setValue('testKey', 'testValue');
 echo $config-
 >
 getValue('testKey');    // 输出『testValue』
-
 ```
 
 这个方法让调用者可以在不对私有的`$values`数组本身进行公开访问的情况下设置或者获取数组中的任意值。
-
-
-
-
-
-
 
 > [https://juejin.im/entry/5ac202605188255cb32e4daf?utm\_source=gold\_browser\_extension](https://juejin.im/entry/5ac202605188255cb32e4daf?utm_source=gold_browser_extension)
 
