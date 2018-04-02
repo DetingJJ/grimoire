@@ -10,7 +10,6 @@ $value) {
         $value = $value * 2;
 }
 // $arr 现在是 array(2, 4, 6, 8)
-
 ```
 
 问题是，如果你不注意的话这会导致一些意想不到的负面作用。在上述例子，在代码执行完以后，`$value`仍保留在作用域内，并保留着对数组最后一个元素的引用。之后与`$value`相关的操作会无意中修改数组中最后一个元素的值。
@@ -19,18 +18,15 @@ $value) {
 
 这种行为会导致一些不易发现的，令人困惑的bug，以下是一个例子
 
-```
+```php
 $array = [1, 2, 3];
 echo implode(',', $array), "\n";
 
-foreach ($array as 
-&
-$value) {}    // 通过引用遍历
+foreach ($array as &$value) {}    // 通过引用遍历
 echo implode(',', $array), "\n";
 
 foreach ($array as $value) {}     // 通过赋值遍历
 echo implode(',', $array), "\n";
-
 ```
 
 以上代码会输出
@@ -39,7 +35,6 @@ echo implode(',', $array), "\n";
 1,2,3
 1,2,3
 1,2,2
-
 ```
 
 你没有看错，最后一行的最后一个值是 2 ，而不是 3 ，为什么？
@@ -89,7 +84,6 @@ echo implode(',', $array), "\n";
 为了在`foreach`中方便的使用引用而免遭这种麻烦，请在`foreach`执行完毕后`unset()`掉这个保留着引用的变量。例如
 
 ```
-
 $arr = array(1, 2, 3, 4);
 foreach ($arr as 
 &
@@ -97,20 +91,9 @@ $value) {
     $value = $value * 2;
 }
 unset($value);   // $value 不再引用 $arr[3]
-
-
 ```
 
-  
-
-
-
-
-
-
-
-
-> https://juejin.im/entry/5ac202605188255cb32e4daf?utm\_source=gold\_browser\_extension
+> [https://juejin.im/entry/5ac202605188255cb32e4daf?utm\_source=gold\_browser\_extension](https://juejin.im/entry/5ac202605188255cb32e4daf?utm_source=gold_browser_extension)
 
 
 
