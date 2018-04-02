@@ -46,6 +46,7 @@
       * [php变量前的@](php/phpji-chu/zhi-shi-dian-ji-jin/phpbian-liang-qian-7684.md)
       * [命名风格转换，驼峰、下划线互转](php/phpji-chu/zhi-shi-dian-ji-jin/ming-ming-feng-ge-zhuan-huan-ff0c-tuo-feng-3001-xia-hua-xian-hu-zhuan.md)
       * [几分钟、几小时前、几天前等](php/phpji-chu/zhi-shi-dian-ji-jin/ji-fen-zhong-3001-ji-xiao-shi-qian-3001-ji-tian-qian-deng.md)
+      * [PHP易犯错误集锦](php/phpji-chu/zhi-shi-dian-ji-jin/phpyi-fan-cuo-wu-ji-jin.md)
   * [文件系统](php/wen-jian-xi-tong.md)
     * [文件处理](php/wen-jian-xi-tong/wen-jian-chu-li.md)
       * [打开关闭文件](php/wen-jian-xi-tong/wen-jian-chu-li/da-kai-guan-bi-wen-jian.md)
