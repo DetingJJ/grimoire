@@ -4,10 +4,8 @@
 
 ```php
 $arr = array(1, 2, 3, 4);
-foreach ($arr as 
-&
-$value) {
-        $value = $value * 2;
+foreach ($arr as &$value) {
+    $value = $value * 2;
 }
 // $arr 现在是 array(2, 4, 6, 8)
 ```
@@ -43,43 +41,9 @@ echo implode(',', $array), "\n";
 
 这导致当运行到第二个`foreach`，这个"奇怪的东西"发生了。当`$value`通过赋值获得，`foreach`按顺序复制每个`$array`的元素到`$value`时，第二个`foreach`里面的细节是这样的
 
-* 第一步：复制
-  `$array[0]`
-  （也就是 1 ）到
-  `$value`
-  （
-  `$value`
-  其实是
-  `$array`
-  最后一个元素的引用，即
-  `$array[2]`
-  ），所以
-  `$array[2]`
-  现在等于 1。所以
-  `$array`
-  现在包含 \[1, 2, 1\]
-* 第二步：复制
-  `$array[1]`
-  （也就是 2 ）到
-  `$value`
-  （
-  `$array[2]`
-  的引用），所以
-  `$array[2]`
-  现在等于 2。所以
-  `$array`
-  现在包含 \[1, 2, 2\]
-* 第三步：复制
-  `$array[2]`
-  （现在等于 2 ） 到
-  `$value`
-  （
-  `$array[2]`
-  的引用），所以
-  `$array[2]`
-  现在等于 2 。所以
-  `$array`
-  现在包含 \[1, 2, 2\]
+* 第一步：复制`$array[0]`（也就是 1 ）到`$value`（`$value`其实是`$array`最后一个元素的引用，即`$array[2]`），所以`$array[2]`现在等于 1。所以`$array`现在包含 \[1, 2, 1\]
+* 第二步：复制`$array[1]`（也就是 2 ）到`$value`（`$array[2]`的引用），所以`$array[2]`现在等于 2。所以`$array`现在包含 \[1, 2, 2\]
+* 第三步：复制`$array[2]`（现在等于 2 ） 到`$value`（`$array[2]`的引用），所以`$array[2]`现在等于 2 。所以`$array`现在包含 \[1, 2, 2\]
 
 为了在`foreach`中方便的使用引用而免遭这种麻烦，请在`foreach`执行完毕后`unset()`掉这个保留着引用的变量。例如
 
