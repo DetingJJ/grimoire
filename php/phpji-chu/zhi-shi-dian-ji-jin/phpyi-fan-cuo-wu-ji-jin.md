@@ -157,87 +157,68 @@ PHP Notice:  Undefined index: test in /path/to/my/script.php on line 21
 
 所以上面对`getValues()`的调用将会返回`$values`数组的一份拷贝，而不是对它的引用。考虑到这一点，让我们重新回顾一下以上例子中的两个关键行：
 
-    // getValues() 返回了一个 $values 数组的拷贝
-    // 所以`test`元素被添加到了这个拷贝中，而不是 $values 数组本身。
-    $config-
-    >
-    getValues()['test'] = 'test';
+```php
+// getValues() 返回了一个 $values 数组的拷贝
+// 所以`test`元素被添加到了这个拷贝中，而不是 $values 数组本身。
+$config->getValues()['test'] = 'test';
 
 
-    // getValues() 又返回了另一份 $values 数组的拷贝
-    // 且这份拷贝中并不包含一个`test`元素（这就是为什么我们会得到 「未定义索引」 消息）。
-    echo $config-
-    >
-    getValues()['test'];
+// getValues() 又返回了另一份 $values 数组的拷贝
+// 且这份拷贝中并不包含一个`test`元素（这就是为什么我们会得到 「未定义索引」 消息）。
+echo $config->getValues()['test'];
+
+```
 
 一个可能的修改方法是存储第一次通过`getValues()`返回的`$values`数组拷贝，然后后续操作都在那份拷贝上进行；例如：
 
-```
-$vals = $config-
->
-getValues();
+```php
+$vals = $config->getValues();
 $vals['test'] = 'test';
 echo $vals['test'];
 ```
 
 这段代码将会正常工作（例如，它将会输出`test`而不会产生任何「未定义索引」消息），但是这个方法可能并不能满足你的需求。特别是上面的代码并不会修改原始的`$values`数组。如果你想要修改原始的数组（例如添加一个`test`元素），就需要修改`getValues()`函数，让它返回一个`$values`数组自身的引用。通过在函数名前面添加一个`&`来说明这个函数将返回一个引用；例如：
 
-```
+```php
 class Config
 {
     private $values = [];
 
     // 返回一个 $values 数组的引用
-    public function 
-&
-getValues() {
-        return $this-
->
-values;
+    public function &getValues() {
+        return $this->values;
     }
 }
 
 $config = new Config();
 
-$config-
->
-getValues()['test'] = 'test';
-echo $config-
->
-getValues()['test'];
+$config->getValues()['test'] = 'test';
+echo $config->getValues()['test'];
 ```
 
 这会输出期待的`test`。
 
 但是现在让事情更困惑一些，请考虑下面的代码片段：
 
-```
+```php
 class Config
 {
     private $values;
 
     // 使用数组对象而不是数组
     public function __construct() {
-        $this-
->
-values = new ArrayObject();
+        $this->values = new ArrayObject();
     }
 
     public function getValues() {
-        return $this-
->
-values;
+        return $this->values;
     }
 }
 
 $config = new Config();
 
-$config-
->
-getValues()['test'] = 'test';
-echo $config-
->
-getValues()['test'];
+$config->getValues()['test'] = 'test';
+echo $config->getValues()['test'];
 ```
 
 如果你认为这段代码会导致与之前的`数组`例子一样的「未定义索引」错误，那就错了。实际上，这段代码将会正常运行。原因是，与数组不同，**PHP 永远会将对象按引用传递**。（`ArrayObject`是一个 SPL 对象，它完全模仿数组的用法，但是却是以对象来工作。）
@@ -246,35 +227,82 @@ getValues()['test'];
 
 尽管如此，我们要认识到应该尽量避免返回一个数组或`ArrayObject`，因为这会让调用者能够修改实例对象的私有数据。这就破坏了对象的封装性。所以最好的方式是使用传统的「getters」和「setters」，例如：
 
-```
+```php
 class Config
 {
     private $values = [];
 
     public function setValue($key, $value) {
-        $this-
->
-values[$key] = $value;
+        $this->values[$key] = $value;
     }
 
     public function getValue($key) {
-        return $this-
->
-values[$key];
+        return $this->values[$key];
     }
 }
 
 $config = new Config();
 
-$config-
->
-setValue('testKey', 'testValue');
-echo $config-
->
-getValue('testKey');    // 输出『testValue』
+$config->setValue('testKey', 'testValue');
+echo $config->getValue('testKey');    // 输出『testValue』
 ```
 
 这个方法让调用者可以在不对私有的`$values`数组本身进行公开访问的情况下设置或者获取数组中的任意值。
+
+
+
+## 常见的错误 \#4：在循环中执行查询
+
+如果像这样的话，一定不难见到你的 PHP 无法正常工作。
+
+```php
+$models = [];
+
+foreach ($inputValues as $inputValue) {
+    $models[] = $valueRepository->findByValue($inputValue);
+}
+```
+
+这里也许没有真正的错误， 但是如果你跟随着代码的逻辑走下去， 你也许会发现这个看似无害的调用`$valueRepository->findByValue()` 最终执行了这样一种查询，例如：
+
+```php
+$result = $connection->query("SELECT `x`,`y` FROM `values` WHERE `value`=" . $inputValue);
+
+```
+
+结果每轮循环都会产生一次对数据库的查询。 因此，假如你为这个循环提供了一个包含 1000 个值的数组，它会对资源产生 1000 单独的请求！如果这样的脚本在多个线程中被调用，他会有导致系统崩溃的潜在危险。
+
+因此，至关重要的是，当你的代码要进行查询时，应该尽可能的收集需要用到的值，然后在一个查询中获取所有结果。
+
+一个我们平时常常能见到查询效率低下的地方 （例如：在循环中）是使用一个数组中的值 \(比如说很多的 ID \)向表发起请求。检索每一个 ID 的所有的数据，代码将会迭代这个数组，每个 ID 进行一次SQL查询请求，它看起来常常是这样：
+
+```php
+$data = [];
+foreach ($ids as $id) {
+    $result = $connection->query("SELECT `x`, `y` FROM `values` WHERE `id` = " . $id);
+    $data[] = $result->fetch_row();
+}
+
+```
+
+但是_只用一条_SQL 查询语句就可以更高效的完成相同的工作，比如像下面这样：
+
+```php
+$data = [];
+if (count($ids)) {
+    $result = $connection->query("SELECT `x`, `y` FROM `values` WHERE `id` IN (" . implode(',', $ids));
+    while ($row = $result->fetch_row()) {
+        $data[] = $row;
+    }
+}
+
+```
+
+因此在你的代码直接或间接进行查询请求时，一定要认出这种查询。尽可能的通过一次查询得到想要的结果。然而，依然要小心谨慎，不然就可能会出现下面我们要讲的另一个易犯的错误...
+
+
+
+
 
 > [https://juejin.im/entry/5ac202605188255cb32e4daf?utm\_source=gold\_browser\_extension](https://juejin.im/entry/5ac202605188255cb32e4daf?utm_source=gold_browser_extension)
 
