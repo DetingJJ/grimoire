@@ -30,5 +30,5 @@
 
 8.[开发者头条程序员分享平台](https://toutiao.io/)
 
-https://toutiao.io/c/be?page=2
+https://toutiao.io/c/be
 
