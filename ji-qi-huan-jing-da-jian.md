@@ -11,7 +11,7 @@
 | pyenv | Python版本管理工具，一件切换当前系统Python版本。 | mac、linux | [https://github.com/pyenv/pyenv](https://github.com/pyenv/pyenv) |  |
 | gitbook |  | mac，linux |  |  |
 
-### 娱乐
+### 娱乐必备
 
 | 软件名 | 功能 | 适用平台（本人已验证，其他平台请自行验证） | 下载地址 | 备注 |
 | :--- | :--- | :--- | :--- | :--- |
