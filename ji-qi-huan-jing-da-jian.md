@@ -4,7 +4,8 @@
 
 | 软件名称 | 功能 | 备注 |
 | :--- | :--- | :--- |
-| oh-my-zsh | bash替代工具，超好用。 | 下载地址：https://github.com/robbyrussell/oh-my-zsh |
+| oh-my-zsh | bash替代工具，超好用。 | 下载地址：[https://github.com/robbyrussell/oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) |
+|  |  |  |
 
 
 
