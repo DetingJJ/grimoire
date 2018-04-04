@@ -2,10 +2,10 @@
 
 ## mac环境
 
-| 软件名 | 功能 | 备注 |
-| :--- | :--- | :--- |
-| oh-my-zsh | bash替代工具，超好用。 | 下载地址：[https://github.com/robbyrussell/oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) |
-|  |  |  |
+| 软件名 | 功能 | 适用平台 | 备注 |
+| :--- | :--- | :--- | :--- |
+| oh-my-zsh | bash替代工具，超好用。 | mac、linux | 下载地址：[https://github.com/robbyrussell/oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) |
+|  |  |  |  |
 
 
 
