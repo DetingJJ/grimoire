@@ -9,7 +9,7 @@
 | oh-my-zsh | bash替代工具，超好用。 | mac、linux | [https://github.com/robbyrussell/oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) |  |
 | zsh-autosuggestions | 终端输入命令时，给出相关提示。非常高效。 | mac、linux | [https://github.com/zsh-users/zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) |  |
 | pyenv | Python版本管理工具，一件切换当前系统Python版本。 | mac、linux | [https://github.com/pyenv/pyenv](https://github.com/pyenv/pyenv) |  |
-| gitbook |  | mac，linux，xx browser |  |  |
+| gitbook |  | mac，linux，browser |  |  |
 
 
 
