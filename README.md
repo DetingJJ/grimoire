@@ -8,7 +8,7 @@ PHP、Python、Nginx、Linux、MySQL、算法设计与分析、微服务、C++�
 
 ## 附录
 ### 装机必备软件
-[装机必备软件]
+[装机必备软件](xxx)
 
 
 
