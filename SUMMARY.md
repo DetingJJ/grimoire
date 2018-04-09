@@ -119,6 +119,7 @@
     * [Ubuntu修改主机名](ubuntuxiu-gai-zhu-ji-ming.md)
     * [Ubuntu 重启后亮度变成最大，亮瞎眼？](ubuntu-zhong-qi-hou-liang-du-bian-cheng-zui-da-ff0c-liang-xia-yan-ff1f.md)
     * [crontab](linux/linuxji-chu/crontab.md)
+    * [screen](linux/linuxji-chu/screen.md)
   * [Shell 与 Shell scripts](shell-yu-shell-scripts.md)
     * [gdb环境搭建](di-san-zhang-shell-yu-shell-scripts/gdbhuan-jing-da-jian.md)
     * [gcc/g++](di-san-zhang-shell-yu-shell-scripts/gccg++.md)
