@@ -1,8 +1,4 @@
-# strcspn
-
-
-
-
+1.strcspn
 
 
 
