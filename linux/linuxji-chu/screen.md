@@ -12,15 +12,7 @@ GNU Screen可以看作是窗口管理器的命令行界面版本。它提供了�
 
 * **会话恢复**
 
-只要Screen本身没有终止，在其内部运行的会话都可以恢复。这一点对于远程登录的用户特别有用——即使网络连接中断，用户也不会失去对已经打开的命令行会话的控制。只要再次登录到主机上执行
-
-**screen -r**
-
-就可以恢复会话的运行。同样在暂时离开的时候，也可以执行分离命令
-
-**detach**
-
-，在保证里面的程序正常运行的情况下让Screen挂起（切换到后台）。这一点和图形界面下的VNC很相似。
+只要Screen本身没有终止，在其内部运行的会话都可以恢复。这一点对于远程登录的用户特别有用——即使网络连接中断，用户也不会失去对已经打开的命令行会话的控制。只要再次登录到主机上执行**screen -r**就可以恢复会话的运行。同样在暂时离开的时候，也可以执行分离命令**detach**，在保证里面的程序正常运行的情况下让Screen挂起（切换到后台）。这一点和图形界面下的VNC很相似。
 
 * **多窗口**
 
@@ -62,28 +54,28 @@ screen -d -r yourname -&gt; 结束当前session并回到yourname这个session
 **在每个screen session 下，所有命令都以 ctrl+a\(C-a\) 开始。**  
 C-a ? -&gt;显示所有键绑定信息  
 C-a c -&gt;创建一个新的运行shell的窗口并切换到该窗口  
-C-a n -&gt; Next，切换到下一个 window   
-C-a p -&gt; Previous，切换到前一个 window   
+C-a n -&gt; Next，切换到下一个 window  
+C-a p -&gt; Previous，切换到前一个 window  
 C-a 0..9 -&gt; 切换到第 0..9 个 window  
 Ctrl+a \[Space\] -&gt; 由视窗0循序切换到视窗9  
-C-a C-a -&gt; 在两个最近使用的 window 间切换   
+C-a C-a -&gt; 在两个最近使用的 window 间切换  
 C-a x -&gt; 锁住当前的 window，需用用户密码解锁  
-C-a d -&gt; detach，暂时离开当前session，将目前的 screen session \(可能含有多个 windows\) 丢到后台执行，并会回到还没进 screen 时的状态，此时在 screen session 里，每个 window 内运行的 process \(无论是前台/后台\)都在继续执行，即使 logout 也不影响。   
+C-a d -&gt; detach，暂时离开当前session，将目前的 screen session \(可能含有多个 windows\) 丢到后台执行，并会回到还没进 screen 时的状态，此时在 screen session 里，每个 window 内运行的 process \(无论是前台/后台\)都在继续执行，即使 logout 也不影响。  
 C-a z -&gt; 把当前session放到后台执行，用 shell 的 fg 命令则可回去。  
 C-a w -&gt;显示所有窗口列表  
-C-a t -&gt; Time，显示当前时间，和系统的 load   
+C-a t -&gt; Time，显示当前时间，和系统的 load  
 C-a k -&gt; kill window，强行关闭当前的 window  
 C-a \[ -&gt; 进入 copy mode，在 copy mode 下可以回滚、搜索、复制就像用使用 vi 一样  
-    C-b Backward，PageUp   
-    C-f Forward，PageDown   
-    H\(大写\) High，将光标移至左上角   
-    L Low，将光标移至左下角   
-    0 移到行首   
-    $ 行末   
-    w forward one word，以字为单位往前移   
-    b backward one word，以字为单位往后移   
-    Space 第一次按为标记区起点，第二次按为终点   
-    Esc 结束 copy mode   
+    C-b Backward，PageUp  
+    C-f Forward，PageDown  
+    H\(大写\) High，将光标移至左上角  
+    L Low，将光标移至左下角  
+    0 移到行首  
+    $ 行末  
+    w forward one word，以字为单位往前移  
+    b backward one word，以字为单位往后移  
+    Space 第一次按为标记区起点，第二次按为终点  
+    Esc 结束 copy mode  
 C-a \] -&gt; Paste，把刚刚在 copy mode 选定的内容贴上
 
 **五、使用 screen**
@@ -99,12 +91,12 @@ screen-4.0.3-4.el5
 [root@TS-DEV ~]#
 ```
 
-**5.2 创建一个新的窗口**
+**5.2 创建一个新的窗口**
 
 安装完成后，直接敲命令screen就可以启动它。但是这样启动的screen会话没有名字，实践上推荐为每个screen会话取一个名字，方便分辨：
 
 ```
-[root@TS-DEV ~]# screen -S david 
+[root@TS-DEV ~]# screen -S david
 ```
 
 screen启动后，会创建第一个窗口，也就是窗口No. 0，并在其中打开一个系统默认的shell，一般都会是bash。所以你敲入命令screen之后，会立刻又返回到命令提示符，仿佛什么也没有发生似的，其实你已经进入Screen的世界了。当然，也可以在screen命令之后加入你喜欢的参数，使之直接打开你指定的程序，例如：
@@ -120,7 +112,7 @@ screen创建一个执行vi david.txt的单窗口会话，退出vi 将退出该�
 打开多个窗口后，可以使用快捷键C-a w列出当前所有窗口。如果使用文本终端，这个列表会列在屏幕左下角，如果使用X环境下的终端模拟器，这个列表会列在标题栏里。窗口列表的样子一般是这样：
 
 ```
-0$ bash  1-$ bash  2*$ bash  
+0$ bash  1-$ bash  2*$ bash
 ```
 
 这个例子中我开启了三个窗口，其中\*号表示当前位于窗口2，-号表示上一次切换窗口时位于窗口1。
@@ -177,7 +169,7 @@ Screen默认会为窗口命名为编号和窗口中运行程序名的组合，�
 
 除了依次退出/杀死当前Screen会话中所有窗口这种方法之外，还可以使用快捷键C-a :，然后输入quit命令退出Screen会话。需要注意的是，这样退出会杀死所有窗口并退出其中运行的所有程序。其实C-a :这个快捷键允许用户直接输入的命令有很多，包括分屏可以输入split等，这也是实现Screen功能的一个途径，不过个人认为还是快捷键比较方便些。
 
-**六、screen 高级应用 **
+**六、screen 高级应用 **
 
 **6.1 会话共享**
 
@@ -213,7 +205,7 @@ Screen允许使用快捷键C-a s锁定会话。锁定以后，再进行任何输
 
 ![](https://images0.cnblogs.com/blog/370046/201301/29205553-38cdde403beb45f4814ca9a180987a9e.jpg)
 
-**6.5 C/P模式和操作**
+**6.5 C/P模式和操作**
 
 screen的另一个很强大的功能就是可以在不同窗口之间进行复制粘贴了。使用快捷键C-a &lt;Esc&gt;或者C-a \[可以进入copy/paste模式，这个模式下可以像在vi中一样移动光标，并可以使用空格键设置标记。其实在这个模式下有很多类似vi的操作，譬如使用/进行搜索，使用y快速标记一行，使用w快速标记一个单词等。关于C/P模式下的高级操作，其文档的这一部分有比较详细的说明。
 
@@ -223,10 +215,9 @@ screen的另一个很强大的功能就是可以在不同窗口之间进行复�
 
 **6.6 更多screen功能**
 
-同大多数UNIX程序一样，GNU Screen提供了丰富强大的定制功能。你可以在Screen的默认两级配置文件/etc/screenrc和$HOME/.screenrc中指定更多，例如设定screen选项，定制绑定键，设定screen会话自启动窗口，启用多用户模式，定制用户访问权限控制等等。如果你愿意的话，也可以自己指定screen配置文件。
+同大多数UNIX程序一样，GNU Screen提供了丰富强大的定制功能。你可以在Screen的默认两级配置文件/etc/screenrc和$HOME/.screenrc中指定更多，例如设定screen选项，定制绑定键，设定screen会话自启动窗口，启用多用户模式，定制用户访问权限控制等等。如果你愿意的话，也可以自己指定screen配置文件。
 
 以多用户功能为例，screen默认是以单用户模式运行的，你需要在配置文件中指定multiuser on 来打开多用户模式，通过acl\*（acladd,acldel,aclchg...）命令，你可以灵活配置其他用户访问你的screen会话。更多配置文件内容请参考screen的man页。
 
-  
-&gt; https://www.cnblogs.com/mchina/archive/2013/01/30/2880680.html
+&gt; [https://www.cnblogs.com/mchina/archive/2013/01/30/2880680.html](https://www.cnblogs.com/mchina/archive/2013/01/30/2880680.html)
 
