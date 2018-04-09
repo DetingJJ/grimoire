@@ -37,6 +37,7 @@
     * [常量](php/phpji-chu/chang-liang.md)
       * [语法](php/phpji-chu/chang-liang/yu-fa.md)
       * [魔术常量](php/phpji-chu/chang-liang/mo-zhu-chang-liang.md)
+    * [常用函数](php/phpji-chu/chang-yong-han-shu.md)
     * [知识点集锦](php/phpji-chu/zhi-shi-dian-ji-jin.md)
       * [PHP中pack、unpack的用法](php/phpji-chu/zhi-shi-dian-ji-jin/phpzhong-pack-unpack-de-yong-fa.md)
       * [xss漏洞原理及防御](php/phpji-chu/zhi-shi-dian-ji-jin/xsslou-dong-yuan-li-ji-fang-yu.md)
