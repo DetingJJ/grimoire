@@ -4,7 +4,9 @@
 
 > 用人话就是：返回字符串开头部分不包含另一个字符串中的任何字符的长度
 >
-> http://php.net/manual/zh/function.strcspn.php
+> [http://php.net/manual/zh/function.strcspn.php](http://php.net/manual/zh/function.strcspn.php)
+>
+> http://www.howsoftworks.net/php/string/strcspn.html
 
 
 
