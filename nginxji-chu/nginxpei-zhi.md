@@ -6,3 +6,31 @@
 
 /usr/local/nginx/conf/nginx.conf
 
+nginx 配置示例
+
+```
+server {
+	listen       80;
+	server_name www.lyz.com;
+
+    # 该项要修改为你准备存放相关网页的路径
+	root /usr/local/var/www/DouPHP_1_3_Release_20171002/;
+
+	location / {
+		index index.php;
+#		autoindex on;
+	}
+
+	#proxy the php scripts to php-fpm
+	location ~ \.php$ {
+		include /usr/local/etc/nginx/fastcgi.conf;
+		fastcgi_intercept_errors on;
+		fastcgi_pass   127.0.0.1:9000;
+		include 	fastcgi_params;
+	}
+
+}
+```
+
+
+
