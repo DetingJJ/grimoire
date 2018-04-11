@@ -79,7 +79,7 @@ function cell_name($strColName, $intRowNum) {
 }
 ```
 
-使用：
+使用方式：
 
 ```php
 $filePathXlsx = 'test.xlsx';
