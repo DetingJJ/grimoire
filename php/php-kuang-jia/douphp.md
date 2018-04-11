@@ -4,9 +4,7 @@ DouPHP（[http://www.douco.com/](#)） 是一款轻量级企业网站管理系�
 >
 > 开发者社区：[http://bbs.douco.cn/forum.php](http://bbs.douco.cn/forum.php)
 
-
-
-1.修复文章中心（预览页）汉字乱码
+## 1.修复文章中心（预览页）汉字乱码的bug
 
 ```
 <p class="desc">{$article.description|truncate:130:"...":true:false}</p>
