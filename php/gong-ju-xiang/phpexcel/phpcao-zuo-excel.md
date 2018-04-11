@@ -82,7 +82,6 @@ function cell_name($strColName, $intRowNum) {
 使用：
 
 ```php
-
 $filePathXlsx = 'test.xlsx';
 $intCT = 100;
 $intI = 1;
@@ -99,7 +98,7 @@ do {
         'av' . $intI,
         'bv' . $intI,
         'cv' . $intI,
-        'adfad；昆侖山大街放得開了書法家當時；李開復' . $intI,
+        '这是一波测试数据' . $intI,
     );
 } while($intI++ < $intCT);
 
