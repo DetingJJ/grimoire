@@ -72,6 +72,7 @@
   * [工具箱](php/gong-ju-xiang.md)
     * [PHPExcel](php/gong-ju-xiang/phpexcel.md)
       * [PHP操作Excel](php/gong-ju-xiang/phpexcel/phpcao-zuo-excel.md)
+      * [PHP操作Excel调用API示例](php/gong-ju-xiang/phpexcel/phpcao-zuo-excel-diao-yong-api-shi-li.md)
     * [XML操作](php/gong-ju-xiang/xmlcao-zuo.md)
       * [什么是 XML](php/gong-ju-xiang/xmlcao-zuo/shi-yao-shi-xml.md)
       * [使用 DOM 库读取 XML](php/gong-ju-xiang/xmlcao-zuo/du-qu-xml-wen-jian.md)
