@@ -35,7 +35,17 @@ server {
 修改权限脚本：
 
 ```
+#! /bin/bash
 
+chmod a+w cache
+chmod a+w cache/admin
+chmod a+w cache/m
+chmod a+w data
+chmod a+w data/slide/
+chmod a+w data/backup/
+chmod a+w images/article/
+chmod a+w images/product/
+chmod a+w images/upload/
 ```
 
 
