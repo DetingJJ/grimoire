@@ -159,6 +159,7 @@
     * [使用explain优化sql和索引](mysql/shu-ju-ku-you-hua/shi-yong-explain-you-hua-sql-he-suo-yin.md)
     * [varchar和char的使用场景](mysql/shu-ju-ku-you-hua/varcharhe-char-de-shi-yong-chang-jing.md)
     * [MySQL 高并发环境解决方案](mysql/shu-ju-ku-you-hua/mysql-gao-bing-fa-huan-jing-jie-jue-fang-an.md)
+    * [NO\_AUTO\_VALUE\_ON\_ZERO](mysql/shu-ju-ku-you-hua/noauto-value-on-zero.md)
   * [文摘收藏](mysql/wen-zhai-shou-cang.md)
     * [游标、事务并发和锁三者之间的那点事](mysql/wen-zhai-shou-cang/you-biao-3001-shi-wu-bing-fa-he-suo-san-zhe-zhi-jian-de-na-dian-shi.md)
   * [事务](mysql/shi-wu.md)
