@@ -45,7 +45,7 @@ function decto_bin($datalist,$bin)
     {
         $t="";
         $num=intval($num);
-	if($num===0)continue;
+    if($num===0)continue;
         while($num>0)
         {
             $t=$arr[$num%$bin].$t;
@@ -60,7 +60,7 @@ function decto_bin($datalist,$bin)
         $aOutChar[]=$t;
     }
     return $aOutChar;
-} 
+}
 ```
 
 测试结果：
@@ -69,7 +69,7 @@ function decto_bin($datalist,$bin)
 var_dump(decto_bin(array(128,253),2));
 var_dump(decto_bin(array(128,253),8));
 var_dump(decto_bin(array(128,253),16));
- 
+
 X-Powered-By: PHP/5.2.0
 Content-type: text/html
 array(2) {
@@ -95,6 +95,77 @@ array(2) {
 ## 3.二进制、八进制、十六进制转十进制用乘法
 
 二进制、八进制、十六进制转十进制用乘法，如：1101 转十进制：1\*2^3+1\*2^2+0\*2^1+1\*2^0，程序设计如下：
+
+```php
+<?php 
+/**
+ *二进制、八进制、十六进制 转十进制*
+ *
+ * @param array $datalist 传入数据array(df,ef)
+ * @param int $bin 转换的进制可以是：2,8,16
+ * @return array 返回数据 array() 返回没有数据转换的格式
+ * @copyright chengmo QQ:8292669
+ */
+function bin_todec($datalist,$bin)
+{
+    static $arr=array('0'=>0,'1'=>1,'2'=>2,'3'=>3,'4'=>4,'5'=>5,
+	'6'=>6,'7'=>7,'8'=>8,'9'=>9,'A'=>10,'B'=>11,'C'=>12,'D'=>13,'E'=>14,'F'=>15);
+    if(!is_array($datalist))$datalist=array($datalist);
+    if($bin==10)return $datalist; //为10进制不转换
+    $aOutData=array(); //定义输出保存数组
+    foreach ($datalist as $num)
+    {
+    	$atnum=str_split($num); //将字符串分割为单个字符数组
+    	$atlen=count($atnum);
+    	$total=0;
+    	$i=1;
+    	foreach ($atnum as $tv)
+    	{
+    		$tv=strtoupper($tv);
+    		
+    		if(array_key_exists($tv,$arr))
+    		{
+    			if($arr[$tv]==0)continue;
+    			$total=$total+$arr[$tv]*pow($bin,$atlen-$i);
+    		}
+    		$i++;
+    	}
+    	$aOutData[]=$total;
+    }
+    return $aOutData;
+}
+```
+
+测试结果如下：
+
+```php
+var_dump(bin_todec(array('ff','ff33','cc33'),16));
+var_dump(bin_todec(array('1101101','111101101'),2));
+var_dump(bin_todec(array('1234123','12341'),8));
+ 
+X-Powered-By: PHP/5.2.0
+Content-type: text/html
+array(3) {
+  [0]=>
+  int(255)
+  [1]=>
+  int(65331)
+  [2]=>
+  int(52275)
+}
+array(2) {
+  [0]=>
+  int(124)
+  [1]=>
+  int(508)
+}
+array(2) {
+  [0]=>
+  int(342099)
+  [1]=>
+  int(5345)
+}
+```
 
 
 
