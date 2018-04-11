@@ -145,6 +145,7 @@
       * [导出数据库结构](mysql/mysqlshu-ju-ku-ji-chu/chang-yong-yu-ju/dao-chu-shu-ju-ku-jie-gou.md)
       * [导出表数据](mysql/mysqlshu-ju-ku-ji-chu/chang-yong-yu-ju/dao-chu-biao-shu-ju.md)
       * [添加列，修改列，删除列](mysql/mysqlshu-ju-ku-ji-chu/chang-yong-yu-ju/tian-jia-lie-ff0c-xiu-gai-lie-ff0c-shan-chu-lie.md)
+      * [新建数据库+授权用户](mysql/mysqlshu-ju-ku-ji-chu/chang-yong-yu-ju/xin-jian-shu-ju-5e93+-shou-quan-yong-hu.md)
   * [MySQL常见问题](mysql/mysqlchang-jian-wen-ti.md)
     * [MySQL连接数太多](mysql/mysqlchang-jian-wen-ti/mysqllian-jie-shu-tai-duo.md)
     * [服务启动失败](mysql/mysqlchang-jian-wen-ti/fu-wu-qi-dong-shi-bai.md)
