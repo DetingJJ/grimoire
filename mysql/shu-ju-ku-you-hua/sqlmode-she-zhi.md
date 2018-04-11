@@ -8,6 +8,40 @@
 
 
 
+## 二、做一个实验：
+
+步骤1.SET SQL\_MODE="NO\_AUTO\_VALUE\_ON\_ZERO"  您运行的 SQL 语句已经成功运行了。
+
+  
+
+
+2. SELECT @@sql\_mode
+
+  
+
+
+@@sql\_mode
+
+  
+
+
+ 为什么结果是空呢？没有设置成功吗？
+
+  
+
+
+原因分析：可能是是在phpmyadmin中运行语句的。因为我在mysql客户端运行结果，能够看到设置后的sql模式结果。此时在
+
+  
+
+
+  
+
+
+phpmyadmin中却看不到设置好的模式。那一项的结果是空。
+
+
+
 这个是什么意思好像和AUTO\_INCREMENT有关系请问到底有什么关系
 
 NO\_AUTO\_VALUE\_ON\_ZERO影响AUTO\_INCREMENT列的处理。一般情况，你可以向该列插入NULL或0生成下一个序列号。NO\_AUTO\_VALUE\_ON\_ZERO禁用0，因此只有NULL可以生成下一个序列号。
