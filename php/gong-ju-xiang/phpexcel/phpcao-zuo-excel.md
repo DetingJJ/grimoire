@@ -1,7 +1,6 @@
 实现对Excel文件的读写，以及样式修改。
 
 ```php
-
 /**
  * ${STATIC} save_as_xls_2007_later
  * @desc:
@@ -80,9 +79,32 @@ function cell_name($strColName, $intRowNum) {
 }
 ```
 
+使用：
 
+```php
 
+$filePathXlsx = 'test.xlsx';
+$intCT = 100;
+$intI = 1;
 
+$arrHeader = array(
+    'A',
+    'B',
+    'C',
+    'D',
+);
+$arrData = array();
+do {
+    $arrData[] = array(
+        'av' . $intI,
+        'bv' . $intI,
+        'cv' . $intI,
+        'adfad；昆侖山大街放得開了書法家當時；李開復' . $intI,
+    );
+} while($intI++ < $intCT);
+
+save_as_xls_2007_later($filePathXlsx, $arrHeader, $arrData);
+```
 
 > PHPExcel参考手册：
 >
