@@ -2,7 +2,7 @@
 
 我的配置文件路径（两个不同版本的配置）：
 
-/usr/local/etc/nginx/nginx.conf（目前这个配置全一点）
+/usr/local/etc/nginx/nginx.conf（目前这个配置全一点，启用的也是这个配置）
 
 /usr/local/nginx/conf/nginx.conf
 
