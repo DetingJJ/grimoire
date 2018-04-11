@@ -2,7 +2,15 @@ DouPHP（[http://www.douco.com/](#)） 是一款轻量级企业网站管理系�
 
 > 怎么去掉douPHP管理中心里面在线更新的提示：[https://zhidao.baidu.com/question/1048822507571026299.html](https://zhidao.baidu.com/question/1048822507571026299.html)
 >
-> 开发者社区：http://bbs.douco.cn/forum.php
+> 开发者社区：[http://bbs.douco.cn/forum.php](http://bbs.douco.cn/forum.php)
+
+
+
+1.修复文章中心（预览页）汉字乱码
+
+```
+<p class="desc">{$article.description|truncate:130:"...":true:false}</p>
+```
 
 
 
