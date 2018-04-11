@@ -1,4 +1,6 @@
-SET SQL\_MODE="NO\_AUTO\_VALUE\_ON\_ZERO";这个是什么意思好像和AUTO\_INCREMENT有关系请问到底有什么关系
+## SET SQL\_MODE="NO\_AUTO\_VALUE\_ON\_ZERO";
+
+这个是什么意思好像和AUTO\_INCREMENT有关系请问到底有什么关系
 
 NO\_AUTO\_VALUE\_ON\_ZERO影响AUTO\_INCREMENT列的处理。一般情况，你可以向该列插入NULL或0生成下一个序列号。NO\_AUTO\_VALUE\_ON\_ZERO禁用0，因此只有NULL可以生成下一个序列号。
 
