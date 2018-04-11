@@ -141,13 +141,15 @@ for ($i = 2; $i <= $count+1; $i++) {
  $objPHPExcel->getActiveSheet()->setCellValue('G' . $i, convertUTF8($row[$i-2][7]));
  $objPHPExcel->getActiveSheet()->setCellValue('H' . $i, convertUTF8($row[$i-2][8]));
 }
- 
+
 在默认sheet后，创建一个worksheet
 echo date('H:i:s') . " Create new Worksheet object\n";
 $objPHPExcel->createSheet();
 $objWriter = PHPExcel_IOFactory::createWriter($objExcel, 'Excel5');
 $objWriter-save('php://output');
 ```
+
+> http://www.cnblogs.com/freespider/p/3284828.html
 
 
 
