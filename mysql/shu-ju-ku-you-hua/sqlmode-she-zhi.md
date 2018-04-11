@@ -24,19 +24,17 @@ mysql> SELECT @@sql_mode;
 1 row in set (0.00 sec)
 ```
 
-
-
 **3.插入一条数据**
 
     INSERT INTO `julebu`.`matches` (
-    `MATCHNO` ,
-    `TEAMNO` ,
-    `PLAYERNO` ,
-    `WON` ,
-    `LOST`
+        `MATCHNO` ,
+        `TEAMNO` ,
+        `PLAYERNO` ,
+        `WON` ,
+        `LOST`
     )
     VALUES (
-    '0', 'gg', 'ghh', 'hhh', 'hh'
+        '0', 'gg', 'ghh', 'hhh', 'hh'
     );
 
 主键字段的值插入的值是0.结果看到，保存的并不是0，而变成了1。也正好说明了sql模式"NO\_AUTO\_VALUE\_ON\_ZERO"起作用
@@ -44,8 +42,6 @@ mysql> SELECT @@sql_mode;
 了。不允许自动增量的值为0\(手册：MySQL遇到0值一般会生成新的序列号\).经过进一步插入数据测试，注意理解这里的新序
 
 列号：是生成新的序列号。遇到0，假如原来表中已经有个序列号是3，那么就会生成4.接着原来序列号的自增。
-
-
 
 ### 知识收集：
 
