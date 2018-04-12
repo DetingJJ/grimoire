@@ -161,19 +161,21 @@ sudo service nginx restart
 
 稍等片刻，在你的浏览器中测试。如果进展顺利，![](http://static.oschina.net/uploads/img/201309/26075158_Itfq.png)会在你的浏览器中出现
 
-
-
 ## 混合内容警告 {#content_h2_8_5}
 
-如果你的网站在https协议中运行，你要确保所有链接资源 — 图片,样式表CSS, JavaScript等，都是HTTPS协议链接.如果你不这样做，用户的浏览器将无法正常访问。比较新的火狐浏览器，将确保[不安全的内容](https://blog.mozilla.org/tanvi/2013/04/10/mixed-content-blocking-enabled-in-firefox-23/)出现在一个安全页面。
+如果你的网站在https协议中运行，你要确保所有链接资源 — 图片,样式表CSS, JavaScript等，都是HTTPS协议链接.如果你不这样做，用户的浏览器将无法正常访问。比较新的火狐浏览器，将确保[不安全的内容](https://blog.mozilla.org/tanvi/2013/04/10/mixed-content-blocking-enabled-in-firefox-23/)出现在一个安全页面。
 
-幸运的是几乎每一个主要服务代码都会嵌入一个https版本，大多数情况下它会自动处理（包括 Google Analytics and Typekit）. 你应该为其他人考虑一些个别的情况。
-
-
+幸运的是几乎每一个主要服务代码都会嵌入一个https版本，大多数情况下它会自动处理（包括 Google Analytics and Typekit）. 你应该为其他人考虑一些个别的情况。
 
 ## 备份您的密钥和证书 {#content_h2_9_5}
 
 不要忘记**备份您的 SSL 证书，和它的加密私钥**。我把它们放在一个私有的 git 库里面，并放一个说明文本文件来描述每个文件以及创建该文件的程序或者命令。
 
 您应当也**备份您的认证证书，**您用这些证书在 StartSSL 上登录。StartSSL 的 FAQ 页面[已经说明](https://www.startssl.com/?app=25#4)— 它是您从自己的浏览器中导出的一个包含了证书和密钥的 .p12 文件。
+
+
+
+> https://www.oschina.net/translate/switch-to-https-now-for-free
+
+
 
