@@ -10,6 +10,7 @@
     * [Mac下搭建开发环境](php/da-jian-kai-fa-huan-jing/ji-chu-huan-jing.md)
       * [Mac搭建nginx+mysql+php-fpm环境](php/da-jian-kai-fa-huan-jing/da-jian-kai-fa-huan-jing.md)
       * [Mac下安装LNMP\(Nginx+PHP5.6\)环境](php/da-jian-kai-fa-huan-jing/macxia-an-zhuang-lnmp-nginx-+-php5-6-huan-jing.md)
+      * PHP7.2安装
     * [Ubuntu下搭建lnmp](php/da-jian-kai-fa-huan-jing/ubuntuxia-da-jian-lnmp.md)
       * [1.安装Nginx](php/da-jian-kai-fa-huan-jing/ubuntuxia-da-jian-lnmp/1an-zhuang-nginx.md)
       * [2.安装PHP](php/da-jian-kai-fa-huan-jing/ubuntuxia-da-jian-lnmp/3an-zhuang-php.md)
