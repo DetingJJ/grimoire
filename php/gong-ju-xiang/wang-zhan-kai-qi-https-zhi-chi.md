@@ -147,47 +147,15 @@ server {
 #   https://gist.github.com/konklone/6532544
 ```
 
-你可以获得一个
+你可以获得一个[更全面的nigix配置](https://gist.github.com/konklone/6532544)，他打开了[SPDY](http://www.chromium.org/spdy/spdy-whitepaper),[HSTS](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security), SSL[session resumption](https://code.google.com/p/sslyze/wiki/SessionResumption), 和[Perfect Forward Secrecy](https://www.eff.org/deeplinks/2013/08/pushing-perfect-forward-secrecy-important-web-privacy-protection).
 
-[更全面的nigix配置](https://gist.github.com/konklone/6532544)
+Qualys' SSL 实验室提供了完美的[SSL](https://www.ssllabs.com/ssltest/analyze.html)[测试工具](https://www.ssllabs.com/ssltest/analyze.html)， 你可以通过它看到你正在做的事情.
 
- ，他打开了  
-
-[SPDY](http://www.chromium.org/spdy/spdy-whitepaper)
-
-,
-
-[HSTS](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
-
-, SSL
-
-[session resumption](https://code.google.com/p/sslyze/wiki/SessionResumption)
-
-, 和 
-
-[Perfect Forward Secrecy](https://www.eff.org/deeplinks/2013/08/pushing-perfect-forward-secrecy-important-web-privacy-protection)
-
-.
-
-  
-
-
-  
-
-
-Qualys' SSL 实验室提供了完美的
-
-[SSL](https://www.ssllabs.com/ssltest/analyze.html)
-
-[测试工具](https://www.ssllabs.com/ssltest/analyze.html)
-
-， 你可以通过它看到你正在做的事情.
-
-现在, 检验你对nginx的配置是正确的 \(这也检验密钥和证书工作正常\):
+现在, 检验你对nginx的配置是正确的 \(这也检验密钥和证书工作正常\):
 
 sudo nginx -t
 
-然后启动 nginx:
+然后启动 nginx:
 
 sudo service nginx restart
 
