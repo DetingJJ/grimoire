@@ -30,3 +30,15 @@
 
 ![](/assets/import--sj22018年04月12日10:37:17.png)
 
+
+
+
+
+最后他们会叫你安装证书
+
+![](http://static.oschina.net/uploads/img/201309/26075200_dZp5.png)
+
+在你的浏览器上安装验证证书
+
+![](http://static.oschina.net/uploads/img/201309/26075200_7px3.png)
+
