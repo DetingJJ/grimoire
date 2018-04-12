@@ -44,8 +44,6 @@
 
 再次,这只是证明你在登录StartSSL 以后通过你的邮件里的地址跳转到这个页面
 
-
-
 现在，我们需要使得StartSSL相信我们拥有自己的域名，我们想要为他生成一个新的证书。从控制面板中，点击“Validations Wizard”，然后在下拉表单中选择”Domain Name Validation“选项。
 
 ![](http://static.oschina.net/uploads/img/201309/26075202_D0EB.png)
@@ -61,4 +59,62 @@
 他们会给你发送一个验证码，你可以把它输入到文本框中来验证你的域名。
 
 ![](http://static.oschina.net/uploads/img/201309/26075203_koex.png)
+
+
+
+## 生成证书 {#content_h2_5_5}
+
+现在 StartSSL知道你是谁了，知道了你的域名，你可以用你的私人密钥来生成证书了。
+
+这时StartSSL能为你生成一个私人密钥— 在他们常见问题中（FAQ）像你保证他们只生成[高质量的随机密钥](https://www.startssl.com/?app=25#43)，并且以后不会作为其他的密钥 — 你也可以自己创建一个，很简单。
+
+这将会引导你通过命令行创建via。当你选择 StartSSL的引导,你可以按引导步奏进行备份，在你为域名申请证书的地方。
+
+打开终端，创建一个新的 2048-bit RSA 密钥
+
+openssl genrsa -aes256 -out my-private-encrypted.key 2048
+
+会让你输入一个密码.[选择一个](http://xkcd.com/936/),并记住它 .这会产生一个加密的私钥 ，如果你需要通过网络转移你的密钥，就可以用这个加密的版本..
+
+
+
+下一步是将其解码, 从而通过它生成一个“证书签发请求”. 使用如下命令来解码你的私钥:
+
+openssl rsa -in my-private-encrypted.key -out my-private-decrypted.key
+
+然后, 生成一个证书签发请求:
+
+openssl req -new -key my-private-decrypted.key -out mydomain.com.csr
+
+回到 StartSSL 的控制面板并单击 “Certificates Wizard” 标签, 然后在下拉列表里选择 “Web Server SSL/TLS Certificate”.
+
+![](http://static.oschina.net/uploads/img/201309/26075204_a1Qu.png)
+
+由于我们已经生成了自己的私钥, 所以你可以在此单击 “**Skip**”.
+
+![](http://static.oschina.net/uploads/img/201309/26075205_kX3f.png)
+
+然后, 在文本框内粘贴入我们之前生成的 .csr 文件里面的内容.
+
+![](http://static.oschina.net/uploads/img/201309/26075205_mxPM.png)
+
+如果一切正常的话, 它就会提示你说已经收到了你发出的证书签发请求.
+
+![](http://static.oschina.net/uploads/img/201309/26075205_Dkzv.png)
+
+现在, 选择你之前已经验证过的计划使用证书的域名.
+
+![](http://static.oschina.net/uploads/img/201309/26075207_xBiq.png)
+
+它会要求你添加一个子域, 我给自己的添加的是 “www”.
+
+![](http://static.oschina.net/uploads/img/201309/26075207_6bUi.png)
+
+它会要求你进行确认, 如果看上去没错的话, 单击 “Continue”.
+
+![](http://static.oschina.net/uploads/img/201309/26075207_ksJL.png)
+
+**注意:**在你等待通过邮件获得许可的那儿, 你有可能会遇到一个 "需要额外的验证!" 的步骤, 第一次的时候我没有遇到, 但是第二次的时候遇到了, 然后我的许可在大概30分钟左右被批准, 一旦经过许可, 你需要去单击 "Tool Box" 标签页并通过 "Retrieve Certificate" 来获取你的证书.
+
+然后应该会是这样 — 你的证书将出现在一个文本域里面供你去复制并粘贴到一个文件里去, 给这个文件随便起个你想叫的名字就行, 但是在本指南接下来的部分里将以 mydomain.com.crt 这个名字去引用它\(译者注, 原文为 asmydomain.com.crt, 参照下文 mydomain.com.crt 名称来看, 应为as后未加空格导致的拼写错误\).
 
