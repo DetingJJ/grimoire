@@ -30,10 +30,6 @@
 
 ![](/assets/import--sj22018年04月12日10:37:17.png)
 
-
-
-
-
 最后他们会叫你安装证书
 
 ![](http://static.oschina.net/uploads/img/201309/26075200_dZp5.png)
@@ -41,4 +37,12 @@
 在你的浏览器上安装验证证书
 
 ![](http://static.oschina.net/uploads/img/201309/26075200_7px3.png)
+
+
+
+要是你用的的Chrome 你将会在浏览器头看到下面信息
+
+![](http://static.oschina.net/uploads/img/201309/26075201_kFMG.png)
+
+再次,这只是证明你在登录StartSSL 以后通过你的邮件里的地址跳转到这个页面
 
