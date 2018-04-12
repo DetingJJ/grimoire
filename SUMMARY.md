@@ -91,6 +91,7 @@
     * [PHP类库PHPqrCode生成二维码](php/gong-ju-xiang//shi-yong-php-lei-ku-phpqrcode-sheng-cheng-er-wei-ma.md)
     * [php练习笔试题（系列）](php/gong-ju-xiang/phplian-xi-bi-shi-ti/phplian-xi-bi-shi-ti-ff08-yi-ff09.md)
     * [网站开启HTTPS支持](php/gong-ju-xiang/wang-zhan-kai-qi-https-zhi-chi.md)
+    * [PHPUnit](php/gong-ju-xiang/phpunit.md)
 * [Python](python.md)
   * [前言](Python-qian-yan.md)
   * [文件系统](wen-jian-xi-tong.md)
