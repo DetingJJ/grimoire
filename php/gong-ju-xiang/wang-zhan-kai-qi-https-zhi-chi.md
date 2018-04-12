@@ -173,9 +173,7 @@ sudo service nginx restart
 
 您应当也**备份您的认证证书，**您用这些证书在 StartSSL 上登录。StartSSL 的 FAQ 页面[已经说明](https://www.startssl.com/?app=25#4)— 它是您从自己的浏览器中导出的一个包含了证书和密钥的 .p12 文件。
 
-
-
-> https://www.oschina.net/translate/switch-to-https-now-for-free
+> 文章摘自：[https://www.oschina.net/translate/switch-to-https-now-for-free](https://www.oschina.net/translate/switch-to-https-now-for-free)
 
 
 
