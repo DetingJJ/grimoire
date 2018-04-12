@@ -60,23 +60,19 @@
 
 ![](http://static.oschina.net/uploads/img/201309/26075203_koex.png)
 
-
-
 ## 生成证书 {#content_h2_5_5}
 
 现在 StartSSL知道你是谁了，知道了你的域名，你可以用你的私人密钥来生成证书了。
 
-这时StartSSL能为你生成一个私人密钥— 在他们常见问题中（FAQ）像你保证他们只生成[高质量的随机密钥](https://www.startssl.com/?app=25#43)，并且以后不会作为其他的密钥 — 你也可以自己创建一个，很简单。
+这时StartSSL能为你生成一个私人密钥— 在他们常见问题中（FAQ）像你保证他们只生成[高质量的随机密钥](https://www.startssl.com/?app=25#43)，并且以后不会作为其他的密钥 — 你也可以自己创建一个，很简单。
 
 这将会引导你通过命令行创建via。当你选择 StartSSL的引导,你可以按引导步奏进行备份，在你为域名申请证书的地方。
 
-打开终端，创建一个新的 2048-bit RSA 密钥
+打开终端，创建一个新的 2048-bit RSA 密钥
 
 openssl genrsa -aes256 -out my-private-encrypted.key 2048
 
 会让你输入一个密码.[选择一个](http://xkcd.com/936/),并记住它 .这会产生一个加密的私钥 ，如果你需要通过网络转移你的密钥，就可以用这个加密的版本..
-
-
 
 下一步是将其解码, 从而通过它生成一个“证书签发请求”. 使用如下命令来解码你的私钥:
 
@@ -117,4 +113,65 @@ openssl req -new -key my-private-decrypted.key -out mydomain.com.csr
 **注意:**在你等待通过邮件获得许可的那儿, 你有可能会遇到一个 "需要额外的验证!" 的步骤, 第一次的时候我没有遇到, 但是第二次的时候遇到了, 然后我的许可在大概30分钟左右被批准, 一旦经过许可, 你需要去单击 "Tool Box" 标签页并通过 "Retrieve Certificate" 来获取你的证书.
 
 然后应该会是这样 — 你的证书将出现在一个文本域里面供你去复制并粘贴到一个文件里去, 给这个文件随便起个你想叫的名字就行, 但是在本指南接下来的部分里将以 mydomain.com.crt 这个名字去引用它\(译者注, 原文为 asmydomain.com.crt, 参照下文 mydomain.com.crt 名称来看, 应为as后未加空格导致的拼写错误\).
+
+
+
+## 在nginx中安装证书 {#content_h2_7_5}
+
+首先, 确认443端口在你的web服务器中已经打开。许多web托管已经默认为你打开了该端口。如果你使用Amazon AWS,你需要确在你的实例安全组中443端口是开放的。 
+
+下一步，我们将要创建web服务器要使用的“证书链”。它包含你的证书和StartSSL中介证书（将StartSSL的跟证书包含进来不是必要的，因为浏览器已经包含了该证书）StartSSL下载中介证书：
+
+wget http://www.startssl.com/certs/sub.class1.server.ca.pem
+
+然后将你的证书和他们的证书连接起来：
+
+cat mydomain.com.crt sub.class1.server.ca.pem &gt; unified.crt
+
+最后，告诉你的Web服务器你的统一证书和你的解密密钥。 我使用nginx——下面是你需要的nginx的最要配置。它使用301永久重定向将所有的HTTP请求从定向为HTTPS 请求，然后指引服务器使用证书要密钥。 
+
+```
+server
+ {
+    
+listen
+80
+;
+    
+server_name
+ konklone.com;
+    
+return
+301
+ https://
+$host
+$request_uri
+;
+}
+
+
+server
+ {
+    
+listen
+443
+ ssl;
+    
+server_name
+ konklone.com;
+
+    
+ssl_certificate
+ /path/to/unified.crt;
+    
+ssl_certificate_key
+ /path/to/my-private-decrypted.key;
+}
+
+
+# for a more complete, secure config: 
+#   https://gist.github.com/konklone/6532544
+```
+
+
 
