@@ -137,6 +137,7 @@
     * [vim](vim.md)
       * [将VIM打造成强大的IDE](jiang-vim-da-zao-cheng-qiang-da-de-ide.md)
       * [VIM编译器搭建](vimbian-yi-qi-da-jian.md)
+  * [VPS](linux/vps.md)
 * [MySQL](mysql.md)
   * [MySQL数据库基础](mysql/mysqlshu-ju-ku-ji-chu.md)
     * [MySQL概述](mysql/mysqlshu-ju-ku-ji-chu/mysqlgai-shu.md)
