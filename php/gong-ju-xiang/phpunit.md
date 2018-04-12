@@ -332,7 +332,9 @@ OK (4 tests)
 
 > [PHP单元测试框架PHPUnit的使用](https://segmentfault.com/a/1190000011499301)：[https://segmentfault.com/a/1190000011499301](https://segmentfault.com/a/1190000011499301)
 >
-> https://phpunit.de/manual/6.5/zh\_cn/textui.html
+> [https://phpunit.de/manual/6.5/zh\_cn/textui.html](https://phpunit.de/manual/6.5/zh_cn/textui.html)
+>
+> http://www.phpunit.cn/manual/current/zh\_cn/installation.html
 
 
 
