@@ -160,7 +160,7 @@ class Calculator
         return $a + $b;  
     }  
 }  
-?>  
+?>
 ```
 
 单元测试类：  
@@ -270,7 +270,7 @@ return
 ```
 PHPUnit 6.4.1 by Sebastian Bergmann and contributors.
 
-Wrote test class skeleton for Calculator to CalculatorTest.php. 
+Wrote test class skeleton for Calculator to CalculatorTest.php.
 ```
 
 是不是很简单，因为没有测试数据，所以这里加测试数据，然后重新执行上边的命令
@@ -290,7 +290,7 @@ class Calculator
         return $a + $b;  
     }  
 }  
-?>  
+?>
 ```
 
 原始类中的每个方法都进行@assert注解的检测。这些被转变为测试代码，像这样
@@ -310,13 +310,13 @@ class Calculator
 ```
  ./vendor/bin/phpunit tests/CalculatorTest
 PHPUnit 6.4.1 by Sebastian Bergmann and contributors. 
-  
+
 ....  
-  
+
 Time: 0 seconds  
-  
-  
-OK (4 tests)  
+
+
+OK (4 tests)
 ```
 
 ### 4、其他用法 {#articleHeader7}
@@ -328,7 +328,7 @@ OK (4 tests)
 参考文章：  
 [PHPUnit中国官网文档](http://www.phpunit.cn/)
 
-> https://segmentfault.com/a/1190000011499301
+> [PHP单元测试框架PHPUnit的使用](https://segmentfault.com/a/1190000011499301)：[https://segmentfault.com/a/1190000011499301](https://segmentfault.com/a/1190000011499301)
 
 
 
