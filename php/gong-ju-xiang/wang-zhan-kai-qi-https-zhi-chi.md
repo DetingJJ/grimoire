@@ -1,8 +1,4 @@
-现在，你应该能在访问 https://konklone.com 的时候，在地址栏里看到一个漂亮的小绿锁
-
-![](http://static.oschina.net/uploads/img/201309/26075158_Itfq.png)
-
-了，
+现在，你应该能在访问 [https://konklone.com](https://konklone.com) 的时候，在地址栏里看到一个漂亮的小绿锁![](http://static.oschina.net/uploads/img/201309/26075158_Itfq.png)了，
 
 因为我把这个网站换成了HTTPS协议。一分钱没花就搞定了。
 
