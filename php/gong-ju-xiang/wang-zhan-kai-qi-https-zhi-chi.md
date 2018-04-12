@@ -114,64 +114,82 @@ openssl req -new -key my-private-decrypted.key -out mydomain.com.csr
 
 然后应该会是这样 — 你的证书将出现在一个文本域里面供你去复制并粘贴到一个文件里去, 给这个文件随便起个你想叫的名字就行, 但是在本指南接下来的部分里将以 mydomain.com.crt 这个名字去引用它\(译者注, 原文为 asmydomain.com.crt, 参照下文 mydomain.com.crt 名称来看, 应为as后未加空格导致的拼写错误\).
 
-
-
 ## 在nginx中安装证书 {#content_h2_7_5}
 
-首先, 确认443端口在你的web服务器中已经打开。许多web托管已经默认为你打开了该端口。如果你使用Amazon AWS,你需要确在你的实例安全组中443端口是开放的。 
+首先, 确认443端口在你的web服务器中已经打开。许多web托管已经默认为你打开了该端口。如果你使用Amazon AWS,你需要确在你的实例安全组中443端口是开放的。
 
 下一步，我们将要创建web服务器要使用的“证书链”。它包含你的证书和StartSSL中介证书（将StartSSL的跟证书包含进来不是必要的，因为浏览器已经包含了该证书）StartSSL下载中介证书：
 
-wget http://www.startssl.com/certs/sub.class1.server.ca.pem
+wget [http://www.startssl.com/certs/sub.class1.server.ca.pem](http://www.startssl.com/certs/sub.class1.server.ca.pem)
 
 然后将你的证书和他们的证书连接起来：
 
 cat mydomain.com.crt sub.class1.server.ca.pem &gt; unified.crt
 
-最后，告诉你的Web服务器你的统一证书和你的解密密钥。 我使用nginx——下面是你需要的nginx的最要配置。它使用301永久重定向将所有的HTTP请求从定向为HTTPS 请求，然后指引服务器使用证书要密钥。 
+最后，告诉你的Web服务器你的统一证书和你的解密密钥。 我使用nginx——下面是你需要的nginx的最要配置。它使用301永久重定向将所有的HTTP请求从定向为HTTPS 请求，然后指引服务器使用证书要密钥。
 
 ```
-server
- {
-    
-listen
-80
-;
-    
-server_name
- konklone.com;
-    
-return
-301
- https://
-$host
-$request_uri
-;
+server {
+    listen 80;
+    server_name konklone.com;
+    return 301 https://$host$request_uri;
 }
 
+server {
+    listen 443 ssl;
+    server_name konklone.com;
 
-server
- {
-    
-listen
-443
- ssl;
-    
-server_name
- konklone.com;
-
-    
-ssl_certificate
- /path/to/unified.crt;
-    
-ssl_certificate_key
- /path/to/my-private-decrypted.key;
+    ssl_certificate /path/to/unified.crt;
+    ssl_certificate_key /path/to/my-private-decrypted.key;
 }
-
 
 # for a more complete, secure config: 
 #   https://gist.github.com/konklone/6532544
 ```
 
+你可以获得一个
 
+[更全面的nigix配置](https://gist.github.com/konklone/6532544)
+
+ ，他打开了  
+
+[SPDY](http://www.chromium.org/spdy/spdy-whitepaper)
+
+,
+
+[HSTS](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
+
+, SSL
+
+[session resumption](https://code.google.com/p/sslyze/wiki/SessionResumption)
+
+, 和 
+
+[Perfect Forward Secrecy](https://www.eff.org/deeplinks/2013/08/pushing-perfect-forward-secrecy-important-web-privacy-protection)
+
+.
+
+  
+
+
+  
+
+
+Qualys' SSL 实验室提供了完美的
+
+[SSL](https://www.ssllabs.com/ssltest/analyze.html)
+
+[测试工具](https://www.ssllabs.com/ssltest/analyze.html)
+
+， 你可以通过它看到你正在做的事情.
+
+现在, 检验你对nginx的配置是正确的 \(这也检验密钥和证书工作正常\):
+
+sudo nginx -t
+
+然后启动 nginx:
+
+sudo service nginx restart
+
+稍等片刻，在你的浏览器中测试。如果进展顺利，![](http://static.oschina.net/uploads/img/201309/26075158_Itfq.png)会在你的浏览器中出现
 
