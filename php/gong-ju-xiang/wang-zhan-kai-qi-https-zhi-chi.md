@@ -38,11 +38,27 @@
 
 ![](http://static.oschina.net/uploads/img/201309/26075200_7px3.png)
 
-
-
 要是你用的的Chrome 你将会在浏览器头看到下面信息
 
 ![](http://static.oschina.net/uploads/img/201309/26075201_kFMG.png)
 
 再次,这只是证明你在登录StartSSL 以后通过你的邮件里的地址跳转到这个页面
+
+
+
+现在，我们需要使得StartSSL相信我们拥有自己的域名，我们想要为他生成一个新的证书。从控制面板中，点击“Validations Wizard”，然后在下拉表单中选择”Domain Name Validation“选项。
+
+![](http://static.oschina.net/uploads/img/201309/26075202_D0EB.png)
+
+输入你的域名。
+
+![](http://static.oschina.net/uploads/img/201309/26075202_CpFg.png)
+
+接下来，你要选择一个email地址，StartSSL将要用它来核实你的域名地址。正如你所见的，StartSSL将会相信你是拥有这个域名的，如果你能用域名控制[webmaster@,postmaster](mailto:webmaster@,postmaster)@, orhostmaster@或者是你的email地址已被列为域名注册人信息的一部分（就我而言，就是当前的这个[konklone@gmail.com](mailto:konklone@gmail.com)）。然后选择一个你可以收到邮箱的邮箱地址。
+
+![](http://static.oschina.net/uploads/img/201309/26075203_FNSx.png)
+
+他们会给你发送一个验证码，你可以把它输入到文本框中来验证你的域名。
+
+![](http://static.oschina.net/uploads/img/201309/26075203_koex.png)
 
