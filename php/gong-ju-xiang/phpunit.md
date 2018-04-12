@@ -8,15 +8,9 @@
 
 ```
 {
-    
-"autoload"
-: {
-        
-"classmap"
-: [
-            
-"./"
-
+    "autoload": {
+        "classmap": [
+            "./"
         ]
     }
 }
@@ -57,25 +51,13 @@ monolog/monolog
 安装好之后，我们可以看`coomposer.json`文件已经有这两个扩展包了：
 
 ```
-"require"
-: {  
-     
-"monolog/monolog"
-: 
-"^1.23"
-,
+ "require": {  
+     "monolog/monolog": "^1.23",
     },
 
- 
-"require-dev"
-: {
-        
-"phpunit/phpunit"
-: 
-"^6.2"
-
+ "require-dev": {
+        "phpunit/phpunit": "^6.2"
     },
-
 ```
 
 ## 四、PHPUnit简单用法 {#articleHeader3}
@@ -85,8 +67,7 @@ monolog/monolog
 创建目录`tests`，新建文件`StackTest.php`，编辑如下：
 
 ```
-<
-?php
+<?php
 /**
  * 1、composer 安装Monolog日志扩展，安装phpunit单元测试扩展包
  * 2、引入autoload.php文件
@@ -94,186 +75,61 @@ monolog/monolog
  *
  *
  */
-namespace
-App
-\
-tests
-;
+namespace App\tests;
+require_once __DIR__ . '/../vendor/autoload.php';
+define("ROOT_PATH", dirname(__DIR__) . "/");
 
-require_once
-__DIR__
- . 
-'/../vendor/autoload.php'
-;
-define(
-"ROOT_PATH"
-, dirname(
-__DIR__
-) . 
-"/"
-);
+use Monolog\Logger;
+use Monolog\Handler\StreamHandler;
+
+use PHPUnit\Framework\TestCase;
 
 
-use
-Monolog
-\
-Logger
-;
-
-use
-Monolog
-\
-Handler
-\
-StreamHandler
-;
-
-
-use
-PHPUnit
-\
-Framework
-\
-TestCase
-;
-
-
-
-class
-StackTest
-extends
-TestCase
+class StackTest extends TestCase
 {
-    
-public
-function
-testPushAndPop
-()
-{
+    public function testPushAndPop()
+    {
         $stack = [];
-        
-$this
--
->
-assertEquals(
-0
-, count($stack));
+        $this->assertEquals(0, count($stack));
 
-        array_push($stack, 
-'foo'
-);
+        array_push($stack, 'foo');
 
-        
-// 添加日志文件,如果没有安装monolog，则有关monolog的代码都可以注释掉
-$this
--
->
-Log()-
->
-error(
-'hello'
-, $stack);
+        // 添加日志文件,如果没有安装monolog，则有关monolog的代码都可以注释掉
+        $this->Log()->error('hello', $stack);
 
-        
-$this
--
->
-assertEquals(
-'foo'
-, $stack[count($stack)
--1
-]);
-        
-$this
--
->
-assertEquals(
-1
-, count($stack));
+        $this->assertEquals('foo', $stack[count($stack)-1]);
+        $this->assertEquals(1, count($stack));
 
-        
-$this
--
->
-assertEquals(
-'foo'
-, array_pop($stack));
-        
-$this
--
->
-assertEquals(
-0
-, count($stack));
+        $this->assertEquals('foo', array_pop($stack));
+        $this->assertEquals(0, count($stack));
     }
 
-    
-public
-function
-Log
-()
-{
-        
-// create a log channel
-
-        $log = 
-new
- Logger(
-'Tester'
-);
-        $log-
->
-pushHandler(
-new
- StreamHandler(ROOT_PATH . 
-'storage/logs/app.log'
-, Logger::WARNING));
-        $log-
->
-error(
-"Error"
-);
-        
-return
- $log;
+    public function Log()
+    {
+        // create a log channel
+        $log = new Logger('Tester');
+        $log->pushHandler(new StreamHandler(ROOT_PATH . 'storage/logs/app.log', Logger::WARNING));
+        $log->error("Error");
+        return $log;
     }
 }
-
 ```
 
 **代码解释：**
 
 1. StackTest为测试类
-2. StackTest 继承于
-   `PHPUnit\Framework\TestCase`
-3. 测试方法
-   `testPushAndPop()`
-   ，测试方法必须为
-   `public`
-   权限，一般以
-   `test开头`
-   ，或者你也可以选择给其加注释
-   `@test`
-   来表
-4. 在测试方法内，类似于
-   `assertEquals()`
-   这样的断言方法用来对实际值与预期值的匹配做出断言。
+2. StackTest 继承于`PHPUnit\Framework\TestCase`
+3. 测试方法`testPushAndPop()`，测试方法必须为`public`权限，一般以`test开头`，或者你也可以选择给其加注释`@test`来表
+4. 在测试方法内，类似于`assertEquals()`这样的断言方法用来对实际值与预期值的匹配做出断言。
 
 **命令行执行:**  
 phpunit 命令 测试文件命名
 
 ```
-➜  framework
-#  ./vendor/bin/phpunit tests/StackTest.php
-//
- 或者可以省略文件后缀名
+➜  framework#  ./vendor/bin/phpunit tests/StackTest.php
 
-//
-  .
-/vendor/
-bin
-/phpunit tests/
-StackTest
+// 或者可以省略文件后缀名
+//  ./vendor/bin/phpunit tests/StackTest
 ```
 
 执行结果：
@@ -284,9 +140,7 @@ PHPUnit 6.4.1 by Sebastian Bergmann and contributors.
 
 .                                                                   1 / 1 (100%)
 
-
-Time:
- 56 ms, Memory: 4.00MB
+Time: 56 ms, Memory: 4.00MB
 
 OK (1 test, 5 assertions)
 ```
@@ -298,103 +152,46 @@ OK (1 test, 5 assertions)
 Calculator.php
 
 ```
-<
-?php
-class
-Calculator
+<?php  
+class Calculator  
 {  
-    
-public
-function
-sum
-($a, $b)
-{  
-        
-return
- $a + $b;  
+    public function sum($a, $b)  
+    {  
+        return $a + $b;  
     }  
 }  
-
-?
->
+?>  
 ```
 
 单元测试类：  
 CalculatorTest.php
 
 ```
-<
-?php
-namespace
-App
-\
-tests
-;
+<?php
 
-require_once
-__DIR__
- . 
-'/../vendor/autoload.php'
-;
+namespace App\tests;
+require_once __DIR__ . '/../vendor/autoload.php';
+require "Calculator.php";
 
-require
-"Calculator.php"
-;
+use PHPUnit\Framework\TestCase;
 
 
-use
-PHPUnit
-\
-Framework
-\
-TestCase
-;
-
-
-
-class
-CalculatorTest
-extends
-TestCase
+class CalculatorTest extends TestCase
 {
-    
-public
-function
-testSum
-()
-{
-        $obj = 
-new
- Calculator;
-        
-$this
--
->
-assertEquals(
-0
-, $obj-
->
-sum(
-0
-, 
-0
-));
+    public function testSum()
+    {
+        $obj = new Calculator;
+        $this->assertEquals(0, $obj->sum(0, 0));
 
     }
 
 }
-
 ```
 
 命令执行：
 
 ```
->
- .
-/vendor/
-bin
-/phpunit tests/
-CalculatorTest
+> ./vendor/bin/phpunit tests/CalculatorTest
 ```
 
 执行结果：
@@ -415,60 +212,21 @@ There was 1 failure:
 看执行结果：
 
 ```
-PHPUnit 
-6.4
-.1
- by Sebastian Bergmann and contributors.
+PHPUnit 6.4.1 by Sebastian Bergmann and contributors.
 
-F                                                                   
-1
- / 
-1
- (
-100
-%)
+F                                                                   1 / 1 (100%)
 
+Time: 117 ms, Memory: 4.00MB
 
-Time:
-117
- ms, 
-Memory:
-4.00
-MB
+There was 1 failure:
 
-There was 
-1
-failure:
-1
-) App\tests\
-CalculatorTest:
-:testSum
-Failed asserting that 
-0
- matches expected 
-1.
-/Applications/
-XAMPP
-/xamppfiles/
-htdocs
-/web/
-framework
-/tests/
-CalculatorTest.
-php:
-22
+1) App\tests\CalculatorTest::testSum
+Failed asserting that 0 matches expected 1.
 
+/Applications/XAMPP/xamppfiles/htdocs/web/framework/tests/CalculatorTest.php:22
 
 FAILURES!
-
-Tests:
-1
-, 
-Assertions:
-1
-, 
-Failures:
-1.
+Tests: 1, Assertions: 1, Failures: 1.
 ```
 
 会直接报出方法错误信息及行号，有助于我们快速找出bug
@@ -485,13 +243,13 @@ Calculator.php
 class
 Calculator
 {  
-    
+
 public
 function
 sum
 ($a, $b)
 {  
-        
+
 return
  $a + $b;  
     }  
@@ -504,99 +262,46 @@ return
 命令行启动测试用例，使用关键字`--skeleton`
 
 ```
->
- ./vendor/bin/phpunit
---skeleton Calculator.php
+> ./vendor/bin/phpunit --skeleton Calculator.php
 ```
 
 执行结果：
 
 ```
-PHPUnit 
-6.4
-.1
-by
- Sebastian Bergmann 
-and
- contributors.
+PHPUnit 6.4.1 by Sebastian Bergmann and contributors.
 
-Wrote test 
-class
- skeleton 
-for
- Calculator 
-to
- CalculatorTest.php.  
-
+Wrote test class skeleton for Calculator to CalculatorTest.php. 
 ```
 
 是不是很简单，因为没有测试数据，所以这里加测试数据，然后重新执行上边的命令
 
 ```
-<
-?php
-class
-Calculator
+<?php  
+class Calculator  
 {  
-    
-/** 
-     * 
-@assert
- (0, 0) == 0 
-     * 
-@assert
- (0, 1) == 1 
-     * 
-@assert
- (1, 0) == 1 
-     * 
-@assert
- (1, 1) == 2 
-     */
-public
-function
-sum
-($a, $b)
-{  
-        
-return
- $a + $b;  
+    /** 
+     * @assert (0, 0) == 0 
+     * @assert (0, 1) == 1 
+     * @assert (1, 0) == 1 
+     * @assert (1, 1) == 2 
+     */  
+    public function sum($a, $b)  
+    {  
+        return $a + $b;  
     }  
 }  
-
-?
->
+?>  
 ```
 
 原始类中的每个方法都进行@assert注解的检测。这些被转变为测试代码，像这样
 
 ```
-/**
-     * Generated from 
-@assert
- (0, 0) == 0.
+    /**
+     * Generated from @assert (0, 0) == 0.
      */
-public
-function
-testSum
-()
-{
-        $obj = 
-new
- Calculator;
-        
-$this
--
->
-assertEquals(
-0
-, $obj-
->
-sum(
-0
-, 
-0
-));
+    public function testSum() {
+        $obj = new Calculator;
+        $this->assertEquals(0, $obj->sum(0, 0));
     }
 ```
 
@@ -608,9 +313,7 @@ PHPUnit 6.4.1 by Sebastian Bergmann and contributors.
   
 ....  
   
-
-Time:
- 0 seconds  
+Time: 0 seconds  
   
   
 OK (4 tests)  
@@ -625,8 +328,7 @@ OK (4 tests)
 参考文章：  
 [PHPUnit中国官网文档](http://www.phpunit.cn/)
 
-  
-
+> https://segmentfault.com/a/1190000011499301
 
 
 
