@@ -45,7 +45,9 @@ function decto_bin($datalist,$bin)
     {
         $t="";
         $num=intval($num);
-    if($num===0)continue;
+        if($num===0) {
+            continue;
+        }
         while($num>0)
         {
             $t=$arr[$num%$bin].$t;
@@ -109,28 +111,28 @@ array(2) {
 function bin_todec($datalist,$bin)
 {
     static $arr=array('0'=>0,'1'=>1,'2'=>2,'3'=>3,'4'=>4,'5'=>5,
-	'6'=>6,'7'=>7,'8'=>8,'9'=>9,'A'=>10,'B'=>11,'C'=>12,'D'=>13,'E'=>14,'F'=>15);
+    '6'=>6,'7'=>7,'8'=>8,'9'=>9,'A'=>10,'B'=>11,'C'=>12,'D'=>13,'E'=>14,'F'=>15);
     if(!is_array($datalist))$datalist=array($datalist);
     if($bin==10)return $datalist; //为10进制不转换
     $aOutData=array(); //定义输出保存数组
     foreach ($datalist as $num)
     {
-    	$atnum=str_split($num); //将字符串分割为单个字符数组
-    	$atlen=count($atnum);
-    	$total=0;
-    	$i=1;
-    	foreach ($atnum as $tv)
-    	{
-    		$tv=strtoupper($tv);
-    		
-    		if(array_key_exists($tv,$arr))
-    		{
-    			if($arr[$tv]==0)continue;
-    			$total=$total+$arr[$tv]*pow($bin,$atlen-$i);
-    		}
-    		$i++;
-    	}
-    	$aOutData[]=$total;
+        $atnum=str_split($num); //将字符串分割为单个字符数组
+        $atlen=count($atnum);
+        $total=0;
+        $i=1;
+        foreach ($atnum as $tv)
+        {
+            $tv=strtoupper($tv);
+
+            if(array_key_exists($tv,$arr))
+            {
+                if($arr[$tv]==0)continue;
+                $total=$total+$arr[$tv]*pow($bin,$atlen-$i);
+            }
+            $i++;
+        }
+        $aOutData[]=$total;
     }
     return $aOutData;
 }
@@ -142,7 +144,7 @@ function bin_todec($datalist,$bin)
 var_dump(bin_todec(array('ff','ff33','cc33'),16));
 var_dump(bin_todec(array('1101101','111101101'),2));
 var_dump(bin_todec(array('1234123','12341'),8));
- 
+
 X-Powered-By: PHP/5.2.0
 Content-type: text/html
 array(3) {
