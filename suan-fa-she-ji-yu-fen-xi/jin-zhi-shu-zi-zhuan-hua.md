@@ -57,8 +57,8 @@ function decto_bin($datalist,$bin)
         $tlen=strlen($t);
         if($tlen%$bytelen!=0)
         {
-        $pad_len=$bytelen-$tlen%$bytelen;
-        $t=str_pad("",$pad_len,"0",STR_PAD_LEFT).$t; //不足一个字节长度，自动前面补充0
+            $pad_len=$bytelen-$tlen%$bytelen;
+            $t=str_pad("",$pad_len,"0",STR_PAD_LEFT).$t; //不足一个字节长度，自动前面补充0
         }
         $aOutChar[]=$t;
     }
