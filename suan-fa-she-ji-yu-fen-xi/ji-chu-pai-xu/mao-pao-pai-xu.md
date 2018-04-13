@@ -9,8 +9,63 @@
 
 **代码要点：**
 
+```php
+function bubble_sort(&$arrA) {
+    $intCT = count($arrA);
+    for ($i = 0; $i < $intCT - 1; $i++) {
+        for ($j = $i + 1; $j < $intCT; $j++) {
+            if ($arrA[$i] > $arrA[$j]) {
+                my_swap($arrA[$i], $arrA[$j]);
+            }
+        }
+    }
+}
+
+function my_swap(&$a, &$b) {
+    list($b, $a) = array($a, $b);
+}
 ```
 
+**测试：**
+
+```php
+$arrA = array(
+    0,2,3,4,6,7,1,8,5,9
+);
+
+print_r($arrA);
+
+bubble_sort($arrA);
+
+print_r($arrA);
+
+输出：
+Array
+(
+    [0] => 0
+    [1] => 2
+    [2] => 3
+    [3] => 4
+    [4] => 6
+    [5] => 7
+    [6] => 1
+    [7] => 8
+    [8] => 5
+    [9] => 9
+)
+Array
+(
+    [0] => 0
+    [1] => 1
+    [2] => 2
+    [3] => 3
+    [4] => 4
+    [5] => 5
+    [6] => 6
+    [7] => 7
+    [8] => 8
+    [9] => 9
+)
 ```
 
 
