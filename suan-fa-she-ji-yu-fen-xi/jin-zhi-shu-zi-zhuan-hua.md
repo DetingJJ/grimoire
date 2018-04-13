@@ -45,7 +45,8 @@ function decto_bin($datalist,$bin)
     {
         $t="";
         $num=intval($num);
-        if($num===0) {
+        if($num===0) 
+        {
             continue;
         }
         while($num>0)
