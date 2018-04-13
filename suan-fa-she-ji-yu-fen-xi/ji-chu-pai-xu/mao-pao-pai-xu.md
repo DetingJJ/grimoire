@@ -39,6 +39,7 @@ bubble_sort($arrA);
 
 print_r($arrA);
 
+
 输出：
 Array
 (
