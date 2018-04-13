@@ -6,3 +6,11 @@ VPS：购买地址
 
 
 
+VPN搭建：
+
+[https://github.com/hwdsl2/setup-ipsec-vpn/blob/master/README-zh.md](https://github.com/hwdsl2/setup-ipsec-vpn/blob/master/README-zh.md)
+
+
+
+
+
