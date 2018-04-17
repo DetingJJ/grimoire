@@ -6,5 +6,5 @@
 
 一次被头条面试血虐的总结：[https://juejin.im/entry/5abccf6d5188253640018590](https://juejin.im/entry/5abccf6d5188253640018590)
 
-
+小小算法，频繁刺激-Palindrome Number：https://juejin.im/entry/5aa41ea5518825558154977e?utm\_source=gold\_browser\_extension
 
