@@ -5,7 +5,7 @@
 
 如果阅读，建议移步[【gitbook】](https://leunggeorge.gitbooks.io/grimoire/content/)，这里体验会更好一点。
 
-如果你也在学习相关的知识，欢迎和我一起编辑本书。或者有好文章或者建议也可以[创建讨论主题](https://www.gitbook.com/book/leunggeorge/grimoire/discussions/new)，感谢您的参与。
+如果你也在学习相关的知识，欢迎和我一起编辑本书。如果有好文章、知识点、建议等，都也可以[创建讨论主题](https://www.gitbook.com/book/leunggeorge/grimoire/discussions/new)，感谢您的参与。
 
 ## 本书主要内容
 
