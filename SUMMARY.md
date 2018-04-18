@@ -141,6 +141,7 @@
 * [Linux篇](linuxpian.md)
   * [安装linux](linuxpian/an-zhuang-linux.md)
   * [linux基础](linuxpian/linuxji-chu.md)
+    * [find](linuxpian/linuxji-chu/find.md)
 * [MySQL](mysql.md)
   * [MySQL数据库基础](mysql/mysqlshu-ju-ku-ji-chu.md)
     * [MySQL概述](mysql/mysqlshu-ju-ku-ji-chu/mysqlgai-shu.md)
