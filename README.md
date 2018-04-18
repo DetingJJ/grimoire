@@ -21,7 +21,6 @@ PHP、Python、Nginx、Linux、MySQL、算法设计与分析、微服务、C++�
 | ├ PHP环境搭建和开发工具 | [@leunggeorge](https://github.com/leunggeorge) |  |
 | ├ PHP基础 | [@leunggeorge](https://github.com/leunggeorge) |  |
 | └ | [@leunggeorge](https://github.com/leunggeorge) |  |
-| Python篇 | [@leunggeorge](https://github.com/leunggeorge) |  |
 | Nginx篇 | [@leunggeorge](https://github.com/leunggeorge) |  |
 | Linux篇 | [@leunggeorge](https://github.com/leunggeorge) |  |
 | MySQL篇 | [@leunggeorge](https://github.com/leunggeorge) |  |
@@ -32,6 +31,8 @@ PHP、Python、Nginx、Linux、MySQL、算法设计与分析、微服务、C++�
 | ├ 事务 | [@leunggeorge](https://github.com/leunggeorge) |  |
 | ├ 索引 | [@leunggeorge](https://github.com/leunggeorge) |  |
 | ├ 锁 | [@leunggeorge](https://github.com/leunggeorge) |  |
+| Python篇 | [@leunggeorge](https://github.com/leunggeorge) |  |
+
 
 ## 关于作者
 
