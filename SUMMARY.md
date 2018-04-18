@@ -92,6 +92,7 @@
     * [php练习笔试题（系列）](php/gong-ju-xiang/phplian-xi-bi-shi-ti/phplian-xi-bi-shi-ti-ff08-yi-ff09.md)
     * [网站开启HTTPS支持](php/gong-ju-xiang/wang-zhan-kai-qi-https-zhi-chi.md)
     * [PHPUnit](php/gong-ju-xiang/phpunit.md)
+    * [Chrome插件开发](php/gong-ju-xiang/chromecha-jian-kai-fa.md)
 * [Python](python.md)
   * [前言](Python-qian-yan.md)
   * [文件系统](wen-jian-xi-tong.md)
