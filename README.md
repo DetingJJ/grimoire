@@ -20,7 +20,7 @@ PHP、Python、Nginx、Linux、MySQL、算法设计与分析、微服务、C++�
 | PHP | [@leunggeorge](https://github.com/leunggeorge) |  |
 | ├ PHP环境搭建和开发工具 | [@leunggeorge](https://github.com/leunggeorge) |  |
 | ├ PHP基础 | [@leunggeorge](https://github.com/leunggeorge) |  |
-| └ | [@leunggeorge](https://github.com/leunggeorge) | |
+| └ | [@leunggeorge](https://github.com/leunggeorge) |  |
 | Python | [@leunggeorge](https://github.com/leunggeorge) |  |
 | Nginx | [@leunggeorge](https://github.com/leunggeorge) |  |
 | Linux | [@leunggeorge](https://github.com/leunggeorge) |  |
@@ -32,6 +32,10 @@ PHP、Python、Nginx、Linux、MySQL、算法设计与分析、微服务、C++�
 | ├ 事务 | [@leunggeorge](https://github.com/leunggeorge) |  |
 | ├ 索引 | [@leunggeorge](https://github.com/leunggeorge) |  |
 | ├ 锁 | [@leunggeorge](https://github.com/leunggeorge) |  |
+
+## 贡献
+
+本文使用 markdown 编写，提交 PR 时，文章排版请遵循[中文文案排版指北](https://github.com/mzlogin/chinese-copywriting-guidelines)。
 
 
 
