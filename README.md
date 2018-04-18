@@ -26,7 +26,9 @@ PHP、Python、Nginx、Linux、MySQL、算法设计与分析、微服务、C++�
 | ├ 数据库优化 | [@leunggeorge](https://github.com/leunggeorge) |  |
 | ├ 文摘收藏 | [@leunggeorge](https://github.com/leunggeorge) |  |
 | ├ 事务 | [@leunggeorge](https://github.com/leunggeorge) |  |
-| ├ 事务 | [@leunggeorge](https://github.com/leunggeorge) |  |
+| ├ 索引 | [@leunggeorge](https://github.com/leunggeorge) |  |
+| ├ 锁  | [@leunggeorge](https://github.com/leunggeorge) |  |
+
 
 ## 附录推荐
 
