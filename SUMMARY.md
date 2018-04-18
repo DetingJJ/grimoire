@@ -241,4 +241,7 @@
 * [股票](gu-piao.md)
   * [入市原则](gu-piao/ru-shi-yuan-ze.md)
 * [装机必备软件](zhuang-ji-bi-bei-ruan-jian.md)
+* [C++篇](cpian.md)
+  * [C++基础](cpian/cji-chu.md)
+    * [指针执行delete分析](cpian/cji-chu/zhi-zhen-zhi-xing-delete-fen-xi.md)
 
