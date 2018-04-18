@@ -84,6 +84,7 @@
     * [正则表达式](php/gong-ju-xiang/zheng-ze-biao-da-shi.md)
       * [正则表达式语法](php/gong-ju-xiang/zheng-ze-biao-da-shi/zheng-ze-biao-da-shi-yu-fa.md)
       * [常用正则表达式（造轮子走起）](php/gong-ju-xiang/zheng-ze-biao-da-shi/chang-yong-zheng-ze-biao-da-shi-ff08-zao-lun-zi-zou-qi-ff09.md)
+      * [preg\_match](php/gong-ju-xiang/zheng-ze-biao-da-shi/pregmatch.md)
     * [页面抓取](php/gong-ju-xiang/ye-mian-zhua-qu.md)
     * [邮件服务](php/gong-ju-xiang/you-jian-fu-wu.md)
     * [php在线运行测试平台](php/gong-ju-xiang//phpzai-xian-yun-xing-ce-shi-ping-tai.md)
