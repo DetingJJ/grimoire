@@ -2,6 +2,7 @@
 
 ```php
 <?php 
+
 //需要匹配的字符串。date函数返回当前时间 
 $content = "Current date and time is ".date("Y-m-d h:i a").", we are learning PHP together."; 
 var_dump($content);
@@ -17,6 +18,7 @@ if (preg_match ("/([\d-]{10}) ([\d:]{5} [ap]m)/", $content, $m))
     echo "当前日期是：" .$m[1]. "\n"; 
     echo "当前时间是：" .$m[2]. "\n"; 
 }
+
 ```
 
 
