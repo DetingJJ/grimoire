@@ -10,5 +10,5 @@ DouPHP（[http://www.douco.com/](#)） 是一款轻量级企业网站管理系�
 <p class="desc">{$article.description|truncate:130:"...":true:false}</p>
 ```
 
-想
+
 
