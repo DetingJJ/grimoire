@@ -1,4 +1,4 @@
-`preg\_match` 函数原型：`int preg\_match \(string $pattern, string $content \[, array $matches\]\)`
+`preg_match` 函数原型：`int preg_match (string $pattern, string $content [, array $matches])`
 
 ```php
 <?php 
