@@ -111,8 +111,6 @@
     * [盗链](nginxji-chu/fang-dao-lian/dao-lian.md)
   * [Nginx配置](nginxji-chu/nginxpei-zhi.md)
 * [Linux](linux.md)
-  * [安装linux](linux/di-yi-bu-fen-an-zhuang-linux.md)
-    * [安装ubuntu](linux/an-zhuang-linux.md)
   * [linux基础](linux/linuxji-chu.md)
     * [cat](linux/linuxji-chu/cat.md)
     * [shell](linux/linuxji-chu/shell.md)
