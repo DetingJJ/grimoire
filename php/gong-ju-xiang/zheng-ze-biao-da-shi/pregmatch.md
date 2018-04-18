@@ -22,5 +22,14 @@ if (preg_match ("/([\d-]{10}) ([\d:]{5} [ap]m)/", $content, $m))
 }
 ```
 
+xxx
+
+```
+string(75) "Current date and time is 2018-04-18 10:21 am, we are learning PHP together."
+匹配的时间是：2018-04-18 10:21 am
+当前日期是：2018-04-18
+当前时间是：10:21 am
+```
+
 
 
