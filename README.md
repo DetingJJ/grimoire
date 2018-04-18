@@ -17,13 +17,13 @@ PHP、Python、Nginx、Linux、MySQL、算法设计与分析、微服务、C++�
 
 | 章节 | 作者 | 进度 |
 | :--- | :--- | :--- |
-| PHP |  |  |
+| PHP | [@leunggeorge](https://github.com/leunggeorge) |  |
 | ├ PHP环境搭建和开发工具 | [@leunggeorge](https://github.com/leunggeorge) |  |
 | ├ PHP基础 | [@leunggeorge](https://github.com/leunggeorge) |  |
-| Python |  |  |
-| Nginx |  |  |
-| Linux |  |  |
-| MySQL |  |  |
+| Python | [@leunggeorge](https://github.com/leunggeorge) |  |
+| Nginx | [@leunggeorge](https://github.com/leunggeorge) |  |
+| Linux | [@leunggeorge](https://github.com/leunggeorge) |  |
+| MySQL | [@leunggeorge](https://github.com/leunggeorge) |  |
 | ├ MySQL数据库基础 | [@leunggeorge](https://github.com/leunggeorge) |  |
 | ├ MySQL常见问题 | [@leunggeorge](https://github.com/leunggeorge) |  |
 | ├ 数据库优化 | [@leunggeorge](https://github.com/leunggeorge) |  |
