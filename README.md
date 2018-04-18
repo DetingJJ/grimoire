@@ -17,14 +17,14 @@ PHP、Python、Nginx、Linux、MySQL、算法设计与分析、微服务、C++�
 
 | 章节 | 作者 | 进度 |
 | :--- | :--- | :--- |
-| PHP | [@leunggeorge](https://github.com/leunggeorge) |  |
+| PHP篇 | [@leunggeorge](https://github.com/leunggeorge) |  |
 | ├ PHP环境搭建和开发工具 | [@leunggeorge](https://github.com/leunggeorge) |  |
 | ├ PHP基础 | [@leunggeorge](https://github.com/leunggeorge) |  |
 | └ | [@leunggeorge](https://github.com/leunggeorge) |  |
-| Python | [@leunggeorge](https://github.com/leunggeorge) |  |
-| Nginx | [@leunggeorge](https://github.com/leunggeorge) |  |
-| Linux | [@leunggeorge](https://github.com/leunggeorge) |  |
-| MySQL | [@leunggeorge](https://github.com/leunggeorge) |  |
+| Python篇 | [@leunggeorge](https://github.com/leunggeorge) |  |
+| Nginx篇 | [@leunggeorge](https://github.com/leunggeorge) |  |
+| Linux篇 | [@leunggeorge](https://github.com/leunggeorge) |  |
+| MySQL篇 | [@leunggeorge](https://github.com/leunggeorge) |  |
 | ├ MySQL数据库基础 | [@leunggeorge](https://github.com/leunggeorge) |  |
 | ├ MySQL常见问题 | [@leunggeorge](https://github.com/leunggeorge) |  |
 | ├ 数据库优化 | [@leunggeorge](https://github.com/leunggeorge) |  |
@@ -47,7 +47,7 @@ leunggeorge，某厂一名搬运工，闲来无事，喜欢敲敲键盘。
 
 ## 支持
 
-abc
+thx
 
 ## 转载合作
 
