@@ -185,6 +185,7 @@
   * [内连接、外连接、交叉连接、笛卡尔积](mysql/nei-lian-jie-3001-wai-lian-jie-3001-jiao-cha-lian-jie-3001-di-qia-er-ji.md)
 * [Python篇](pythonpian.md)
   * [文摘收藏](pythonpian/wen-zhai-shou-cang.md)
+  * [python终极版本管理工具pyenv](pythonpian/pythonzhong-ji-banben-guan-li-gong-ju-pyenv.md)
 * [算法设计与分析](suan-fa-she-ji-yu-fen-xi.md)
   * [海量数据处理](suan-fa-she-ji-yu-fen-xi/hai-liang-shu-ju-chu-li.md)
     * [迅速秒杀99%的海量数据处理面试题](suan-fa-she-ji-yu-fen-xi/hai-liang-shu-ju-chu-li/xun-su-miao-sha-99-de-hai-liang-shu-ju-chu-li-mian-shi-ti.md)
