@@ -93,6 +93,7 @@
     * [网站开启HTTPS支持](php/gong-ju-xiang/wang-zhan-kai-qi-https-zhi-chi.md)
     * [PHPUnit](php/gong-ju-xiang/phpunit.md)
     * [Chrome插件开发](php/gong-ju-xiang/chromecha-jian-kai-fa.md)
+      * [What are extensions?](php/gong-ju-xiang/chromecha-jian-kai-fa/what-are-extensions.md)
 * [Python](python.md)
   * [前言](Python-qian-yan.md)
   * [文件系统](wen-jian-xi-tong.md)
