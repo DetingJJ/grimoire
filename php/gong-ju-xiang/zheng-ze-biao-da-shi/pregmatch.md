@@ -22,7 +22,7 @@ if (preg_match ("/([\d-]{10}) ([\d:]{5} [ap]m)/", $content, $m))
 }
 ```
 
-xxx
+执行结果：
 
 ```
 string(75) "Current date and time is 2018-04-18 10:21 am, we are learning PHP together."
