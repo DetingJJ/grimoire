@@ -101,7 +101,6 @@
     * [Python读写Excel文件的实例](wen-jian-xi-tong/pythondu-xieexcel-wen-jian-de-shi-li.md)
   * [问题收集](wen-ti-shou-ji.md)
     * [Mac OS X 上如何切换默认的 Python 版本？](wen-ti-shou-ji/mac-os-x-shang-ru-he-qie-huan-mo-ren-de-python-ban-ben-ff1f.md)
-  * [test python](test-python.md)
 * [Nginx](nginx.md)
   * [Nginx基础](nginxji-chu/nginxji-chu.md)
     * [Nginx简介](nginxji-chu/nginxjian-jie.md)
