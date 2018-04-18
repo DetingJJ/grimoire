@@ -1,3 +1,5 @@
+一些配置文件备注：
+
 The php.ini and php-fpm.ini file can be found in:
 
 ```
