@@ -47,6 +47,10 @@ leunggeorge，某厂一名搬运工，闲来无事，喜欢敲敲键盘。
 
 本文使用 markdown 编写，提交 PR 时，文章排版请遵循[中文文案排版指北](https://github.com/mzlogin/chinese-copywriting-guidelines/blob/Simplified/README.md)。
 
+**注意：**
+
+1. 章节请务必遵循增、删原则。（要么新增，要么删除，不要移动章节层级结构。）
+
 ## 支持
 
 thx
