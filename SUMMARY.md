@@ -5,7 +5,6 @@
 * [前言](README.md)
 * [收藏](shou-cang.md)
 * [PHP](php/php.md)
-  * [常用网络资源](php/chang-yong-wang-luo-zi-yuan.md)
   * [PHP环境搭建和开发工具](php/phphuan-jing-da-jian-he-kai-fa-gong-ju.md)
     * [Mac下搭建开发环境](php/da-jian-kai-fa-huan-jing/ji-chu-huan-jing.md)
       * [Mac搭建nginx+mysql+php-fpm环境](php/da-jian-kai-fa-huan-jing/da-jian-kai-fa-huan-jing.md)
