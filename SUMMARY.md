@@ -257,5 +257,4 @@
   * [程序员笑话：只有程序猿才看得懂](kai-huai-shi-ke/cheng-xu-yuan-xiao-hua-ff1a-zhi-you-cheng-xu-yuan-cai-kan-de-dong.md)
   * [程序员专用经典语录—看完笑一阵可以，千万不要死循环哦！](kai-huai-shi-ke/cheng-xu-yuan-zhuan-yong-jing-dian-yu-lu-2014-kan-wan-xiao-yi-zhen-ke-yi-ff0c-qian-wan-bu-yao-si-xun-huan-e-ff01.md)
   * [北京赏花](kai-huai-shi-ke/bei-jing-shang-hua.md)
-* [Python篇](pythonpian.md)
 
