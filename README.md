@@ -21,7 +21,7 @@ PHP、Python、Nginx、Linux、MySQL、算法设计与分析、微服务、C++�
 | ├ PHP环境搭建和开发工具 | [@leunggeorge](https://github.com/leunggeorge) |  已完成|
 | ├ PHP基础 | [@leunggeorge](https://github.com/leunggeorge) |  正在进行|
 | MySQL |  |  |
-| ├ PHP环境搭建和开发工具 | [@leunggeorge](https://github.com/leunggeorge) |  已完成|
+| ├ MySQL数据库基础 | [@leunggeorge](https://github.com/leunggeorge) |  已完成|
 | ├ PHP基础 | [@leunggeorge](https://github.com/leunggeorge) |  正在进行|
 
 
