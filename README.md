@@ -37,7 +37,7 @@ PHP、Python、Nginx、Linux、MySQL、算法设计与分析、微服务、C++�
 
 闲来无事，喜欢敲敲键盘。
 
-leunggeorge，厂内一名搬运工。
+leunggeorge，某厂一名搬运工。
 
 个人博客：[github主页](https://leunggeorge.github.io/)
 
