@@ -140,6 +140,7 @@
   * [VPS](linux/vps.md)
 * [Linux篇](linuxpian.md)
   * [安装linux](linuxpian/an-zhuang-linux.md)
+  * [linux基础](linuxpian/linuxji-chu.md)
 * [MySQL](mysql.md)
   * [MySQL数据库基础](mysql/mysqlshu-ju-ku-ji-chu.md)
     * [MySQL概述](mysql/mysqlshu-ju-ku-ji-chu/mysqlgai-shu.md)
