@@ -17,136 +17,16 @@ PHP、Python、Nginx、Linux、MySQL、算法设计与分析、微服务、C++�
 
 | 章节 | 作者 | 进度 |
 | :--- | :--- | :--- |
-| PHP | [@leunggeorge](https://github.com/leunggeorge) |  正在进行|
-| ├ PHP环境搭建和开发工具 | [@leunggeorge](https://github.com/leunggeorge) |  已完成|
-| ├ PHP基础 | [@leunggeorge](https://github.com/leunggeorge) |  正在进行|
+| PHP | [@leunggeorge](https://github.com/leunggeorge) |  |
+| ├ PHP环境搭建和开发工具 | [@leunggeorge](https://github.com/leunggeorge) |  |
+| ├ PHP基础 | [@leunggeorge](https://github.com/leunggeorge) |  |
 | MySQL |  |  |
-| ├ MySQL数据库基础 | [@leunggeorge](https://github.com/leunggeorge) | 正在进行|
-| ├ MySQL常见问题 | [@leunggeorge](https://github.com/leunggeorge) |  正在进行|
-| ├ 数据库优化 | [@leunggeorge](https://github.com/leunggeorge) |  正在进行|
-| ├ 文摘收藏 | [@leunggeorge](https://github.com/leunggeorge) |  正在进行|
-| ├ 事务 | [@leunggeorge](https://github.com/leunggeorge) |  正在进行|
-| ├ 事务 | [@leunggeorge](https://github.com/leunggeorge) |  正在进行|
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+| ├ MySQL数据库基础 | [@leunggeorge](https://github.com/leunggeorge) |  |
+| ├ MySQL常见问题 | [@leunggeorge](https://github.com/leunggeorge) |  |
+| ├ 数据库优化 | [@leunggeorge](https://github.com/leunggeorge) |  |
+| ├ 文摘收藏 | [@leunggeorge](https://github.com/leunggeorge) |  |
+| ├ 事务 | [@leunggeorge](https://github.com/leunggeorge) |  |
+| ├ 事务 | [@leunggeorge](https://github.com/leunggeorge) |  |
 
 ## 附录推荐
 
