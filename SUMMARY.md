@@ -139,6 +139,7 @@
       * [VIM编译器搭建](vimbian-yi-qi-da-jian.md)
   * [VPS](linux/vps.md)
 * [Linux篇](linuxpian.md)
+  * [安装linux](linuxpian/an-zhuang-linux.md)
 * [MySQL](mysql.md)
   * [MySQL数据库基础](mysql/mysqlshu-ju-ku-ji-chu.md)
     * [MySQL概述](mysql/mysqlshu-ju-ku-ji-chu/mysqlgai-shu.md)
@@ -246,5 +247,4 @@
   * [行为型模式](she-ji-mo-shi/xing-wei-xing-mo-shi.md)
 * [股票](gu-piao.md)
   * [入市原则](gu-piao/ru-shi-yuan-ze.md)
-* [Linux篇](linuxpian.md)
 
