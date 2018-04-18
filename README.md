@@ -9,7 +9,7 @@
 ## 本书主要内容
 
 本书涉及到的知识主要包括：  
-PHP、Python、Nginx、Linux、MySQL、算法设计与分析、微服务、C++程序设计、Vue基础、系统架构、经典文摘、docker、设计模式等。
+PHP、Python、Nginx、Linux、MySQL、算法设计与分析、微服务、Vue基础、系统架构、经典文摘、docker、设计模式等。
 
 本书大部分是笔者平时的笔记，有很多还没有整理好。后续会慢慢整理。
 
