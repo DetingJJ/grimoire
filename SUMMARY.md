@@ -123,7 +123,7 @@
   * [Shell 与 Shell scripts](linuxpian/shell-yu-shell-scripts.md)
     * [gdb环境搭建](linuxpian/shell-yu-shell-scripts/gdbhuan-jing-da-jian.md)
     * [gcc/g++](linuxpian/shell-yu-shell-scripts/gccg++.md)
-    * shell中''、""和\`\`的区别
+    * [shell中''、""和\`\`的区别](linuxpian/shell-yu-shell-scripts/shell4e2d2727-30012222-548c6060-de-qu-bie.md)
     * [IFS用法](linuxpian/shell-yu-shell-scripts/ifsyong-fa.md)
   * [常用工具](linuxpian/chang-yong-gong-ju.md)
     * [git](linuxpian/chang-yong-gong-ju/git.md)
@@ -240,4 +240,5 @@
   * [行为型模式](she-ji-mo-shi/xing-wei-xing-mo-shi.md)
 * [股票](gu-piao.md)
   * [入市原则](gu-piao/ru-shi-yuan-ze.md)
+* [装机必备软件](zhuang-ji-bi-bei-ruan-jian.md)
 
