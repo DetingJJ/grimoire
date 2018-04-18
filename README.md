@@ -41,7 +41,9 @@ leunggeorge，厂内一名搬运工。
 
 个人博客：[github主页](https://leunggeorge.github.io/)
 
-公众号：今朝浅谈，不定期更新区块链相关知识
+运营空间：[github主页](https://leunggeorge.github.io/)
+
+
 
 ## 贡献
 
