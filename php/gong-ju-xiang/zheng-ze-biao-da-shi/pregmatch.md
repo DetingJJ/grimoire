@@ -1,6 +1,4 @@
-preg\_match 函数原型：
-
-int preg\_match \(string $pattern, string $content \[, array $matches\]\)
+`preg\_match` 函数原型：`int preg\_match \(string $pattern, string $content \[, array $matches\]\)`
 
 ```php
 <?php 
@@ -18,7 +16,7 @@ if (preg_match ("/([\d-]{10}) ([\d:]{5} [ap]m)/", $content, $m))
 { 
     echo "当前日期是：" .$m[1]. "\n"; 
     echo "当前时间是：" .$m[2]. "\n"; 
-} 
+}
 ```
 
 
