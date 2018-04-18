@@ -183,6 +183,8 @@
   * [数据库三范式](mysql/shu-ju-ku-san-fan-shi.md)
   * [数据库的读写分离、主从复制，主从复制分析](mysql/shu-ju-ku-de-du-xie-fen-li-3001-zhu-cong-fu-zhi-ff0c-zhu-cong-fu-zhi-fen-xi.md)
   * [内连接、外连接、交叉连接、笛卡尔积](mysql/nei-lian-jie-3001-wai-lian-jie-3001-jiao-cha-lian-jie-3001-di-qia-er-ji.md)
+* [Python篇](pythonpian.md)
+  * [文摘收藏](pythonpian/wen-zhai-shou-cang.md)
 * [算法设计与分析](suan-fa-she-ji-yu-fen-xi.md)
   * [海量数据处理](suan-fa-she-ji-yu-fen-xi/hai-liang-shu-ju-chu-li.md)
     * [迅速秒杀99%的海量数据处理面试题](suan-fa-she-ji-yu-fen-xi/hai-liang-shu-ju-chu-li/xun-su-miao-sha-99-de-hai-liang-shu-ju-chu-li-mian-shi-ti.md)
@@ -254,6 +256,5 @@
   * [程序员笑话：只有程序猿才看得懂](kai-huai-shi-ke/cheng-xu-yuan-xiao-hua-ff1a-zhi-you-cheng-xu-yuan-cai-kan-de-dong.md)
   * [程序员专用经典语录—看完笑一阵可以，千万不要死循环哦！](kai-huai-shi-ke/cheng-xu-yuan-zhuan-yong-jing-dian-yu-lu-2014-kan-wan-xiao-yi-zhen-ke-yi-ff0c-qian-wan-bu-yao-si-xun-huan-e-ff01.md)
   * [北京赏花](kai-huai-shi-ke/bei-jing-shang-hua.md)
-* [装机必备软件](zhuang-ji-bi-bei-ruan-jian.md)
 * [Python篇](pythonpian.md)
 
