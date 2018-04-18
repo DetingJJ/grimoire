@@ -37,6 +37,12 @@ PHP、Python、Nginx、Linux、MySQL、算法设计与分析、微服务、C++�
 
 闲来无事，喜欢敲敲键盘。
 
+leunggeorge，厂内一名搬运工。
+
+个人博客：[简书主页](https://www.jianshu.com/u/bf11017ee65a)
+
+公众号：今朝浅谈，不定期更新区块链相关知识
+
 ## 贡献
 
 本文使用 markdown 编写，提交 PR 时，文章排版请遵循[中文文案排版指北](https://github.com/mzlogin/chinese-copywriting-guidelines/blob/Simplified/README.md)。
