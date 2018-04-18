@@ -39,8 +39,7 @@ leunggeorge，某厂一名搬运工，闲来无事，喜欢敲敲键盘。
 
 个人博客：[github主页](https://leunggeorge.github.io/)
 
-运营空间：[哆啦A梦](https://doraemon-home.github.io/)
-
+技术分享：[哆啦A梦](https://doraemon-home.github.io/)
 
 ## 贡献
 
