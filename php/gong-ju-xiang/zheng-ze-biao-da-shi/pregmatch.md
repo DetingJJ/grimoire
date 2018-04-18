@@ -1,6 +1,6 @@
 `preg_match` 函数原型：`int preg_match (string $pattern, string $content [, array $matches])`
 
-preg\_match \(\)函数在 $content 字符串中搜索与 $pattern 给出的正则表达式相匹配的内容。如果提供了 $matches，则将匹配结果放入其 中。$matches\[0\] 将包含与整个模式匹配的文本，$matches\[1\] 将包含第一个捕获的与括号中的模式单元所匹配的内容，以此类推。该函数只 作一次匹配，最终返回 0 或 1 的匹配结果数。
+preg\_match \(\)函数在 $content 字符串中搜索与 $pattern 给出的正则表达式相匹配的内容。如果提供了 $matches，则将匹配结果放入其 中。$matches\[0\] 将包含与整个模式匹配的文本，$matches\[1\] 将包含第一个捕获的与括号中的模式单元所匹配的内容，以此类推。该函数只作一次匹配，最终返回 0 或 1 的匹配结果数。
 
 ```php
 <?php 
