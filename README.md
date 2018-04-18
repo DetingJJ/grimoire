@@ -24,7 +24,7 @@ PHP、Python、Nginx、Linux、MySQL、算法设计与分析、微服务、C++�
 | ├ MySQL数据库基础 | [@leunggeorge](https://github.com/leunggeorge) | 正在进行|
 | ├ MySQL常见问题 | [@leunggeorge](https://github.com/leunggeorge) |  正在进行|
 | ├ 数据库优化 | [@leunggeorge](https://github.com/leunggeorge) |  正在进行|
-| ├ MySQL常见问题 | [@leunggeorge](https://github.com/leunggeorge) |  正在进行|
+| ├ 事务 | [@leunggeorge](https://github.com/leunggeorge) |  正在进行|
 | ├ 文摘收藏 | [@leunggeorge](https://github.com/leunggeorge) |  正在进行|
 
 
