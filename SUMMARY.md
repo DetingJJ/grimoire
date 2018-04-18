@@ -58,6 +58,7 @@
   * [HTTP基础](php/httpji-chu.md)
     * [HTTP状态码](php/httpji-chu/httpzhuang-tai-ma.md)
     * [HTTP缓存](php/httpji-chu/httphuan-cun.md)
+    * HTTP协议工作原理
   * [HTML基础](php/htmlji-chu.md)
     * [常用标签](php/htmlji-chu/chang-yong-biao-qian.md)
   * [PHP框架](php/phpkuang-jia.md)
