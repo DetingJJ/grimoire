@@ -1,4 +1,4 @@
-## 写在前面
+* [ ] ## 写在前面
 
 魔法书（Grimoire）里记载了许多“召唤术”，可以召唤天使或者精灵为自己服务。
 
@@ -31,15 +31,7 @@ PHP、Python、Nginx、Linux、MySQL、算法设计与分析、微服务、C++�
 | ├ 事务 | [@leunggeorge](https://github.com/leunggeorge) |  |
 | ├ 索引 | [@leunggeorge](https://github.com/leunggeorge) |  |
 | ├ 锁 | [@leunggeorge](https://github.com/leunggeorge) |  |
-| 算法设计与分析 |  |  |
-| 微服务 |  |  |
-| 系统架构 |  |  |
-| 经典文摘 |  |  |
-| docker |  |  |
-| 设计模式 |  |  |
-| 开怀时刻 |  |  |
-| 股票 |  |  |
-| 装机必备软件 |  |  |
+
 
 
 
