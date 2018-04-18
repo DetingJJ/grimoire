@@ -17,7 +17,7 @@ PHP、Python、Nginx、Linux、MySQL、算法设计与分析、微服务、C++�
 
 | 章节 | 作者 | 进度 |
 | :--- | :--- | :--- |
-| PHP | [@leunggeorge](https://github.com/leunggeorge) |  |
+| PHP |  |  |
 | ├ PHP环境搭建和开发工具 | [@leunggeorge](https://github.com/leunggeorge) |  |
 | ├ PHP基础 | [@leunggeorge](https://github.com/leunggeorge) |  |
 | Python |  |  |
@@ -30,7 +30,7 @@ PHP、Python、Nginx、Linux、MySQL、算法设计与分析、微服务、C++�
 | ├ 文摘收藏 | [@leunggeorge](https://github.com/leunggeorge) |  |
 | ├ 事务 | [@leunggeorge](https://github.com/leunggeorge) |  |
 | ├ 索引 | [@leunggeorge](https://github.com/leunggeorge) |  |
-| ├ 锁  | [@leunggeorge](https://github.com/leunggeorge) |  |
+| ├ 锁 | [@leunggeorge](https://github.com/leunggeorge) |  |
 | 算法设计与分析 |  |  |
 | 微服务 |  |  |
 | 系统架构 |  |  |
@@ -40,5 +40,6 @@ PHP、Python、Nginx、Linux、MySQL、算法设计与分析、微服务、C++�
 | 开怀时刻 |  |  |
 | 股票 |  |  |
 | 装机必备软件 |  |  |
+
 
 
