@@ -20,6 +20,9 @@ PHP、Python、Nginx、Linux、MySQL、算法设计与分析、微服务、C++�
 | PHP | [@leunggeorge](https://github.com/leunggeorge) |  |
 | ├ PHP环境搭建和开发工具 | [@leunggeorge](https://github.com/leunggeorge) |  |
 | ├ PHP基础 | [@leunggeorge](https://github.com/leunggeorge) |  |
+| Python |  |  |
+| Nginx |  |  |
+| Linux |  |  |
 | MySQL |  |  |
 | ├ MySQL数据库基础 | [@leunggeorge](https://github.com/leunggeorge) |  |
 | ├ MySQL常见问题 | [@leunggeorge](https://github.com/leunggeorge) |  |
@@ -28,11 +31,14 @@ PHP、Python、Nginx、Linux、MySQL、算法设计与分析、微服务、C++�
 | ├ 事务 | [@leunggeorge](https://github.com/leunggeorge) |  |
 | ├ 索引 | [@leunggeorge](https://github.com/leunggeorge) |  |
 | ├ 锁  | [@leunggeorge](https://github.com/leunggeorge) |  |
-
-
-## 附录推荐
-
-1. [装机必备软件](装机必备软件)（本节主要涉及机器环境搭建相关的一些问题，包括常用软件，服务等。）
-
+| 算法设计与分析 |  |  |
+| 微服务 |  |  |
+| 系统架构 |  |  |
+| 经典文摘 |  |  |
+| docker |  |  |
+| 设计模式 |  |  |
+| 开怀时刻 |  |  |
+| 股票 |  |  |
+| 装机必备软件 |  |  |
 
 
