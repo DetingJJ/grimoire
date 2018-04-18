@@ -37,5 +37,18 @@ PHP、Python、Nginx、Linux、MySQL、算法设计与分析、微服务、C++�
 
 本文使用 markdown 编写，提交 PR 时，文章排版请遵循[中文文案排版指北](https://github.com/mzlogin/chinese-copywriting-guidelines/blob/Simplified/README.md)。
 
+## 支持
+
+abc
+
+## 转载合作
+
+转载本指南，请注明作者以及 GitHub 链接，谢谢！
+
+## 协议/License
+
+[![](https://i.creativecommons.org/l/by-nc/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc/4.0/)  
+本作品采用[知识共享署名-非商业性使用 4.0 国际许可协议](http://creativecommons.org/licenses/by-nc/4.0/)进行许可。
+
 
 
