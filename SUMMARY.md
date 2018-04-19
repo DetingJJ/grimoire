@@ -241,4 +241,5 @@
 * [股票](gu-piao.md)
   * [入市原则](gu-piao/ru-shi-yuan-ze.md)
 * [装机必备软件](zhuang-ji-bi-bei-ruan-jian.md)
+* [资源大全](zi-yuan-da-quan.md)
 
