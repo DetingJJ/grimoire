@@ -1,37 +1,37 @@
-## 选择排序
+## 算法介绍
 
-选择排序是一种简单直观的排序算法，无论什么数据进去都是 O\(n²\) 的时间复杂度。所以用到它的时候，数据规模越小越好。唯一的好处可能就是不占用额外的内存空间了吧。
+**选择排序**（Selection sort）是一种简单直观的排序算法。
+
+选择排序的主要优点与数据移动有关。如果某个元素位于正确的最终位置上，则它不会被移动。选择排序每次交换一对元素，它们当中至少有一个将被移到其最终位置上，因此对 n 个元素的表进行排序总共进行至多 n - 1 次交换。在所有的完全依靠交换去移动元素的排序方法中，选择排序属于非常好的一种。
 
 ## **功能**
 
 给出一组数A：\[0, 2, 3, 4, 6, 7, 1, 8, 5, 9\]，A：\[0, 1, 2, 3, 4, 5, 6, 7, 8, 9\]，实现递增排序。
 
-## 动图演示
-
-![](/assets/Insertion_sort_animation.gif)
-
 ## 步骤
 
-step1. 比较相邻的元素 el, er，若 el &gt; er，则交换 el，er 的位置；
+step1. 在未排序序列中找到最小元素，存放到排序序列的起始位置；
 
-step2. 对每一对相邻的元素做 1 中的工作，直到最后一对数据。这样最后一个元素会变成最大的数；
+step2. 然后，再从剩余未排序元素中继续寻找最小元素，放到已排序序列的末尾；
 
-step3. 针对所有的元素重复以上步骤，除了最后一个；
-
-step4. 重复以上步骤，知道没有数据交换为止。
+step3. 以此类推，直到所有元素均排序完毕。
 
 ## 实现
 
 * ### PHP**实现**
 
 ```php
-function bubble_sort(&$arrA) {
+function selection_sort(&$arrA) {
     $intCT = count($arrA);
     for ($i = 0; $i < $intCT - 1; $i++) {
+        $intMin = $i;
         for ($j = $i + 1; $j < $intCT; $j++) {
-            if ($arrA[$i] > $arrA[$j]) {
-                my_swap($arrA[$i], $arrA[$j]);
+            if ($arrA[$intMin] > $arrA[$j]) {
+                $intMin = $j;
             }
+        }
+        if ($intMin != $i) {
+            my_swap($arrA[$intMin], $arrA[$i]);
         }
     }
 }
@@ -50,7 +50,7 @@ $arrA = array(
 
 print_r($arrA);
 
-bubble_sort($arrA);
+selection_sort($arrA);
 
 print_r($arrA);
 
