@@ -17,8 +17,8 @@
 | 4XX | 客户端错误（Client Error） |  |
 | 400 | Bad Request | 表示请求报文存在语法错误或参数错误，服务器不理解；客户端不应该重复提交这个请求，需要修改请求内容后再次提交。 |
 | 401 | Unauthorized | 需要通过 HTTP 认证或认证失败。 |
-| 402 | Payment Required | 保留，将来使用 |
-| 403 | Forbidden | 请求资源被拒绝 |
+| 402 | Payment Required | 保留，将来使用。 |
+| 403 | Forbidden | 请求资源被拒绝。 |
 | 404 | Not Found | 请求的文件或目录不存在或删除。 |
 | 405 | Method Not Allowed | 禁用请求中指定的方法。 |
 | 406 | Not Acceptable | 无法使用请求的内容特性响应请求的网页。 |
@@ -38,7 +38,7 @@
 | 501 | Not Implemented | 服务器不具备完成请求的功能。如服务器无法识别请求方法时可能返回此代码。 |
 | 502 | Bad Gateway | 服务器暂时不可用。服务器作为网关或代理，从上游服务器收到无效响应。 |
 | 503 | Service Unavailable | 服务器超时，表示服务器超负载或正停机维护，无法处理请求；如果服务器知道还需要多长时间，就写入 Retry-After 首部字段返回。 |
-| 504 | Gateway Time-out | 网关过载 |
+| 504 | Gateway Time-out | 网关过载。 |
 | 505 | HTTP Version Not Supported | 服务器不支持请求的 HTTP 协议版本，无法完成处理。 |
 
 ## 总结
