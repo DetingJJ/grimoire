@@ -21,13 +21,17 @@ step3. 以此类推，直到所有元素均排序完毕。
 * ### PHP**实现**
 
 ```php
-function bubble_sort(&$arrA) {
+function selection_sort(&$arrA) {
     $intCT = count($arrA);
     for ($i = 0; $i < $intCT - 1; $i++) {
+        $intMin = $i;
         for ($j = $i + 1; $j < $intCT; $j++) {
-            if ($arrA[$i] > $arrA[$j]) {
-                my_swap($arrA[$i], $arrA[$j]);
+            if ($arrA[$intMin] > $arrA[$j]) {
+                $intMin = $j;
             }
+        }
+        if ($intMin != $i) {
+            my_swap($arrA[$intMin], $arrA[$i]);
         }
     }
 }
@@ -46,7 +50,7 @@ $arrA = array(
 
 print_r($arrA);
 
-bubble_sort($arrA);
+selection_sort($arrA);
 
 print_r($arrA);
 
