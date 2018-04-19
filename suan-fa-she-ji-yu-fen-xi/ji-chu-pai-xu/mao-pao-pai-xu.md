@@ -4,7 +4,7 @@
 
 | 数据结构 | 数组 |
 | :--- | :--- |
-| 最坏时间复杂度 | {\displaystyle O\(n^{2}\)}![](https://wikimedia.org/api/rest_v1/media/math/render/svg/6cd9594a16cb898b8f2a2dff9227a385ec183392 "O\(n^{2}\)") |
+| 最坏时间复杂度 |  O\(n^{2}\) |
 | 最优时间复杂度 | {\displaystyle O\(n\)}![](https://wikimedia.org/api/rest_v1/media/math/render/svg/34109fe397fdcff370079185bfdb65826cb5565a "O\(n\)") |
 | 平均时间复杂度 | {\displaystyle O\(n^{2}\)}![](https://wikimedia.org/api/rest_v1/media/math/render/svg/6cd9594a16cb898b8f2a2dff9227a385ec183392 "O\(n^{2}\)") |
 | 空间复杂度 | 总共{\displaystyle O\(n\)}![](https://wikimedia.org/api/rest_v1/media/math/render/svg/34109fe397fdcff370079185bfdb65826cb5565a "O\(n\)")，需要辅助空间{\displaystyle O\(1\)}![](https://wikimedia.org/api/rest_v1/media/math/render/svg/e66384bc40452c5452f33563fe0e27e803b0cc21 "O\(1\)") |
