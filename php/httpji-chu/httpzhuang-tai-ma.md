@@ -1,15 +1,15 @@
 | 状态码 | 解释 |
 | :--- | :--- |
-| 1XX | 信息性状态码（Informational） |
+| 1XX | 信息性（Informational） |
 |  |  |
 |  |  |
-| 2XX | 成功状态码（Success） |
+| 2XX | 成功（Success） |
 |  |  |
 |  |  |
-| 3XX | 重定向状态码（Redirection） |
+| 3XX | 重定向（Redirection） |
 |  |  |
 |  |  |
-| 4XX（请求错误） |  |
+| 4XX（请求错误） | 客户端错误（） |
 | 404 | 请求的文件或目录不存在或删除。 |
 |  |  |
 | 5XX（服务器错误） |  |
