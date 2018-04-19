@@ -4,6 +4,7 @@
 
 * [前言](README.md)
 * [收藏](shou-cang.md)
+* [资源大全](zi-yuan-da-quan.md)
 * [PHP篇](php/php.md)
   * [PHP环境搭建和开发工具](php/phphuan-jing-da-jian-he-kai-fa-gong-ju.md)
     * [Mac下搭建开发环境](php/da-jian-kai-fa-huan-jing/ji-chu-huan-jing.md)
@@ -240,6 +241,4 @@
   * [行为型模式](she-ji-mo-shi/xing-wei-xing-mo-shi.md)
 * [股票](gu-piao.md)
   * [入市原则](gu-piao/ru-shi-yuan-ze.md)
-* [装机必备软件](zhuang-ji-bi-bei-ruan-jian.md)
-* [资源大全](zi-yuan-da-quan.md)
 
