@@ -1,5 +1,3 @@
-
-
 1.搭建一个免费的，无限流量的Blog----github Pages和Jekyll入门：[http://www.ruanyifeng.com/blog/2012/08/blogging\_with\_jekyll.html](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
 
 2.位运算之——按位与（&）操作——（快速取模算法）
@@ -31,4 +29,8 @@
 8.[开发者头条程序员分享平台](https://toutiao.io/)
 
 [https://toutiao.io/c/be](https://toutiao.io/c/be)
+
+
+
+PHP 资源大全中文版：https://love2.io/@ayamefing/doc/awesome-php-cn/README.md
 
