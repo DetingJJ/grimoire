@@ -33,7 +33,7 @@ function my_swap(&$a, &$b) {
 }
 ```
 
-**测试：**
+**测试用例：**
 
 ```php
 $arrA = array(
