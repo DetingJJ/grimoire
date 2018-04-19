@@ -8,7 +8,7 @@
 
 ## 动图演示
 
-![](/assets/import-2018年04月19日20:17:39.png)
+![](/assets/Insertion_sort_animation.gif)
 
 ## 步骤
 
