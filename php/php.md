@@ -14,3 +14,9 @@ php知识积累
 
 设计模式：[https://phptherightway.golaravel.com/pages/Design-Patterns.html](https://phptherightway.golaravel.com/pages/Design-Patterns.html)
 
+3.PHP 资源大全中文版
+
+https://love2.io/@ayamefing/doc/awesome-php-cn/README.md
+
+
+
