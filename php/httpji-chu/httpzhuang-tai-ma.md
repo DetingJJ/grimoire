@@ -1,5 +1,9 @@
 ## HTTP 状态码
 
+HTTP是一种请求／回应\(Request/Response\)的网路传输协定，当用户端应用程式\(浏览器\)要求一网页资讯或资源\(Document\)时，网站伺服器端就会回传状态码\(Status Code\)，这些状态码通常是以数据化显示，使用者最常见到应该是404，其它包括200、301、302、304、403、410、500等等。
+
+
+
 | 状态码 | 说明 | 解释 |
 | :--- | :--- | :--- |
 | **1XX** | **信息性（Informational）** | 服务器收到请求，需要请求者继续执行操作。 |
@@ -55,6 +59,8 @@
 > [http://baike.baidu.com/item/HTTP%E7%8A%B6%E6%80%81%E7%A0%81?fr=aladdin](http://baike.baidu.com/item/HTTP状态码?fr=aladdin "HTTP状态码")
 >
 > [http://www.cnblogs.com/jinjiangongzuoshi/p/3778883.html](http://www.cnblogs.com/jinjiangongzuoshi/p/3778883.html)
+>
+> http://bbs.tianya.cn/post-no110-13639238-1.shtml
 
 
 
