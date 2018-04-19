@@ -17,6 +17,7 @@
 | 4XX | 客户端错误（Client Error） |  |
 | 400 | Bad Request | 表示请求报文存在语法错误或参数错误，服务器不理解；客户端不应该重复提交这个请求，需要修改请求内容后再次提交。 |
 | 401 | Unauthorized | 需要通过 HTTP 认证或认证失败。 |
+| 402 | Payment Required | 保留，将来使用 |
 | 403 | Forbidden | 请求资源被拒绝 |
 | 404 | Not Found | 请求的文件或目录不存在或删除。 |
 | 405 | Method Not Allowed | 禁用请求中指定的方法。 |
