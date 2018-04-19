@@ -12,11 +12,11 @@ php知识积累
 
 * PHP中文网：[http://www.php.cn](http://www.php.cn)
 
-设计模式：[https://phptherightway.golaravel.com/pages/Design-Patterns.html](https://phptherightway.golaravel.com/pages/Design-Patterns.html)
+* 设计模式：[https://phptherightway.golaravel.com/pages/Design-Patterns.html](https://phptherightway.golaravel.com/pages/Design-Patterns.html)
 
 3.PHP 资源大全中文版
 
-https://love2.io/@ayamefing/doc/awesome-php-cn/README.md
+* [https://love2.io/@ayamefing/doc/awesome-php-cn/README.md](https://love2.io/@ayamefing/doc/awesome-php-cn/README.md)
 
 
 
