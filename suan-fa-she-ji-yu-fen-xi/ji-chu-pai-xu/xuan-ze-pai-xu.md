@@ -16,8 +16,6 @@ step2. 然后，再从剩余未排序元素中继续寻找最小元素，放到�
 
 step3. 以此类推，直到所有元素均排序完毕。
 
-![](assets/Selection-Sort-Animation.gif)
-
 ## 实现
 
 * ### PHP**实现**
