@@ -240,4 +240,5 @@
   * [行为型模式](she-ji-mo-shi/xing-wei-xing-mo-shi.md)
 * [股票](gu-piao.md)
   * [入市原则](gu-piao/ru-shi-yuan-ze.md)
+* [装机必备软件](zhuang-ji-bi-bei-ruan-jian.md)
 
