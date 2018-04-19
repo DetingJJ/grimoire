@@ -54,6 +54,7 @@ leunggeorge，某厂一名搬运工，闲来无事，喜欢敲敲键盘。
 ## 支持
 
 thx
+<img src="https://leunggeorge.github.io/src_img/donate-shou-kuan.png" width="214" height="292">
 
 ## 转载合作
 
