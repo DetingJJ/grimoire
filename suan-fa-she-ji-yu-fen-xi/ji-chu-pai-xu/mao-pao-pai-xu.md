@@ -39,8 +39,8 @@ function bubble_sort(&$arrA) {
     }
 }
 
-function my_swap(&$a, &$b) {
-    list($b, $a) = array($a, $b);
+function my_swap(&$el, &$er) {
+    list($er, $el) = array($el, $er);
 }
 ```
 
