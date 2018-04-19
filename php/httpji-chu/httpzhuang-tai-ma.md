@@ -6,7 +6,7 @@
 | 2XX | 成功状态码（Success） |
 |  |  |
 |  |  |
-| 3XX（重定向） | 重定向状态码（Redirection） |
+| 3XX | 重定向状态码（Redirection） |
 |  |  |
 |  |  |
 | 4XX（请求错误） |  |
