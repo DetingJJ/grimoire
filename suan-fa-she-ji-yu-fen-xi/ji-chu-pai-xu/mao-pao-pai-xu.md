@@ -9,7 +9,7 @@
 
 ## 代码实现
 
-* ### PHP**代码**
+* ### PHP**代码实现**
 
 ```php
 function bubble_sort(&$arrA) {
