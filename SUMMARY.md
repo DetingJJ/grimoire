@@ -3,7 +3,6 @@
 ## 魔法书
 
 * [前言](README.md)
-* [收藏](shou-cang.md)
 * [资源大全](zi-yuan-da-quan.md)
 * [PHP篇](php/php.md)
   * [PHP环境搭建和开发工具](php/phphuan-jing-da-jian-he-kai-fa-gong-ju.md)
