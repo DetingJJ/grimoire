@@ -10,7 +10,7 @@
 | 204 | Partial Content | 表示服务器已经完成了部分GET请求（客户端进行了范围请求），响应报文中包含Content-Range指定范围的实体内容。 |
 | 3XX | 重定向（Redirection） |  |
 | 301 | Moved Permanently | 永久重定向，表示请求的资源已经永久的搬到了其他位置，就是说资源已经被分配了新的URI，新的URI应该提示在响应报文的Location收不字段，只要不是HEAD请求，响应实体应该包含新URI的超链接和简短说明。 |
-|  |  |  |
+| 302 | Found |  |
 | 4XX | 客户端错误（Client Error） |  |
 | 404 |  | 请求的文件或目录不存在或删除。 |
 |  |  |  |
