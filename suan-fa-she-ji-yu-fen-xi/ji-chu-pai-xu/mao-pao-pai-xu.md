@@ -30,10 +30,10 @@ step4. 重复以上步骤，直到没有数据交换为止。
 ```php
 function bubble_sort(&$arrA) {
     $intCT = count($arrA);
-    for ($i = 0; $i < $intCT - 1; $i++) {
-        for ($j = $i + 1; $j < $intCT; $j++) {
-            if ($arrA[$i] > $arrA[$j]) {
-                my_swap($arrA[$i], $arrA[$j]);
+    for ($el = 0; $el < $intCT - 1; $el++) {
+        for ($er = $rl + 1; $er < $intCT; $er++) {
+            if ($arrA[$el] > $arrA[$er]) {
+                my_swap($arrA[$el], $arrA[$er]);
             }
         }
     }
