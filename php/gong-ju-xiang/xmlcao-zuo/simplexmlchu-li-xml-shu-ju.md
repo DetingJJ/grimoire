@@ -25,5 +25,11 @@ $xml = simplexml_load_string($strXml);
     }
 ```
 
+结果：
+
+```
+value is: 0
+```
+
 
 
