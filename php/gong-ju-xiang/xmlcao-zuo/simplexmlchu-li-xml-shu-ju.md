@@ -1,6 +1,6 @@
 ## 读取xml内容
 
-xml内容：
+**xml内容：**
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -15,7 +15,7 @@ xml内容：
 </methodResponse>
 ```
 
-解析：
+**解析：**
 
 ```
 $xml = simplexml_load_string($strXml);
@@ -27,7 +27,7 @@ $xml = simplexml_load_string($strXml);
     }
 ```
 
-结果：
+**结果：**
 
 ```
 value is: 0
