@@ -120,6 +120,7 @@
     * [Ubuntu 重启后亮度变成最大，亮瞎眼？](linuxpian/linuxji-chu/ubuntu-zhong-qi-hou-liang-du-bian-cheng-zui-da-ff0c-liang-xia-yan-ff1f.md)
     * [crontab](linuxpian/linuxji-chu/crontab.md)
     * [screen](linuxpian/linuxji-chu/screen.md)
+    * [curl](linuxpian/linuxji-chu/curl.md)
   * [Shell 与 Shell scripts](linuxpian/shell-yu-shell-scripts.md)
     * [gdb环境搭建](linuxpian/shell-yu-shell-scripts/gdbhuan-jing-da-jian.md)
     * [gcc/g++](linuxpian/shell-yu-shell-scripts/gccg++.md)
