@@ -33,5 +33,9 @@ $xml = simplexml_load_string($strXml);
 value is: 0
 ```
 
+> http://php.net/manual/zh/book.simplexml.php
+>
+> SimpleXMLElement::xpath：http://php.net/manual/zh/simplexmlelement.xpath.php
+
 
 
