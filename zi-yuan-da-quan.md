@@ -32,5 +32,7 @@
 
 9.PHP 资源大全中文版：[https://love2.io/@ayamefing/doc/awesome-php-cn/README.md](https://love2.io/@ayamefing/doc/awesome-php-cn/README.md)
 
-10.程序员基础知识：https://love2.io/@tzivanmoe/doc/a-programmer-prepares/programmer-basic/character-encoding.md
+https://todayqq.gitbooks.io/phper/content/php.html
+
+10.程序员基础知识：[https://love2.io/@tzivanmoe/doc/a-programmer-prepares/programmer-basic/character-encoding.md](https://love2.io/@tzivanmoe/doc/a-programmer-prepares/programmer-basic/character-encoding.md)
 
