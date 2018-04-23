@@ -20,7 +20,7 @@ $xml = simplexml_load_string($strXml);
     $result = $xml->xpath("/methodResponse/params/param/value/int");
     $intRet = -1;
     while(list( , $node) = each($result)) {
-        echo 'push ret is: ',$node,"\n";
+        echo 'value is: ',$node,"\n";
         $intRet = $node;
     }
 ```
