@@ -61,6 +61,8 @@ HTTP是一种请求/回应（Request/Response）的网路传输协定，当用�
 >
 > [http://bbs.tianya.cn/post-no110-13639238-1.shtml](http://bbs.tianya.cn/post-no110-13639238-1.shtml)
 >
+> http://www.runoob.com/http/http-status-codes.html
+>
 > HTTP状态码大全：[https://developer.qiniu.com/fusion/kb/1425/the-http-status-code-books](https://developer.qiniu.com/fusion/kb/1425/the-http-status-code-books)
 
 
