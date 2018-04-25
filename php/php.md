@@ -18,5 +18,7 @@ php知识积累
 
 * [https://love2.io/@ayamefing/doc/awesome-php-cn/README.md](https://love2.io/@ayamefing/doc/awesome-php-cn/README.md)
 
+4.PHP知识总结
 
+https://juejin.im/post/5adbf3de518825670f7b6ed0
 
