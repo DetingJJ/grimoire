@@ -204,6 +204,7 @@
     * [希尔排序](suan-fa-she-ji-yu-fen-xi/ji-chu-pai-xu/xi-er-pai-xu.md)
     * [基数排序](suan-fa-she-ji-yu-fen-xi/ji-chu-pai-xu/ji-shu-pai-xu.md)
   * [进制数字转化](suan-fa-she-ji-yu-fen-xi/jin-zhi-shu-zi-zhuan-hua.md)
+  * [Hash算法](suan-fa-she-ji-yu-fen-xi/hashsuan-fa.md)
 * [微服务](wei-fu-wu.md)
   * [微服务Microservice文摘](wei-fu-wu/wei-fu-wu-microservice-wen-zhai.md)
   * [微服务、SOA 和 API：是敌是友？](wei-fu-wu/wei-fu-wu-3001-soa-he-api-ff1a-shi-di-shi-you-ff1f.md)
