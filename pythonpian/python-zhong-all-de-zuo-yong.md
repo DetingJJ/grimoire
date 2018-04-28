@@ -1,5 +1,3 @@
-
-
 你要是看Python的源码或者相关框架的源码，总是在`__init__.py`或者是源文件的开头看到一个`__all__`变量的定义，今天就说说它的作用
 
 ## 问题出处 {#问题出处}
@@ -10,7 +8,7 @@
 
 > I have been using Python more and more, and I keep seeing the variable`__all__`set in different`__init__.py`files. Can someone explain what this does?
 
-> 我越来越多的使用Python了，经常看到`__all__`变量再各种`__init__.py`文件中，谁能解释为什么那么做呢？
+我越来越多的使用Python了，经常看到`__all__`变量再各种`__init__.py`文件中，谁能解释为什么那么做呢？
 
 ## 解答 {#解答}
 
@@ -36,7 +34,6 @@ baz
 :
 return
 'baz'
-
 ```
 
 导入实现如下：
@@ -64,7 +61,6 @@ module
 
 print
  waz
-
 ```
 
 如果把`foo.py`中`__all__`给注释掉，那么上面的代码执行起来就不会有问题，`import *`默认的行为是从给定的命名空间导出所有的符号（当然下划线开头的私有变量除外）。
@@ -73,11 +69,7 @@ print
 
 需要注意的是`__all__`只影响到了`from <module> import *`这种导入方式，对于`from <module> import <member>`导入方式并没有影响，仍然可以从外部导入。
 
-
-
-
-
-> https://blog.csdn.net/orangleliu/article/details/49848413
+> [https://blog.csdn.net/orangleliu/article/details/49848413](https://blog.csdn.net/orangleliu/article/details/49848413)
 
 
 
