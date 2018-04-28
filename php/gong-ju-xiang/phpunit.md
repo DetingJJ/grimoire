@@ -240,25 +240,24 @@ Tests: 1, Assertions: 1, Failures: 1.
 Calculator.php
 
 ```
-<
-?php
-class
-Calculator
-{  
+<?php
+class Calculator
+{
+    public function sum($a, $b)
+    {
+        return $a + $b;
+    }
 
-public
-function
-sum
-($a, $b)
-{  
+    public function multi($a, $b) {
+        return $a * $b;
+    }
 
-return
- $a + $b;  
-    }  
-}  
+    public function div($a, $b) {
+        return $a / $b;
+    }
 
-?
->
+
+}
 ```
 
 命令行启动测试用例，使用关键字`--skeleton`
@@ -334,7 +333,7 @@ OK (4 tests)
 >
 > [https://phpunit.de/manual/6.5/zh\_cn/textui.html](https://phpunit.de/manual/6.5/zh_cn/textui.html)
 >
-> http://www.phpunit.cn/manual/current/zh\_cn/installation.html
+> [http://www.phpunit.cn/manual/current/zh\_cn/installation.html](http://www.phpunit.cn/manual/current/zh_cn/installation.html)
 
 
 
