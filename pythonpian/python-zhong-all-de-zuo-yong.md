@@ -17,22 +17,11 @@
 举个例子，下面的代码在`foo.py`中，明确的导出了符号`bar`,`baz`
 
 ```
-__all__ = [
-'bar'
-, 
-'baz'
-]
+__all__ = ['bar', 'baz']
 
-waz = 
-5
-
-bar = 
-10
-def
-baz
-()
-:
-return
+waz = 5
+bar = 10
+def baz(): return 'baz'
 'baz'
 ```
 
@@ -41,26 +30,12 @@ return
 ```
 from foo import *
 
+print bar
+print baz
 
-print
- bar
-
-print
- baz
-
-# The following will trigger an exception, as 
-"waz"
- is 
-not
- exported by the 
-module
-
-# 下面的代码就会抛出异常，因为 
-"waz"
-并没有从模块中导出，因为 __all__ 没有定义
-
-print
- waz
+# The following will trigger an exception, as "waz" is not exported by the module
+# 下面的代码就会抛出异常，因为 "waz"并没有从模块中导出，因为 __all__ 没有定义
+print waz
 ```
 
 如果把`foo.py`中`__all__`给注释掉，那么上面的代码执行起来就不会有问题，`import *`默认的行为是从给定的命名空间导出所有的符号（当然下划线开头的私有变量除外）。
