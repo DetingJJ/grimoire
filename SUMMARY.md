@@ -183,6 +183,7 @@
   * [python终极版本管理工具pyenv](pythonpian/pythonzhong-ji-banben-guan-li-gong-ju-pyenv.md)
   * [文摘收藏](pythonpian/wen-zhai-shou-cang.md)
   * [command](pythonpian/command.md)
+  * [Python 中 \_\_all\_\_ 的作用 ](pythonpian/python-zhong-all-de-zuo-yong.md)
 * [C++篇](cpian.md)
   * [C++基础](cpian/cji-chu.md)
     * [指针执行delete分析](cpian/cji-chu/zhi-zhen-zhi-xing-delete-fen-xi.md)
