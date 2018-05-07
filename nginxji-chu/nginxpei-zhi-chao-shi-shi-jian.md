@@ -10,7 +10,9 @@ fastcgi_read_timeout 10; # nginx进程向fastcgi进程发送request的整个过�
 ## keepalive_timeout
 
 ```
-语法 keepalive_timeout timeout [ header_timeout ]
+Syntax:    keepalive_timeout timeout [header_timeout];
+Default:    keepalive_timeout 75s;
+Context:    http, server, location
 ```
 
 
