@@ -107,6 +107,7 @@
     * [Nginx源码安装](nginxji-chu/yuan-ma-an-zhuang.md)
     * [Nginx配置文件](nginxji-chu/pei-zhi-wen-jian-jie-shao.md)
     * [Nginx作为 web 服务器时使用的配置](nginxji-chu/nginxzuo-wei-web-fu-wu-qi-shi-shi-yong-de-pei-zhi.md)
+    * [Nginx配置超时时间](nginxji-chu/nginxpei-zhi-chao-shi-shi-jian.md)
   * [防盗链](nginxji-chu/fang-dao-lian.md)
     * [盗链](nginxji-chu/fang-dao-lian/dao-lian.md)
   * [Nginx配置](nginxji-chu/nginxpei-zhi.md)
