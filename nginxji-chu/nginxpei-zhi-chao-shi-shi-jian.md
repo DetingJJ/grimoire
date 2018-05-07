@@ -1,8 +1,8 @@
-    fastcgi\_connect\_timeout 5;
+fastcgi_connect_timeout 5;
 
-    fastcgi\_send\_timeout 10;
+fastcgi_send_timeout 10;
 
-    fastcgi\_read\_timeout 10;
+fastcgi_read_timeout 10;
 
 
 
