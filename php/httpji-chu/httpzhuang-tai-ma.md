@@ -40,6 +40,7 @@ HTTP是一种请求/回应（Request/Response）的网路传输协定，当用�
 | 416 | Requested Range Not Satisfiable | 如果页面无法提供请求的范围，则服务器会返回此代码。 |
 | 417 | Exception Failed | 服务器未满足＂期望＂请求标头字段的要求。 |
 | 451 | Unavailable For Legal Reasons | 出于法律原因不与展示。 |
+| 499 |  |  |
 |  |  |  |
 | **5XX** | **服务器错误（Server Error）** | 服务器错误，服务器在处理请求的过程中发生了错误。 |
 | 500 | Internal Server Error | 服务器执行请求出错，无法完成请求。可能是 Web 应用有 bug 或临时故障，更有可能是服务器源代码有 bug... |
@@ -61,7 +62,7 @@ HTTP是一种请求/回应（Request/Response）的网路传输协定，当用�
 >
 > [http://bbs.tianya.cn/post-no110-13639238-1.shtml](http://bbs.tianya.cn/post-no110-13639238-1.shtml)
 >
-> http://www.runoob.com/http/http-status-codes.html
+> [http://www.runoob.com/http/http-status-codes.html](http://www.runoob.com/http/http-status-codes.html)
 >
 > HTTP状态码大全：[https://developer.qiniu.com/fusion/kb/1425/the-http-status-code-books](https://developer.qiniu.com/fusion/kb/1425/the-http-status-code-books)
 
