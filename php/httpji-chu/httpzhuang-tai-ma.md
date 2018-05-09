@@ -54,10 +54,8 @@ HTTP是一种请求/回应（Request/Response）的网路传输协定，当用�
 
 **参考文档：**
 
-> HTTP状态码：
->
-> [http://baike.baidu.com/item/HTTP%E7%8A%B6%E6%80%81%E7%A0%81?fr=aladdin](http://baike.baidu.com/item/HTTP状态码?fr=aladdin "HTTP状态码")
->
+> HTTP状态码：[http://baike.baidu.com/item/HTTP%E7%8A%B6%E6%80%81%E7%A0%81?fr=aladdin](http://baike.baidu.com/item/HTTP状态码?fr=aladdin "HTTP状态码")
+
 > [http://www.cnblogs.com/jinjiangongzuoshi/p/3778883.html](http://www.cnblogs.com/jinjiangongzuoshi/p/3778883.html)
 >
 > [http://bbs.tianya.cn/post-no110-13639238-1.shtml](http://bbs.tianya.cn/post-no110-13639238-1.shtml)
@@ -66,7 +64,7 @@ HTTP是一种请求/回应（Request/Response）的网路传输协定，当用�
 >
 > HTTP状态码大全：[https://developer.qiniu.com/fusion/kb/1425/the-http-status-code-books](https://developer.qiniu.com/fusion/kb/1425/the-http-status-code-books)
 >
-> 499（nginx认为是不安全的连接，主动拒绝了客户端的连接）：http://www.lc365.net/blog/b/23997/
+> 499（nginx认为是不安全的连接，主动拒绝了客户端的连接）：[http://www.lc365.net/blog/b/23997/](http://www.lc365.net/blog/b/23997/)
 
 
 
