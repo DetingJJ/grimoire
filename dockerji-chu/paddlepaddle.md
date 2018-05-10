@@ -8,7 +8,7 @@
 >
 > Python版本：Python 2.7.12
 >
-> pip版本：pip 10.0.1（安装命令 sudo easy\_install pip ，详见引用《ubuntu16.04下安装pip》。）（可能非必须此版本，笔者安装时的最新版本，其他版本未做验证。）
+> pip版本：pip 10.0.1【安装命令 sudo easy\_install pip ，详见引用《ubuntu16.04下安装pip》。）（可能非必须此版本，笔者安装时的最新版本，其他版本未做验证。】
 
 ```
 
