@@ -2,7 +2,19 @@
 
 ## 安装paddlepaddle
 
-操作系统：Ubuntu 16.04.3 LTS
+**1.基础环境**
+
+> 操作系统：Ubuntu 16.04.3 LTS
+>
+> Python版本：Python 2.7.12
+>
+> pip版本（非必须此版本）：pip 10.0.1（安装命令 sudo easy\_install pip ，详见引用《ubuntu16.04下安装pip》）
+
+```
+
+```
+
+**3.安装paddlepaddle**
 
 
 
@@ -11,4 +23,12 @@
 
 
 [深度学习101](http://www.paddlepaddle.org/docs/develop/book/01.fit_a_line/index.cn.html)文档：[http://www.paddlepaddle.org/docs/develop/book/01.fit\_a\_line/index.cn.html](http://www.paddlepaddle.org/docs/develop/book/01.fit_a_line/index.cn.html)
+
+
+
+## 引用：
+
+> ubuntu16.04下安装pip：https://blog.csdn.net/weixin\_37911283/article/details/70799481
+
+
 
