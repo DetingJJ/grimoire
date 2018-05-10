@@ -4,6 +4,20 @@
 
 **1.基础环境**
 
+|  |
+| :--- |
+
+
+| 依赖 | 版本 | 说明 |
+| :--- | :--- | :--- |
+| 操作系统 | Linux, MacOS | CentOS 6以上，Ubuntu 14.04以上，MacOS 10.12以上 |
+| Python | 2.7.x | 暂时不支持Python3 |
+| libc.so | GLIBC\_2.7 | glibc至少包含GLIBC\_2.7以上的符号 |
+| libstdc++.so | GLIBCXX\_3.4.11, CXXABI\_1.3.3 | 至少包含GLIBCXX\_3.4.11, CXXABI\_1.3.3以上的符号 |
+| libgcc\_s.so | GCC\_3.3 | 至少包含GCC\_3.3以上的符号 |
+
+
+
 > 操作系统：Ubuntu 16.04.3 LTS
 >
 > Python版本：Python 2.7.12
@@ -12,7 +26,7 @@
 
 **3.安装paddlepaddle**
 
-另外还有使用Docker安装运行（尚未验证，方式见引用《使用Docker安装运行》）。
+另外还有使用Docker安装运行（尚未验证，具体方式详见引用《使用Docker安装运行》）。
 
 ```
 pip install paddlepaddle
