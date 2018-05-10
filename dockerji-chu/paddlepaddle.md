@@ -4,11 +4,13 @@
 
 [深度学习101](#) 文档：[http://www.paddlepaddle.org/docs/develop/book/01.fit\_a\_line/index.cn.html](#)
 
+paddlepaddle 视频课程：http://bit.baidu.com/course/detail/id/137.html
+
 ## 安装paddlepaddle
 
 PaddlePaddle是源于百度的一个深度学习平台。PaddlePaddle为深度学习研究人员提供了丰富的API，可以轻松地完成神经网络配置，模型训练等任务。
 
-> https://github.com/PaddlePaddle/Paddle
+> [https://github.com/PaddlePaddle/Paddle](https://github.com/PaddlePaddle/Paddle)
 
 **1.基础环境**
 
