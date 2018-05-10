@@ -4,7 +4,7 @@
 
 **1.基础环境**
 
-一下是官方文档给出的：http://paddlepaddle.org/docs/develop/documentation/fluid/zh/build\_and\_install/pip\_install\_cn.html
+下表依赖是官方文档给出的：[http://paddlepaddle.org/docs/develop/documentation/fluid/zh/build\_and\_install/pip\_install\_cn.html](http://paddlepaddle.org/docs/develop/documentation/fluid/zh/build_and_install/pip_install_cn.html)
 
 | 依赖 | 版本 | 说明 |
 | :--- | :--- | :--- |
@@ -13,6 +13,8 @@
 | libc.so | GLIBC\_2.7 | glibc至少包含GLIBC\_2.7以上的符号 |
 | libstdc++.so | GLIBCXX\_3.4.11, CXXABI\_1.3.3 | 至少包含GLIBCXX\_3.4.11, CXXABI\_1.3.3以上的符号 |
 | libgcc\_s.so | GCC\_3.3 | 至少包含GCC\_3.3以上的符号 |
+
+**下面是我的机器基础环境：**
 
 > 操作系统：Ubuntu 16.04.3 LTS
 >
