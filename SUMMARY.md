@@ -135,7 +135,6 @@
       * [将VIM打造成强大的IDE](linuxpian/chang-yong-gong-ju/vim/jiang-vim-da-zao-cheng-qiang-da-de-ide.md)
       * [VIM编译器搭建](linuxpian/chang-yong-gong-ju/vim/vimbian-yi-qi-da-jian.md)
     * [VPS](linuxpian/chang-yong-gong-ju/vps.md)
-    * [安装搜狗输入法](linuxpian/chang-yong-gong-ju/an-zhuang-sou-gou-shu-ru-fa.md)
     * [安装输入法](linuxpian/chang-yong-gong-ju/an-zhuang-shu-ru-fa.md)
 * [MySQL篇](mysql.md)
   * [MySQL数据库基础](mysql/mysqlshu-ju-ku-ji-chu.md)
