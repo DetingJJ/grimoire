@@ -66,26 +66,19 @@ sudo gedit /usr/share/fcitx/data/tables.conf
 
 Note： Restart 后小企鹅面板不是最上面，我们也以用\[Ctrl+Alt+h\]来把它调上来。
 
+---
 
+**故障现象：**
 
+[ubuntu](http://blog.eibook.net/tag/ubuntu/) 14.04安装了im-switch后系统设置中不见了语言支持这个图标
 
-
-故障现象：
-
-[ubuntu](http://blog.eibook.net/tag/ubuntu/)
-
-14.04安装了im-switch后系统设置中不见了语言支持这个图标
-
-故障原因：
+**故障原因：**
 
 im-switch与语言支持不兼容，两者只能取其一，安装其一，若另一个存在则会被卸载。
 
-解决办法：
+**解决办法：**
 
 sudo apt-get install language-selector-gnome
-
-| 1 | sudo apt - get install language - selector - gnome |
-| :--- | :--- |
 
 
 运行上面的命令。语言支持又正常变回来了。
