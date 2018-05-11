@@ -12,7 +12,7 @@ PaddlePaddle是源于百度的一个深度学习平台。PaddlePaddle为深度�
 
 > 源码：[https://github.com/PaddlePaddle/Paddle](https://github.com/PaddlePaddle/Paddle)
 >
-> 安装教程：http://www.paddlepaddle.org/docs/develop/documentation/fluid/zh/build\_and\_install/pip\_install\_cn.html
+> 安装教程：[http://www.paddlepaddle.org/docs/develop/documentation/fluid/zh/build\_and\_install/pip\_install\_cn.html](http://www.paddlepaddle.org/docs/develop/documentation/fluid/zh/build_and_install/pip_install_cn.html)
 
 **1.基础环境**
 
