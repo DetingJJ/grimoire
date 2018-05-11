@@ -19,23 +19,16 @@ fcitx，然后一路ok yes下去，重启电脑
 Ubuntu自带的输入法不太尽如人意思，用起来也不方便，我在Ubuntu和FC中都是用Fcitx，很好用！
 
 安装配置如下：
-
-1. 安装 fcitx
-
+1.安装 fcitx
 sudo apt-get install fcitx
 
-2. 配置默认输入法为 fcitx
-
+2.配置默认输入法为 fcitx
 im-switch -s fcitx　　// 注意无须加 sudo
 
-  
-
-
-3. 重启 x-window
-
+3.重启 x-window
 重启之后，fcitx 输入法应当正常启动，输入条将显示在屏幕最上面，不过输入框中文显示可能是 “口口”，需要小小的改动。
 
-4. 修改配置文件
+4.修改配置文件
 
 gedit ~/.fcitx/config
 
