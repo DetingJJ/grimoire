@@ -10,7 +10,9 @@
 
 PaddlePaddle是源于百度的一个深度学习平台。PaddlePaddle为深度学习研究人员提供了丰富的API，可以轻松地完成神经网络配置，模型训练等任务。
 
-> [https://github.com/PaddlePaddle/Paddle](https://github.com/PaddlePaddle/Paddle)
+> 源码：[https://github.com/PaddlePaddle/Paddle](https://github.com/PaddlePaddle/Paddle)
+>
+> 安装教程：http://www.paddlepaddle.org/docs/develop/documentation/fluid/zh/build\_and\_install/pip\_install\_cn.html
 
 **1.基础环境**
 
