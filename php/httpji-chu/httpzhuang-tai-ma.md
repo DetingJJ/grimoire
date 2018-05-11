@@ -49,6 +49,8 @@ HTTP是一种请求/回应（Request/Response）的网路传输协定，当用�
 | 503 | Service Unavailable | 服务器超时，表示服务器超负载或正停机维护，无法处理请求；如果服务器知道还需要多长时间，就写入 Retry-After 首部字段返回。 |
 | 504 | Gateway Time-out | 网关过载。 |
 | 505 | HTTP Version Not Supported | 服务器不支持请求的 HTTP 协议版本，无法完成处理。 |
+| 510 | Not Extended | 获取资源所需要的策略没有被满足 |
+| 511 | Network Authentication Required | 客户需要进行身份验证才能获得网络访问权限，旨在限制用户群访问特定网络。 |
 
 ## 
 
