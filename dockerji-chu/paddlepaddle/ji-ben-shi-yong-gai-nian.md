@@ -15,18 +15,18 @@ step2：paddle.init
 
 ### 搭建神经网络 {#permalink-3--}
 
-搭建神经网络就像使用积木搭建宝塔一样。在PaddlePaddle中，layer是我们的积木，而神经网络是我们要搭建的宝塔。我们使用不同的layer进行组合，来搭建神经网络。 宝塔的底端需要坚实的基座来支撑，同样，神经网络也需要一些特定的layer作为输入接口，来完成网络的训练。
-
-例如，我们可以定义如下layer来描述神经网络的输入：
+定义layer来描述神经网络输入：
 
 ```
 x = paddle.layer.data(name='x', type=paddle.data_type.dense_vector(2))
 y = paddle.layer.data(name='y', type=paddle.data_type.dense_vector(1))
 ```
 
-**其中x表示输入数据是一个维度为2的稠密向量，y表示输入数据是一个维度为1的稠密向量。**
+**如上，其中x表示输入数据是一个维度为2的稠密向量，y表示输入数据是一个维度为1的稠密向量。**
 
-PaddlePaddle支持不同类型的输入数据，主要包括四种类型，和三种序列模式。
+PaddlePaddle输入数据的类型（4种类型，3种序列模式）：
+
+
 
 四种数据类型：
 
