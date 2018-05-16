@@ -1,16 +1,12 @@
 # 基本使用概念 {#permalink-0--}
 
-PaddlePaddle是源于百度的一个深度学习平台。PaddlePaddle为深度学习研究人员提供了丰富的API，可以轻松地完成神经网络配置，模型训练等任务。 
+PaddlePaddle是源于百度的一个深度学习平台。PaddlePaddle为深度学习研究人员提供了丰富的API，可以轻松地完成神经网络配置，模型训练等任务。
 
 ## 配置网络 {#permalink-1--}
 
 ### 加载PaddlePaddle {#permalink-2--paddlepaddle}
 
 **进行初始化操作：**
-
-step1：import paddle
-
-step2：paddle.init
 
 ```
 step1：import paddle
@@ -87,7 +83,7 @@ PaddlePaddle支持不同类型的输入数据，主要包括四种类型，和�
 
 ## 引用
 
-> 基本使用概念：http://staging.paddlepaddle.org/docs/0.10.0/documentation/zh/getstarted/concepts/use\_concepts\_cn.html
+> 基本使用概念：[http://staging.paddlepaddle.org/docs/0.10.0/documentation/zh/getstarted/concepts/use\_concepts\_cn.html](http://staging.paddlepaddle.org/docs/0.10.0/documentation/zh/getstarted/concepts/use_concepts_cn.html)
 
 
 
