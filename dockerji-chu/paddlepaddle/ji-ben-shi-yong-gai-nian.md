@@ -59,15 +59,6 @@ trainer = paddle.trainer.SGD(cost=cost,
 调用traner的train来启动训练：
 
 ```
-# define feeding map
-feeding = {'x': 0, 'y': 1}
-
-# event_handler to print training info
-def event_handler(event):
-    if isinstance(event, paddle.event.EndIteration):
-        if event.batch_id % 1 == 0:
-            print "Pass %d, Batch %d, Cost %f" % (
-                event.pass_id, event.batch_id, event.cost)
 # training
 trainer.train(
     reader=paddle.batch(train_reader(), batch_size=1),
