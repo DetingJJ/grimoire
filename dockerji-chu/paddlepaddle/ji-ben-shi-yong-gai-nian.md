@@ -24,9 +24,7 @@ y = paddle.layer.data(name='y', type=paddle.data_type.dense_vector(1))
 
 **如上，其中x表示输入数据是一个维度为2的稠密向量，y表示输入数据是一个维度为1的稠密向量。**
 
-PaddlePaddle输入数据的类型（4种类型，3种序列模式）：
-
-
+PaddlePaddle输入数据的类型（四种数据类型，三种序列模式）：
 
 四种数据类型：
 
@@ -43,8 +41,6 @@ PaddlePaddle输入数据的类型（4种类型，3种序列模式）：
 
 不同的数据类型和序列模式返回的格式不同，列表如下：
 
-不同的数据类型和序列模式返回的格式不同，列表如下：
-
 |  | NO\_SEQUENCE | SEQUENCE | SUB\_SEQUENCE |
 | :--- | :--- | :--- | :--- |
 | dense\_vector | \[f, f, ...\] | \[\[f, ...\], \[f, ...\], ...\] | \[\[\[f, ...\], ...\], \[\[f, ...\], ...\],...\] |
@@ -54,32 +50,9 @@ PaddlePaddle输入数据的类型（4种类型，3种序列模式）：
 
 其中，f代表一个浮点数，i代表一个整数。
 
-注意：对sparse\_binary\_vector和sparse\_float\_vector，PaddlePaddle存的是有值位置的索引。例如，
+注意：对sparse\_binary\_vector和sparse\_float\_vector，PaddlePaddle存的是有值位置的索引。
 
-* 对一个5维非序列的稀疏01向量
-  `[0,`
-  `1,`
-  `1,`
-  `0,`
-  `0]`
-  ，类型是sparse\_binary\_vector，返回的是
-  `[1,`
-  `2]`
-  。
-* 对一个5维非序列的稀疏浮点向量
-  `[0,`
-  `0.5,`
-  `0.7,`
-  `0,`
-  `0]`
-  ，类型是sparse\_float\_vector，返回的是
-  `[(1,`
-  `0.5),`
-  `(2,`
-  `0.7)]`
-  。
-
-在定义输入layer之后，我们可以使用其他layer进行组合。在组合时，需要指定layer的输入来源。
+> 其他详细解释间引用【基本使用概念】
 
 ## 引用
 
