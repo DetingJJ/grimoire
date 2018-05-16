@@ -6,11 +6,13 @@ PaddlePaddle是源于百度的一个深度学习平台。PaddlePaddle为深度�
 
 ### 加载PaddlePaddle {#permalink-2--paddlepaddle}
 
-**进行初始化操作：**
+进行初始化操作（paddle.init）：
 
 ```
-step1：import paddle
-step2：paddle.init
+
+import paddle.v2 as paddle
+import numpy as np
+paddle.init(use_gpu=False)
 ```
 
 ### 搭建神经网络 {#permalink-3--}
@@ -39,13 +41,19 @@ PaddlePaddle输入数据的类型（四种数据类型，三种序列模式）�
 * SequenceType.SEQUENCE：是一条时间序列
 * SequenceType.SUB\_SEQUENCE： 是一条时间序列，且序列的每一个元素还是一个时间序列。
 
-
-
 > 详细解释见引用【基本使用概念】
 
 ## 训练模型 {#permalink-4--}
 
+创建trainer来对网络进行训练（paddle.trainer.SGD）：
 
+```
+parameters = paddle.parameters.create(cost)
+optimizer = paddle.optimizer.Momentum(momentum=0)
+trainer = paddle.trainer.SGD(cost=cost,
+                             parameters=parameters,
+                             update_equation=optimizer)
+```
 
 ## 引用
 
