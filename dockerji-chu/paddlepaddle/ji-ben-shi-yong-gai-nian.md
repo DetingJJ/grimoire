@@ -1,17 +1,20 @@
 # 基本使用概念 {#permalink-0--}
 
-PaddlePaddle是源于百度的一个深度学习平台。PaddlePaddle为深度学习研究人员提供了丰富的API，可以轻松地完成神经网络配置，模型训练等任务。 这里将介绍PaddlePaddle的基本使用概念，并且展示了如何利用PaddlePaddle来解决一个经典的线性回归问题。 在使用该文档之前，请参考[安装文档](http://staging.paddlepaddle.org/docs/0.10.0/documentation/zh/getstarted/build_and_install/index_cn.html)完成PaddlePaddle的安装。
+PaddlePaddle是源于百度的一个深度学习平台。PaddlePaddle为深度学习研究人员提供了丰富的API，可以轻松地完成神经网络配置，模型训练等任务。 
 
 ## 配置网络 {#permalink-1--}
 
 ### 加载PaddlePaddle {#permalink-2--paddlepaddle}
 
-在进行网络配置之前，首先需要加载相应的Python库，并**进行初始化操作**。
+**进行初始化操作：**
+
+step1：import paddle
+
+step2：paddle.init
 
 ```
-import paddle.v2 as paddle
-import numpy as np
-paddle.init(use_gpu=False)
+step1：import paddle
+step2：paddle.init
 ```
 
 ### 搭建神经网络 {#permalink-3--}
@@ -36,7 +39,6 @@ PaddlePaddle支持不同类型的输入数据，主要包括四种类型，和�
 * sparse\_float\_vector：稀疏的向量，即大部分值为0，但有值的部分可以是任何浮点数。
 * integer：整数标签。
 
-  
 三种序列模式：
 
 * SequenceType.NO\_SEQUENCE：不是一条序列
@@ -83,6 +85,9 @@ PaddlePaddle支持不同类型的输入数据，主要包括四种类型，和�
 
 在定义输入layer之后，我们可以使用其他layer进行组合。在组合时，需要指定layer的输入来源。
 
-  
+## 引用
+
+> 基本使用概念：http://staging.paddlepaddle.org/docs/0.10.0/documentation/zh/getstarted/concepts/use\_concepts\_cn.html
+
 
 
