@@ -52,7 +52,7 @@ PaddlePaddle输入数据的类型（四种数据类型，三种序列模式）�
 
 注意：对sparse\_binary\_vector和sparse\_float\_vector，PaddlePaddle存的是有值位置的索引。
 
-> 其他详细解释间引用【基本使用概念】
+> 详细解释见引用【基本使用概念】
 
 ## 引用
 
