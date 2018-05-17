@@ -242,6 +242,7 @@
     * [学习笔记](dockerji-chu/paddlepaddle/xue-xi-bi-ji.md)
     * [基本使用概念](dockerji-chu/paddlepaddle/ji-ben-shi-yong-gai-nian.md)
     * [模型库](dockerji-chu/paddlepaddle/mo-xing-ku.md)
+    * [视频课程](dockerji-chu/paddlepaddle/shi-pin-ke-cheng.md)
 * [设计模式](she-ji-mo-shi.md)
   * [什么是设计模式？](she-ji-mo-shi/shi-yao-shi-she-ji-mo-shi-ff1f.md)
   * [创建型模式](she-ji-mo-shi/chuang-jian-xing-mo-shi.md)

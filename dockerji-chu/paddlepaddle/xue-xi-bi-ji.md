@@ -12,9 +12,5 @@ paddlepaddle 视频课程：[http://bit.baidu.com/course/detail/id/137.html](htt
 
 ![](/assets/import--2018年05月11日15:56:50.png)
 
-课程目录：http://bit.baidu.com/course/search.html?keywords=PaddlePaddle
 
-
-
-![](/assets/import-2018年05月17日10:17:42.png)
 
