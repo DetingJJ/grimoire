@@ -57,12 +57,9 @@ pip install paddlepaddle
 docker pull docker.paddlepaddlehub.com/paddle
 ```
 
-**3.安装paddle对应教程book**  
+**3.安装paddle对应教程book**
 
-
-> https://github.com/PaddlePaddle/book/blob/develop/README.cn.md
-
-
+> [https://github.com/PaddlePaddle/book/blob/develop/README.cn.md](https://github.com/PaddlePaddle/book/blob/develop/README.cn.md)
 
 ## 引用：
 
