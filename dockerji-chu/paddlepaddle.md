@@ -48,12 +48,8 @@ pip install paddlepaddle
 
 **1.安装docker**
 
-> 
-> https://yeasy.gitbooks.io/docker_practice/content/
-> 
-> https://yeasy.gitbooks.io/docker_practice/content/
-https://doraemon-home.github.io/weekly/2018-03-09-weekly.html
-
+> [https://yeasy.gitbooks.io/docker\_practice/content/](https://yeasy.gitbooks.io/docker_practice/content/)  
+> [https://doraemon-home.github.io/weekly/2018-03-09-weekly.html](https://doraemon-home.github.io/weekly/2018-03-09-weekly.html)
 
 **2.安装镜像**
 
@@ -61,11 +57,12 @@ https://doraemon-home.github.io/weekly/2018-03-09-weekly.html
 docker pull docker.paddlepaddlehub.com/paddle
 ```
 
-**3.安装paddle对应教程book**
+**3.安装paddle对应教程book**  
 
-```
-https://github.com/PaddlePaddle/book/blob/develop/README.cn.md
-```
+
+> https://github.com/PaddlePaddle/book/blob/develop/README.cn.md
+
+
 
 ## 引用：
 
