@@ -48,6 +48,11 @@ pip install paddlepaddle
 
 **1.安装docker**
 
+```
+https://yeasy.gitbooks.io/docker_practice/content/
+https://doraemon-home.github.io/weekly/2018-03-09-weekly.html
+```
+
 **2.安装镜像**
 
 ```
