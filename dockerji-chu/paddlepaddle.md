@@ -8,6 +8,8 @@
 
 ## 安装paddlepaddle
 
+### ubuntu 安装
+
 PaddlePaddle是源于百度的一个深度学习平台。PaddlePaddle为深度学习研究人员提供了丰富的API，可以轻松地完成神经网络配置，模型训练等任务。
 
 > 源码：[https://github.com/PaddlePaddle/Paddle](https://github.com/PaddlePaddle/Paddle)
@@ -41,6 +43,18 @@ PaddlePaddle是源于百度的一个深度学习平台。PaddlePaddle为深度�
 ```
 pip install paddlepaddle
 ```
+
+### docker安装
+
+**1.安装docker**
+
+**2.安装镜像**
+
+```
+docker pull docker.paddlepaddlehub.com/paddle
+```
+
+
 
 ## 引用：
 
