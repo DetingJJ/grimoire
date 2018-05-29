@@ -20,5 +20,7 @@ fc = fc(input=layer,
 | param\_attr | paddle.v2.attr.ParameterAttribute \| list | 参数属性 |
 |  |  |  |
 
+> 详细解释：http://www.paddlepaddle.org/docs/0.11.0/api/en/api/v2/config/layer.html
+
 
 
