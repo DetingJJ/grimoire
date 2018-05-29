@@ -34,6 +34,10 @@ enum lock_mode {
 | LOCK\_AUTO\_INC | 表级锁 | 保护自增列的值 |
 |  |  |  |
 
+
+
+> MySQL · 引擎分析 · InnoDB行锁分析：http://mysql.taobao.org/monthly/2018/05/04/
+
 ### 什么情况下会造成死锁
 
 * 所谓死锁: 是指两个或两个以上的进程在执行过程中。
