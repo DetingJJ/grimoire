@@ -33,6 +33,8 @@ enum lock_mode {
 | LOCK\_X | 表排它锁、行排它锁 | 表共享锁：ALTER语句最后一个阶段；行共享锁：UPDATE/DELETE阻止并发修改同一行数据； |
 | LOCK\_AUTO\_INC | 表级锁 | 保护自增列的值 |
 
+> 引用：
+>
 > MySQL · 引擎分析 · InnoDB行锁分析：[http://mysql.taobao.org/monthly/2018/05/04/](http://mysql.taobao.org/monthly/2018/05/04/)
 
 ### 什么情况下会造成死锁
