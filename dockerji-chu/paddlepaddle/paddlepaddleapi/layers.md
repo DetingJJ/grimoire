@@ -1,6 +1,6 @@
 ### fc {#permalink-4-fc}
 
-用来声明一个全连接层：
+作用：用来声明一个全连接层。
 
 ```
 fc = fc(input=layer,
@@ -14,7 +14,7 @@ fc = fc(input=layer,
 | 参数 | 含义 |
 | :--- | :--- |
 | name | 全连接层名字（本参数可选） |
-| input | 全连接层输入参数，可选类型有： \(paddle.v2.config\_base.Layer \| list \| tuple\) |
+| input | 全连接层输入参数，可选类型有： \(paddle.v2.config\_base.Layer \| list \| tuple\) |
 
 
 
