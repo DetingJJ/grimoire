@@ -30,9 +30,7 @@ paddle.v2.config\_base.Layer object
 
 paddle.v2.config\_base.Layer
 
-
-
-> 详细解释：[http://www.paddlepaddle.org/docs/0.11.0/api/en/api/v2/config/layer.html](http://www.paddlepaddle.org/docs/0.11.0/api/en/api/v2/config/layer.html)
+> 其他未曾遇到的参数，详细解释：[http://www.paddlepaddle.org/docs/0.11.0/api/en/api/v2/config/layer.html](http://www.paddlepaddle.org/docs/0.11.0/api/en/api/v2/config/layer.html)
 
 
 
