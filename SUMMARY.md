@@ -249,6 +249,7 @@
     * [PaddlePaddleAPI](dockerji-chu/paddlepaddle/paddlepaddleapi.md)
       * [Activation](dockerji-chu/paddlepaddle/paddlepaddleapi/activation.md)
       * [Layers](dockerji-chu/paddlepaddle/paddlepaddleapi/layers.md)
+      * [Optimizer](dockerji-chu/paddlepaddle/paddlepaddleapi/optimizer.md)
 * [设计模式](she-ji-mo-shi.md)
   * [什么是设计模式？](she-ji-mo-shi/shi-yao-shi-she-ji-mo-shi-ff1f.md)
   * [创建型模式](she-ji-mo-shi/chuang-jian-xing-mo-shi.md)
