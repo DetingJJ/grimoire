@@ -10,7 +10,9 @@ _class_`paddle.v2.optimizer.Momentum`\(_momentum=None_, _sparse=False_, _\*\*kwa
 
 ![](/assets/import-2018年05月29日17:50:36.png)
 
+当sparse=True时，momentum 更新方式为：
 
+![](/assets/import-2018年05月29日17:53:41.png)
 
 ---
 
