@@ -1,3 +1,5 @@
+PaddlePaddle层的用法。
+
 ### fc {#permalink-4-fc}
 
 **作用：**用来声明一个全连接层。
@@ -20,7 +22,7 @@ fc = fc(input=layer,
 | param\_attr | paddle.v2.attr.ParameterAttribute \| list | 参数属性 |
 |  |  |  |
 
-> 详细解释：http://www.paddlepaddle.org/docs/0.11.0/api/en/api/v2/config/layer.html
+> 详细解释：[http://www.paddlepaddle.org/docs/0.11.0/api/en/api/v2/config/layer.html](http://www.paddlepaddle.org/docs/0.11.0/api/en/api/v2/config/layer.html)
 
 
 
