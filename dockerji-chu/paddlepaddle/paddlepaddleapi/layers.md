@@ -17,7 +17,8 @@ fc = fc(input=layer,
 | input | paddle.v2.config\_base.Layer \| list \| tuple\) | 全连接层输入参数 |
 | size | int | 全连接层维度 |
 | act | paddle.v2.activation.Base | 激活类型，默认为：paddle.v2.activation.Tanh |
-| param\_attr | paddle.v2.attr.ParameterAttribute \| list | 参数 |
+| param\_attr | paddle.v2.attr.ParameterAttribute \| list | 参数属性 |
+|  |  |  |
 
 
 
