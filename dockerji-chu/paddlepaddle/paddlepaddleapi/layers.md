@@ -1,6 +1,6 @@
 ### fc {#permalink-4-fc}
 
-作用：用来声明一个全连接层。
+**作用：**用来声明一个全连接层。
 
 ```
 fc = fc(input=layer,
@@ -9,7 +9,7 @@ fc = fc(input=layer,
               bias_attr=False)
 ```
 
-参数：
+**参数：**
 
 | 参数 | 含义 |
 | :--- | :--- |
