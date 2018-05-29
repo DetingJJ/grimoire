@@ -19,7 +19,7 @@ _class_`paddle.v2.optimizer.Momentum`\(_momentum=None_, _sparse=False_, _\*\*kwa
 | 参数 | 类型 | 含义 |
 | :--- | :--- | :--- |
 | momentum | float | 动量因子 |
-| sparse | bool | sparse support？默认False |
+| sparse | bool | sparse support（不知道叫啥，等查到文档了在来更新）？默认False |
 
 ---
 
