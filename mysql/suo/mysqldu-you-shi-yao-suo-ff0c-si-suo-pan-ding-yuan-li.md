@@ -27,9 +27,10 @@ enum lock_mode {
 
 | lock mode | 级别 | 含义 |
 | :--- | :--- | :--- |
-| LOCK\_IS  | 表级锁 | 意向共享锁，表示将要在表上加共享锁。 |
+| LOCK\_IS | 表级锁 | 意向共享锁，表示将要在表上加共享锁。 |
 | LOCK\_IX | 表级锁 | 意向排它锁，表示将要在表上加排它锁。 |
-| LOCK\_S | 表共享锁、行共享锁 | 表共享锁：ALTER语句；行共享锁：insert on duplicate key； |
+| LOCK\_S | 表共享锁、行共享锁 | 表共享锁：ALTER语句第一个阶段；行共享锁：insert on duplicate key； |
+| LOCK\_X | 表排它锁、行排它锁 | 表共享锁：ALTER语句最后一个阶段；行共享锁：insert on duplicate key；  |
 
 ### 什么情况下会造成死锁
 
