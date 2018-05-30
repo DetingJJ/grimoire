@@ -5,6 +5,8 @@
 > 过拟合：
 >
 > 欠拟合：
+>
+> 一个很好的线性回归的例子：https://blog.csdn.net/xbinworld/article/details/43919445
 
 
 
