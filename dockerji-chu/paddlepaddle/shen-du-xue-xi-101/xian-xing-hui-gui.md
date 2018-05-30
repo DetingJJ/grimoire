@@ -6,7 +6,9 @@
 >
 > 欠拟合：
 >
-> 一个很好的线性回归的例子：https://blog.csdn.net/xbinworld/article/details/43919445
+> 一个很好的线性回归的例子：[https://blog.csdn.net/xbinworld/article/details/43919445](https://blog.csdn.net/xbinworld/article/details/43919445)
+>
+> 最小二乘法：是一个直接的数学求解公式，不过它要求X是列满秩的，
 
 
 
