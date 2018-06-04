@@ -19,6 +19,7 @@
 
 $$ f(n) = \begin{cases} n/2, & \text {if $n$ is even} \\ 3n+1, & \text{if $n$ is odd} \end{cases} $$
 
+
 > 应用：感知机  
 > 这种损失函数条件（相等条件）过于严格，应用时形式上会有所改进。
 
