@@ -14,6 +14,12 @@
 
 ### **0-1损失函数和绝对值损失函数**
 
+0-1损失是指，预测值和目标值不相等为1，否则为0：
+
+
+
+### 均方误差
+
 实际应用中，常见的损失函数为均方误差（Mean Squared Error，[MSE](https://en.wikipedia.org/wiki/Mean_squared_error)）：
 
 $$MSE = \frac{1}{n}\sum_{i=1}^n(\bar Y$$i$$ - Y$$i$$)^2  $$
