@@ -26,14 +26,12 @@ $$ L(Y,P(Y|X)) = -logP(Y|X) $$
 > 应用：逻辑回归的损失函数就是对数函数
 
 ### 指数损失函数
-
 形如：  
 $$ L(Y|f(X))=exp[−yf(x)] $$
 
 > 应用：AdaBoost就是一指数损失函数为损失函数的
 
 ### 均方误差
-
 实际应用中，常见的损失函数为均方误差（Mean Squared Error，[MSE](https://en.wikipedia.org/wiki/Mean_squared_error)）：  
 $$ MSE = \frac{1}{n}\sum_{i=1}^n(\bar Y$$i$$ - Y$$i$$)^2   $$
 
