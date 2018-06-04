@@ -25,8 +25,6 @@ $$ L(Y,f(X))= \begin{cases} 1, & \text {$ Y \neq F(X) $} \\ 0, & \text {$ Y = F(
 
 
 
-
-
 ### 均方误差
 
 实际应用中，常见的损失函数为均方误差（Mean Squared Error，[MSE](https://en.wikipedia.org/wiki/Mean_squared_error)）：
