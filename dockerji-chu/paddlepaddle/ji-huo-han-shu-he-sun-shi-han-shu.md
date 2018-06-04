@@ -22,7 +22,7 @@ $$ L(Y,f(X))= \begin{cases} 1, & \text {$ Y \neq F(X) $} \\ 0, & \text {$ Y = F(
 
 ### log对数损失函数
 
-$\color{red}{Hello World!}$
+
 
 
 
