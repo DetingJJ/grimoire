@@ -246,6 +246,7 @@
     * [激活函数和损失函数](dockerji-chu/paddlepaddle/ji-huo-han-shu-he-sun-shi-han-shu.md)
     * [深度学习101](dockerji-chu/paddlepaddle/shen-du-xue-xi-101.md)
       * [线性回归](dockerji-chu/paddlepaddle/shen-du-xue-xi-101/xian-xing-hui-gui.md)
+      * [个性化推荐](dockerji-chu/paddlepaddle/shen-du-xue-xi-101/ge-xing-hua-tui-jian.md)
     * [PaddlePaddleAPI](dockerji-chu/paddlepaddle/paddlepaddleapi.md)
       * [Activation](dockerji-chu/paddlepaddle/paddlepaddleapi/activation.md)
       * [Layers](dockerji-chu/paddlepaddle/paddlepaddleapi/layers.md)
