@@ -15,7 +15,7 @@
 ### **0-1损失函数和绝对值损失函数**
 
 0-1损失是指，预测值和目标值不相等为1，否则为0：
-
+$$ f(n)= \begin{cases} n/2, & \text {if $n$ is even} \\ 3n+1, & \text{if $n$ is odd} \end{cases} $$
 
 
 ### 均方误差
