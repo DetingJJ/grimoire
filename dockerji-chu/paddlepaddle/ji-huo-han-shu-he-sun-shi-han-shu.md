@@ -15,7 +15,7 @@
 ### **0-1损失函数和绝对值损失函数**
 
 0-1损失是指，预测值和目标值不相等为1，否则为0：
-$$ L(Y,f(X))= \begin{cases} 1, & \text {$ Y \neq F(X) $} \\ 3n+1, & \text {$ Y = F(X) $} \end{cases} $$
+$$ L(Y,f(X))= \begin{cases} 1, & \text {$ Y \neq F(X) $} \\ 0, & \text {$ Y = F(X) $} \end{cases} $$
 
 
 ### 均方误差
