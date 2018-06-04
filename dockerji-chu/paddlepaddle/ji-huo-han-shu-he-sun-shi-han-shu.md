@@ -20,13 +20,21 @@ $$ L(Y,f(X))= \begin{cases} 1, & \text {$ Y \neq F(X) $} \\ 0, & \text {$ Y = F(
 > 应用：感知机
 > 这种损失函数条件（相等条件）过于严格。
 
+### log对数损失函数
+
+
+
+
+
+
 ### 均方误差
 
 实际应用中，常见的损失函数为均方误差（Mean Squared Error，[MSE](https://en.wikipedia.org/wiki/Mean_squared_error)）：
 
 $$MSE = \frac{1}{n}\sum_{i=1}^n(\bar Y$$i$$ - Y$$i$$)^2  $$
 
-xx
+
+
 
 > 深度学习笔记\(三\)：激活函数和损失函数：[https://blog.csdn.net/u014595019/article/details/52562159](https://blog.csdn.net/u014595019/article/details/52562159)
 
