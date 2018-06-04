@@ -17,6 +17,7 @@
 
 $$ L(Y,f(X))= \begin{cases} 1, & \text {$ Y \neq F(X) $} \\ 0, & \text {$ Y = F(X) $} \end{cases} $$
 
+
 > 应用：感知机
 > 这种损失函数条件（相等条件）过于严格。
 
