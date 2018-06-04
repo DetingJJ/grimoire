@@ -10,7 +10,7 @@
 
 实际应用中，常见的损失函数为均方误差（Mean Squared Error，[MSE](https://en.wikipedia.org/wiki/Mean_squared_error)） 
  
-$$MSE = \sum_{i=1}^\infty \frac{(-1)^m}{m! \Gamma (m + \alpha + 1)} {\left({ \frac{x}{2} }\right)}^{2m + \alpha} \text {，独立公式示例} $$
+$$MSE = \sum_{i=1}^n \frac{(-1)^m}{m! \Gamma (m + \alpha + 1)} {\left({ \frac{x}{2} }\right)}^{2m + \alpha} \text {，独立公式示例} $$
 
 > 深度学习笔记\(三\)：激活函数和损失函数：[https://blog.csdn.net/u014595019/article/details/52562159](https://blog.csdn.net/u014595019/article/details/52562159)
 
