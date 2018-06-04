@@ -29,8 +29,9 @@ $$ L(Y,f(X))= \begin{cases} 1, & \text {$ Y \neq F(X) $} \\ 0, & \text {$ Y = F(
 
 实际应用中，常见的损失函数为均方误差（Mean Squared Error，[MSE](https://en.wikipedia.org/wiki/Mean_squared_error)）：
 
+```
 $$MSE = \frac{1}{n}\sum_{i=1}^n(\bar Y$$i$$ - Y$$i$$)^2  $$
-
+```
 
 
 
