@@ -21,7 +21,7 @@ $$ L(Y,f(X))= \begin{cases} 1, & \text {$ Y \neq F(X) $} \\ 0, & \text {$ Y = F(
 > 这种损失函数条件（相等条件）过于严格。
 
 ### log对数损失函数
-$$L(Y,P(Y|X))=-logP(Y|X)$$
+$$L(Y,P(Y|X)) = -logP(Y|X)$$
 
 > 应用：逻辑回归的损失函数就是对数函数
 
