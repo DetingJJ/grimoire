@@ -23,5 +23,9 @@ _class_`paddle.v2.optimizer.Momentum`\(_momentum=None_, _sparse=False_, _\*\*kwa
 
 ---
 
+## AdamOptimizer {#permalink-10-adamoptimizer}
 
+
+
+_class_`paddle.fluid.optimizer.AdamOptimizer`\(_learning\_rate=0.001_,_beta1=0.9_,_beta2=0.999_,_epsilon=1e-08_,_\*\*kwargs_\)
 
