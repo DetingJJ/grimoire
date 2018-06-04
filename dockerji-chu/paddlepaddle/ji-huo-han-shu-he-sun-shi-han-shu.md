@@ -27,7 +27,6 @@ $$ L(Y,P(Y|X)) = -logP(Y|X) $$
 > 应用：逻辑回归的损失函数就是对数函数
 
 
-
 ### 均方误差
 
 实际应用中，常见的损失函数为均方误差（Mean Squared Error，[MSE](https://en.wikipedia.org/wiki/Mean_squared_error)）：
