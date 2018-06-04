@@ -12,7 +12,7 @@
 
 $$MSE = \frac{1}{n}\sum_{i=1}^n(\bar Y$$i$$ - Y$$i$$)^2  \text {，均方误差} $$
 
-
+xx
 
 > 深度学习笔记\(三\)：激活函数和损失函数：[https://blog.csdn.net/u014595019/article/details/52562159](https://blog.csdn.net/u014595019/article/details/52562159)
 
