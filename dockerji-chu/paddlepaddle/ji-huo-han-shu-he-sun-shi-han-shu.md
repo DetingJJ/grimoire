@@ -15,31 +15,31 @@
 ### **0-1损失函数和绝对值损失函数**
 
 0-1损失是指，预测值和目标值不相等为1，否则为0：  
-![](/assets/import-2018年06月04日21:00:01.png)  
-
-$$ L(Y,f(X)) = \begin{cases} 1, & \text {if $Y \neq f(X) $ is even} \\ 3n+1, & \text{if $n$ is odd} \end{cases} $$
+![](/assets/import-2018年06月04日21:00:01.png)
 
 > 应用：感知机  
 > 这种损失函数条件（相等条件）过于严格，应用时形式上会有所改进。
 
 ### log对数损失函数
 
-形如：  
-$$ L(Y,P(Y|X)) = -logP(Y|X) $$
+形如：
+
+![](/assets/import-2018年06月04日21:18:47.png)
 
 > 应用：逻辑回归的损失函数就是对数函数
 
 ### 指数损失函数
 
 形如：  
-$$ L(Y|f(X))=exp[−yf(x)] $$
+![](/assets/import-2018年06月04日21:19:30.png)
 
 > 应用：AdaBoost就是一指数损失函数为损失函数的
 
 ### 均方误差
 
-实际应用中，常见的损失函数为均方误差（Mean Squared Error，[MSE](https://en.wikipedia.org/wiki/Mean_squared_error)）：  
-$$ MSE = \frac{1}{n}\sum_{i=1}^n(\bar Y$$i$$ - Y$$i$$)^2   $$
+实际应用中，常见的损失函数为均方误差（Mean Squared Error，[MSE](https://en.wikipedia.org/wiki/Mean_squared_error)）：
+
+![](/assets/import-2018年06月04日21:20:26.png)
 
 > 深度学习笔记\(三\)：激活函数和损失函数：[https://blog.csdn.net/u014595019/article/details/52562159](https://blog.csdn.net/u014595019/article/details/52562159)
 
