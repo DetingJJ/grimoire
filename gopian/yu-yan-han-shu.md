@@ -64,34 +64,33 @@ Go支持匿名函数，可以作为闭包。匿名函数是一个“内联”语
 package main
 
 import (
-	"fmt"
-	"math"
+    "fmt"
+    "math"
 )
 
 // 创建一个函数 getSequence()，返回另外一个函数。该函数的目的是在闭包中递增变量 i。
 func getSequence() func() int {
-	i := 0
-	return func() int {
-		i += 1
-		return i
-	}
+    i := 0
+    return func() int {
+        i += 1
+        return i
+    }
 }
 
 func main()  {
-	nextNumber := getSequence()
-	fmt.Println(nextNumber())
-	fmt.Println(nextNumber())
-	fmt.Println(nextNumber())
-	fmt.Println(nextNumber())
+    nextNumber := getSequence()
+    fmt.Println(nextNumber())
+    fmt.Println(nextNumber())
+    fmt.Println(nextNumber())
+    fmt.Println(nextNumber())
 
-	nextNumber2 := getSequence()
-	fmt.Println(nextNumber2())
-	fmt.Println(nextNumber2())
-	fmt.Println(nextNumber2())
-	fmt.Println(nextNumber2())
+    nextNumber2 := getSequence()
+    fmt.Println(nextNumber2())
+    fmt.Println(nextNumber2())
+    fmt.Println(nextNumber2())
+    fmt.Println(nextNumber2())
 
 }
-
 ```
 
 ### 方法
