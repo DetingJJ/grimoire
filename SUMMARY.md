@@ -263,4 +263,5 @@
   * [入市原则](gu-piao/ru-shi-yuan-ze.md)
 * [装机必备软件](zhuang-ji-bi-bei-ruan-jian.md)
 * [Go篇](gopian.md)
+  * [Go 语言环境安装](gopian/go-yu-yan-huan-jing-an-zhuang.md)
 
