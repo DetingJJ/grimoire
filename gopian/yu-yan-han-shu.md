@@ -13,7 +13,7 @@ func function_name( [parameter list] ) [return_types] {
 **说明：**
 
 * func：函数由func开始声明
-* function\_name：函数名，函数名+参数列表
+* function\_name：函数名，函数签名=函数名+参数列表
 
 
 
