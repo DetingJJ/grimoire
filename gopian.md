@@ -34,5 +34,20 @@ Go 语言最主要的特性：
 * 反射
 * 语言交互性
 
+## Go hello world
+
+hello.go
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("Hello, World")
+}
+
+```
+
 
 
