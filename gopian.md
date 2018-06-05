@@ -39,10 +39,17 @@ Go 语言最主要的特性：
 hello.go：
 
 ```go
-package main
+package main // 定义包名
 
-import "fmt"
+import "fmt" // 告诉 Go 编译器这个程序需要使用 fmt 包
 
+// 启动后第一个执行的函数（如果有 没有 init() 函数则会先执行main函数）
+func init()  {
+	fmt.Println("init")
+
+}
+
+// 第二入口函数
 func main()  {
 	/**
 	 这是我的注释
