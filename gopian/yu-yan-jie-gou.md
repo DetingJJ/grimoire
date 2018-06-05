@@ -1,3 +1,5 @@
+结构类似Python，强行类比，哈哈。。。
+
 Go 语言的基础组成有以下几个部分：
 
 * 包声明
@@ -13,10 +15,10 @@ package main
 import "fmt"
 
 func main()  {
-	/**
-	 这是我的注释
-	 */
-	fmt.Println("hello world")
+    /**
+     这是我的注释
+     */
+    fmt.Println("hello world")
 }
 ```
 
