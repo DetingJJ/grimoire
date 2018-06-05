@@ -18,5 +18,28 @@ func function_name( [parameter list] ) [return_types] {
 * return\_\_types：返回类型，函数返回一列值。return\_\_types 是该列值的数据类型。
 * function body：函数体，函数定义的指令集（代码集合）。
 
+### 返回单个个返回值
+
+```go
+package main
+
+import "fmt"
+
+func main()  {
+	var ret = max(45, 6)
+
+	fmt.Println(ret)
+}
+
+func max(num1 int, num2 int) int {
+	if num1 >= num2 {
+		return num1
+	} else {
+		return num2
+	}
+}
+
+```
+
 
 
