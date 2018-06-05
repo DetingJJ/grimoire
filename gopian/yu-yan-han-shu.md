@@ -26,18 +26,23 @@ package main
 import "fmt"
 
 func main()  {
-	var ret = max(45, 6)
+    var ret int = max(45, 6)
 
-	fmt.Println(ret)
+    fmt.Println(ret)
 }
 
 func max(num1 int, num2 int) int {
-	if num1 >= num2 {
-		return num1
-	} else {
-		return num2
-	}
+    if num1 >= num2 {
+        return num1
+    } else {
+        return num2
+    }
 }
+```
+
+### 返回多个返回值
+
+```
 
 ```
 
