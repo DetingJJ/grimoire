@@ -27,7 +27,7 @@ CNEKJPQZEX-eyJsaWNlbnNlSWQiOiJDTkVLSlBRWkVYIiwibGljZW5zZWVOYW1lIjoibGFuIHl1IiwiY
 终极破解方案（神器）
 
 1. 将“0.0.0.0 account.jetbrains.com”添加到hosts文件中（我是在mac下配置的，经验证在Ubuntu系统依然可行） 
-2. 前往[http://idea.lanyus.com/取得注册码](http://idea.lanyus.com/取得注册码)
+2. 前往[http://idea.lanyus.com，取得注册码](http://idea.lanyus.com/取得注册码)
 3. 打开phpstorm数据注册码，搞定（**Help -&gt; Register-&gt;Activation code-&gt;输入复制验证码-&gt;确定完成）**
 
 > mac/Ubuntu hosts修改方法：sudo vi /etc/hosts
