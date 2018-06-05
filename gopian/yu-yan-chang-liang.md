@@ -33,20 +33,12 @@ const (
 ```go
 const (
     a = iota
-    b = iota
-    c = iota
+    b
+    c
 )
 ```
 
 
-
-
-
-
-
-```go
-
-```
 
 
 
