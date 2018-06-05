@@ -43,21 +43,22 @@ Go可以创建函数作为值使用。
 package main
 
 import (
-	"fmt"
-	"math"
+    "fmt"
+    "math"
 )
 
 func main()  {
-	getSquareRoot := func(x float64) float64 {
-		return math.Sqrt(x)
-	}
+    getSquareRoot := func(x float64) float64 {
+        return math.Sqrt(x)
+    }
 
-	fmt.Println(getSquareRoot(81))
+    fmt.Println(getSquareRoot(81))
 }
-
 ```
 
 ### 闭包
+
+Go支持匿名函数，可以作为闭包。
 
 ### 方法
 
