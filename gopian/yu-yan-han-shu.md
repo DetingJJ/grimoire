@@ -42,8 +42,27 @@ func max(num1 int, num2 int) int {
 
 ### 返回多个返回值
 
-```
+```go
+package main
 
+import "fmt"
+
+func main()  {
+	str1, str2 := swap("Mahesh", "Kumar")
+	fmt.Println(str1, str2)
+}
+
+func max(num1 int, num2 int) int {
+	if num1 >= num2 {
+		return num1
+	} else {
+		return num2
+	}
+}
+
+func swap(x, y string) (string, string) {
+	return y, x
+}
 ```
 
 
