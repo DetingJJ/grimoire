@@ -18,7 +18,9 @@ go version
 go version go1.10.2 darwin/amd64
 ```
 
-> Go语言环境搭建详解：http://www.flysnow.org/2017/01/05/install-golang.html
+> 引用：
+>
+> Go语言环境搭建详解：[http://www.flysnow.org/2017/01/05/install-golang.html](http://www.flysnow.org/2017/01/05/install-golang.html)
 
 
 
