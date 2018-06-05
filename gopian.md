@@ -43,8 +43,11 @@ package main
 
 import "fmt"
 
-func main() {
-    fmt.Println("Hello, World")
+func main()  {
+	/**
+	 这是我的注释
+	 */
+	fmt.Println("hello world")
 }
 ```
 
