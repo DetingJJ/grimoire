@@ -12,7 +12,9 @@
 
 > Q2：卷积是什么？
 >
-> A2：卷积（convolution）是分析数学中的一种重要运算。在信号处理货图像处理中，经常使用一维或二维卷积。（卷积：https://zh.wikipedia.org/wiki/%E5%8D%B7%E7%A7%AF）
+> A2：卷积（convolution）是分析数学中的一种重要运算。在信号处理货图像处理中，经常使用一维或二维卷积。
+>
+> ——（卷积：[https://zh.wikipedia.org/wiki/卷积）](https://zh.wikipedia.org/wiki/卷积）)
 
 
 
