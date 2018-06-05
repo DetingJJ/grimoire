@@ -14,7 +14,7 @@ func function_name( [parameter list] ) [return_types] {
 
 * func：函数由 func 开始声明。
 * function\_name：函数名，函数名+参数列表 一起构成函数签名。
-* parameter list：参数列表。参数列表指定的是参数类型、顺序、参数个数。
+* parameter list：参数列表（形参）。参数列表指定的是参数类型、顺序、参数个数。
 * return\_\_types：返回类型，函数返回一列值。return\_\_types 是该列值的数据类型。
 * function body：函数体，函数定义的指令集（代码集合）。
 
