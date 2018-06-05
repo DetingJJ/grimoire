@@ -27,7 +27,7 @@ func main()  {
     /**
      这是我的注释
      */
-    fmt.Println("hello world")
+    fmt.Println("hello world") // 将字符串输出到控制台，会自动换行（拼接\n）
 }
 ```
 
