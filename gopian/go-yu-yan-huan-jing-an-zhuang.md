@@ -1,6 +1,6 @@
 ## mac 下安装go
 
-**运行一下命令，稍等片刻即可：**
+**运行命令，稍等片刻即可，一键安装：**
 
 ```
 brew install go
@@ -10,13 +10,11 @@ brew install go
 
 ```
 go version
-
 ```
 
 输出：
 
 ```
-
 go version go1.10.2 darwin/amd64
 ```
 
