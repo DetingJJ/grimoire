@@ -35,7 +35,35 @@ Go语言默认值传递。
 | 闭包 | 闭包是匿名函数，可在动态编程中使用 |
 | 方法 | 方法就是一个包含了接受者的函数 |
 
-### 返回单个个返回值
+### 函数作为值
+
+Go可以创建函数作为值使用。
+
+```go
+package main
+
+import (
+	"fmt"
+	"math"
+)
+
+func main()  {
+	getSquareRoot := func(x float64) float64 {
+		return math.Sqrt(x)
+	}
+
+	fmt.Println(getSquareRoot(81))
+}
+
+```
+
+### 闭包
+
+### 方法
+
+### 函数返回值多种举例
+
+**返回单个个返回值：**
 
 ```go
 package main
@@ -57,7 +85,7 @@ func max(num1 int, num2 int) int {
 }
 ```
 
-### 返回多个返回值
+**返回多个返回值：**
 
 ```go
 package main
