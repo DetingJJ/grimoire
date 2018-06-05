@@ -266,4 +266,5 @@
   * [Go 语言环境安装](gopian/go-yu-yan-huan-jing-an-zhuang.md)
   * [语言结构](gopian/yu-yan-jie-gou.md)
   * [语法规则](gopian/yu-fa-gui-ze.md)
+  * 数据类型
 
