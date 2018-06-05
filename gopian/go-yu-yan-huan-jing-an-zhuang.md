@@ -28,5 +28,7 @@ JetBrains出品，一如既往优秀！强力推荐！
 
 下载地址：[https://www.jetbrains.com/go/](https://www.jetbrains.com/go/)
 
-破解方法：获取注册码，前往[http://idea.lanyus.com](http://idea.lanyus.com/取得注册码)
+> 破解方法：获取注册码，前往[http://idea.lanyus.com](http://idea.lanyus.com/取得注册码)
+
+
 
