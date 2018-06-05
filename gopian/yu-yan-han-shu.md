@@ -18,6 +18,19 @@ func function_name( [parameter list] ) [return_types] {
 * return\_\_types：返回类型，函数返回一列值。return\_\_types 是该列值的数据类型。
 * function body：函数体，函数定义的指令集（代码集合）。
 
+### 参数传递
+
+| 传递类型 |
+| :--- |
+
+
+|  | 描述 |
+| :--- | :--- |
+| [值传递](http://www.runoob.com/go/go-function-call-by-value.html) | 值传递是指在调用函数时将实际参数复制一份传递到函数中，这样在函数中如果对参数进行修改，将不会影响到实际参数。 |
+| [引用传递](http://www.runoob.com/go/go-function-call-by-reference.html) | 引用传递是指在调用函数时将实际参数的地址传递到函数中，那么在函数中对参数所进行的修改，将影响到实际参数。 |
+
+## 函数用法举例
+
 ### 返回单个个返回值
 
 ```go
