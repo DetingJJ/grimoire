@@ -264,4 +264,5 @@
 * [装机必备软件](zhuang-ji-bi-bei-ruan-jian.md)
 * [Go篇](gopian.md)
   * [Go 语言环境安装](gopian/go-yu-yan-huan-jing-an-zhuang.md)
+  * [语言结构](gopian/yu-yan-jie-gou.md)
 
