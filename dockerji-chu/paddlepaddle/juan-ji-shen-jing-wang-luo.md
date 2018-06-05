@@ -17,7 +17,11 @@
 > 一般常用的卷积有三类：
 >
 > （1）窄卷积（narrow convolution）：步长s=1，两端不补零p=0，卷积后输出的长度为n-m+1。
-
+>
+> （2）宽卷积（wide convolution）：步长s=1，两端补零p=m-1，卷积后输出长度m+m-1。
+>
+> （3）等长卷积（equal-width convolution）：步长s=1，两端补零p=\(m-1\)/2，卷积后输出长度n。
+>
 > ——卷积：[https://zh.wikipedia.org/wiki/卷积](https://zh.wikipedia.org/wiki/卷积）)
 
 
