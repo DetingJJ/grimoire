@@ -10,5 +10,40 @@ const identifier [type] = value
 
 > type可以省略，编译器会根据值来进行类型推断。
 
+## iota
+
+iota，特殊常量，可以认为是一个可以被编译器修改的常量。
+
+在每一个const关键字出现时，被重置为0，然后再下一个const出现之前，每出现一次iota，其所代表的数字会自动增加1。
+
+> 每出现一次iota：经测试是每出现一行代码，值会+1
+
+iota 可以被用作枚举值：
+
+```go
+const (
+    a = iota
+    b = iota
+    c = iota
+)
+```
+
+或者
+
+```go
+const (
+    a = iota
+    b = iota
+    c = iota
+)
+```
+
+```go
+    a = iota
+    b = iota
+    c = iota
+)
+```
+
 
 
