@@ -95,8 +95,28 @@ func main()  {
 
 ### 方法
 
-```
+```go
+package main
 
+import (
+	"fmt"
+	"math"
+)
+
+type Circle struct {
+	radius float64
+}
+
+func (c Circle) getArea() float64 {
+	return 3.14 * c.radius * c.radius
+}
+
+func main()  {
+	var c1 Circle
+	c1.radius = 1
+
+	fmt.Println(c1.getArea())
+}
 ```
 
 ### 函数返回值多种举例
