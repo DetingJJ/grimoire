@@ -36,7 +36,7 @@ Go 语言最主要的特性：
 
 ## Go hello world
 
-hello.go
+hello.go：
 
 ```go
 package main
@@ -46,7 +46,6 @@ import "fmt"
 func main() {
     fmt.Println("Hello, World")
 }
-
 ```
 
 
