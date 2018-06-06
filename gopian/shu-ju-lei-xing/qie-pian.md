@@ -32,5 +32,30 @@ make([]type, length, capacity)
 
 > length为数组的长度，也是切片的初始长度。
 
+### 初始化切片
 
+直接初始化：
+
+```
+s := [] int {1, 2, 3, 4, 5, 6, }
+	fmt.Println(s)
+	fmt.Println(cap(s))
+	fmt.Println(len(s))
+```
+
+输出：
+
+```
+[1 2 3 4 5 6]
+6
+6
+```
+
+## len\(\)  函数
+
+切片长度
+
+## cap\(\) 函数
+
+切片容量
 
