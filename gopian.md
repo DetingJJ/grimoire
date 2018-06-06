@@ -71,5 +71,7 @@ func main()  {
 
 [http://gitbook.cn/books/5949de17d20911498c2b9dcd/index.html](http://gitbook.cn/books/5949de17d20911498c2b9dcd/index.html)
 
-Go语言圣经：https://yar999.gitbooks.io/gopl-zh/content/ch1/ch1-07.html
+Go语言圣经：[https://yar999.gitbooks.io/gopl-zh/content/ch1/ch1-07.html](https://yar999.gitbooks.io/gopl-zh/content/ch1/ch1-07.html)
+
+深入解析Go：https://tiancaiamao.gitbooks.io/go-internals/content/zh/03.5.html
 
