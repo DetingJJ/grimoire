@@ -2,6 +2,8 @@ Go 语言最少有个 main\(\) 函数。
 
 A function can take zero or more arguments.
 
+> Notice that the type comes after the variable name.
+
 ## 函数定义
 
 Go 语言函数定义格式如下：
