@@ -90,11 +90,13 @@ fmt.Println(len(s))
 s := arr[startIndex:endIndex]
 ```
 
-## len\(\)  函数
+## 常用函数
+
+### len\(\)  函数
 
 切片长度
 
-## cap\(\) 函数
+### cap\(\) 函数
 
 切片容量
 
