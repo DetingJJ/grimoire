@@ -7,6 +7,8 @@
 > 作用：提供网络的非线性建模能力。激活函数是用来加入非线性因素的，因为线性模型的表达能力不够。
 >
 > 神经网络激励函数的作用是什么？有没有形象的解释？：[https://www.zhihu.com/question/22334626](https://www.zhihu.com/question/22334626)
+>
+> 【机器学习】神经网络-激活函数-面面观\(Activation Function\)：https://blog.csdn.net/cyh\_24/article/details/50593400
 
 ## 损失函数 {#31-激活函数}
 
