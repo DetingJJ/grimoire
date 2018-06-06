@@ -159,6 +159,8 @@ func max(num1 int, num2 int) int {
 
 **返回多个返回值：**
 
+> A function can return any number of results.
+
 ```go
 package main
 
