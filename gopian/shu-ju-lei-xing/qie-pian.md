@@ -54,7 +54,7 @@ make([]type, length, capacity)
 * 通过数组初始化
 
 ```
-
+    s := arr[startIndex:endIndex] s := arr[startIndex:endIndex] 
 ```
 
 * 通过切片初始化
@@ -62,8 +62,6 @@ make([]type, length, capacity)
 ```
 
 ```
-
-
 
 ## len\(\)  函数
 
