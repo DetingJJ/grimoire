@@ -34,5 +34,5 @@ JetBrains出品，一如既往优秀！强力推荐！
 
 微软出品，必是良品。
 
-安装包：https://code.visualstudio.com/docs/setup/mac
+下载安装包：[https://code.visualstudio.com/docs/setup/mac](https://code.visualstudio.com/docs/setup/mac)
 
