@@ -10,7 +10,7 @@
 >
 > 【机器学习】神经网络-激活函数-面面观\(Activation Function\)：[https://blog.csdn.net/cyh\_24/article/details/50593400](https://blog.csdn.net/cyh_24/article/details/50593400)
 >
-> https://feisky.xyz/machine-learning/neural-networks/active.html
+> [https://feisky.xyz/machine-learning/neural-networks/active.html](https://feisky.xyz/machine-learning/neural-networks/active.html)
 
 ## 损失函数 {#31-激活函数}
 

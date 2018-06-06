@@ -1,9 +1,5 @@
 卷积神经网络（convolutional neural network， CNN 或 ConvNet）是一种具有**局部链接**、**权重共享**等特性的深层前馈神经网络。
 
-
-
-
-
 > Q1：为什么不是全连接？
 >
 > A1：卷积神经网络最早是用来处理图像信息。如果用全连接前馈网络来处理图像，出存在以下问题：
@@ -28,5 +24,5 @@
 >
 > ——卷积：[https://zh.wikipedia.org/wiki/卷积](https://zh.wikipedia.org/wiki/卷积）)
 
-
+通俗理解卷积神经网络（cs231n与5月dl班课程笔记）：https://blog.csdn.net/v\_july\_v/article/details/51812459
 
