@@ -159,7 +159,7 @@ func max(num1 int, num2 int) int {
 
 **返回多个返回值：**
 
-无名返回。
+无名返回（返回值只指定类型）。
 
 > A function can return any number of results.
 
@@ -178,7 +178,21 @@ func swap(x, y string) (string, string) {
 }
 ```
 
+有名返回（返回值指定变量名）。
+
+> A
 >
+> `return`
+>
+> statement without arguments returns the named return values. This is known as a "naked" return.
+
+```go
+func split(sum int) (x, y int) {
+	x = sum * 4 / 9
+	y = sum - x
+	return
+}
+```
 
 
 
