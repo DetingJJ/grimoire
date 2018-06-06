@@ -8,7 +8,9 @@
 >
 > 神经网络激励函数的作用是什么？有没有形象的解释？：[https://www.zhihu.com/question/22334626](https://www.zhihu.com/question/22334626)
 >
-> 【机器学习】神经网络-激活函数-面面观\(Activation Function\)：https://blog.csdn.net/cyh\_24/article/details/50593400
+> 【机器学习】神经网络-激活函数-面面观\(Activation Function\)：[https://blog.csdn.net/cyh\_24/article/details/50593400](https://blog.csdn.net/cyh_24/article/details/50593400)
+>
+> https://feisky.xyz/machine-learning/neural-networks/active.html
 
 ## 损失函数 {#31-激活函数}
 
