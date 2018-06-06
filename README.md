@@ -34,7 +34,7 @@ PHP、Python、Nginx、Linux、MySQL、算法设计与分析、微服务、Vue�
 | ├ 索引 | [@leunggeorge](https://github.com/leunggeorge) |  |
 | ├ 锁 | [@leunggeorge](https://github.com/leunggeorge) |  |
 | Python篇 | [@leunggeorge](https://github.com/leunggeorge) | ... |
-| Go篇 |  |  |
+| Go篇 | [@leunggeorge](https://github.com/leunggeorge) |  |
 
 ## 关于作者
 
