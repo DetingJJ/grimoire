@@ -37,10 +37,10 @@ make([]type, length, capacity)
 * 直接初始化：
 
 ```go
-    s := [] int {1, 2, 3, 4, 5, 6, }
-    fmt.Println(s)
-    fmt.Println(cap(s))
-    fmt.Println(len(s))
+s := [] int {1, 2, 3, 4, 5, 6, }
+fmt.Println(s)
+fmt.Println(cap(s))
+fmt.Println(len(s))
 ```
 
 输出：
@@ -53,13 +53,13 @@ make([]type, length, capacity)
 
 * 通过数组初始化
 
-```
-    s := arr[startIndex:endIndex] s := arr[startIndex:endIndex] 
+```go
+s := arr[startIndex:endIndex]
 ```
 
 * 通过切片初始化
 
-```
+```go
 
 ```
 
