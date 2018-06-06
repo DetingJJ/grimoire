@@ -103,33 +103,44 @@ s := arr[startIndex:endIndex]
 ### append\(\) 函数、copy\(\) 函数
 
 ```go
-
 func main()  {
-	var s []int
-	fmt.Printf("切片内容：%v\n", s)
+    var s []int
+    fmt.Printf("切片内容：%v\n", s)
 
 
-	// 添加单个元素
-	s = append(s, 1)
-	fmt.Printf("添加一个元素后，切片内容：%v\n", s)
+    // 添加单个元素
+    s = append(s, 1)
+    fmt.Printf("添加一个元素后，切片内容：%v\n", s)
 
-	// 添加多个元素
-	s = append(s, 2, 3, 4)
-	fmt.Printf("添加多个元素后，切片内容：%v\n", s)
-	fmt.Printf("添加多个元素后，切片长度：%d\n", len(s))
-	fmt.Printf("添加多个元素后，切片容量：%d\n", cap(s))
+    // 添加多个元素
+    s = append(s, 2, 3, 4)
+    fmt.Printf("添加多个元素后，切片内容：%v\n", s)
+    fmt.Printf("添加多个元素后，切片长度：%d\n", len(s))
+    fmt.Printf("添加多个元素后，切片容量：%d\n", cap(s))
 
-	// 切片扩容
-	s2 := make([]int, len(s), 2 * (cap(s)))
-	fmt.Printf("初始化新切片内容：%v\n", s)
-	copy(s2, s)
-	fmt.Printf("copy后，新切片内容：%v\n", s)
-	fmt.Printf("copy后，新切片长度：%d\n", len(s))
-	fmt.Printf("copy后，新切片容量：%d\n", cap(s))
+    // 切片扩容
+    s2 := make([]int, len(s), 2 * (cap(s)))
+    fmt.Printf("初始化新切片内容：%v\n", s)
+    copy(s2, s)
+    fmt.Printf("copy后，新切片内容：%v\n", s)
+    fmt.Printf("copy后，新切片长度：%d\n", len(s))
+    fmt.Printf("copy后，新切片容量：%d\n", cap(s))
 }
 ```
 
-### copy\(\) 函数
+输出：
+
+```
+初始化切片内容：[]
+添加一个元素后，切片内容：[1]
+添加多个元素后，切片内容：[1 2 3 4]
+添加多个元素后，切片长度：4
+添加多个元素后，切片容量：4
+初始化新切片内容：[1 2 3 4]
+copy后，新切片内容：[1 2 3 4]
+copy后，新切片长度：4
+copy后，新切片容量：4
+```
 
 
 
