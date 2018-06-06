@@ -9,6 +9,7 @@ Go（又称Golang）是Google开发的一种静态强类型、编译型、并发
 > Google出品，
 >
 > 必是精品。
+> ——https://zh.wikipedia.org/wiki/Go
 
 ---
 
