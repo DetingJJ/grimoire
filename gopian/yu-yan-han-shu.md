@@ -1,6 +1,6 @@
 Go 语言最少有个 main\(\) 函数。
 
-函数可带参，亦可不带参。类型位于变量名之后。
+函数可带参，亦可不带参。参数类型位于变量名之后。
 
 > Notice that the type comes after the variable name.
 
