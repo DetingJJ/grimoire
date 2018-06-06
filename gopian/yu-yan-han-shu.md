@@ -22,11 +22,13 @@ func function_name( [parameter list] ) [return_types] {
 * return\_types：返回类型，函数返回一列值。return\_types 是该列值的数据类型。
 * function body：函数体，函数定义的指令集（代码集合）。
 
-When two or more consecutive named function parameters share a type, you can omit the type from all but the last.
+当多个参数类型一致时，可以省略前面的类型。
+
+> When two or more consecutive named function parameters share a type, you can omit the type from all but the last.
 
 ```go
 func add(x, y int) int {
-	return x + y
+    return x + y
 }
 ```
 
