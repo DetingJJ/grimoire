@@ -82,6 +82,14 @@ fmt.Println(len(s))
 
 > 长度为0，容量为0
 
+## 截取切片
+
+可以通过截取数组元素的方式截取切片。
+
+```go
+s := arr[startIndex:endIndex]
+```
+
 ## len\(\)  函数
 
 切片长度
