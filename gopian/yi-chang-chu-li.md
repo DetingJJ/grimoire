@@ -10,5 +10,40 @@ type error interface {
 }
 ```
 
+## 举个栗子
+
+```go
+package main
+
+import "fmt"
+
+type PositiveError struct {
+
+}
+
+func (obj PositiveError) Error() string {
+	return "num is not positive!"
+}
+
+func positive(num int) (numRet int, errMsg string) {
+	if num <= 0 {
+		err := PositiveError{}
+		errMsg = err.Error()
+		return
+	} else {
+		return num, ""
+	}
+}
+
+func main()  {
+	// 输出：num is not positive!
+	if ret, errMsg := positive(-9); errMsg == "" {
+		fmt.Println(ret)
+	} else {
+		fmt.Println(errMsg)
+	}
+}
+```
+
 
 
