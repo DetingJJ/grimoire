@@ -263,7 +263,7 @@
   * [入市原则](gu-piao/ru-shi-yuan-ze.md)
 * [装机必备软件](zhuang-ji-bi-bei-ruan-jian.md)
 * [Go篇](gopian.md)
-  * [Go 语言环境安装](gopian/go-yu-yan-huan-jing-an-zhuang.md)
+  * [开发环境](gopian/kai-fa-huan-jing.md)
   * [语言结构](gopian/yu-yan-jie-gou.md)
   * [语法规则](gopian/yu-fa-gui-ze.md)
   * [数据类型](gopian/shu-ju-lei-xing.md)
@@ -277,5 +277,4 @@
   * [控制语句](gopian/kong-zhi-yu-ju.md)
   * [语言函数](gopian/yu-yan-han-shu.md)
   * [异常处理](gopian/yi-chang-chu-li.md)
-  * [开发环境](gopian/kai-fa-huan-jing.md)
 
