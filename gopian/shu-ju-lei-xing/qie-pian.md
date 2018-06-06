@@ -14,8 +14,6 @@ var identifier []type
 
 > 注：切片不需要说明长度
 
-
-
 * 使用 make\(\) 函数场景切片：
 
 ```go
@@ -25,6 +23,14 @@ var slice1 []type = make([]type, length)
 
 slice1 := make([]type, length)
 ```
+
+也可以指定容量，其中capacity为可选容量参数：
+
+```go
+make([]type, length, capacity)
+```
+
+> length为数组的长度，也是切片的初始长度。
 
 
 
