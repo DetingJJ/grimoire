@@ -271,6 +271,7 @@
     * [指针](gopian/shu-ju-lei-xing/zhi-zhen.md)
     * [结构体](gopian/shu-ju-lei-xing/jie-gou-ti.md)
     * [切片](gopian/shu-ju-lei-xing/qie-pian.md)
+    * [Map](gopian/shu-ju-lei-xing/map.md)
   * [语言常量](gopian/yu-yan-chang-liang.md)
   * [控制语句](gopian/kong-zhi-yu-ju.md)
   * [语言函数](gopian/yu-yan-han-shu.md)
