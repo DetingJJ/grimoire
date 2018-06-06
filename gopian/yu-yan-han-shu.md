@@ -180,17 +180,13 @@ func swap(x, y string) (string, string) {
 
 有名返回（返回值指定变量名）。
 
-> A
->
-> `return`
->
-> statement without arguments returns the named return values. This is known as a "naked" return.
+> A`return`statement without arguments returns the named return values. This is known as a "naked" return.
 
 ```go
 func split(sum int) (x, y int) {
-	x = sum * 4 / 9
-	y = sum - x
-	return
+    x = sum * 4 / 9
+    y = sum - x
+    return
 }
 ```
 
