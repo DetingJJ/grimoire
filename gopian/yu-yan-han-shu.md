@@ -161,8 +161,6 @@ func max(num1 int, num2 int) int {
 
 无名返回（返回值只指定类型）。
 
-> A function can return any number of results.
-
 ```go
 package main
 
@@ -179,8 +177,6 @@ func swap(x, y string) (string, string) {
 ```
 
 有名返回（返回值指定变量名）。返回值直接用函数体的变量，然后给出空 return。
-
-
 
 ```go
 func split(sum int) (x, y int) {
