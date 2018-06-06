@@ -2,7 +2,7 @@ Map是无序键值对，使用hash表实现的。
 
 ## 定义Map
 
-需要同时指定key，value的type。
+需要同时指定key（\[\]内），value（\[\]后）的type。
 
 ```go
 func main()  {
