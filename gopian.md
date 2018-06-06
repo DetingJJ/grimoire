@@ -69,5 +69,7 @@ func main()  {
 
 [https://tour.golang.org/basics/1](https://tour.golang.org/basics/1)
 
-http://gitbook.cn/books/5949de17d20911498c2b9dcd/index.html
+[http://gitbook.cn/books/5949de17d20911498c2b9dcd/index.html](http://gitbook.cn/books/5949de17d20911498c2b9dcd/index.html)
+
+Go语言圣经：https://yar999.gitbooks.io/gopl-zh/content/ch1/ch1-07.html
 
