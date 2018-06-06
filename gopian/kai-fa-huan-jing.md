@@ -22,7 +22,7 @@ go version go1.10.2 darwin/amd64
 >
 > Go语言环境搭建详解：[http://www.flysnow.org/2017/01/05/install-golang.html](http://www.flysnow.org/2017/01/05/install-golang.html)
 
-## goland编译器安装
+## goland 编译器安装
 
 JetBrains出品，一如既往优秀！强力推荐！
 
