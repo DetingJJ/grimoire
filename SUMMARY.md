@@ -269,6 +269,7 @@
   * [数据类型](gopian/shu-ju-lei-xing.md)
     * [数组](gopian/shu-ju-lei-xing/shu-zu.md)
     * [指针](gopian/shu-ju-lei-xing/zhi-zhen.md)
+    * [结构体](gopian/shu-ju-lei-xing/jie-gou-ti.md)
   * [语言常量](gopian/yu-yan-chang-liang.md)
   * [控制语句](gopian/kong-zhi-yu-ju.md)
   * [语言函数](gopian/yu-yan-han-shu.md)
