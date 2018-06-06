@@ -102,6 +102,10 @@ s := arr[startIndex:endIndex]
 
 ### append\(\) 函数、copy\(\) 函数
 
+append：追加内容
+
+copy：复制切片
+
 ```go
 func main()  {
     var s []int
