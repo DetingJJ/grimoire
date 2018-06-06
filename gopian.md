@@ -19,6 +19,8 @@ Go（又称Golang）是Google开发的一种静态强类型、编译型、并发
 * 并行、有趣、开源
 * 内存管理、v数组安全、编译迅速
 
+> 发明 Go 的，一定是一个终极强迫症患者。
+
 ## Go 语言用途
 
 Go 语言被设计成一门应用于搭载 Web 服务器，存储集群或类似用途的巨型中央服务器的系统编程语言。
@@ -75,7 +77,5 @@ Go语言圣经：[https://yar999.gitbooks.io/gopl-zh/content/ch1/ch1-07.html](ht
 
 深入解析Go：[https://tiancaiamao.gitbooks.io/go-internals/content/zh/03.5.html](https://tiancaiamao.gitbooks.io/go-internals/content/zh/03.5.html)
 
-Go Web 编程：https://wizardforcel.gitbooks.io/build-web-application-with-golang/content/
-
-
+Go Web 编程：[https://wizardforcel.gitbooks.io/build-web-application-with-golang/content/](https://wizardforcel.gitbooks.io/build-web-application-with-golang/content/)
 
