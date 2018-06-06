@@ -15,7 +15,7 @@ func function_name( [parameter list] ) [return_types] {
 * func：函数由 func 开始声明。
 * function\_name：函数名，函数名+参数列表 一起构成函数签名。
 * parameter list：参数列表（形参）。参数列表指定的是参数类型、顺序、参数个数。
-* return\_\_types：返回类型，函数返回一列值。return\_\_types 是该列值的数据类型。
+* return\_types：返回类型，函数返回一列值。return\_types 是该列值的数据类型。
 * function body：函数体，函数定义的指令集（代码集合）。
 
 ### 参数传递
@@ -99,23 +99,23 @@ func main()  {
 package main
 
 import (
-	"fmt"
-	"math"
+    "fmt"
+    "math"
 )
 
 type Circle struct {
-	radius float64
+    radius float64
 }
 
 func (c Circle) getArea() float64 {
-	return 3.14 * c.radius * c.radius
+    return 3.14 * c.radius * c.radius
 }
 
 func main()  {
-	var c1 Circle
-	c1.radius = 1
+    var c1 Circle
+    c1.radius = 1
 
-	fmt.Println(c1.getArea())
+    fmt.Println(c1.getArea())
 }
 ```
 
