@@ -1,8 +1,7 @@
 Go（又称Golang）是Google开发的一种静态强类型、编译型、并发型，并具有垃圾回收功能的编程语言。
 
-罗伯特·格瑞史莫，罗勃·派克（Rob Pike）及肯·汤普逊于2007年9月开始设计Go，稍后Ian Lance Taylor、Russ Cox加入项目。Go是基于Inferno操作系统所开发的。Go于2009年11月正式宣布推出，成为开放源代码项目，并在Linux及Mac OS X平台上进行了实现，后来追加了Windows系统下的实现。
+罗伯特·格瑞史莫，罗勃·派克（Rob Pike）及肯·汤普逊于2007年9月开始设计Go，稍后Ian Lance Taylor、Russ Cox加入项目。Go是基于Inferno操作系统所开发的。Go于2009年11月正式宣布推出，成为开放源代码项目，并在Linux及Mac OS X平台上进行了实现，后来追加了Windows系统下的实现。  
 目前，Go每半年发布一个二级版本（即从a.x升级到a.y）。
-
 
 > Go走一波！
 >
@@ -10,7 +9,7 @@ Go（又称Golang）是Google开发的一种静态强类型、编译型、并发
 >
 > 必是精品。
 >
-> ——摘自维基百科：https://zh.wikipedia.org/wiki/Go
+> ——摘自维基百科：[https://zh.wikipedia.org/wiki/Go](https://zh.wikipedia.org/wiki/Go)
 
 ---
 
@@ -61,6 +60,14 @@ func main()  {
     fmt.Println("hello world") // 将字符串输出到控制台，会自动换行（拼接\n）
 }
 ```
+
+## 收藏
+
+### go文档 {#id-小程序C端框架-go文档}
+
+[https://golang.org/doc/](https://golang.org/doc/)
+
+[https://tour.golang.org/basics/1](https://tour.golang.org/basics/1)
 
 
 
