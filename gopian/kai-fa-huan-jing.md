@@ -36,3 +36,5 @@ JetBrains出品，一如既往优秀！强力推荐！
 
 下载安装包：[https://code.visualstudio.com/docs/setup/mac](https://code.visualstudio.com/docs/setup/mac)
 
+编译器安装步骤：https://www.jianshu.com/p/0b2b80336d47
+
