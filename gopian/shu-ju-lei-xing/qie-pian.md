@@ -60,8 +60,27 @@ s := arr[startIndex:endIndex]
 * 通过切片初始化
 
 ```go
-s :=make([]int,len,cap) 
+s :=make([]int,len,cap)
 ```
+
+## 空（nil）切片
+
+```go
+var s []int
+fmt.Println(s)
+fmt.Println(cap(s))
+fmt.Println(len(s))
+```
+
+输出：
+
+```go
+[]
+0
+0
+```
+
+> 长度为0，容量为0
 
 ## len\(\)  函数
 
