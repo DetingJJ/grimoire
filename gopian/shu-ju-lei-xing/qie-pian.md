@@ -36,16 +36,16 @@ make([]type, length, capacity)
 
 直接初始化：
 
-```
-s := [] int {1, 2, 3, 4, 5, 6, }
-	fmt.Println(s)
-	fmt.Println(cap(s))
-	fmt.Println(len(s))
+```go
+    s := [] int {1, 2, 3, 4, 5, 6, }
+    fmt.Println(s)
+    fmt.Println(cap(s))
+    fmt.Println(len(s))
 ```
 
 输出：
 
-```
+```go
 [1 2 3 4 5 6]
 6
 6
