@@ -40,6 +40,16 @@ hello world
 
 ## 导出名
 
+Go中，大写开头的变量、函数会被导出（小写开头的对外不可见）。
+
+例如：
+
+```go
+math.Pi // 正确(math包导出了，可见)
+math.pi // 不正确(math包未导出了，可见)
+
+```
+
 In Go, a name is exported if it begins with a capital letter. For example,`Pizza`is an exported name, as is`Pi`, which is exported from the`math`package.
 
 `pizza`and`pi`do not start with a capital letter, so they are not exported.
