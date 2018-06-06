@@ -6,13 +6,25 @@ Go语言中的切片是对数组的抽象。
 
 ### 定义切片
 
-通过声明一个未指定大小的数组来定义切片：
+* 通过声明一个未指定大小的数组来定义切片：
 
 ```go
 var identifier []type
 ```
 
-> 切片不需要说明长度
+> 注：切片不需要说明长度
+
+
+
+* 使用 make\(\) 函数场景切片：
+
+```go
+var slice1 []type = make([]type, length)
+
+或者简写为：
+
+slice1 := make([]type, length)
+```
 
 
 
