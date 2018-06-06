@@ -18,6 +18,8 @@ func main()  {
 
 **举例：**
 
+make后才能赋值、使用。
+
 ```go
 func main()  {
     // 声明一个map
