@@ -60,7 +60,7 @@ s := arr[startIndex:endIndex]
 * 通过切片初始化
 
 ```go
-
+s :=make([]int,len,cap) 
 ```
 
 ## len\(\)  函数
