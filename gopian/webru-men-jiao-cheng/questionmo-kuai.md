@@ -24,14 +24,16 @@ question模块定义了CURD接口。
 
 ```go
 var data []map[string]interface{}
-	// 去重逻辑展示不考虑了，比如统一请求加redis过滤
-	data = append(data, map[string]interface{}{
-		"qid":         intQid,
-		"title":       title,
-		"create_time": time.Now().Unix(),
-		"update_time": time.Now().Unix(),
-	})
+    // 去重逻辑展示不考虑了，比如统一请求加redis过滤
+    data = append(data, map[string]interface{}{
+        "qid":         intQid,
+        "title":       title,
+        "create_time": time.Now().Unix(),
+        "update_time": time.Now().Unix(),
+    })
 ```
+
+最后调用 insert 新增即可。
 
 ## delete
 
