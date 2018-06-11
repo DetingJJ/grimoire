@@ -36,3 +36,9 @@ demo源码`clone` 到 `$GOPATH/go/src`：[https://github.com/LeungGeorge/go-curd
 
 2.step2：运行demo
 
+```
+go run main.go
+```
+
+
+
