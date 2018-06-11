@@ -39,6 +39,8 @@ var data []map[string]interface{}
 
 ## delete
 
+原理同 add，获取 form 表单。
+
 ## info
 
 ## list
