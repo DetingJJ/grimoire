@@ -28,7 +28,11 @@ go run example.go
 
 1.step1
 
-clone源码：
+clone源码：https://github.com/LeungGeorge/go-middleware
 
 `clone` 到 `$GOPATH/go/src/github.com`
+
+> 其中，[bbs](https://github.com/LeungGeorge/go-middleware/tree/master/bbs) 目录是本次项目的主要文件。
+
+
 
