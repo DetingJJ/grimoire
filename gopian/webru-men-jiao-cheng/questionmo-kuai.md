@@ -18,7 +18,7 @@ question模块定义了CURD接口。
 
 > doraemondb 在包（github.com/LeungGeorge/go-middleware/mysql）中。
 >
-> bbstype.DBWenda 为预定义的字符串常量（bbstype/basictype.go 中）。
+> bbstype.DBWenda 为预定义的字符串常量（在文件 bbstype/basictype.go 中）。
 
 ## delete
 
