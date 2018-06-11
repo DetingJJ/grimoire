@@ -47,19 +47,19 @@ var data []map[string]interface{}
 
 原理同 add，获取 form 表单，拼接操作条件，然后执行对应操作。
 
-> **完整代码：https://github.com/LeungGeorge/go-curd/blob/master/question/info.go**
+> **完整代码：**[https://github.com/LeungGeorge/go-curd/blob/master/question/info.go](https://github.com/LeungGeorge/go-curd/blob/master/question/info.go)
 
 ## list
 
 原理同 add，获取 form 表单，拼接操作条件，然后执行对应操作。
 
-> **完整代码：**[https://github.com/LeungGeorge/go-curd/blob/master/question/add.go](https://github.com/LeungGeorge/go-curd/blob/master/question/add.go)
+> **完整代码：**[https://github.com/LeungGeorge/go-curd/blob/master/question/list.go](https://github.com/LeungGeorge/go-curd/blob/master/question/list.go)
 
 ## update
 
 原理同 add，获取 form 表单，拼接操作条件，然后执行对应操作。
 
-> **完整代码：**[https://github.com/LeungGeorge/go-curd/blob/master/question/add.go](https://github.com/LeungGeorge/go-curd/blob/master/question/add.go)
+> **完整代码：**[https://github.com/LeungGeorge/go-curd/blob/master/question/update.go](https://github.com/LeungGeorge/go-curd/blob/master/question/update.go)
 
 
 
