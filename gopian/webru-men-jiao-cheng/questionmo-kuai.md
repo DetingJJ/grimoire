@@ -39,7 +39,7 @@ var data []map[string]interface{}
 
 ## delete
 
-原理同 add，获取 form 表单。
+原理同 add，获取 form 表单，然后执行响应操作。
 
 ## info
 
