@@ -12,8 +12,7 @@ func main() {
 
 > 说明：
 >
-> initRouter为自定义的方法
-> 
+> initRouter为自定义的方法，定义本例子中的路由。
 
 
 
