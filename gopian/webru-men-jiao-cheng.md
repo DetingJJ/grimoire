@@ -26,15 +26,13 @@ go run example.go
 
 ## 封装接口实现对DB的CURD操作
 
-1.step1：下载demo源码
+1.step1：
 
-clone源码：https://github.com/LeungGeorge/go-curd
+下载demo源码，clone源码：[https://github.com/LeungGeorge/go-curd](https://github.com/LeungGeorge/go-curd)
 
 `clone` 到 `$GOPATH/go/src`
 
 > 其中，[bbs](https://github.com/LeungGeorge/go-middleware/tree/master/bbs) 目录是本次项目的主要文件。[errorno](https://github.com/LeungGeorge/go-middleware/tree/master/errorno) 是自定义的一些错误号，[mysql](https://github.com/LeungGeorge/go-middleware/tree/master/mysql) 是封装的 MySQL 的 CURD 操作。
 
 2.step2：运行demo
-
-
 
