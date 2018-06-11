@@ -66,7 +66,22 @@ go run main.go
 
 ### question/info
 
-接口：http://127.0.0.1:8080/question/info?qid=3
+接口：[http://127.0.0.1:8080/question/info?qid=3](http://127.0.0.1:8080/question/info?qid=3)
+
+返回：
+
+```
+{
+    "data": {
+        "qid": 3,
+        "title": "question 3",
+        "deleted": 0
+    },
+    "err": 0,
+    "messageCn": "成功",
+    "messageEn": "sucess"
+}
+```
 
 
 
