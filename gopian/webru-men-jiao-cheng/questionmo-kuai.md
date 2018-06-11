@@ -16,6 +16,8 @@ question模块定义了CURD接口。
 
 获取操作数据库的连接池：question:=doraemondb.DoraemonDBPool\(bbstype.DBWenda\)
 
+> doraemondb 在包：github.com/LeungGeorge/go-middleware/mysql 中
+
 ## delete
 
 ## info
