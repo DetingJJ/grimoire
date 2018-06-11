@@ -24,5 +24,7 @@ func main() {
 go run example.go
 ```
 
-## 封装接口实现CURD操作
+## 封装接口实现对DB的CURD操作
+
+
 
