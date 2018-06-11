@@ -26,6 +26,8 @@ go run example.go
 
 ## 封装接口实现对DB的CURD操作
 
+### 准备
+
 1.step1：
 
 demo源码`clone` 到 `$GOPATH/go/src`：[https://github.com/LeungGeorge/go-curd](https://github.com/LeungGeorge/go-curd)
@@ -46,8 +48,8 @@ go run main.go
 [GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
 
 [GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
- - using env:	export GIN_MODE=release
- - using code:	gin.SetMode(gin.ReleaseMode)
+ - using env:    export GIN_MODE=release
+ - using code:    gin.SetMode(gin.ReleaseMode)
 
 [GIN-debug] GET    /                         --> main.home (3 handlers)
 [GIN-debug] GET    /home                     --> main.home (3 handlers)
@@ -61,6 +63,10 @@ go run main.go
 [GIN-debug] GET    /v1/home/                 --> main.home (3 handlers)
 [GIN-debug] Listening and serving HTTP on :8080
 ```
+
+### question/info
+
+接口：http://127.0.0.1:8080/question/info?qid=3
 
 
 
