@@ -40,5 +40,27 @@ demo源码`clone` 到 `$GOPATH/go/src`：[https://github.com/LeungGeorge/go-curd
 go run main.go
 ```
 
+提示，可以看到 `bbs/question/\*` 一系列的接口（此处忽略 `home` 接口，测试使用）：
+
+```
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /                         --> main.home (3 handlers)
+[GIN-debug] GET    /home                     --> main.home (3 handlers)
+[GIN-debug] GET    /home/                    --> main.home (3 handlers)
+[GIN-debug] GET    /question/info            --> bbs/question.Info (3 handlers)
+[GIN-debug] GET    /question/list            --> bbs/question.List (3 handlers)
+[GIN-debug] POST   /question/add             --> bbs/question.Add (3 handlers)
+[GIN-debug] POST   /question/delete          --> bbs/question.Delete (3 handlers)
+[GIN-debug] POST   /question/update          --> bbs/question.Update (3 handlers)
+[GIN-debug] GET    /v1/home                  --> main.home (3 handlers)
+[GIN-debug] GET    /v1/home/                 --> main.home (3 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+```
+
 
 
