@@ -39,13 +39,26 @@ var data []map[string]interface{}
 
 ## delete
 
-原理同 add，获取 form 表单，然后执行响应操作。
+原理同 add，获取 form 表单，拼接操作条件，然后执行对应操作。
+
+> **完整代码：**[https://github.com/LeungGeorge/go-curd/blob/master/question/add.go](https://github.com/LeungGeorge/go-curd/blob/master/question/add.go)
 
 ## info
 
+原理同 add，获取 form 表单，拼接操作条件，然后执行对应操作。
+
+> **完整代码：**[https://github.com/LeungGeorge/go-curd/blob/master/question/add.go](https://github.com/LeungGeorge/go-curd/blob/master/question/add.go)
+
 ## list
+
+原理同 add，获取 form 表单，拼接操作条件，然后执行对应操作。
+
+> **完整代码：**[https://github.com/LeungGeorge/go-curd/blob/master/question/add.go](https://github.com/LeungGeorge/go-curd/blob/master/question/add.go)
 
 ## update
 
+原理同 add，获取 form 表单，拼接操作条件，然后执行对应操作。
+
+> **完整代码：**[https://github.com/LeungGeorge/go-curd/blob/master/question/add.go](https://github.com/LeungGeorge/go-curd/blob/master/question/add.go)
 
 
