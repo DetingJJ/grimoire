@@ -28,7 +28,7 @@ go run example.go
 
 1.step1
 
-clone源码：[https://github.com/LeungGeorge/go-middleware/tree/master/bbs](https://github.com/LeungGeorge/go-middleware/tree/master/bbs)
+clone源码：
 
 `clone` 到 `$GOPATH/go/src/github.com`
 
