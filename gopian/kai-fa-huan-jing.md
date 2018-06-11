@@ -38,11 +38,9 @@ JetBrains出品，一如既往优秀！强力推荐！
 
 编译器安装配置参考《Go开发：Mac上安装Go环境和VS Code》：[https://www.jianshu.com/p/0b2b80336d47](https://www.jianshu.com/p/0b2b80336d47)
 
-
-
 ## go依赖管理-govendor
 
-https://studygolang.com/articles/9785
+这个需要看看。
 
-
+[https://studygolang.com/articles/9785](https://studygolang.com/articles/9785)
 
