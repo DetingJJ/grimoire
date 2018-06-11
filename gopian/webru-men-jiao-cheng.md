@@ -18,5 +18,11 @@ func main() {
 }
 ```
 
+目录下执行，然后在浏览器查看：
+
+```
+go run example.go
+```
+
 
 
