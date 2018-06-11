@@ -20,6 +20,19 @@ question模块定义了CURD接口。
 >
 > bbstype.DBWenda 为预定义的字符串常量（在文件 bbstype/basictype.go 中）。
 
+接下来，构造要新增的数据：
+
+```go
+var data []map[string]interface{}
+	// 去重逻辑展示不考虑了，比如统一请求加redis过滤
+	data = append(data, map[string]interface{}{
+		"qid":         intQid,
+		"title":       title,
+		"create_time": time.Now().Unix(),
+		"update_time": time.Now().Unix(),
+	})
+```
+
 ## delete
 
 ## info
