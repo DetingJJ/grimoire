@@ -26,11 +26,9 @@ go run example.go
 
 ## 封装接口实现对DB的CURD操作
 
-
-
 1.step1
 
-源码：[https://github.com/LeungGeorge/go-middleware/tree/master/bbs](https://github.com/LeungGeorge/go-middleware/tree/master/bbs)
+clone源码：[https://github.com/LeungGeorge/go-middleware/tree/master/bbs](https://github.com/LeungGeorge/go-middleware/tree/master/bbs)
 
 `clone` 到 `$GOPATH/go/src/github.com`
 
