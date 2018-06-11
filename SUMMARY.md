@@ -280,4 +280,5 @@
   * [Web入门教程](gopian/webru-men-jiao-cheng.md)
     * [入口文件](gopian/webru-men-jiao-cheng/ru-kou-wen-jian.md)
     * [question模块](gopian/webru-men-jiao-cheng/questionmo-kuai.md)
+    * [bbstype模块](gopian/webru-men-jiao-cheng/bbstypemo-kuai.md)
 
