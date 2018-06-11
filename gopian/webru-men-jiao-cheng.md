@@ -1,12 +1,7 @@
 ## example
 
-```
 cat example.go
-```
 
-```
-
-```
 
 ```
 
