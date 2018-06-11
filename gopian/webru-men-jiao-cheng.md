@@ -1,10 +1,8 @@
 ## example
 
-cat example.go
-
+文件内容：example.go
 
 ```
-
 package main
 
 import "github.com/gin-gonic/gin"
