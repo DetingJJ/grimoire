@@ -35,7 +35,7 @@ var data []map[string]interface{}
 
 最后调用 insert 新增即可。
 
-》 **完整代码：**[https://github.com/LeungGeorge/go-curd/blob/master/question/add.go](https://github.com/LeungGeorge/go-curd/blob/master/question/add.go)
+> **完整代码：**[https://github.com/LeungGeorge/go-curd/blob/master/question/add.go](https://github.com/LeungGeorge/go-curd/blob/master/question/add.go)
 
 ## delete
 
