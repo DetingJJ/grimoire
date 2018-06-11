@@ -1,5 +1,7 @@
 ## 入口文件 main.go
 
+**定义main函数**
+
 Go 程序入口函数与 C、C++ 一致，为main
 
 ```go
@@ -12,7 +14,37 @@ func main() {
 
 > 说明：
 >
-> initRouter为自定义的方法，定义本例子中的路由。
+> initRouter：定义本例子中的路由。
+>
+> router.Run：开启服务
+
+**initRouter 方法**
+
+定义路由
+
+```go
+// router
+func initRouter() *gin.Engine {
+	router := gin.Default()
+
+	// default router
+	router.GET("/", home)
+	router.GET("home", home)
+	router.GET("home/", home)
+	router.GET("question/info", question.Info)
+	router.GET("question/list", question.List)
+	router.POST("question/add", question.Add)
+	router.POST("question/delete", question.Delete)
+	router.POST("question/update", question.Update)
+
+	//尝试一下多版本：v1 router
+	v1 := router.Group("/v1")
+	v1.GET("home", home)
+	v1.GET("home/", home)
+
+	return router
+}
+```
 
 
 
