@@ -12,9 +12,7 @@ question模块定义了CURD接口。
 
 ## add
 
-t中国通过\`context.
-
-PostForm\`
+可以通过 context.PostForm 方法拿到表单参数。例如，在例子中，我们通过 strQid:=context.PostForm\("qid"\) 获取到 qid；同理，获取到 title。
 
 ## delete
 
