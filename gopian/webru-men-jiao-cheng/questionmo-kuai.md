@@ -12,6 +12,12 @@ question模块定义了CURD接口。
 
 ## add
 
+请求POST：
+
+| 参数 | 含义 | 取值 |
+| :--- | :--- | :--- |
+|  |  |  |
+
 我们可以通过 context.PostForm 方法拿到表单参数。例如，在例子中，我们通过 strQid:=context.PostForm\("qid"\) 获取到 qid；同理，获取到 title。
 
 获取操作数据库的连接池：question:=doraemondb.DoraemonDBPool\(bbstype.DBWenda\)
