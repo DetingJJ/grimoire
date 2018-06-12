@@ -43,6 +43,14 @@ func (db *DoraemonDB) Select(table string, where map[string]interface{}, selectF
 
 可以看到，提供表名 table，查询条件 where，要查询的列 selectFields；通过 builder.BuildSelect 可以构建 SQL 查询。
 
+上面源码中，cond 打印如下：
+
+```
+cond: SELECT qid,title,deleted FROM question WHERE (qid=?) LIMIT 0,1
+```
+
+> 暂时有个小问题，我是用 qid=3 查询的，此处打印的是个 ? ，不太明白？？？
+
 ## 源码
 
 > 源码：[https://github.com/LeungGeorge/go-middleware/blob/master/mysql/doraemondb.go](https://github.com/LeungGeorge/go-middleware/blob/master/mysql/doraemondb.go)
