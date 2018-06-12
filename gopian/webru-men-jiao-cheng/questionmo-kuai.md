@@ -19,6 +19,17 @@ question模块定义了CURD接口。
 | qid | 问题id | 3（在实际接口中，应该内部生成无需接口传参，本demo简单期间传参） |
 | title | 问题标题 | question 3 |
 
+返回：
+
+```
+{
+    "data": 5,
+    "err": 0,
+    "messageCn": "成功",
+    "messageEn": "sucess"
+}
+```
+
 我们可以通过 context.PostForm 方法拿到表单参数。例如，在例子中，我们通过 strQid:=context.PostForm\("qid"\) 获取到 qid；同理，获取到 title。
 
 获取操作数据库的连接池：question:=doraemondb.DoraemonDBPool\(bbstype.DBWenda\)
@@ -52,6 +63,17 @@ var data []map[string]interface{}
 | :--- | :--- | :--- |
 | qid | 问题id | 3 |
 
+返回：
+
+```
+{
+    "data": 2,
+    "err": 0,
+    "messageCn": "成功",
+    "messageEn": "sucess"
+}
+```
+
 原理同 add，获取 form 表单，拼接操作条件，然后执行对应操作。
 
 > **完整代码：**[https://github.com/LeungGeorge/go-curd/blob/master/question/delete.go](https://github.com/LeungGeorge/go-curd/blob/master/question/delete.go)
@@ -63,6 +85,21 @@ var data []map[string]interface{}
 | 参数 | 含义 | 取值 |
 | :--- | :--- | :--- |
 | qid | 问题id | 3 |
+
+返回：
+
+```
+{
+    "data": {
+        "qid": 3,
+        "title": "question 3",
+        "deleted": 0
+    },
+    "err": 0,
+    "messageCn": "成功",
+    "messageEn": "sucess"
+}
+```
 
 原理同 add，获取 form 表单，拼接操作条件，然后执行对应操作。
 
@@ -77,9 +114,34 @@ var data []map[string]interface{}
 | pn | 偏移量 | 0 |
 | rn | 行数 | 3 |
 
+返回：
+
+```
+{
+    "data": [
+        {
+            "qid": 2,
+            "title": "new title 2",
+            "deleted": 1
+        },
+        {
+            "qid": 3,
+            "title": "question 3",
+            "deleted": 0
+        },
+        {
+            "qid": 4,
+            "title": "question 3",
+            "deleted": 0
+        }
+    ],
+    "err": 0,
+    "messageCn": "成功",
+    "messageEn": "sucess"
+}
+```
+
 原理同 add，获取 form 表单，拼接操作条件，然后执行对应操作。
-
-
 
 > **完整代码：**[https://github.com/LeungGeorge/go-curd/blob/master/question/list.go](https://github.com/LeungGeorge/go-curd/blob/master/question/list.go)
 
@@ -95,10 +157,13 @@ var data []map[string]interface{}
 返回：
 
 ```
-
+{
+    "data": 2,
+    "err": 0,
+    "messageCn": "成功",
+    "messageEn": "sucess"
+}
 ```
-
----
 
 原理同 add，获取 form 表单，拼接操作条件，然后执行对应操作。
 
