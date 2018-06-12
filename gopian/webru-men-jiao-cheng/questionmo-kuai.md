@@ -12,12 +12,11 @@ question模块定义了CURD接口。
 
 ## add
 
-请求POST：http://127.0.0.1:8080/question/add
+请求POST：[http://127.0.0.1:8080/question/add](http://127.0.0.1:8080/question/add)
 
 | 参数 | 含义 | 取值 |
 | :--- | :--- | :--- |
-| qid | 问题id | 3（在实际接口中，应该内部生成无需接口传参，本demo简单期间传参）
- |
+| qid | 问题id | 3（在实际接口中，应该内部生成无需接口传参，本demo简单期间传参） |
 | title | 问题标题 | question 3 |
 
 我们可以通过 context.PostForm 方法拿到表单参数。例如，在例子中，我们通过 strQid:=context.PostForm\("qid"\) 获取到 qid；同理，获取到 title。
