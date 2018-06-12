@@ -46,6 +46,12 @@ var data []map[string]interface{}
 
 ## delete
 
+请求POST：http://127.0.0.1:8080/question/delete
+
+| 参数 | 含义 | 取值 |
+| :--- | :--- | :--- |
+| qid | 问题id | 3 |
+
 原理同 add，获取 form 表单，拼接操作条件，然后执行对应操作。
 
 > **完整代码：**[https://github.com/LeungGeorge/go-curd/blob/master/question/delete.go](https://github.com/LeungGeorge/go-curd/blob/master/question/delete.go)
