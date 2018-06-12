@@ -49,7 +49,7 @@ func (db *DoraemonDB) Select(table string, where map[string]interface{}, selectF
 cond: SELECT qid,title,deleted FROM question WHERE (qid=?) LIMIT 0,1
 ```
 
-> 暂时有个小问题，我是用 qid=3 查询的，此处打印的是个 ? ，不太明白？？？
+> Q：暂时有个小问题，我是用 qid=3 查询的，此处打印的是个 ? ，不太明白？？？
 
 ## 源码
 
