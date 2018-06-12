@@ -12,14 +12,14 @@ question模块定义了CURD接口。
 
 ## add
 
-请求POST：[http://127.0.0.1:8080/question/add](http://127.0.0.1:8080/question/add)
+**请求**（POST）：[http://127.0.0.1:8080/question/add](http://127.0.0.1:8080/question/add)
 
 | 参数 | 含义 | 取值 |
 | :--- | :--- | :--- |
 | qid | 问题id | 3（在实际接口中，应该内部生成无需接口传参，本demo简单期间传参） |
 | title | 问题标题 | question 3 |
 
-返回：
+**返回**：
 
 ```
 {
@@ -57,13 +57,13 @@ var data []map[string]interface{}
 
 ## delete
 
-请求POST：[http://127.0.0.1:8080/question/delete](http://127.0.0.1:8080/question/delete)
+**请求（**POST）：[http://127.0.0.1:8080/question/delete](http://127.0.0.1:8080/question/delete)
 
 | 参数 | 含义 | 取值 |
 | :--- | :--- | :--- |
 | qid | 问题id | 3 |
 
-返回：
+**返回**：
 
 ```
 {
@@ -80,13 +80,13 @@ var data []map[string]interface{}
 
 ## info
 
-请求POST：[http://127.0.0.1:8080/question/info?qid=3](http://127.0.0.1:8080/question/info?qid=3)
+**请求（**GET）：[http://127.0.0.1:8080/question/info?qid=3](http://127.0.0.1:8080/question/info?qid=3)
 
 | 参数 | 含义 | 取值 |
 | :--- | :--- | :--- |
 | qid | 问题id | 3 |
 
-返回：
+**返回**：
 
 ```
 {
@@ -107,14 +107,14 @@ var data []map[string]interface{}
 
 ## list
 
-请求POST：[http://127.0.0.1:8080/question/list?pn=0&rn=3](http://127.0.0.1:8080/question/list?pn=0&rn=3)
+**请求**（GET）：[http://127.0.0.1:8080/question/list?pn=0&rn=3](http://127.0.0.1:8080/question/list?pn=0&rn=3)
 
 | 参数 | 含义 | 取值 |
 | :--- | :--- | :--- |
 | pn | 偏移量 | 0 |
 | rn | 行数 | 3 |
 
-返回：
+**返回**：
 
 ```
 {
@@ -147,14 +147,14 @@ var data []map[string]interface{}
 
 ## update
 
-请求POST：[http://127.0.0.1:8080/question/update?qid=3](http://127.0.0.1:8080/question/update?qid=3)
+**请求**（POST）：[http://127.0.0.1:8080/question/update?qid=3](http://127.0.0.1:8080/question/update?qid=3)
 
 | 参数 | 含义 | 取值 |
 | :--- | :--- | :--- |
 | qid | 问题id | 3 |
 | title | 问题标题 | new title |
 
-返回：
+**返回**：
 
 ```
 {
