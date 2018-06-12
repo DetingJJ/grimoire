@@ -9,33 +9,34 @@ package doraemonerror
 
 // suc
 const (
-	DoraemonSuccess = 0    // suc
-	DoraemonFailed  = 1000 // faild
+    DoraemonSuccess = 0    // suc
+    DoraemonFailed  = 1000 // faild
 )
 
 //ErrorInfo
 func ErrorInfo(errNo int) (errMsgEn string, errMsgCn string) {
-	errMsgEn = ""
-	errMsgCn = ""
+    errMsgEn = ""
+    errMsgCn = ""
 
-	switch errNo {
-	case DoraemonSuccess:
-		{
-			errMsgEn = "sucess"
-			errMsgCn = "成功"
-			break
-		}
-	case DoraemonFailed:
-		{
-			errMsgEn = "failed"
-			errMsgCn = "失败"
-			break
-		}
-	}
-	return
+    switch errNo {
+    case DoraemonSuccess:
+        {
+            errMsgEn = "sucess"
+            errMsgCn = "成功"
+            break
+        }
+    case DoraemonFailed:
+        {
+            errMsgEn = "failed"
+            errMsgCn = "失败"
+            break
+        }
+    }
+    return
 }
-
 ```
+
+> **源码：https://github.com/LeungGeorge/go-middleware/blob/master/errorno/doraemonerror.go**
 
 
 
