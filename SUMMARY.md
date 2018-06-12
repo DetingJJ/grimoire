@@ -282,4 +282,5 @@
     * [question模块](gopian/webru-men-jiao-cheng/questionmo-kuai.md)
     * [bbstype模块](gopian/webru-men-jiao-cheng/bbstypemo-kuai.md)
     * [CURD封装](gopian/webru-men-jiao-cheng/curdfeng-zhuang.md)
+    * [错误号封装](gopian/webru-men-jiao-cheng/cuo-wu-hao-feng-zhuang.md)
 
