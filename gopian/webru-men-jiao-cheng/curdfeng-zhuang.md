@@ -41,7 +41,7 @@ func (db *DoraemonDB) Select(table string, where map[string]interface{}, selectF
 }
 ```
 
-可以看到，提供表名 table，查询条件 where，要查询的列 selectFields，通过 builder.BuildSelect 可以构建 SQL 查询。
+可以看到，提供表名 table，查询条件 where，要查询的列 selectFields；通过 builder.BuildSelect 可以构建 SQL 查询。
 
 ## 源码
 
