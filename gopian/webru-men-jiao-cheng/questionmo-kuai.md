@@ -58,7 +58,7 @@ var data []map[string]interface{}
 
 ## info
 
-请求POST：http://127.0.0.1:8080/question/info?qid=3
+请求POST：[http://127.0.0.1:8080/question/info?qid=3](http://127.0.0.1:8080/question/info?qid=3)
 
 | 参数 | 含义 | 取值 |
 | :--- | :--- | :--- |
@@ -70,7 +70,7 @@ var data []map[string]interface{}
 
 ## list
 
-请求POST：http://127.0.0.1:8080/question/list?pn=0&rn=3
+请求POST：[http://127.0.0.1:8080/question/list?pn=0&rn=3](http://127.0.0.1:8080/question/list?pn=0&rn=3)
 
 | 参数 | 含义 | 取值 |
 | :--- | :--- | :--- |
@@ -79,11 +79,13 @@ var data []map[string]interface{}
 
 原理同 add，获取 form 表单，拼接操作条件，然后执行对应操作。
 
+
+
 > **完整代码：**[https://github.com/LeungGeorge/go-curd/blob/master/question/list.go](https://github.com/LeungGeorge/go-curd/blob/master/question/list.go)
 
 ## update
 
-请求POST：http://127.0.0.1:8080/question/update?qid=3
+请求POST：[http://127.0.0.1:8080/question/update?qid=3](http://127.0.0.1:8080/question/update?qid=3)
 
 | 参数 | 含义 | 取值 |
 | :--- | :--- | :--- |
