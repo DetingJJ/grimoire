@@ -30,7 +30,7 @@ JetBrains出品，一如既往优秀！强力推荐！
 
 > 破解方法：获取注册码，前往：[http://idea.lanyus.com](http://idea.lanyus.com/取得注册码)
 
-## vs code 编译器安装
+## vs code 编译器安装（推荐）
 
 微软出品，必是良品。
 
